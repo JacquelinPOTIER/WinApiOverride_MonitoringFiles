@@ -1,0 +1,4 @@
+typedef struct D3DCLIPSTATUS9 {
+  DWORD ClipUnion;
+  DWORD ClipIntersection;
+} D3DCLIPSTATUS9, *LPD3DCLIPSTATUS9;

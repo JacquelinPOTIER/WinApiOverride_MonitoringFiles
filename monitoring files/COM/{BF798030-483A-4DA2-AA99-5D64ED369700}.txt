@@ -1,0 +1,13 @@
+;@InterfaceName=IDirectInput8A
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3|HRESULT IDirectInput8A::CreateDevice(IUnknown* pObject,REFGUID rguid,IDirectInputDevice8A** lplpDirectInputDevice,IUNKNOWN* pUnkOuter);|FailureIfNegativeRet|ObjectCreation(CLSIDValue=CurrentObjectCLSID|IIDValue={54D41080-DC15-4833-A41B-748F73A38179}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+VTBLIndex=4|HRESULT IDirectInput8A::EnumDevices(IUnknown* pObject,DWORD dwDevType,LPDIENUMDEVICESCALLBACK lpCallback,LPVOID pvRef,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=5|HRESULT IDirectInput8A::GetDeviceStatus(IUnknown* pObject,REFGUID rguid);|FailureIfNegativeRet
+VTBLIndex=6|HRESULT IDirectInput8A::RunControlPanel(IUnknown* pObject,HWND hwndOwner,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=7|HRESULT IDirectInput8A::Initialize(IUnknown* pObject,HINSTANCE hinst,DWORD dwVersion);|FailureIfNegativeRet
+VTBLIndex=8|HRESULT IDirectInput8A::FindDevice(IUnknown* pObject,REFGUID rguidClass,LPCSTR ptszName,LPGUID pguidInstance);|Out|FailureIfNegativeRet
+VTBLIndex=9|HRESULT IDirectInput8A::EnumDevicesBySemantics(IUnknown* pObject,LPCSTR ptszUserName,LPDIACTIONFORMAT lpdiActionFormat,LPDIENUMDEVICESBYSEMANTICSCB lpCallback,LPVOID pvRef,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=10|HRESULT IDirectInput8A::ConfigureDevices(IUnknown* pObject,LPDICONFIGUREDEVICESCALLBACK lpdiCallback,LPDICONFIGUREDEVICESPARAMS lpdiCDParams,DWORD dwFlags,LPVOID pvRefData);|FailureIfNegativeRet

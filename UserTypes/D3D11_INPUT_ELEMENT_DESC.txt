@@ -1,0 +1,17 @@
+typedef 
+enum D3D11_INPUT_CLASSIFICATION
+    {
+        D3D11_INPUT_PER_VERTEX_DATA	= 0,
+        D3D11_INPUT_PER_INSTANCE_DATA	= 1
+    } 	D3D11_INPUT_CLASSIFICATION;
+
+typedef struct D3D11_INPUT_ELEMENT_DESC
+    {
+    LPCSTR SemanticName;
+    UINT SemanticIndex;
+    DXGI_FORMAT Format;
+    UINT InputSlot;
+    UINT AlignedByteOffset;
+    D3D11_INPUT_CLASSIFICATION InputSlotClass;
+    UINT InstanceDataStepRate;
+    } 	D3D11_INPUT_ELEMENT_DESC;

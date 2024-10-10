@@ -1,0 +1,7 @@
+typedef struct D3D12_TILED_RESOURCE_COORDINATE
+    {
+    UINT X;
+    UINT Y;
+    UINT Z;
+    UINT Subresource;
+    } 	D3D12_TILED_RESOURCE_COORDINATE;

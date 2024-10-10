@@ -1,0 +1,7 @@
+typedef struct DIDEVICEOBJECTDATA {
+    DWORD       dwOfs;
+    DWORD       dwData;
+    DWORD       dwTimeStamp;
+    DWORD       dwSequence;
+    UINT_PTR    uAppData;
+} DIDEVICEOBJECTDATA, *LPDIDEVICEOBJECTDATA;

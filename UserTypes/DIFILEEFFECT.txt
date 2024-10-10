@@ -1,0 +1,6 @@
+typedef struct DIFILEEFFECT{
+    DWORD       dwSize;
+    GUID        GuidEffect;
+    LPCDIEFFECT lpDiEffect;
+    CHAR        szFriendlyName[260];
+}DIFILEEFFECT, *LPDIFILEEFFECT;

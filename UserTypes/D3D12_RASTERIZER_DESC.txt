@@ -1,0 +1,36 @@
+typedef 
+enum D3D12_FILL_MODE
+    {
+        D3D12_FILL_MODE_WIREFRAME	= 2,
+        D3D12_FILL_MODE_SOLID	= 3
+    } 	D3D12_FILL_MODE;
+
+typedef 
+enum D3D12_CULL_MODE
+    {
+        D3D12_CULL_MODE_NONE	= 1,
+        D3D12_CULL_MODE_FRONT	= 2,
+        D3D12_CULL_MODE_BACK	= 3
+    } 	D3D12_CULL_MODE;
+
+typedef 
+enum D3D12_CONSERVATIVE_RASTERIZATION_MODE
+    {
+        D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF	= 0,
+        D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON	= 1
+    } 	D3D12_CONSERVATIVE_RASTERIZATION_MODE;
+
+typedef struct D3D12_RASTERIZER_DESC
+    {
+    D3D12_FILL_MODE FillMode;
+    D3D12_CULL_MODE CullMode;
+    BOOL FrontCounterClockwise;
+    INT DepthBias;
+    FLOAT DepthBiasClamp;
+    FLOAT SlopeScaledDepthBias;
+    BOOL DepthClipEnable;
+    BOOL MultisampleEnable;
+    BOOL AntialiasedLineEnable;
+    UINT ForcedSampleCount;
+    D3D12_CONSERVATIVE_RASTERIZATION_MODE ConservativeRaster;
+    } 	D3D12_RASTERIZER_DESC;

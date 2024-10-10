@@ -1,0 +1,4 @@
+typedef struct D3D12_CPU_DESCRIPTOR_HANDLE
+    {
+    SIZE_T ptr;
+    }D3D12_CPU_DESCRIPTOR_HANDLE;

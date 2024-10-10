@@ -1,0 +1,4 @@
+typedef struct D3D12_GPU_DESCRIPTOR_HANDLE
+    {
+    UINT64 ptr;
+    } 	D3D12_GPU_DESCRIPTOR_HANDLE;

@@ -1,0 +1,10 @@
+typedef enum _KEY_SET_INFORMATION_CLASS {
+  KeyWriteTimeInformation,
+  KeyWow64FlagsInformation,
+  KeyControlFlagsInformation,
+  KeySetVirtualizationInformation,
+  KeySetDebugInformation,
+  KeySetHandleTagsInformation,
+  KeySetLayerInformation,
+  MaxKeySetInfoClass
+} KEY_SET_INFORMATION_CLASS;

@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D10RenderTargetView
+
+; include ID3D10View
+BaseIID={C902B03F-60A7-49BA-9936-2A3AB37A7E33}
+
+VTBLIndex=8| void ID3D10RenderTargetView::GetDesc( D3D10_RENDER_TARGET_VIEW_DESC* pDesc);|Out

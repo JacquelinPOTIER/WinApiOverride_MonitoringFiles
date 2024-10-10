@@ -1,0 +1,14 @@
+;@InterfaceName=IDirect3D9Ex
+
+; include IDirect3D9
+BaseIID={81BDCBCA-64D4-426d-AE8D-AD0147F4275C}
+
+VTBLIndex=16|UINT IDirect3D9Ex::GetAdapterModeCountEx(IUnknown* pObject,UINT Adapter,CONST D3DDISPLAYMODEFILTER* pFilter );
+VTBLIndex=17|HRESULT IDirect3D9Ex::EnumAdapterModesEx(IUnknown* pObject,UINT Adapter,CONST D3DDISPLAYMODEFILTER* pFilter,UINT Mode,D3DDISPLAYMODEEX* pMode);|FailureIfNegativeRet
+VTBLIndex=18|HRESULT IDirect3D9Ex::GetAdapterDisplayModeEx(IUnknown* pObject,UINT Adapter,D3DDISPLAYMODEEX* pMode,D3DDISPLAYROTATION* pRotation);|FailureIfNegativeRet
+
+; CLSID of IID_IDirect3DDevice9Ex ??? use IID_IDirect3DDevice9Ex
+; IID_IDirect3DDevice9Ex {B18B10CE-2649-405a-870F-95F777D4313A}
+VTBLIndex=19|HRESULT IDirect3D9Ex::CreateDeviceEx(IUnknown* pObject,UINT Adapter,D3DDEVTYPE DeviceType,HWND hFocusWindow,DWORD BehaviorFlags,D3DPRESENT_PARAMETERS* pPresentationParameters,D3DDISPLAYMODEEX* pFullscreenDisplayMode,IDirect3DDevice9Ex** ppReturnedDeviceInterface);|FailureIfNegativeRet |ObjectCreation(CLSIDValue={B18B10CE-2649-405a-870F-95F777D4313A}|IIDValue={B18B10CE-2649-405a-870F-95F777D4313A}|ObjectStackIndex=28|x64ObjectStackIndex=24)
+
+VTBLIndex=20|HRESULT IDirect3D9Ex::GetAdapterLUID(IUnknown* pObject,UINT Adapter,LUID * pLUID);|FailureIfNegativeRet

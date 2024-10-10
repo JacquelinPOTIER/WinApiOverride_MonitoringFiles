@@ -1,0 +1,114 @@
+;@InterfaceName=ID3D11DeviceContext
+
+; include ID3D11DeviceChild
+BaseIID={1841e5c8-16b0-489b-bcc8-44cfb0d5deae}
+
+
+VTBLIndex=7 |void STDMETHODCALLTYPE ID3D11DeviceContext::VSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)
+VTBLIndex=8 |void STDMETHODCALLTYPE ID3D11DeviceContext::PSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=9 |void STDMETHODCALLTYPE ID3D11DeviceContext::PSSetShader(IUnknown* pObject,ID3D11PixelShader* pPixelShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT NumClassInstances)
+VTBLIndex=10|void STDMETHODCALLTYPE ID3D11DeviceContext::PSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=11|void STDMETHODCALLTYPE ID3D11DeviceContext::VSSetShader(IUnknown* pObject,ID3D11VertexShader* pVertexShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT NumClassInstances)
+VTBLIndex=12|void STDMETHODCALLTYPE ID3D11DeviceContext::DrawIndexed(IUnknown* pObject,UINT IndexCount,UINT StartIndexLocation,INT BaseVertexLocation)
+VTBLIndex=13|void STDMETHODCALLTYPE ID3D11DeviceContext::Draw(IUnknown* pObject,UINT VertexCount,UINT StartVertexLocation)
+VTBLIndex=14|HRESULT STDMETHODCALLTYPE ID3D11DeviceContext::Map(IUnknown* pObject,ID3D11Resource* pResource,UINT Subresource,D3D11_MAP MapType,UINT MapFlags,D3D11_MAPPED_SUBRESOURCE* pMappedResource)|Out|FailureIfNegativeRet
+VTBLIndex=15|void STDMETHODCALLTYPE ID3D11DeviceContext::Unmap(IUnknown* pObject,ID3D11Resource* pResource,UINT Subresource)
+VTBLIndex=16|void STDMETHODCALLTYPE ID3D11DeviceContext::PSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)
+VTBLIndex=17|void STDMETHODCALLTYPE ID3D11DeviceContext::IASetInputLayout(IUnknown* pObject,ID3D11InputLayout* pInputLayout)
+VTBLIndex=18|void STDMETHODCALLTYPE ID3D11DeviceContext::IASetVertexBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppVertexBuffers:PointedElementsCount=Arg3,UINT* pStrides:PointedElementsCount=Arg3,UINT* pOffsets:PointedElementsCount=Arg3)
+VTBLIndex=19|void STDMETHODCALLTYPE ID3D11DeviceContext::IASetIndexBuffer(IUnknown* pObject,ID3D11Buffer* pIndexBuffer,DXGI_FORMAT Format,UINT Offset)
+VTBLIndex=20|void STDMETHODCALLTYPE ID3D11DeviceContext::DrawIndexedInstanced(IUnknown* pObject,UINT IndexCountPerInstance,UINT InstanceCount,UINT StartIndexLocation,INT BaseVertexLocation,UINT StartInstanceLocation)
+VTBLIndex=21|void STDMETHODCALLTYPE ID3D11DeviceContext::DrawInstanced(IUnknown* pObject,UINT VertexCountPerInstance,UINT InstanceCount,UINT StartVertexLocation,UINT StartInstanceLocation)
+VTBLIndex=22|void STDMETHODCALLTYPE ID3D11DeviceContext::GSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)
+VTBLIndex=23|void STDMETHODCALLTYPE ID3D11DeviceContext::GSSetShader(IUnknown* pObject,ID3D11GeometryShader* pShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT NumClassInstances)
+VTBLIndex=24|void STDMETHODCALLTYPE ID3D11DeviceContext::IASetPrimitiveTopology(IUnknown* pObject,D3D11_PRIMITIVE_TOPOLOGY Topology)
+VTBLIndex=25|void STDMETHODCALLTYPE ID3D11DeviceContext::VSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=26|void STDMETHODCALLTYPE ID3D11DeviceContext::VSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=27|void STDMETHODCALLTYPE ID3D11DeviceContext::Begin(IUnknown* pObject,ID3D11Asynchronous* pAsync)
+VTBLIndex=28|void STDMETHODCALLTYPE ID3D11DeviceContext::End(IUnknown* pObject,ID3D11Asynchronous* pAsync)
+VTBLIndex=29|HRESULT STDMETHODCALLTYPE ID3D11DeviceContext::GetData(IUnknown* pObject,ID3D11Asynchronous* pAsync,PBYTE pData:PointedDataSize=Arg4,UINT DataSize,UINT GetDataFlags)|Out|FailureIfNegativeRet
+VTBLIndex=30|void STDMETHODCALLTYPE ID3D11DeviceContext::SetPredication(IUnknown* pObject,ID3D11Predicate* pPredicate,BOOL PredicateValue)
+VTBLIndex=31|void STDMETHODCALLTYPE ID3D11DeviceContext::GSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=32|void STDMETHODCALLTYPE ID3D11DeviceContext::GSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=33|void STDMETHODCALLTYPE ID3D11DeviceContext::OMSetRenderTargets(IUnknown* pObject,UINT NumViews,ID3D11RenderTargetView** ppRenderTargetViews:PointedElementsCount=Arg2,ID3D11DepthStencilView *pDepthStencilView)
+VTBLIndex=34|void STDMETHODCALLTYPE ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews(IUnknown* pObject,UINT NumRTVs,ID3D11RenderTargetView** ppRenderTargetViews:PointedElementsCount=Arg2,ID3D11DepthStencilView *pDepthStencilView,UINT UAVStartSlot,UINT NumUAVs,ID3D11UnorderedAccessView** ppUnorderedAccessViews:PointedElementsCount=Arg6,UINT* pUAVInitialCounts:PointedElementsCount=Arg6)
+VTBLIndex=35|void STDMETHODCALLTYPE ID3D11DeviceContext::OMSetBlendState(IUnknown* pObject,ID3D11BlendState* pBlendState,FLOAT BlendFactor[4],UINT SampleMask)
+VTBLIndex=36|void STDMETHODCALLTYPE ID3D11DeviceContext::OMSetDepthStencilState(IUnknown* pObject,ID3D11DepthStencilState* pDepthStencilState,UINT StencilRef)
+VTBLIndex=37|void STDMETHODCALLTYPE ID3D11DeviceContext::SOSetTargets(IUnknown* pObject,UINT NumBuffers,ID3D11Buffer** ppSOTargets:PointedElementsCount=Arg2,UINT* pOffsets:PointedElementsCount=Arg2)
+VTBLIndex=38|void STDMETHODCALLTYPE ID3D11DeviceContext::DrawAuto(IUnknown* pObject)
+VTBLIndex=39|void STDMETHODCALLTYPE ID3D11DeviceContext::DrawIndexedInstancedIndirect(IUnknown* pObject,ID3D11Buffer* pBufferForArgs,UINT AlignedByteOffsetForArgs)
+VTBLIndex=40|void STDMETHODCALLTYPE ID3D11DeviceContext::DrawInstancedIndirect(IUnknown* pObject,ID3D11Buffer* pBufferForArgs,UINT AlignedByteOffsetForArgs)
+VTBLIndex=41|void STDMETHODCALLTYPE ID3D11DeviceContext::Dispatch(IUnknown* pObject,UINT ThreadGroupCountX,UINT ThreadGroupCountY,UINT ThreadGroupCountZ)
+VTBLIndex=42|void STDMETHODCALLTYPE ID3D11DeviceContext::DispatchIndirect(IUnknown* pObject,ID3D11Buffer* pBufferForArgs,UINT AlignedByteOffsetForArgs)
+VTBLIndex=43|void STDMETHODCALLTYPE ID3D11DeviceContext::RSSetState(IUnknown* pObject,ID3D11RasterizerState* pRasterizerState)
+VTBLIndex=44|void STDMETHODCALLTYPE ID3D11DeviceContext::RSSetViewports(IUnknown* pObject,UINT NumViewports,D3D11_VIEWPORT* pViewports:PointedElementsCount=Arg3)
+VTBLIndex=45|void STDMETHODCALLTYPE ID3D11DeviceContext::RSSetScissorRects(IUnknown* pObject,UINT NumRects,D3D11_RECT* pRects:PointedElementsCount=Arg2)
+VTBLIndex=46|void STDMETHODCALLTYPE ID3D11DeviceContext::CopySubresourceRegion(IUnknown* pObject,ID3D11Resource* pDstResource,UINT DstSubresource,UINT DstX,UINT DstY,UINT DstZ,ID3D11Resource* pSrcResource,UINT SrcSubresource,D3D11_BOX* pSrcBox)
+VTBLIndex=47|void STDMETHODCALLTYPE ID3D11DeviceContext::CopyResource(IUnknown* pObject,ID3D11Resource* pDstResource,ID3D11Resource* pSrcResource)
+VTBLIndex=48|void STDMETHODCALLTYPE ID3D11DeviceContext::UpdateSubresource(IUnknown* pObject,ID3D11Resource* pDstResource,UINT DstSubresource,D3D11_BOX* pDstBox,void* pSrcData,UINT SrcRowPitch,UINT SrcDepthPitch)
+VTBLIndex=49|void STDMETHODCALLTYPE ID3D11DeviceContext::CopyStructureCount(IUnknown* pObject,ID3D11Buffer* pDstBuffer,UINT DstAlignedByteOffset,ID3D11UnorderedAccessView* pSrcView)
+VTBLIndex=50|void STDMETHODCALLTYPE ID3D11DeviceContext::ClearRenderTargetView(IUnknown* pObject,ID3D11RenderTargetView* pRenderTargetView,FLOAT ColorRGBA[4])
+VTBLIndex=51|void STDMETHODCALLTYPE ID3D11DeviceContext::ClearUnorderedAccessViewUint(IUnknown* pObject,ID3D11UnorderedAccessView* pUnorderedAccessView,UINT Values[4])
+VTBLIndex=52|void STDMETHODCALLTYPE ID3D11DeviceContext::ClearUnorderedAccessViewFloat(IUnknown* pObject,ID3D11UnorderedAccessView* pUnorderedAccessView,FLOAT Values[4])
+VTBLIndex=53|void STDMETHODCALLTYPE ID3D11DeviceContext::ClearDepthStencilView(IUnknown* pObject,ID3D11DepthStencilView* pDepthStencilView,UINT ClearFlags,FLOAT Depth,UINT8 Stencil)
+VTBLIndex=54|void STDMETHODCALLTYPE ID3D11DeviceContext::GenerateMips(IUnknown* pObject,ID3D11ShaderResourceView* pShaderResourceView)
+VTBLIndex=55|void STDMETHODCALLTYPE ID3D11DeviceContext::SetResourceMinLOD(IUnknown* pObject,ID3D11Resource* pResource,FLOAT MinLOD)
+VTBLIndex=56|FLOAT STDMETHODCALLTYPE ID3D11DeviceContext::GetResourceMinLOD(IUnknown* pObject,ID3D11Resource* pResource)
+VTBLIndex=57|void STDMETHODCALLTYPE ID3D11DeviceContext::ResolveSubresource(IUnknown* pObject,ID3D11Resource* pDstResource,UINT DstSubresource,ID3D11Resource* pSrcResource,UINT SrcSubresource,DXGI_FORMAT Format)
+VTBLIndex=58|void STDMETHODCALLTYPE ID3D11DeviceContext::ExecuteCommandList(IUnknown* pObject,ID3D11CommandList* pCommandList,BOOL RestoreContextState)
+VTBLIndex=59|void STDMETHODCALLTYPE ID3D11DeviceContext::HSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=60|void STDMETHODCALLTYPE ID3D11DeviceContext::HSSetShader(IUnknown* pObject,ID3D11HullShader* pHullShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT NumClassInstances)
+VTBLIndex=61|void STDMETHODCALLTYPE ID3D11DeviceContext::HSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=62|void STDMETHODCALLTYPE ID3D11DeviceContext::HSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)
+VTBLIndex=63|void STDMETHODCALLTYPE ID3D11DeviceContext::DSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=64|void STDMETHODCALLTYPE ID3D11DeviceContext::DSSetShader(IUnknown* pObject,ID3D11DomainShader* pDomainShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT NumClassInstances)
+VTBLIndex=65|void STDMETHODCALLTYPE ID3D11DeviceContext::DSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=66|void STDMETHODCALLTYPE ID3D11DeviceContext::DSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)
+VTBLIndex=67|void STDMETHODCALLTYPE ID3D11DeviceContext::CSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=68|void STDMETHODCALLTYPE ID3D11DeviceContext::CSSetUnorderedAccessViews(IUnknown* pObject,UINT StartSlot,UINT NumUAVs,ID3D11UnorderedAccessView** ppUnorderedAccessViews:PointedElementsCount=Arg3,UINT* pUAVInitialCounts:PointedElementsCount=Arg3)
+VTBLIndex=69|void STDMETHODCALLTYPE ID3D11DeviceContext::CSSetShader(IUnknown* pObject,ID3D11ComputeShader* pComputeShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT NumClassInstances)
+VTBLIndex=70|void STDMETHODCALLTYPE ID3D11DeviceContext::CSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=71|void STDMETHODCALLTYPE ID3D11DeviceContext::CSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)
+VTBLIndex=72|void STDMETHODCALLTYPE ID3D11DeviceContext::VSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)|Out
+VTBLIndex=73|void STDMETHODCALLTYPE ID3D11DeviceContext::PSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)|Out
+VTBLIndex=74|void STDMETHODCALLTYPE ID3D11DeviceContext::PSGetShader(IUnknown* pObject,ID3D11PixelShader** ppPixelShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT* pNumClassInstances)|InOut
+VTBLIndex=75|void STDMETHODCALLTYPE ID3D11DeviceContext::PSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)
+VTBLIndex=76|void STDMETHODCALLTYPE ID3D11DeviceContext::VSGetShader(IUnknown* pObject,ID3D11VertexShader** ppVertexShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT* pNumClassInstances)|Out
+VTBLIndex=77|void STDMETHODCALLTYPE ID3D11DeviceContext::PSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)|Out
+VTBLIndex=78|void STDMETHODCALLTYPE ID3D11DeviceContext::IAGetInputLayout(IUnknown* pObject,ID3D11InputLayout** ppInputLayout)
+VTBLIndex=79|void STDMETHODCALLTYPE ID3D11DeviceContext::IAGetVertexBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppVertexBuffers:PointedElementsCount=Arg3,UINT* pStrides:PointedElementsCount=Arg3,UINT* pOffsets:PointedElementsCount=Arg3)
+VTBLIndex=80|void STDMETHODCALLTYPE ID3D11DeviceContext::IAGetIndexBuffer(IUnknown* pObject,ID3D11Buffer** pIndexBuffer,DXGI_FORMAT* Format,UINT* Offset)|Out
+VTBLIndex=81|void STDMETHODCALLTYPE ID3D11DeviceContext::GSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)|Out
+VTBLIndex=82|void STDMETHODCALLTYPE ID3D11DeviceContext::GSGetShader(IUnknown* pObject,ID3D11GeometryShader** ppGeometryShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT* pNumClassInstances)
+VTBLIndex=83|void STDMETHODCALLTYPE ID3D11DeviceContext::IAGetPrimitiveTopology(IUnknown* pObject,D3D11_PRIMITIVE_TOPOLOGY* pTopology)|Out
+VTBLIndex=84|void STDMETHODCALLTYPE ID3D11DeviceContext::VSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)|Out
+VTBLIndex=85|void STDMETHODCALLTYPE ID3D11DeviceContext::VSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)|Out
+VTBLIndex=86|void STDMETHODCALLTYPE ID3D11DeviceContext::GetPredication(IUnknown* pObject,ID3D11Predicate** ppPredicate,BOOL* pPredicateValue)|Out
+VTBLIndex=87|void STDMETHODCALLTYPE ID3D11DeviceContext::GSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)|Out
+VTBLIndex=88|void STDMETHODCALLTYPE ID3D11DeviceContext::GSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)|Out
+VTBLIndex=89|void STDMETHODCALLTYPE ID3D11DeviceContext::OMGetRenderTargets(IUnknown* pObject,UINT NumViews,ID3D11RenderTargetView** ppRenderTargetViews:PointedElementsCount=Arg2,ID3D11DepthStencilView** ppDepthStencilView)|Out
+VTBLIndex=90|void STDMETHODCALLTYPE ID3D11DeviceContext::OMGetRenderTargetsAndUnorderedAccessViews(IUnknown* pObject,UINT NumRTVs,ID3D11RenderTargetView** ppRenderTargetViews:PointedElementsCount=Arg2,ID3D11DepthStencilView** ppDepthStencilView,UINT UAVStartSlot,UINT NumUAVs,ID3D11UnorderedAccessView** ppUnorderedAccessViews:PointedElementsCount=Arg6)
+VTBLIndex=91|void STDMETHODCALLTYPE ID3D11DeviceContext::OMGetBlendState(IUnknown* pObject,ID3D11BlendState** ppBlendState,FLOAT BlendFactor[4],UINT* pSampleMask)|Out
+VTBLIndex=92|void STDMETHODCALLTYPE ID3D11DeviceContext::OMGetDepthStencilState(IUnknown* pObject,ID3D11DepthStencilState** ppDepthStencilState,UINT* pStencilRef)|Out
+VTBLIndex=93|void STDMETHODCALLTYPE ID3D11DeviceContext::SOGetTargets(IUnknown* pObject,UINT NumBuffers,ID3D11Buffer** ppSOTargets:PointedElementsCount=Arg2)
+VTBLIndex=94|void STDMETHODCALLTYPE ID3D11DeviceContext::RSGetState(IUnknown* pObject,ID3D11RasterizerState** ppRasterizerState)
+VTBLIndex=95|void STDMETHODCALLTYPE ID3D11DeviceContext::RSGetViewports(IUnknown* pObject,UINT* pNumViewports,D3D11_VIEWPORT* pViewports:PointedElementsCount=Arg2)|InOut
+VTBLIndex=96|void STDMETHODCALLTYPE ID3D11DeviceContext::RSGetScissorRects(IUnknown* pObject,UINT* pNumRects,D3D11_RECT* pRects:PointedElementsCount=Arg2)|InOut
+VTBLIndex=97|void STDMETHODCALLTYPE ID3D11DeviceContext::HSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)
+VTBLIndex=98|void STDMETHODCALLTYPE ID3D11DeviceContext::HSGetShader(IUnknown* pObject,ID3D11HullShader** ppHullShader,ID3D11ClassInstance** ppClassInstances,UINT* pNumClassInstances)|Out
+VTBLIndex=99|void STDMETHODCALLTYPE ID3D11DeviceContext::HSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)|Out
+VTBLIndex=100|void STDMETHODCALLTYPE ID3D11DeviceContext::HSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)|Out
+VTBLIndex=101|void STDMETHODCALLTYPE ID3D11DeviceContext::DSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)|Out
+VTBLIndex=102|void STDMETHODCALLTYPE ID3D11DeviceContext::DSGetShader(IUnknown* pObject,ID3D11DomainShader** ppDomainShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT* pNumClassInstances)|InOut
+VTBLIndex=103|void STDMETHODCALLTYPE ID3D11DeviceContext::DSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)|InOut
+VTBLIndex=104|void STDMETHODCALLTYPE ID3D11DeviceContext::DSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)|Out
+VTBLIndex=105|void STDMETHODCALLTYPE ID3D11DeviceContext::CSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D11ShaderResourceView** ppShaderResourceViews:PointedElementsCount=Arg3)|Out
+VTBLIndex=106|void STDMETHODCALLTYPE ID3D11DeviceContext::CSGetUnorderedAccessViews(IUnknown* pObject,UINT StartSlot,UINT NumUAVs,ID3D11UnorderedAccessView** ppUnorderedAccessViews:PointedElementsCount=Arg3)|Out
+VTBLIndex=107|void STDMETHODCALLTYPE ID3D11DeviceContext::CSGetShader(IUnknown* pObject,ID3D11ComputeShader** ppComputeShader,ID3D11ClassInstance** ppClassInstances:PointedElementsCount=Arg4,UINT* pNumClassInstances)|InOut
+VTBLIndex=108|void STDMETHODCALLTYPE ID3D11DeviceContext::CSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D11SamplerState** ppSamplers:PointedElementsCount=Arg3)|Out
+VTBLIndex=109|void STDMETHODCALLTYPE ID3D11DeviceContext::CSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D11Buffer** ppConstantBuffers:PointedElementsCount=Arg3)|Out
+VTBLIndex=110|void STDMETHODCALLTYPE ID3D11DeviceContext::ClearState(IUnknown* pObject)
+VTBLIndex=111|void STDMETHODCALLTYPE ID3D11DeviceContext::Flush(IUnknown* pObject)
+VTBLIndex=112|D3D11_DEVICE_CONTEXT_TYPE STDMETHODCALLTYPE ID3D11DeviceContext::GetType(IUnknown* pObject)
+VTBLIndex=113|UINT STDMETHODCALLTYPE ID3D11DeviceContext::GetContextFlags(IUnknown* pObject)
+VTBLIndex=114|HRESULT STDMETHODCALLTYPE ID3D11DeviceContext::FinishCommandList(IUnknown* pObject,BOOL RestoreDeferredContextState,ID3D11CommandList** ppCommandList)|FailureIfNegativeRet

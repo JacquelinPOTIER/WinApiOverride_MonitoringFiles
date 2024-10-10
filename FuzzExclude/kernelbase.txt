@@ -1,0 +1,44 @@
+ExitProcess
+ExitThread
+FatalExit
+_exit
+exit
+LdrShutdownProcess
+LdrShutdownThread
+RtlExitUserProcess
+RtlExitUserThread
+AddVectoredContinueHandler
+AddVectoredExceptionHandler
+CallEnclave
+LdrCallEnclave
+NtCallEnclave
+ZwCallEnclave
+;notice CreateRemoteThreadEx can be fuzzed as hProcess of 0 is invalid
+CreateThread
+CtrlRoutine
+; EnumPageFilesA 0 as pointer for callback routine is disliked
+EnumPageFilesA
+; EnumPageFilesW 0 as pointer for callback routine is disliked
+EnumPageFilesW
+; K32EnumPageFilesA 0 as pointer for callback routine is disliked
+K32EnumPageFilesA
+; K32EnumPageFilesW 0 as pointer for callback routine is disliked
+K32EnumPageFilesW
+; EnumResourceTypesExA 0 as pointer for callback routine is disliked
+EnumResourceTypesExA
+; EnumResourceTypesExW 0 as pointer for callback routine is disliked
+EnumResourceTypesExW
+FatalAppExitA
+FatalAppExitW
+FreeLibraryAndExitThread
+GuardCheckLongJumpTarget
+; ImpersonateSelf make fail all futur FuzzExclude file opening
+ImpersonateSelf
+RaiseFailFastException
+ReleaseSRWLockShared
+SubscribeEdpEnabledStateChange
+SubscribeStateChangeNotification
+SubscribeWdagEnabledStateChange
+TerminateProcessOnMemoryExhaustion
+WaitForMachinePolicyForegroundProcessingInternal
+WaitForUserPolicyForegroundProcessingInternal

@@ -1,0 +1,8 @@
+;@InterfaceName=ID3D10Texture1D
+
+; include ID3D10Resource
+BaseIID={9B7E4C01-342C-4106-A19F-4F2704F689F0}
+
+VTBLIndex=10|HRESULT ID3D10Texture1D::Map(IUnknown* pObject,UINT Subresource,D3D10_MAP MapType,UINT MapFlags,void** ppData);|Out
+VTBLIndex=11|void ID3D10Texture1D::Unmap(IUnknown* pObject,UINT Subresource);
+VTBLIndex=12|void ID3D10Texture1D::GetDesc(IUnknown* pObject,D3D10_TEXTURE1D_DESC* pDesc);|Out

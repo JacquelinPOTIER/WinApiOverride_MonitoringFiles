@@ -1,0 +1,2 @@
+EnumPageFilesA
+EnumPageFilesW

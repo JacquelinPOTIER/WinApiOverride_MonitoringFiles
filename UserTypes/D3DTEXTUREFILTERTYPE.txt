@@ -1,0 +1,10 @@
+typedef enum _D3DTEXTUREFILTERTYPE {
+    D3DTEXF_NONE            = 0,
+    D3DTEXF_POINT           = 1,
+    D3DTEXF_LINEAR          = 2,
+    D3DTEXF_ANISOTROPIC     = 3,
+    D3DTEXF_FLATCUBIC       = 4,
+    D3DTEXF_GAUSSIANCUBIC   = 5,
+
+    D3DTEXF_FORCE_DWORD     = 0x7fffffff
+} D3DTEXTUREFILTERTYPE;

@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D12CommandList
+
+; include ID3D12DeviceChild
+BaseIID={905db94b-a00c-4140-9df5-2b64ca9ea357}
+
+VTBLIndex=8 |D3D12_COMMAND_LIST_TYPE ID3D12CommandList::GetType(IUnknown* pObject)

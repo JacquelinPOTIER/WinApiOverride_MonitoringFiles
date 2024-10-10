@@ -1,0 +1,9 @@
+typedef struct D3D11_VIEWPORT
+    {
+    FLOAT TopLeftX;
+    FLOAT TopLeftY;
+    FLOAT Width;
+    FLOAT Height;
+    FLOAT MinDepth;
+    FLOAT MaxDepth;
+    } 	D3D11_VIEWPORT;

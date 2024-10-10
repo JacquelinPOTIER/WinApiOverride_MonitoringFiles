@@ -1,0 +1,6 @@
+typedef struct _D3DCOLORVALUE {
+  float r;
+  float g;
+  float b;
+  float a;
+} D3DCOLORVALUE;

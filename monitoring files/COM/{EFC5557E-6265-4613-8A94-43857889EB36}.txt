@@ -1,0 +1,7 @@
+;@InterfaceName=IDirect3DVertexShader9
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3| HRESULT IDirect3DVertexShader9::GetDevice(IUnknown* pObject,IDirect3DDevice9** ppDevice);|FailureIfNegativeRet
+VTBLIndex=4| HRESULT IDirect3DVertexShader9::GetFunction(IUnknown* pObject,UINT* pSizeOfData);|FailureIfNegativeRet

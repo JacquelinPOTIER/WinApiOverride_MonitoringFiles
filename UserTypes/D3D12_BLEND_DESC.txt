@@ -1,0 +1,6 @@
+typedef struct D3D12_BLEND_DESC
+    {
+    BOOL AlphaToCoverageEnable;
+    BOOL IndependentBlendEnable;
+    D3D12_RENDER_TARGET_BLEND_DESC RenderTarget[8];
+    }D3D12_BLEND_DESC;

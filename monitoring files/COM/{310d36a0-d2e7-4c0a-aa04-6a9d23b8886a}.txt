@@ -1,0 +1,15 @@
+;@InterfaceName=IDXGISwapChain
+
+; include IDXGIDeviceSubObject
+BaseIID={3d3e0379-f9de-4d58-bb6c-18d62992f1a6}
+
+VTBLIndex=8 | HRESULT STDMETHODCALLTYPE IDXGISwapChain::Present(IUnknown* pObject,UINT SyncInterval, UINT Flags);|FailureIfNegativeRet
+VTBLIndex=9 | HRESULT STDMETHODCALLTYPE IDXGISwapChain::GetBuffer(IUnknown* pObject,UINT Buffer, REFIID riid, void** ppSurface);|Out|FailureIfNegativeRet
+VTBLIndex=10| HRESULT STDMETHODCALLTYPE IDXGISwapChain::SetFullscreenState(IUnknown* pObject,BOOL Fullscreen,IDXGIOutput *pTarget);|FailureIfNegativeRet
+VTBLIndex=11| HRESULT STDMETHODCALLTYPE IDXGISwapChain::GetFullscreenState(IUnknown* pObject,BOOL* pFullscreen,IDXGIOutput** ppTarget);|Out|FailureIfNegativeRet
+VTBLIndex=12| HRESULT STDMETHODCALLTYPE IDXGISwapChain::GetDesc(IUnknown* pObject,DXGI_SWAP_CHAIN_DESC *pDesc);|Out|FailureIfNegativeRet
+VTBLIndex=13| HRESULT STDMETHODCALLTYPE IDXGISwapChain::ResizeBuffers(IUnknown* pObject,UINT BufferCount,UINT Width,UINT Height,DXGI_FORMAT NewFormat,UINT SwapChainFlags);|FailureIfNegativeRet
+VTBLIndex=14| HRESULT STDMETHODCALLTYPE IDXGISwapChain::ResizeTarget(IUnknown* pObject,DXGI_MODE_DESC* pNewTargetParameters);|FailureIfNegativeRet
+VTBLIndex=15| HRESULT STDMETHODCALLTYPE IDXGISwapChain::GetContainingOutput(IUnknown* pObject,IDXGIOutput** ppOutput);|Out|FailureIfNegativeRet
+VTBLIndex=16| HRESULT STDMETHODCALLTYPE IDXGISwapChain::GetFrameStatistics(IUnknown* pObject,DXGI_FRAME_STATISTICS *pStats);|Out|FailureIfNegativeRet
+VTBLIndex=17| HRESULT STDMETHODCALLTYPE IDXGISwapChain::GetLastPresentCount(IUnknown* pObject,UINT* pLastPresentCount);|Out|FailureIfNegativeRet

@@ -1,0 +1,4 @@
+;@InterfaceName=ID3D10InputLayout
+
+; include ID3D10DeviceChild
+BaseIID={9B7E4C00-342C-4106-A19F-4F2704F689F0}

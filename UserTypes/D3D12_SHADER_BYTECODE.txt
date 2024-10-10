@@ -1,0 +1,5 @@
+typedef struct D3D12_SHADER_BYTECODE
+    {
+    PBYTE* pShaderBytecode;
+    SIZE_T BytecodeLength;
+    } 	D3D12_SHADER_BYTECODE;

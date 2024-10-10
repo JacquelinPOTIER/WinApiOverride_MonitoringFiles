@@ -1,0 +1,522 @@
+;   Monitoring file generated for exports table of shell32.dll v10.0.19041.964 by MonitoringFileBuilder
+
+shell32.dll|ULONG SHChangeNotifyRegister(HWND hwnd,int fSources,LONG fEvents,UINT wMsg,int cEntries,SHChangeNotifyEntry* pshcne)
+shell32.dll|HRESULT SHDefExtractIconA(LPCSTR pszIconFile,int iIndex,UINT uFlags,HICON* phiconLarge,HICON* phiconSmall,UINT nIconSize)|Out|FailureIfNotNullRet
+shell32.dll|BOOL SHChangeNotifyDeregister(ULONG ulID)|FailureIfNullRet
+shell32.dll|HRESULT SHDefExtractIconW(LPCWSTR pszIconFile,int iIndex,UINT uFlags,HICON* phiconLarge,HICON* phiconSmall,UINT nIconSize)|Out
+;shell32.dll|HANDLE PifMgr_OpenProperties(LPCWSTR pszApp,LPCWSTR lpszPIF,UINT hInf,UINT flOpt)|FailureIfNullRet
+;PifMgr_GetProperties() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|int PifMgr_GetProperties(HANDLE hProps,LPCSTR pszGroup,VOID* lpProps,int cbProps,UINT flOpt)|Out
+;PifMgr_SetProperties() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|int PifMgr_SetProperties(HANDLE hProps,LPCSTR pszGroup,VOID* lpProps,int cbProps,UINT flOpt)|Out
+shell32.dll|int PifMgr_CloseProperties(HANDLE hProps,UINT flOpt)
+shell32.dll|HRESULT SHStartNetConnectionDialogW(HWND hwnd,LPCWSTR pszRemoteName,DWORD dwType)|FailureIfNotNullRet
+shell32.dll|PUITEMID_CHILD ILFindLastID(PCUIDLIST_RELATIVE pidl)
+shell32.dll|BOOL ILRemoveLastID(PUIDLIST_RELATIVE pidl)|Out
+shell32.dll|PIDLIST_RELATIVE ILClone(PCUIDLIST_RELATIVE pidl)
+shell32.dll|PITEMID_CHILD ILCloneFirst(PCUIDLIST_RELATIVE pidl)
+shell32.dll|BOOL ILIsEqual(PCIDLIST_ABSOLUTE pidl1,PCIDLIST_ABSOLUTE pidl2)
+shell32.dll|BOOL DAD_DragEnterEx2(HWND hwndTarget,POINT ptStart,IDataObject* pdtObject)|Out
+shell32.dll|BOOL ILIsParent(PCIDLIST_ABSOLUTE pidl1,PCIDLIST_ABSOLUTE pidl2,BOOL fImmediate)
+shell32.dll|PUIDLIST_RELATIVE ILFindChild(PIDLIST_ABSOLUTE pidlParent,PCIDLIST_ABSOLUTE pidlChild)
+shell32.dll|PIDLIST_ABSOLUTE ILCombine(PCIDLIST_ABSOLUTE pidl1,PCUIDLIST_RELATIVE pidl2)
+shell32.dll|HRESULT ILSaveToStream(IStream* pstm,PCUIDLIST_RELATIVE pidl)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHILCreateFromPath(PCWSTR pszPath,PIDLIST_ABSOLUTE* ppidl,DWORD* rgfInOut)|Out|FailureIfNotNullRet
+shell32.dll|BOOL IsLFNDriveW(LPCWSTR pszPath)
+;IsLFNDriveW() in shell32.dll has the same entry point as IsLFNDriveA
+;shell32.dll|BOOL IsLFNDriveA(LPCSTR pszPath)
+shell32.dll|BOOL PathIsExe(PCWSTR pszPath)
+shell32.dll|BOOL PathMakeUniqueName(PWSTR pszUniqueName,UINT cchMax,PCWSTR pszTemplate,PCWSTR pszLongPlate,PCWSTR pszDir)|Out|FailureIfNullRet
+shell32.dll|void PathQualify(PWSTR psz)|Out
+shell32.dll|int PathResolve(PWSTR pszPath,PZPCWSTR dirs,UINT fFlags)|Out|FailureIfNullRet
+shell32.dll|int RestartDialog(HWND hwnd,PCWSTR pszPrompt,DWORD dwFlags)
+shell32.dll|int PickIconDlg(HWND hwnd,PWSTR pszIconPath,UINT cchIconPath,int* piIconIndex)|Out
+shell32.dll|BOOL GetFileNameFromBrowse(HWND hwnd,PWSTR pszFilePath,UINT cchFilePath,PCWSTR pszWorkingDir,PCWSTR pszDefExt,PCWSTR pszFilters,PCWSTR pszTitle)|Out
+shell32.dll|int DriveType(int iDrive)
+shell32.dll|int IsNetDrive(int iDrive)
+shell32.dll|UINT Shell_MergeMenus(HMENU hmDst,HMENU hmSrc,UINT uInsert,UINT uIDAdjust,UINT uIDAdjustMax,ULONG uFlags)
+shell32.dll|void SHGetSetSettings(LPSHELLSTATE lpss,DWORD dwMask,BOOL bSet)|Out
+shell32.dll|BOOL Shell_GetImageLists(HIMAGELIST* phiml,HIMAGELIST* phimlSmall)|Out|FailureIfNullRet
+shell32.dll|int Shell_GetCachedImageIndex(LPCWSTR pszIconPath,int iIconIndex,UINT uIconFlags)
+shell32.dll|LRESULT SHShellFolderView_Message(HWND hwnd,UINT uMsg,lParam lparam)
+shell32.dll|HRESULT SHCreateStdEnumFmtEtc(UINT cfmt,FORMATETC* afmt,IEnumFORMATETC** ppenumFormatEtc)|Out|FailureIfNotNullRet
+shell32.dll|BOOL PathYetAnotherMakeUniqueName(LPWSTR pszUniqueName,LPCWSTR pszPath,LPCWSTR pszShort,LPCWSTR pszFileSpec)|Out|FailureIfNullRet
+shell32.dll|int SHMapPIDLToSystemImageListIndex(IShellFolder* psf,PCUITEMID_CHILD pidl,int* piIndex)|Out
+shell32.dll|BOOL SHOpenPropSheetW(LPCWSTR pszCaption,HKEY* ahkeys,UINT ckeys,CLSID* pclsidDef,IDataObject* pdtobj,IShellBrowser* psb,LPCWSTR pStartPage);
+shell32.dll|HRESULT CIDLData_CreateFromIDArray(PCIDLIST_ABSOLUTE pidlFolder,UINT cidl,PCUIDLIST_RELATIVE_ARRAY apidl,IDataObject** ppdtobj)|Out|FailureIfNotNullRet
+shell32.dll|IStream* OpenRegStream(HKEY hkey,LPCWSTR pszSubkey,LPCWSTR pszValue,DWORD grfMode)
+shell32.dll|HRESULT SHDoDragDrop(HWND hwnd,IDataObject* pdtobj,IDropSource* pdsrc,DWORD dwEffect,DWORD* pdwEffect)|Out|FailureIfNotNullRet
+shell32.dll|LPITEMIDLIST SHCloneSpecialIDList(HWND hwndOwner,int csidl,bool fCreate)
+shell32.dll|BOOL SHFindFiles(PCIDLIST_ABSOLUTE pidlFolder,PCIDLIST_ABSOLUTE pidlSaveFile)|FailureIfNullRet
+shell32.dll|void PathGetShortPath(LPWSTR pszLongPath)|Out
+shell32.dll|HRESULT SHGetRealIDL(IShellFolder* psf,PCUITEMID_CHILD pidlSimple,PITEMID_CHILD* ppidlReal)|Out|FailureIfNotNullRet
+shell32.dll|DWORD SHRestricted(RESTRICTIONS rest)
+shell32.dll|HRESULT SHCoCreateInstance(PCWSTR pszCLSID,CLSID* pclsid,IUnknown* pUnkOuter,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|BOOL SignalFileOpen(PCIDLIST_ABSOLUTE pidl)|FailureIfNullRet
+;IsLFNDrive() in shell32.dll has the same entry point as IsLFNDriveA
+;shell32.dll|IsLFNDrive(LPCSTR pszPath)
+;OpenAs_RunDLLA() in shell32.dll has the same entry point as FreeIconList
+;shell32.dll|OpenAs_RunDLLA()
+;DAD_AutoScroll() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|BOOL DAD_AutoScroll(HWND hwnd,AUTO_SCROLL_DATA* pad,POINT* pptNow)|Out
+;DAD_DragEnterEx() in shell32.dll has the same entry point as IsLFNDriveA
+;shell32.dll|BOOL DAD_DragEnterEx(HWND hwndTarget,POINT ptStart)|Out
+shell32.dll|BOOL DAD_DragLeave()
+shell32.dll|OpenAs_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|BOOL DAD_DragMove(POINT pt)|Out
+shell32.dll|PrepareDiscForBurnRunDllW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+;DAD_SetDragImage() in shell32.dll has the same entry point as IsLFNDriveA
+!shell32.dll|BOOL DAD_SetDragImage(HIMAGELIST him,POINT* pptOffset)
+;DAD_ShowDragImage() in shell32.dll has the same entry point as IsLFNDriveA
+!shell32.dll|BOOL DAD_ShowDragImage(BOOL fShow)
+;PrintersGetCommand_RunDLLA() in shell32.dll has the same entry point as PrintersGetCommand_RunDLL
+;shell32.dll|PrintersGetCommand_RunDLL(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|PrintersGetCommand_RunDLLA(UNKNOWN,UNKNOWN,UNKNOWN)
+!shell32.dll|HRESULT SHCLSIDFromString(PCWSTR psz,CLSID* pClsid)|Out|FailureIfNotNullRet
+shell32.dll|IContextMenu* SHFind_InitMenuPopup(HMENU hmenu,HWND hwndOwner,UINT idCmdFirst,UINT idCmdLast)
+shell32.dll|PrintersGetCommand_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN)
+!shell32.dll|UINT ILGetSize(PCUIDLIST_RELATIVE pidl)
+!shell32.dll|PUIDLIST_RELATIVE ILGetNext(PCUIDLIST_RELATIVE pidl)
+!shell32.dll|PIDLIST_RELATIVE ILAppendID(PIDLIST_RELATIVE pidl,LPSHITEMID pmkid,BOOL fAppend)|Out
+!shell32.dll|void ILFree(PIDLIST_RELATIVE pidl)|Out
+!shell32.dll|PIDLIST_ABSOLUTE ILCreateFromPath(LPCSTR pszPath)
+shell32.dll|PIDLIST_ABSOLUTE SHSimpleIDListFromPath(PCWSTR pszPath)
+shell32.dll|BOOL Win32DeleteFile(PCWSTR pszPath)|FailureIfNullRet
+shell32.dll|int SHCreateDirectory(HWND hwnd,PCWSTR pszPath)
+!shell32.dll|UINT SHAddFromPropSheetExtArray(HPSXA hpsxa,LPFNADDPROPSHEETPAGE lpfnAddPage,LPARAM lParam)|Out
+shell32.dll|HPSXA SHCreatePropSheetExtArray(HKEY hKey,PCWSTR pszSubKey,UINT max_iface)
+shell32.dll|void SHDestroyPropSheetExtArray(HPSXA hpsxa)
+shell32.dll|UINT SHReplaceFromPropSheetExtArray(HPSXA hpsxa,UINT uPageID,LPFNADDPROPSHEETPAGE lpfnReplaceWith,LPARAM lParam)|Out
+!shell32.dll|int PathCleanupSpec(PCWSTR pszDir,PWSTR pszSpec)|Out
+shell32.dll|BOOL SHValidateUNC(HWND hwndOwner,PWSTR pszFile,UINT fConnect)|Out|FailureIfNullRet
+shell32.dll|HRESULT SHCreateShellFolderViewEx(LPCSFV pcsfv,IShellView** ppsv)|Out|FailureIfNotNullRet
+shell32.dll|void SHSetInstanceExplorer(IUnknown* punk)|Out
+shell32.dll|BOOL SHObjectProperties(HWND hwnd,DWORD shopObjectType,PCWSTR pszObjectName,PCWSTR pszPropertyPage)
+!shell32.dll|BOOL SHGetNewLinkInfoA(LPCSTR pszLinkTo,LPCSTR pszDir,LPSTR pszName,BOOL* pfMustCopy,UINT uFlags)|Out
+shell32.dll|BOOL SHGetNewLinkInfoW(LPCSTR pszLinkTo,LPCSTR pszDir,LPSTR pszName,BOOL* pfMustCopy,UINT uFlags)|Out
+;ShellMessageBoxW() in shell32.dll is a forwarded function for ShellMessageBoxW() in shlwapi.dll
+shell32.dll|int ShellMessageBoxW(HINSTANCE hInst,HWND hWnd,LPCWSTR pszMsg,LPCWSTR pszTitle,UINT fuStyle)
+;ShellMessageBoxA() in shell32.dll is a forwarded function for ShellMessageBoxA() in shlwapi.dll
+shell32.dll|int ShellMessageBoxA(HINSTANCE hInst,HWND hWnd,LPCSTR pszMsg,LPCSTR pszTitle,UINT fuStyle)
+!shell32.dll|PIDLIST_ABSOLUTE ILCreateFromPathA(PCSTR pszPath)
+;ILCreateFromPathW() in shell32.dll has the same entry point as ILCreateFromPath
+!shell32.dll|PIDLIST_ABSOLUTE ILCreateFromPathW(PCWSTR pszPath)
+shell32.dll|void SHUpdateImageA(LPCSTR pszHashItem,int iIndex,UINT uFlags,int iImageIndex)
+shell32.dll|void SHUpdateImageW(LPCWSTR pszHashItem,int iIndex,UINT uFlags,int iImageIndex)
+shell32.dll|int SHHandleUpdateImage(PCIDLIST_ABSOLUTE pidlExtra)
+;SHFree() in shell32.dll has the same entry point as ILFree
+!shell32.dll|void SHFree(void* pv)|Out
+!shell32.dll|LPVOID SHAlloc(SIZE_T cb)
+;shell32.dll|RealShellExecuteA(UNKNOWN)
+;RealShellExecuteExA() in shell32.dll has the same entry point as RealShellExecuteA
+;shell32.dll|RealShellExecuteExA(UNKNOWN)
+;RealShellExecuteExW() in shell32.dll has the same entry point as RealShellExecuteA
+;shell32.dll|RealShellExecuteExW(UNKNOWN)
+;RealShellExecuteW() in shell32.dll has the same entry point as RealShellExecuteA
+;shell32.dll|RealShellExecuteW(UNKNOWN)
+;SHHelpShortcuts_RunDLLA() in shell32.dll has the same entry point as SHHelpShortcuts_RunDLL
+;shell32.dll|SHHelpShortcuts_RunDLL()
+!shell32.dll|SHHelpShortcuts_RunDLLA(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT SHSetFolderPathA(int csidl,HANDLE hToken,DWORD dwFlags,LPCSTR pszPath)|FailureIfNotNullRet
+shell32.dll|HRESULT SHSetFolderPathW(int csidl,HANDLE hToken,DWORD dwFlags,LPCWSTR pszPath)|FailureIfNotNullRet
+shell32.dll|SHHelpShortcuts_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|BOOL PathIsSlowW(LPCWSTR pszFile,DWORD dwAttr)|FailureIfNullRet
+shell32.dll|BOOL PathIsSlowA(LPCSTR pszFile,DWORD dwAttr)|FailureIfNullRet
+shell32.dll|BOOL SHTestTokenMembership(HANDLE hToken,ULONG ulRID)|FailureIfNullRet
+shell32.dll|VOID AppCompat_RunDLLW(HWND hwnd,HINSTANCE hInstance,LPWSTR pszCmdLine,int nCmdShow)
+shell32.dll|HRESULT SHCreateShellFolderView(const SFV_CREATE* pcsfv,IShellView** ppsv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT AssocCreateForClasses(ASSOCIATIONELEMENT* rgClasses,ULONG cClasses,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|AssocElemCreateForKey(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT AssocGetDetailsOfPropKey(IShellFolder* psf,PCUITEMID_CHILD pidl,PROPERTYKEY* pkey,VARIANT* pv,BOOL* pfFoundPropKey)|Out|FailureIfNotNullRet
+shell32.dll|CallFileCopyHook(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|CheckEscapesW(LPWSTR szFile,DWORD cch)
+shell32.dll|LPWSTR* CommandLineToArgvW(LPCWSTR lpCmdLine,int* pNumArgs)|Out
+;Control_RunDLLA() in shell32.dll has the same entry point as Control_RunDLL
+;shell32.dll|Control_RunDLL(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|Control_RunDLLA(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|Control_RunDLLAsUserW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|Control_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT DllCanUnloadNow()|FailureIfNotNullRet
+shell32.dll|HRESULT DllGetActivationFactory(HSTRING activatableClassId,IActivationFactory** factory)
+shell32.dll|HRESULT DllGetClassObject(REFCLSID rclsid,REFIID riid,LPVOID* ppv)|Out
+shell32.dll|HRESULT CALLBACK DllGetVersion(DLLVERSIONINFO* pdvi)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT DllInstall(BOOL bInstall,PCWSTR pszCmdLine)|FailureIfNotNullRet
+;DllRegisterServer() in shell32.dll has the same entry point as PifMgr_OpenProperties
+!shell32.dll|DllRegisterServer()
+;DllUnregisterServer() in shell32.dll has the same entry point as PifMgr_OpenProperties
+!shell32.dll|DllUnregisterServer()
+shell32.dll|DWORD DoEnvironmentSubstA(LPSTR pszSrc,UINT cchSrc)|Out
+shell32.dll|DWORD DoEnvironmentSubstW(LPWSTR pszSrc,UINT cchSrc)|Out
+shell32.dll|VOID DragAcceptFiles(HWND hWnd,BOOL fAccept)
+shell32.dll|VOID DragFinish(HDROP hDrop)
+shell32.dll|UINT DragQueryFile(HDROP hDrop,UINT iFile,LPSTR lpszFile,UINT cch)|Out
+;DragQueryFileA() in shell32.dll has the same entry point as DragQueryFile
+!shell32.dll|UINT DragQueryFileA(HDROP hDrop,UINT iFile,LPSTR lpszFile,UINT cch)|Out
+shell32.dll|DragQueryFileAorW(HDROP hDrop,UINT iFile,LPWSTR lpszFile,UINT cch,BOOL bAnsiString,UNKNOWN)
+shell32.dll|UINT DragQueryFileW(HDROP hDrop,UINT iFile,LPWSTR lpszFile,UINT cch)|Out
+shell32.dll|BOOL DragQueryPoint(HDROP hDrop,LPPOINT lppt)|Out|FailureIfNullRet
+shell32.dll|HICON DuplicateIcon(HINSTANCE hInst,HICON hIcon)|FailureIfNullRet
+shell32.dll|HICON ExtractAssociatedIconA(HINSTANCE hInst,LPSTR lpIconPath,LPWORD lpiIcon)|Out|FailureIfNullRet
+shell32.dll|HICON ExtractAssociatedIconExA(HINSTANCE hInst,LPSTR lpIconPath,LPWORD lpiIconIndex,LPWORD lpiIconId)|Out|FailureIfNullRet
+shell32.dll|HICON ExtractAssociatedIconExW(HINSTANCE hInst,LPWSTR lpIconPath,LPWORD lpiIconIndex,LPWORD lpiIconId)|Out|FailureIfNullRet
+shell32.dll|HICON ExtractAssociatedIconW(HINSTANCE hInst,LPWSTR lpIconPath,LPWORD lpiIcon)|Out|FailureIfNullRet
+shell32.dll|HICON ExtractIconA(HINSTANCE hInst,LPCSTR lpszExeFileName,UINT nIconIndex)|FailureIfNullRet
+shell32.dll|UINT ExtractIconEx(LPCSTR lpszFile,int nIconIndex,HICON* phiconLarge,HICON* phiconSmall,UINT nIcons)|Out
+;ExtractIconExA() in shell32.dll has the same entry point as ExtractIconEx
+!shell32.dll|UINT ExtractIconExA(LPCSTR lpszFile,int nIconIndex,HICON* phiconLarge,HICON* phiconSmall,UINT nIcons)|Out
+shell32.dll|UINT ExtractIconExW(LPCWSTR lpszFile,int nIconIndex,HICON* phiconLarge,HICON* phiconSmall,UINT nIcons)|Out
+shell32.dll|HICON ExtractIconW(HINSTANCE hInst,LPCWSTR lpszExeFileName,UINT nIconIndex)|FailureIfNullRet|FailureIfNullRet
+shell32.dll|HINSTANCE FindExecutableA(LPCSTR lpFile,LPCSTR lpDirectory,LPSTR lpResult)|Out|FailureIfUnsignedRet<33
+shell32.dll|HINSTANCE FindExecutableW(LPCWSTR lpFile,LPCWSTR lpDirectory,LPWSTR lpResult)|Out|FailureIfUnsignedRet<33
+shell32.dll|FreeIconList()
+shell32.dll|HRESULT GetCurrentProcessExplicitAppUserModelID(PWSTR* AppID)|Out|FailureIfNotNullRet
+shell32.dll|BOOL InitNetworkAddressControl()
+;InternalExtractIconListA() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|HANDLE InternalExtractIconListA(HANDLE hInst,LPSTR lpszExeFileName,LPINT lpnIcons)
+;InternalExtractIconListW() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|HANDLE InternalExtractIconListW(HANDLE hInst,LPWSTR lpszExeFileName,LPINT lpnIcons)
+shell32.dll|LaunchMSHelp_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN)
+;Options_RunDLLA() in shell32.dll has the same entry point as Options_RunDLL
+;shell32.dll|Options_RunDLL(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|Options_RunDLLA(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|Options_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|RegenerateUserEnvironment(PVOID* pPrevEnv,BOOL bSetCurrentEnv)
+shell32.dll|RunAsNewUser_RunDLLW(DWORD,DWORD,LPCWSTR,DWORD)
+shell32.dll|HRESULT SHAddDefaultPropertiesByExt(PCWSTR pszExt,IPropertyStore* pPropStore)|FailureIfNotNullRet
+shell32.dll|void SHAddToRecentDocs(UINT uFlags,LPCVOID pv)
+shell32.dll|UINT_PTR SHAppBarMessage(DWORD dwMessage,PAPPBARDATA pData)|Out
+shell32.dll|HRESULT SHAssocEnumHandlers(PCWSTR pszExtra,ASSOC_FILTER afFilter,IEnumAssocHandlers** ppEnumHandler)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHAssocEnumHandlersForProtocolByApplication(PCWSTR protocol,REFIID riid,void** enumHandlers)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHBindToFolderIDListParent(IShellFolder* psfRoot,PCUIDLIST_RELATIVE pidl,REFIID riid,void** ppv,PCUITEMID_CHILD* ppidlLast)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHBindToFolderIDListParentEx(IShellFolder* psfRoot,PCUIDLIST_RELATIVE pidl,IBindCtx* ppbc,REFIID riid,void** ppv,PCUITEMID_CHILD* ppidlLast)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHBindToObject(IShellFolder* psf,PCUIDLIST_RELATIVE pidl,IBindCtx* pbc,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHBindToParent(PCIDLIST_ABSOLUTE pidl,REFIID riid,void** ppv,PCUITEMID_CHILD* ppidlLast)|Out|FailureIfNotNullRet
+shell32.dll|PIDLIST_ABSOLUTE SHBrowseForFolder(LPBROWSEINFOA lpbi)|Out
+;SHBrowseForFolderA() in shell32.dll has the same entry point as SHBrowseForFolder
+!shell32.dll|PIDLIST_ABSOLUTE SHBrowseForFolderA(LPBROWSEINFOA lpbi)|Out
+shell32.dll|PIDLIST_ABSOLUTE SHBrowseForFolderW(LPBROWSEINFOW lpbi)|Out
+shell32.dll|void SHChangeNotify(LONG wEventId,UINT uFlags,LPCVOID dwItem1,LPCVOID dwItem2)
+shell32.dll|void SHChangeNotifyRegisterThread(SCNRT_STATUS status)
+shell32.dll|SHChangeNotifySuspendResume(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHCoCreateInstanceWorker(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT SHCreateAssociationRegistration(REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|SHCreateCategoryEnum(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT SHCreateDataObject(PCIDLIST_ABSOLUTE pidlFolder,UINT cidl,PCUITEMID_CHILD_ARRAY apidl,IDataObject* pdtInner,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateDefaultContextMenu(DEFCONTEXTMENU* pdcm,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateDefaultExtractIcon(REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateDefaultPropertiesOp(IShellItem* psi,IFileOperation** ppFileOp)|Out|FailureIfNotNullRet
+shell32.dll|int SHCreateDirectoryExA(HWND hwnd,LPCSTR pszPath,SECURITY_ATTRIBUTES* psa)|Out
+shell32.dll|int SHCreateDirectoryExW(HWND hwnd,LPCWSTR pszPath,SECURITY_ATTRIBUTES* psa)|Out
+shell32.dll|HRESULT SHCreateItemFromIDList(PCIDLIST_ABSOLUTE pidl,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateItemFromParsingName(PCWSTR pszPath,IBindCtx* pbc,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateItemFromRelativeName(IShellItem* psiParent,PCWSTR pszName,IBindCtx* pbc,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateItemInKnownFolder(REFKNOWNFOLDERID kfid,DWORD dwKFFlags,PCWSTR pszItem,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateItemWithParent(PCIDLIST_ABSOLUTE pidlParent,IShellFolder* psfParent,PCUITEMID_CHILD pidl,REFIID riid,void** ppvItem)|Out|FailureIfNotNullRet
+shell32.dll|SHCreateLocalServerRunDll(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|BOOL SHCreateProcessAsUserW(PSHCREATEPROCESSINFOW pscpi)|Out
+shell32.dll|HRESULT SHCreateQueryCancelAutoPlayMoniker(IMoniker** ppmoniker)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateShellItem(PCIDLIST_ABSOLUTE pidlParent,IShellFolder* psfParent,PCUITEMID_CHILD pidl,IShellItem** ppsi)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateShellItemArray(PCIDLIST_ABSOLUTE pidlParent,IShellFolder* psf,UINT cidl,PCUITEMID_CHILD_ARRAY ppidl,IShellItemArray** ppsiItemArray)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateShellItemArrayFromDataObject(IDataObject* pdo,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateShellItemArrayFromIDLists(UINT cidl,PCIDLIST_ABSOLUTE_ARRAY rgpidl,IShellItemArray** ppsiItemArray)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHCreateShellItemArrayFromShellItem(IShellItem* psi,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|SHELL32_AddToBackIconTable(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_AddToFrontIconTable(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_AreAllItemsAvailable(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CCommonPlacesFolder_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CDBurn_CloseSession(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_DriveSupportedForDataBurn(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_Erase(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_GetCDInfo(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_GetLiveFSDiscInfo(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_GetStagingPathOrNormalPath(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_GetTaskInfo(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_IsBlankDisc(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_IsBlankDisc2(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_IsLiveFS(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_OnDeviceChange(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_OnEject(HWND hwnd)
+shell32.dll|SHELL32_CDBurn_OnMediaChange(HWND hwnd)
+shell32.dll|SHELL32_CDefFolderMenu_Create2(PCIDLIST_ABSOLUTE pidlFolder,HWND hwnd,UINT cidl,PCUITEMID_CHILD_ARRAY apidl,IShellFolder* psf,LPFNDFMCALLBACK pfn,UINT nKeys,HKEY* ahkeys,IContextMenu** ppcm)|Out
+shell32.dll|SHELL32_CDefFolderMenu_Create2Ex(PCIDLIST_ABSOLUTE pidlFolder,HWND hwnd,UINT cidl,PCUITEMID_CHILD_ARRAY apidl,IShellFolder* psf,LPFNDFMCALLBACK pfn,UINT nKeys,HKEY* ahkeys,IContextMenu** ppcm)|Out
+shell32.dll|SHELL32_CDefFolderMenu_MergeMenu(HMENU hmDst,HMENU hmSrc,UINT uInsert,UINT uIDAdjust,UINT uIDAdjustMax,ULONG uFlags)
+shell32.dll|SHELL32_CDrivesContextMenu_Create(SFV_CREATE* pcsfv,IShellView** ppsv)|Out
+shell32.dll|SHELL32_CDrivesDropTarget_Create(SFV_CREATE* pcsfv,IShellView** ppsv)|Out
+shell32.dll|SHELL32_CDrives_CreateSFVCB(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CFSDropTarget_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CFSFolderCallback_Create(SFV_CREATE* pcsfv,IShellView** ppsv)|Out
+shell32.dll|SHELL32_CFillPropertiesTask_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CLibraryDropTarget_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CLocationContextMenu_Create(SFV_CREATE* pcsfv,IShellView** ppsv)|Out
+shell32.dll|SHELL32_CLocationFolderUI_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CMountPoint_DoAutorun(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CMountPoint_DoAutorunPrompt(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CMountPoint_IsAutoRunDriveAndEnabledByPolicy(UNKNOWN)
+shell32.dll|SHELL32_CMountPoint_ProcessAutoRunFile(UNKNOWN)
+shell32.dll|SHELL32_CMountPoint_WantAutorunUI(UNKNOWN)
+shell32.dll|SHELL32_CMountPoint_WantAutorunUIGetReady(UNKNOWN)
+shell32.dll|SHELL32_CNetFolderUI_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CPL_CategoryIdArrayFromVariant(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CPL_IsLegacyCanonicalNameListedUnderKey(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CPL_ModifyWowDisplayName(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CRecentDocsContextMenu_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CTransferConfirmation_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CallFileCopyHooks(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CanDisplayWin8CopyDialog()
+shell32.dll|SHELL32_CloseAutoplayPrompt(UNKNOWN)
+; advapi CommandLineFromMsiDescriptor import
+shell32.dll|DWORD SHELL32_CommandLineFromMsiDescriptor(LPWSTR Descriptor,LPWSTR CommandLine,DWORD* CommandLineLength)|Out
+;SHELL32_CopySecondaryTiles() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|SHELL32_CopySecondaryTiles()
+shell32.dll|SHELL32_CreateConfirmationInterrupt(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CreateConflictInterrupt(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CreateDefaultOperationDataProvider(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CreateFileFolderContextMenu(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_CreateLinkInfoW(LPCWSTR lpFileName,UNKNOWN)
+shell32.dll|SHELL32_CreateQosRecorder(UNKNOWN)
+shell32.dll|SHELL32_CreateSharePointView(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_Create_IEnumUICommand(SFV_CREATE* pcsfv,IShellView** ppsv)|Out
+; kernelbase LocalFree import
+shell32.dll|HLOCAL SHELL32_DestroyLinkInfo(HLOCAL hMem)
+shell32.dll|SHELL32_EncryptDirectory(UNKNOWN)
+; advapi EncryptedFileKeyInfo import
+shell32.dll|SHELL32_EncryptedFileKeyInfo(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_EnumCommonTasks(UNKNOWN,UNKNOWN)
+; advapi FreeEncryptedFileKeyInfo import
+shell32.dll|SHELL32_FreeEncryptedFileKeyInfo(UNKNOWN)
+shell32.dll|SHELL32_GenerateAppID(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetAppIDRoot(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetCommandProviderForFolderType(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetDPIAdjustedLogicalSize(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetDiskCleanupPath(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetFileNameFromBrowse(HWND hwnd,PWSTR pszFilePath,UINT cchFilePath,PCWSTR pszWorkingDir,PCWSTR pszDefExt,PCWSTR pszFilters,PCWSTR pszTitle)|Out
+shell32.dll|SHELL32_GetIconOverlayManager(UNKNOWN)
+shell32.dll|SHELL32_GetLinkInfoData(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetRatingBucket(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetSqmableFileName(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetThumbnailAdornerFromFactory(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_GetThumbnailAdornerFromFactory2(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_HandleUnrecognizedFileSystem(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_IconCacheCreate()
+shell32.dll|SHELL32_IconCacheDestroy(UNKNOWN)
+shell32.dll|SHELL32_IconCacheHandleAssociationChanged()
+shell32.dll|SHELL32_IconCacheRestore(UNKNOWN)
+shell32.dll|SHELL32_IconCache_AboutToExtractIcons(UNKNOWN)
+shell32.dll|SHELL32_IconCache_DoneExtractingIcons()
+shell32.dll|SHELL32_IconCache_ExpandEnvAndSearchPath(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_IconCache_RememberRecentlyExtractedIconsW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_IconOverlayManagerInit()
+;SHELL32_IsGetKeyboardLayoutPresent() in shell32.dll has the same entry point as IsLFNDriveA
+;shell32.dll|SHELL32_IsGetKeyboardLayoutPresent()
+shell32.dll|SHELL32_IsSystemUpgradeInProgress()
+shell32.dll|SHELL32_IsValidLinkInfo(UNKNOWN)
+shell32.dll|SHELL32_LegacyEnumSpecialTasksByType(UNKNOWN,PVOID* Ptr)|Out
+shell32.dll|SHELL32_LegacyEnumTasks(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_LookupBackIconIndex(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_LookupFrontIconIndex(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_NormalizeRating(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_NotifyLinkTrackingServiceOfMove(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+;SHELL32_PifMgr_CloseProperties() in shell32.dll has the same entry point as PifMgr_CloseProperties
+;shell32.dll|SHELL32_PifMgr_CloseProperties(HANDLE hProps,UINT flOpt)
+;SHELL32_PifMgr_GetProperties() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|SHELL32_PifMgr_GetProperties(HANDLE hProps,UINT flOpt)
+;SHELL32_PifMgr_OpenProperties() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|SHELL32_PifMgr_OpenProperties(HANDLE hProps,UINT flOpt)
+;SHELL32_PifMgr_SetProperties() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|SHELL32_PifMgr_SetProperties(HANDLE hProps,UINT flOpt)
+shell32.dll|SHELL32_Printers_CreateBindInfo(HWND hwnd,UINT uAction,LPCSTR lpBuf1,LPCSTR lpBuf2,BOOL fModal)
+shell32.dll|SHELL32_Printjob_GetPidl(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_PurgeSystemIcon(UNKNOWN)
+shell32.dll|SHELL32_RefreshOverlayImages()
+shell32.dll|SHELL32_ResolveLinkInfoW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHAddSparseIcon(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHCreateByValueOperationInterrupt(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHCreateDefaultContextMenu(DEFCONTEXTMENU* pdcm,REFIID riid,void** ppv)|Out
+shell32.dll|SHELL32_SHCreateLocalServer(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHCreateShellFolderView(CSFV* pcsfv,IShellView** ppsv)|Out
+; advapi DuplicateEncryptionInfoFile import
+shell32.dll|DWORD SHELL32_SHDuplicateEncryptionInfoFile(LPCWSTR SrcFileName,LPCWSTR DstFileName,DWORD dwCreationDistribution,DWORD dwAttributes,LPSECURITY_ATTRIBUTES lpSecurityAttributes)|Out
+shell32.dll|SHELL32_SHEncryptFile(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHFormatDriveAsync(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHGetThreadUndoManager(UNKNOWN)
+; advapi GetUserNameW import
+shell32.dll|BOOL SHELL32_SHGetUserNameW(LPWSTR lpBuffer,LPDWORD lpnSize)|Out|FailureIfNullRet
+shell32.dll|SHELL32_SHIsVirtualDevice(UNKNOWN)
+shell32.dll|SHELL32_SHLaunchPropSheet(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHLogILFromFSIL(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SHOpenWithDialog(HWND hwndParent,OPENASINFO* poainfo)
+;SHELL32_SHStartNetConnectionDialogW() in shell32.dll has the same entry point as SHStartNetConnectionDialogW
+;shell32.dll|HRESULT SHELL32_SHStartNetConnectionDialogW(HWND hwnd,LPCWSTR pszRemoteName,DWORD dwType)|FailureIfNotNullRet
+shell32.dll|SHELL32_SHUICommandFromGUID(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SendToMenu_InvokeTargetedCommand(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SendToMenu_VerifyTargetedCommand(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_ShowHideIconOnlyOnDesktop(UNKNOWN)
+shell32.dll|SHELL32_SimpleRatingToFilterCondition(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_StampIconForFile(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_SuspendUndo(UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_TryVirtualDiscImageDriveEject(UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|SHELL32_VerifySaferTrust(UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT SHEmptyRecycleBinA(HWND hwnd,LPCSTR pszRootPath,DWORD dwFlags)|FailureIfNotNullRet
+shell32.dll|HRESULT SHEmptyRecycleBinW(HWND hwnd,LPCWSTR pszRootPath,DWORD dwFlags)|FailureIfNotNullRet
+shell32.dll|SHEnableServiceObject(UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT SHEnumerateUnreadMailAccountsW(HKEY hKeyUser,DWORD dwIndex,LPWSTR pszMailAddress,int cchMailAddress)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHEvaluateSystemCommandTemplate(PCWSTR pszCmdTemplate,PWSTR* ppszApplication,PWSTR* ppszCommandLine,PWSTR* ppszParameters)|Out
+shell32.dll|SHExecuteErrorMessageBox(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|UINT SHExtractIconsW(LPCWSTR lpszFile,int iIndex,UINT nIconWidth,UINT nIconHeight,HICON* phicon,UINT* pIconId,UINT nIcons,UINT uFlags)|Out
+;SHFileOperation() in shell32.dll has the same entry point as SHFileOperationA
+;shell32.dll|int SHFileOperation(LPSHFILEOPSTRUCT lpFileOp)|Out
+shell32.dll|int SHFileOperationA(LPSHFILEOPSTRUCTA lpFileOp)|Out
+shell32.dll|int SHFileOperationW(LPSHFILEOPSTRUCTW lpFileOp)|Out
+shell32.dll|DWORD SHFormatDrive(HWND hwnd,UINT drive,UINT fmtID,UINT options)
+shell32.dll|void SHFreeNameMappings(HANDLE hNameMappings)
+shell32.dll|HRESULT SHGetDataFromIDListA(IShellFolder* psf,PCUITEMID_CHILD pidl,int nFormat,void* pv,int cb)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetDataFromIDListW(IShellFolder* psf,PCUITEMID_CHILD pidl,int nFormat,void* pv,int cb)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetDesktopFolder(IShellFolder** ppshf)|Out|FailureIfNotNullRet
+shell32.dll|BOOL SHGetDiskFreeSpaceA(LPCSTR pszVolume,ULARGE_INTEGER* pqwFreeCaller,ULARGE_INTEGER* pqwTot,ULARGE_INTEGER* pqwFree)|Out|FailureIfNullRet
+;SHGetDiskFreeSpaceExA() in shell32.dll has the same entry point as SHGetDiskFreeSpaceA
+!shell32.dll|BOOL SHGetDiskFreeSpaceExA(LPCSTR pszVolume,ULARGE_INTEGER* pqwFreeCaller,ULARGE_INTEGER* pqwTot,ULARGE_INTEGER* pqwFree)|Out|FailureIfNullRet
+shell32.dll|BOOL SHGetDiskFreeSpaceExW(LPCWSTR pszVolume,ULARGE_INTEGER* pqwFreeCaller,ULARGE_INTEGER* pqwTot,ULARGE_INTEGER* pqwFree)|Out|FailureIfNullRet
+shell32.dll|HRESULT SHGetDriveMedia(PCWSTR pszDrive,DWORD* pdwMediaContent)|Out|FailureIfNotNullRet
+shell32.dll|DWORD_PTR SHGetFileInfo(LPCSTR pszPath,DWORD dwFileAttributes,SHFILEINFOA* psfi,UINT cbFileInfo,UINT uFlags)|Out
+;SHGetFileInfoA() in shell32.dll has the same entry point as SHGetFileInfo
+!shell32.dll|DWORD_PTR SHGetFileInfoA(LPCSTR pszPath,DWORD dwFileAttributes,SHFILEINFOA* psfi,UINT cbFileInfo,UINT uFlags)|Out
+shell32.dll|DWORD_PTR SHGetFileInfoW(LPCWSTR pszPath,DWORD dwFileAttributes,SHFILEINFOW* psfi,UINT cbFileInfo,UINT uFlags)|Out
+shell32.dll|HRESULT SHGetFolderLocation(HWND hwndOwner,int nFolder,HANDLE hToken,DWORD dwReserved,PIDLIST_ABSOLUTE* ppidl)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetFolderPathA(HWND hwndOwner,int nFolder,HANDLE hToken,DWORD dwFlags,LPSTR pszPath)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetFolderPathAndSubDirA(HWND hwnd,int csidl,HANDLE hToken,DWORD dwFlags,LPCSTR pszSubDir,LPSTR pszPath)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetFolderPathAndSubDirW(HWND hwnd,int csidl,HANDLE hToken,DWORD dwFlags,LPCWSTR pszSubDir,LPWSTR pszPath)|Out|FailureIfNotNullRet
+shell32.dll|SHGetFolderPathEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HRESULT SHGetFolderPathW(HWND hwndOwner,int nFolder,HANDLE hToken,DWORD dwFlags,LPWSTR pszPath)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetIDListFromObject(IUnknown* punk,PIDLIST_ABSOLUTE* ppidl)|Out|FailureIfNotNullRet
+shell32.dll|int SHGetIconOverlayIndexA(LPCSTR pszIconPath,int iIconIndex)
+shell32.dll|int SHGetIconOverlayIndexW(LPCWSTR pszIconPath,int iIconIndex)
+shell32.dll|HRESULT SHGetInstanceExplorer(IUnknown** ppunk)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetItemFromDataObject(IDataObject* pdtobj,DATAOBJ_GET_ITEM_FLAGS dwFlags,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetItemFromObject(IUnknown* punk,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetKnownFolderIDList(REFKNOWNFOLDERID rfid,DWORD dwFlags,HANDLE hToken,PIDLIST_ABSOLUTE* ppidl)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetKnownFolderItem(REFKNOWNFOLDERID rfid,KNOWN_FOLDER_FLAG dwFlags,HANDLE hToken,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetKnownFolderPath(REFKNOWNFOLDERID rfid,DWORD dwFlags,HANDLE hToken,PWSTR* ppszPath)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetLocalizedName(PCWSTR pszPath,PWSTR pszResModule,UINT cch,int* pidsRes)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetMalloc(IMalloc** ppMalloc)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetNameFromIDList(PCIDLIST_ABSOLUTE pidl,SIGDN sigdnName,PWSTR* ppszName)|Out|FailureIfNotNullRet
+;SHGetNewLinkInfo() in shell32.dll has the same entry point as SHGetNewLinkInfoA
+!shell32.dll|BOOL SHGetNewLinkInfo(LPCSTR pszLinkTo,LPCSTR pszDir,LPSTR pszName,BOOL* pfMustCopy,UINT uFlags)|Out|FailureIfNullRet
+shell32.dll|BOOL SHGetPathFromIDList(PCIDLIST_ABSOLUTE pidl,LPSTR pszPath)|Out|FailureIfNullRet
+;RealDriveType() in shell32.dll has the same entry point as DriveType
+;shell32.dll|int RealDriveType(int iDrive,BOOL fOKToHitNet)
+shell32.dll|void SHFlushSFCache()
+;SHGetPathFromIDListA() in shell32.dll has the same entry point as SHGetPathFromIDList
+!shell32.dll|BOOL SHGetPathFromIDListA(PCIDLIST_ABSOLUTE pidl,LPSTR pszPath)|Out|FailureIfNullRet
+shell32.dll|BOOL SHGetPathFromIDListEx(PCIDLIST_ABSOLUTE pidl,PWSTR pszPath,DWORD cchPath,GPFIDL_FLAGS uOpts)|Out|FailureIfNullRet
+shell32.dll|BOOL SHGetPathFromIDListW(PCIDLIST_ABSOLUTE pidl,LPWSTR pszPath)|Out|FailureIfNullRet
+shell32.dll|HRESULT SHGetPropertyStoreForWindow(HWND hwnd,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetPropertyStoreFromIDList(PCIDLIST_ABSOLUTE pidl,GETPROPERTYSTOREFLAGS flags,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetPropertyStoreFromParsingName(PCWSTR pszPath,IBindCtx* pbc,GETPROPERTYSTOREFLAGS flags,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|void SHGetSettings(LPSHELLFLAGSTATE lpsfs,DWORD dwMask)|Out
+shell32.dll|HRESULT SHGetSpecialFolderLocation(HWND hwnd,int csidl,PIDLIST_ABSOLUTE* ppidl)|Out|FailureIfNotNullRet
+shell32.dll|BOOL SHGetSpecialFolderPathA(HWND hwnd,LPSTR pszPath,int csidl,BOOL fCreate)|Out|FailureIfNullRet
+shell32.dll|BOOL SHGetSpecialFolderPathW(HWND hwnd,LPWSTR pszPath,int csidl,BOOL fCreate)|Out|FailureIfNullRet
+shell32.dll|HRESULT SHGetStockIconInfo(SHSTOCKICONID siid,UINT uFlags,_Inout_ SHSTOCKICONINFO* psii)|Out|FailureIfotNullRet
+shell32.dll|HRESULT SHGetTemporaryPropertyForItem(IShellItem* psi,REFPROPERTYKEY propkey,PROPVARIANT* ppropvar)|Out|FailureIfotNullRet
+shell32.dll|HRESULT SHGetUnreadMailCountW(HKEY hKeyUser,LPCWSTR pszMailAddress,DWORD* pdwCount,FILETIME* pFileTime,LPCWSTR pszShellExecuteCommand,int cchShellExecuteCommand)|Out|FailureIfotNullRet
+shell32.dll|BOOL SHInvokePrinterCommandA(HWND hwnd,UINT uAction,LPCSTR lpBuf1,LPCSTR lpBuf2,BOOL fModal)|FailureIfNullRet
+shell32.dll|BOOL SHInvokePrinterCommandW(HWND hwnd,UINT uAction,LPCWSTR lpBuf1,LPCWSTR lpBuf2,BOOL fModal)|FailureIfNullRet
+shell32.dll|HRESULT SHIsFileAvailableOffline(PCWSTR pwszPath,DWORD* pdwStatus)|Out|FailureIfNotNullRet
+;SHLoadInProc() in shell32.dll has the same entry point as SHELL32_CLocationContextMenu_Create
+!shell32.dll|HRESULT SHLoadInProc(REFCLSID rclsid)|FailureIfNotNullRet
+shell32.dll|HRESULT SHLoadNonloadedIconOverlayIdentifiers()|FailureIfNotNullRet
+shell32.dll|HRESULT SHOpenFolderAndSelectItems(PCIDLIST_ABSOLUTE pidlFolder,UINT cidl,PCUITEMID_CHILD_ARRAY* apidl,DWORD dwFlags)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHOpenWithDialog(HWND hwndParent,OPENASINFO* poainfo)|FailureIfNullRet
+shell32.dll|HRESULT SHParseDisplayName(LPCWSTR pszName,IBindCtx* pbc,PIDLIST_ABSOLUTE* ppidl,SFGAOF sfgaoIn,SFGAOF* psfgaoOut)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHPathPrepareForWriteA(HWND hwnd,IUnknown* punkEnableModless,LPCSTR pszPath,DWORD dwFlags)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHPathPrepareForWriteW(HWND hwnd,IUnknown* punkEnableModless,LPCWSTR pszPath,DWORD dwFlags)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHQueryRecycleBinA(LPCSTR pszRootPath,LPSHQUERYRBINFO pSHQueryRBInfo)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHQueryRecycleBinW(LPCWSTR pszRootPath,LPSHQUERYRBINFO pSHQueryRBInfo)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHQueryUserNotificationState(QUERY_USER_NOTIFICATION_STATE* pquns)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHRemoveLocalizedName(PCWSTR pszPath)|FailureIfNotNullRet
+shell32.dll|HRESULT SHResolveLibrary(IShellItem* psiLibrary)|FailureIfNotNullRet
+shell32.dll|HRESULT SHSetDefaultProperties(HWND hwnd,IShellItem* psi,DWORD dwFileOpFlags,IFileOperationProgressSink* pfops)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHSetKnownFolderPath(REFKNOWNFOLDERID rfid,DWORD dwFlags,HANDLE hToken,PCWSTR pszPath)|FailureIfNotNullRet
+shell32.dll|HRESULT SHSetLocalizedName(LPCWSTR pszPath,LPCWSTR pszResModule,int idsRes)|FailureIfNotNullRet
+shell32.dll|HRESULT SHSetTemporaryPropertyForItem(IShellItem* psi,REFPROPERTYKEY propkey,REFPROPVARIANT propvar)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHSetUnreadMailCountW(LPCWSTR pszMailAddress,DWORD dwCount,LPCWSTR pszShellExecuteCommand)|FailureIfNotNullRet
+shell32.dll|HRESULT SHShowManageLibraryUI(IShellItem* psiLibrary,HWND hwndOwner,LPCWSTR pszTitle,LPCWSTR pszInstruction,LIBRARYMANAGEDIALOGOPTIONS lmdOptions)|FailureIfNotNullRet
+shell32.dll|HRESULT SHUpdateRecycleBinIcon()|FailureIfNotNullRet
+shell32.dll|HRESULT SetCurrentProcessExplicitAppUserModelID(PCWSTR AppID)|FailureIfNotNullRet
+shell32.dll|int SheChangeDirA(register CHAR* newdir);
+shell32.dll|INT SheChangeDirExW(register WCHAR* newdir)
+shell32.dll|int SheGetDirA(int iDrive,CHAR* str)
+shell32.dll|int SheSetCurDrive(int iDrive)
+shell32.dll|int ShellAboutA(HWND hWnd,LPCSTR szApp,LPCSTR szOtherStuff,HICON hIcon)|FailureIfNullRet
+shell32.dll|int ShellAboutW(HWND hWnd,LPCWSTR szApp,LPCWSTR szOtherStuff,HICON hIcon)|FailureIfNullRet
+;ShellExec_RunDLLA() in shell32.dll has the same entry point as ShellExec_RunDLL
+;shell32.dll|ShellExec_RunDLL(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|ShellExec_RunDLLA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|ShellExec_RunDLLW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HINSTANCE ShellExecuteA(HWND hwnd,LPCSTR lpOperation,LPCSTR lpFile,LPCSTR lpParameters,LPCSTR lpDirectory,INT nShowCmd)|FailureIfUnsignedRet<33
+;ShellExecuteExA() in shell32.dll has the same entry point as ShellExecuteEx
+;shell32.dll|BOOL ShellExecuteEx(SHELLEXECUTEINFOA* pExecInfo)|Out|FailureIfNullRet
+shell32.dll|BOOL ShellExecuteExA(SHELLEXECUTEINFOA* pExecInfo)|Out|FailureIfNullRet
+shell32.dll|BOOL ShellExecuteExW(SHELLEXECUTEINFOW* pExecInfo)|Out|FailureIfNullRet
+shell32.dll|HINSTANCE ShellExecuteW(HWND hwnd,LPCWSTR lpOperation,LPCWSTR lpFile,LPCWSTR lpParameters,LPCWSTR lpDirectory,INT nShowCmd)|FailureIfUnsignedRet<33
+;ShellHookProc() in shell32.dll has the same entry point as PifMgr_OpenProperties
+;shell32.dll|ShellHookProc()
+shell32.dll|int Shell_GetCachedImageIndexA(LPCSTR pszIconPath,int iIconIndex,UINT uIconFlags)
+shell32.dll|int Shell_GetCachedImageIndexW(LPCWSTR pszIconPath,int iIconIndex,UINT uIconFlags)
+shell32.dll|BOOL Shell_NotifyIcon(DWORD dwMessage,PNOTIFYICONDATAA lpData)|Out|FailureIfNullRet
+;Shell_NotifyIconA() in shell32.dll has the same entry point as Shell_NotifyIcon
+!shell32.dll|BOOL Shell_NotifyIconA(DWORD dwMessage,PNOTIFYICONDATAA lpData)|Out|FailureIfNullRet
+shell32.dll|HRESULT Shell_NotifyIconGetRect(NOTIFYICONIDENTIFIER* identifier,RECT* iconLocation)|Out|FailureIfNullRet
+shell32.dll|BOOL Shell_NotifyIconW(DWORD dwMessage,PNOTIFYICONDATAW lpdata)|Out|FailureIfNullRet
+shell32.dll|StateRepoNewMenuCache_EnsureCacheAsync()
+shell32.dll|StateRepoNewMenuCache_RebuildCacheAsync()
+shell32.dll|StrChrA(LPCSTR,CHAR)
+shell32.dll|StrChrIA(LPCSTR,CHAR)
+shell32.dll|StrChrIW(LPCWSTR,WCHAR)
+shell32.dll|StrChrW(LPCWSTR,WCHAR)
+shell32.dll|StrCmpNA(LPCSTR,LPCSTR,size_t)
+shell32.dll|StrCmpNIA(LPCSTR,LPCSTR,size_t)
+shell32.dll|StrCmpNIW(LPCWSTR,LPCWSTR,size_t)
+shell32.dll|StrCmpNW(LPCWSTR,LPCWSTR,size_t)
+shell32.dll|StrNCmpA(LPCSTR,LPCSTR,size_t)
+shell32.dll|StrNCmpIA(LPCSTR,LPCSTR,size_t)
+shell32.dll|StrNCmpIW(LPCWSTR,LPCWSTR,size_t)
+shell32.dll|StrNCmpW(LPCWSTR,LPCWSTR,size_t)
+shell32.dll|LPSTR StrRChrA(LPCSTR lpStart,LPCSTR lpEnd,CHAR Match)
+shell32.dll|StrRChrIA(LPCSTR lpStart,LPCSTR lpEnd,CHAR Match)
+shell32.dll|StrRChrIW(LPCWSTR lpStart,LPCWSTR lpEnd,WCHAR wMatch)
+shell32.dll|LPWSTR StrRChrW(LPCWSTR lpStart,LPCWSTR lpEnd,WCHAR wMatch)
+shell32.dll|StrRStrA(LPCSTR,LPCSTR)
+shell32.dll|StrRStrIA(LPCSTR,LPCSTR)
+shell32.dll|StrRStrIW(LPCWSTR,LPCWSTR)
+shell32.dll|StrRStrW(LPCWSTR,LPCWSTR)
+shell32.dll|StrStrA(LPCSTR,LPCSTR)
+shell32.dll|StrStrIA(LPCSTR,LPCSTR)
+shell32.dll|StrStrIW(LPCWSTR,LPCWSTR)
+shell32.dll|StrStrW(LPCWSTR,LPCWSTR)
+shell32.dll|UsersLibrariesFolderUI_CreateInstance(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HINSTANCE WOWShellExecute(HWND hwnd,LPCSTR lpOperation,LPCSTR lpFile,LPCSTR lpParameters,LPCSTR lpDirectory,INT nShowCmd,void* lpfnCBWinExec)|Out|FailureIfUnsignedRet<33
+shell32.dll|WaitForExplorerRestartW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+shell32.dll|HANDLE SHChangeNotification_Lock(HANDLE hChange,DWORD dwProcId,PIDLIST_ABSOLUTE** pppidl,LONG* plEvent)|Out
+shell32.dll|BOOL SHChangeNotification_Unlock(HANDLE hLock)
+shell32.dll|BOOL WriteCabinetState(CABINETSTATE* lpState)|Out|FailureIfNullRet
+!shell32.dll|BOOL ReadCabinetState(CABINETSTATE* lpState,int cbLength)|Out|FailureIfNullRet
+!shell32.dll|BOOL IsUserAnAdmin()
+shell32.dll|HRESULT StgMakeUniqueName(IStorage* pstgParent,PCWSTR pszFileSpec,DWORD grfMode,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHPropStgCreate(IPropertySetStorage* psstg,REFFMTID fmtid,CLSID* pclsid,DWORD grfFlags,DWORD grfMode,DWORD dwDisposition,IPropertyStorage** ppstg,UINT* puCodePage)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHPropStgReadMultiple(IPropertyStorage* pps,UINT uCodePage,ULONG cpspec,PROPSPEC* rgpspec,PROPVARIANT* rgvar)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHPropStgWriteMultiple(IPropertyStorage* pps,UINT* uCodePage,ULONG cpspec,PROPSPEC* rgpspec,PROPVARIANT* rgvar,PROPID propidNameFirst)|Out|FailureIfNotNullRet
+!shell32.dll|HRESULT CDefFolderMenu_Create2(PCIDLIST_ABSOLUTE pidlFolder,HWND hwnd,UINT cidl,PCUITEMID_CHILD_ARRAY apidl,IShellFolder* psf,LPFNDFMCALLBACK pfn,UINT nKeys,HKEY* ahkeys,IContextMenu** ppcm)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetSetFolderCustomSettings(LPSHFOLDERCUSTOMSETTINGS pfcs,PCWSTR pszPath,DWORD dwReadWrite)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHMultiFileProperties(IDataObject* pdtobj,DWORD dwFlags)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetImageList(int iImageList,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|int RestartDialogEx(HWND hParent,PCWSTR pszPrompt,DWORD dwFlags,DWORD dwReasonCode)
+shell32.dll|HRESULT SHCreateFileExtractIconW(LPCWSTR pszFile,DWORD dwFileAttributes,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHLimitInputEdit(HWND hwndEdit,IShellFolder* psf)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetAttributesFromDataObject(IDataObject* pdo,DWORD dwAttributeMask,DWORD* pdwAttributes,UINT* pcItems)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT ILLoadFromStream(IStream* pstm,PIDLIST_RELATIVE* pidl)|FailureIfNotNullRet
+shell32.dll|HRESULT ILLoadFromStreamEx(IStream* pstm,PIDLIST_RELATIVE* pidl)|Out|FailureIfNotNullRet
+shell32.dll|GetSystemPersistedStorageItemList(UNKNOWN,PVOID* Ptr)|Out
+shell32.dll|IsProcessAnExplorer()
+shell32.dll|IsDesktopExplorerProcess()
+

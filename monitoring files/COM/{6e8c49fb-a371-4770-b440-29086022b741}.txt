@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D11Counter
+
+; include ID3D11Asynchronous
+BaseIID={4b35d0cd-1e15-4258-9c98-1b1333f6dd3b}
+
+VTBLIndex=8|void STDMETHODCALLTYPE ID3D11Counter::GetDesc(IUnknown* pObject,D3D11_COUNTER_DESC *pDesc)|Out

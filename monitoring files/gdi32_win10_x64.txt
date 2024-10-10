@@ -1,0 +1,905 @@
+;   Monitoring file generated for exports table of gdi32.dll v10.0.19041.1202 by MonitoringFileBuilder
+
+gdi32.dll|int AbortDoc(HDC hdc)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|BOOL AbortPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|HANDLE AddFontMemResourceEx(PVOID pFileView,DWORD cjSize,PVOID pvResrved,DWORD* pNumFonts)|Out|FailureIfNullRet
+gdi32.dll|int AddFontResourceA(LPCSTR lpszFilename)|FailureIfNullRet
+gdi32.dll|int AddFontResourceExA(LPCSTR lpszFilename,DWORD fl,PVOID res)|FailureIfNullRet
+gdi32.dll|int AddFontResourceExW(LPCWSTR lpszFilename,DWORD fl,PVOID res)|FailureIfNullRet
+gdi32.dll|AddFontResourceTracking(LPCSTR lpString,int)|FailureIfNullRet
+gdi32.dll|int AddFontResourceW(LPCWSTR lpszFilename)|FailureIfNullRet
+gdi32.dll|BOOL AngleArc(HDC hdc,int x,int y,DWORD dwRadius,FLOAT StartAngle,FLOAT SweepAngle)|FailureIfNullRet
+gdi32.dll|BOOL AnimatePalette(HPALETTE hPal,UINT iStartIndex,UINT cEntries,PALETTEENTRY* ppe)|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|AnyLinkedFonts()
+gdi32.dll|BOOL Arc(HDC hdc,int x1,int y1,int x2,int y2,int x3,int y3,int x4,int y4)
+gdi32.dll|BOOL ArcTo(HDC hdc,int nLeftRect,int nTopRect,int nRightRect,int nBottomRect,int nXRadial1,int nYRadial1,int nXRadial2,int nYRadial2)|FailureIfNullRet
+gdi32.dll|HANDLE BRUSHOBJ_hGetColorTransform(BRUSHOBJ* pbo)|Out
+gdi32.dll|PVOID BRUSHOBJ_pvAllocRbrush(BRUSHOBJ* pbo,ULONG cj)
+gdi32.dll|PVOID BRUSHOBJ_pvGetRbrush(BRUSHOBJ* pbo)|Out
+gdi32.dll|ULONG BRUSHOBJ_ulGetBrushColor(BRUSHOBJ* pbo)|Out
+
+; Unknown number of parameters
+!gdi32.dll|BeginGdiRendering()
+
+gdi32.dll|BOOL BeginPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL BitBlt(HDC hdcDest,int nXDest,int nYDest,int nWidth,int nHeight,HDC hdcSrc,int nXSrc,int nYSrc,DWORD dwRop)|FailureIfNullRet
+gdi32.dll|BOOL CLIPOBJ_bEnum(CLIPOBJ* pco,ULONG cj,ULONG* pv)|FailureIfNullRet
+gdi32.dll|ULONG CLIPOBJ_cEnumStart(CLIPOBJ* pco,BOOL bAll,ULONG iType,ULONG iDirection,ULONG cLimit)
+gdi32.dll|PATHOBJ* CLIPOBJ_ppoGetPath(CLIPOBJ* pco)|FailureIfNullRet
+gdi32.dll|BOOL CancelDC(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL CheckColorsInGamut(HDC hDC,LPRGBTRIPLE lpRGBTriples,LPVOID lpBuffer,DWORD nCount)|Out|FailureIfNullRet
+gdi32.dll|int ChoosePixelFormat(HDC hdc,PIXELFORMATDESCRIPTOR* ppfd)
+gdi32.dll|BOOL Chord(HDC hdc,int nLeftRect,int nTopRect,int nRightRect,int nBottomRect,int nXRadial1,int nYRadial1,int nXRadial2,int nYRadial2)|FailureIfNullRet
+gdi32.dll|ClearBitmapAttributes(HANDLE)
+gdi32.dll|ClearBrushAttributes(HANDLE)
+gdi32.dll|HENHMETAFILE CloseEnhMetaFile(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL CloseFigure(HDC)|FailureIfNullRet
+gdi32.dll|HMETAFILE CloseMetaFile(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL ColorCorrectPalette(HDC hDC,HPALETTE hPalette,DWORD dwFirstEntry,DWORD dwNumOfEntries)|FailureIfNullRet
+gdi32.dll|BOOL ColorMatchToTarget(HDC hDC,HDC hdcTarget,DWORD uiAction)|FailureIfNullRet
+gdi32.dll|int CombineRgn(HRGN hrgnDest,HRGN hrgnSrc1,HRGN hrgnSrc2,int fnCombineMode)
+gdi32.dll|BOOL CombineTransform(LPXFORM lpxformResult,XFORM* lpxform1,XFORM* lpxform2)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|ConfigureOPMProtectedOutput()
+
+gdi32.dll|HENHMETAFILE CopyEnhMetaFileA(HENHMETAFILE hEnh,LPCSTR lpFileName)|FailureIfNullRet
+gdi32.dll|HENHMETAFILE CopyEnhMetaFileW(HENHMETAFILE hEnh,LPCWSTR lpFileName)|FailureIfNullRet
+gdi32.dll|HMETAFILE CopyMetaFileA(HMETAFILE hmfSrc,LPCSTR lpszFile)|FailureIfNullRet
+gdi32.dll|HMETAFILE CopyMetaFileW(HMETAFILE hmfSrc,LPCWSTR lpszFile)|FailureIfNullRet
+gdi32.dll|HBITMAP CreateBitmap(int nWidth,int nHeight,UINT cPlanes,UINT cBitsPerPel,VOID* lpvBits)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|CreateBitmapFromDxSurface()
+
+; Unknown number of parameters
+!gdi32.dll|CreateBitmapFromDxSurface2()
+
+gdi32.dll|HBITMAP CreateBitmapIndirect(BITMAP* pbm)|Out|FailureIfNullRet
+gdi32.dll|HBRUSH CreateBrushIndirect(LOGBRUSH* plbrush)|Out|FailureIfNullRet
+gdi32.dll|HCOLORSPACE CreateColorSpaceA(LPLOGCOLORSPACEA lpLogColorSpace)|Out|FailureIfNullRet
+gdi32.dll|HCOLORSPACE CreateColorSpaceW(LPLOGCOLORSPACEW lpLogColorSpace)|Out|FailureIfNullRet
+gdi32.dll|HBITMAP CreateCompatibleBitmap(HDC hdc,int nWidth,int nHeight)|FailureIfNullRet
+gdi32.dll|HDC CreateCompatibleDC(HDC hdc)|FailureIfNullRet
+gdi32.dll|HDC CreateDCA(LPCSTR lpszDriver,LPCSTR lpszDevice,LPCSTR lpszOutput,DEVMODE* lpInitData)|FailureIfNullRet
+gdi32.dll|HDC CreateDCW(LPCWSTR lpszDriver,LPCWSTR lpszDevice,LPCWSTR lpszOutput,DEVMODE* lpInitData)|Out|FailureIfNullRet
+gdi32.dll|HBRUSH CreateDIBPatternBrush(HGLOBAL hglbDIBPacked,UINT fuColorSpec)|FailureIfNullRet
+gdi32.dll|HBRUSH CreateDIBPatternBrushPt(VOID* lpPackedDIB,UINT iUsage)|Out|FailureIfNullRet
+gdi32.dll|HBITMAP CreateDIBSection(HDC hdc,BITMAPINFO* pbmi,UINT iUsage,VOID** ppvBits,HANDLE hSection,DWORD dwOffset)|Out|FailureIfNullRet
+gdi32.dll|HBITMAP CreateDIBitmap(HDC hdc,BITMAPINFOHEADER* lpbmih,DWORD fdwInit,VOID* lpbInit,BITMAPINFO* lpbmi,UINT fuUsage)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|CreateDPIScaledDIBSection()
+
+gdi32.dll|HBITMAP CreateDiscardableBitmap(HDC hdc,int nWidth,int nHeight)|FailureIfNullRet
+gdi32.dll|HRGN CreateEllipticRgn(int nLeftRect,int nTopRect,int nRightRect,int nBottomRect)|FailureIfNullRet
+gdi32.dll|HRGN CreateEllipticRgnIndirect(RECT* lprc)|Out|FailureIfNullRet
+gdi32.dll|HDC CreateEnhMetaFileA(HDC hdcRef,LPCSTR lpFilename,RECT* lpRect,LPCSTR lpDescription)|Out|FailureIfNullRet
+gdi32.dll|HDC CreateEnhMetaFileW(HDC hdcRef,LPCWSTR lpFilename,RECT* lpRect,LPCWSTR lpDescription)|Out|FailureIfNullRet
+gdi32.dll|HFONT CreateFontA(int nHeight,int nWidth,int nEscapement,int nOrientation,int fnWeight,DWORD fdwItalic,DWORD fdwUnderline,DWORD fdwStrikeOut,DWORD fdwCharSet,DWORD fdwOutputPrecision,DWORD fdwClipPrecision,DWORD fdwQuality,DWORD fdwPitchAndFamily,LPCSTR lpszFace)|FailureIfNullRet
+gdi32.dll|HFONT CreateFontIndirectA(LOGFONTA* lplf)|Out|FailureIfNullRet
+gdi32.dll|HFONT CreateFontIndirectExA(ENUMLOGFONTEXDV* penumlfex)|Out|FailureIfNullRet
+gdi32.dll|HFONT CreateFontIndirectExW(ENUMLOGFONTEXDV* penumlfex)|Out|FailureIfNullRet
+gdi32.dll|HFONT CreateFontIndirectW(LOGFONTW* lplf)|Out|FailureIfNullRet
+gdi32.dll|HFONT CreateFontW(int nHeight,int nWidth,int nEscapement,int nOrientation,int fnWeight,DWORD fdwItalic,DWORD fdwUnderline,DWORD fdwStrikeOut,DWORD fdwCharSet,DWORD fdwOutputPrecision,DWORD fdwClipPrecision,DWORD fdwQuality,DWORD fdwPitchAndFamily,LPCWSTR lpszFace)|FailureIfNullRet
+gdi32.dll|HPALETTE CreateHalftonePalette(HDC hdc)|FailureIfNullRet
+gdi32.dll|HBRUSH CreateHatchBrush(int fnStyle,COLORREF clrref)|FailureIfNullRet
+gdi32.dll|HDC CreateICA(LPCSTR lpszDriver,LPCSTR lpszDevice,LPCSTR lpszOutput,DEVMODE* lpdvmInit)|FailureIfNullRet
+gdi32.dll|HDC CreateICW(LPCWSTR lpszDriver,LPCWSTR lpszDevice,LPCWSTR lpszOutput,DEVMODE* lpdvmInit)|Out|FailureIfNullRet
+gdi32.dll|HDC CreateMetaFileA(LPCSTR lpszFile)|FailureIfNullRet
+gdi32.dll|HDC CreateMetaFileW(LPCWSTR lpszFile)|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|CreateOPMProtectedOutput()
+
+; Unknown number of parameters
+!gdi32.dll|CreateOPMProtectedOutputs()
+
+gdi32.dll|HPALETTE CreatePalette(LOGPALETTE* lplgpl)|Out|FailureIfNullRet
+gdi32.dll|HBRUSH CreatePatternBrush(HBITMAP hbmp)|FailureIfNullRet
+gdi32.dll|HPEN CreatePen(int fnPenStyle,int nWidth,COLORREF crColor)|FailureIfNullRet
+gdi32.dll|HPEN CreatePenIndirect(LOGPEN* lplgpn)|Out|FailureIfNullRet
+gdi32.dll|HRGN CreatePolyPolygonRgn(POINT* lppt,INT* lpPolyCounts,int nCount,int fnPolyFillMode)|Out|FailureIfNullRet
+gdi32.dll|HRGN CreatePolygonRgn(POINT* lppt,int cPoints,int fnPolyFillMode)|Out|FailureIfNullRet
+;lots of call
+!gdi32.dll|HRGN CreateRectRgn(int nLeftRect,int nTopRect,int nRightRect,int nBottomRect)|FailureIfNullRet
+gdi32.dll|HRGN CreateRectRgnIndirect(RECT* lprc)|Out|FailureIfNullRet
+gdi32.dll|HRGN CreateRoundRectRgn(int nLeftRect,int nTopRect,int nRightRect,int nBottomRect,int nWidthEllipse,int nHeightEllipse)|FailureIfNullRet
+gdi32.dll|BOOL CreateScalableFontResourceA(DWORD fdwHidden,LPCSTR lpszFontRes,LPCSTR lpszFontFile,LPCSTR lpszCurrentPath)|FailureIfNullRet
+gdi32.dll|BOOL CreateScalableFontResourceW(DWORD fdwHidden,LPCWSTR lpszFontRes,LPCWSTR lpszFontFile,LPCWSTR lpszCurrentPath)|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|CreateScaledCompatibleBitmap()
+
+; Unknown number of parameters
+!gdi32.dll|CreateSessionMappedDIBSection()
+
+gdi32.dll|HBRUSH CreateSolidBrush(COLORREF crColor)|FailureIfNullRet
+gdi32.dll|BOOL DPtoLP(HDC hdc,LPPOINT lpPoints,int nCount)|Out|FailureIfNullRet
+gdi32.dll|BOOL DeleteColorSpace(HCOLORSPACE hColorSpace)|FailureIfNullRet
+gdi32.dll|BOOL DeleteDC(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL DeleteEnhMetaFile(HENHMETAFILE hemf)|FailureIfNullRet
+gdi32.dll|BOOL DeleteMetaFile(HMETAFILE hmf)|FailureIfNullRet
+;lots of call
+!gdi32.dll|BOOL DeleteObject(HGDIOBJ hObject)|FailureIfNullRet
+gdi32.dll|int DescribePixelFormat(HDC hdc,int iPixelFormat,UINT nBytes,LPPIXELFORMATDESCRIPTOR ppfd)|Out
+gdi32.dll|DeviceCapabilitiesExA()
+;Function DeviceCapabilitiesExW() in gdi32.dll forwarded to DeviceCapabilitiesExA() in ext-ms-win-gdi-desktop-l1-1-0.dll is unresolved
+;DeviceCapabilitiesExW() in gdi32.dll may can't be hooked: import function can't be resolved
+;gdi32.dll|DeviceCapabilitiesExW()
+gdi32.dll|int DrawEscape(HDC hdc,int nEscape,int cbInput,LPCSTR lpszInData)
+gdi32.dll|BOOL Ellipse(HDC hdc,int left,int top,int right,int bottom)
+gdi32.dll|BOOL EnableEUDC(BOOL fEnableEUDC)|FailureIfNullRet
+gdi32.dll|int EndDoc(HDC hdc)
+gdi32.dll|EndFormPage(UNKNOWN)
+
+; Unknown number of parameters
+!gdi32.dll|EndGdiRendering()
+gdi32.dll|int EndPage(HDC hdc)
+gdi32.dll|BOOL EndPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|VOID EngAcquireSemaphore(HSEMAPHORE hsem)
+gdi32.dll|BOOL EngAlphaBlend(SURFOBJ* psoDest,SURFOBJ* psoSrc,CLIPOBJ* pco,XLATEOBJ* pxlo,RECTL* prclDest,RECTL* prclSrc,BLENDOBJ* pBlendObj)
+gdi32.dll|BOOL EngAssociateSurface(HSURF hsurf,HDEV hdev,FLONG flHooks)|FailureIfNullRet
+gdi32.dll|BOOL EngBitBlt(SURFOBJ* psoTrg,SURFOBJ* psoSrc,SURFOBJ* psoMask,CLIPOBJ* pco,XLATEOBJ* pxlo,RECTL* prclTrg,POINTL* pptlSrc,POINTL* pptlMask,BRUSHOBJ* pbo,POINTL* pptlBrush,ROP4 rop4)|Out|FailureIfNullRet
+gdi32.dll|BOOL EngCheckAbort(SURFOBJ* pso)|Out|FailureIfNullRet
+gdi32.dll|FD_GLYPHSET* EngComputeGlyphSet(INT nCodePage,INT nFirstChar,INT cChars)|FailureIfNullRet
+gdi32.dll|BOOL EngCopyBits(SURFOBJ* psoDest,SURFOBJ* psoSrc,CLIPOBJ* pco,XLATEOBJ* pxlo,RECTL* prclDest,POINTL* pptlSrc)|Out|FailureIfNullRet
+gdi32.dll|HBITMAP EngCreateBitmap(SIZEL sizl,LONG lWidth,ULONG iFormat,FLONG fl,PVOID pvBits)|Out|FailureIfNullRet
+gdi32.dll|CLIPOBJ* EngCreateClip(VOID)|FailureIfNullRet
+gdi32.dll|HBITMAP EngCreateDeviceBitmap(DHSURF dhsurf,SIZEL sizl,ULONG iFormatCompat)|FailureIfNullRet
+gdi32.dll|HSURF EngCreateDeviceSurface(DHSURF dhsurf,SIZEL sizl,ULONG iFormatCompat)|FailureIfNullRet
+gdi32.dll|HPALETTE EngCreatePalette(ULONG iMode,ULONG cColors,ULONG* pulColors,FLONG flRed,FLONG flGreen,FLONG flBlue)|Out|FailureIfNullRet
+gdi32.dll|HSEMAPHORE EngCreateSemaphore(VOID)|FailureIfNullRet
+gdi32.dll|VOID EngDeleteClip(CLIPOBJ* pco)|Out
+gdi32.dll|BOOL EngDeletePalette(HPALETTE hpal)|FailureIfNullRet
+gdi32.dll|VOID EngDeletePath(PATHOBJ* ppo)|Out
+gdi32.dll|VOID EngDeleteSemaphore(HSEMAPHORE hsem)|Out
+gdi32.dll|BOOL EngDeleteSurface(HSURF hsurf)
+gdi32.dll|BOOL EngEraseSurface(SURFOBJ* pso,RECTL* prcl,ULONG iColor)|Out|FailureIfNullRet
+gdi32.dll|BOOL EngFillPath(SURFOBJ* pso,PATHOBJ* ppo,CLIPOBJ* pco,BRUSHOBJ* pbo,POINTL* pptlBrushOrg,MIX mix,FLONG flOptions)|Out|FailureIfNullRet
+gdi32.dll|PVOID EngFindResource(HANDLE h,int iName,int iType,PULONG pulSize)|Out
+gdi32.dll|VOID EngFreeModule(HANDLE h)
+gdi32.dll|VOID EngGetCurrentCodePage(PUSHORT OemCodePage,PUSHORT AnsiCodePage)|Out
+gdi32.dll|LPWSTR EngGetDriverName(HDEV hdev)
+gdi32.dll|LPWSTR EngGetPrinterDataFileName(HDEV hdev)
+gdi32.dll|BOOL EngGradientFill(SURFOBJ* psoDest,CLIPOBJ* pco,XLATEOBJ* pxlo,TRIVERTEX* pVertex,ULONG nVertex,PVOID pMesh,ULONG nMesh,RECTL* prclExtents,POINTL* pptlDitherOrg,ULONG ulMode)|Out|FailureIfNullRet
+gdi32.dll|BOOL EngLineTo(SURFOBJ* pso,CLIPOBJ* pco,BRUSHOBJ* pbo,LONG x1,LONG y1,LONG x2,LONG y2,RECTL* prclBounds,MIX mix)|Out|FailureIfNullRet
+gdi32.dll|HANDLE EngLoadModule(LPCWSTR lpLibFileNam)
+gdi32.dll|SURFOBJ* EngLockSurface(HSURF hsurf)|FailureIfNullRet
+gdi32.dll|BOOL EngMarkBandingSurface(HSURF hsurf)|FailureIfNullRet
+gdi32.dll|VOID EngMultiByteToUnicodeN(LPWSTR UnicodeString,ULONG MaxBytesInUnicodeString,PULONG BytesInUnicodeString,PCHAR MultiByteString,ULONG BytesInMultiByteString)|Out
+gdi32.dll|INT EngMultiByteToWideChar(UINT CodePage,LPWSTR WideCharString,INT BytesInWideCharString,LPSTR MultiByteString,INT BytesInMultiByteString)|Out
+gdi32.dll|BOOL EngPaint(SURFOBJ* pso,CLIPOBJ* pco,BRUSHOBJ* pbo,POINTL* pptlBrushOrg,MIX mix)|Out|FailureIfNullRet
+gdi32.dll|BOOL EngPlgBlt(SURFOBJ* psoTrg,SURFOBJ* psoSrc,SURFOBJ* psoMsk,CLIPOBJ* pco,XLATEOBJ* pxlo,COLORADJUSTMENT* pca,POINTL* pptlBrushOrg,POINTFIX* pptfx,RECTL* prcl,POINTL* pptl,ULONG iMode)
+gdi32.dll|DECLSPEC_DEPRECATED_DDK BOOL EngQueryEMFInfo(HDEV hdev,EMFINFO* pEMFInfo)|Out
+gdi32.dll|VOID EngQueryLocalTime(PENG_TIME_FIELDS ptf)|Out
+gdi32.dll|VOID EngReleaseSemaphore(HSEMAPHORE hsem)
+gdi32.dll|BOOL EngStretchBlt(SURFOBJ* psoDest,SURFOBJ* psoSrc,SURFOBJ* psoMask,CLIPOBJ* pco,XLATEOBJ* pxlo,COLORADJUSTMENT* pca,POINTL* pptlHTOrg,RECTL* prclDest,RECTL* prclSrc,POINTL* pptlMask,ULONG iMode)
+gdi32.dll|BOOL EngStretchBltROP(SURFOBJ* psoDest,SURFOBJ* psoSrc,SURFOBJ* psoMask,CLIPOBJ* pco,XLATEOBJ* pxlo,COLORADJUSTMENT* pca,POINTL* pptlHTOrg,RECTL* prclDest,RECTL* prclSrc,POINTL* pptlMask,ULONG iMode,BRUSHOBJ* pbo,DWORD rop4)
+gdi32.dll|BOOL EngStrokeAndFillPath(SURFOBJ* pso,PATHOBJ* ppo,CLIPOBJ* pco,XFORMOBJ* pxo,BRUSHOBJ* pboStroke,LINEATTRS* plineattrs,BRUSHOBJ* pboFill,POINTL* pptlBrushOrg,MIX mixFill,FLONG flOptions)
+gdi32.dll|BOOL EngStrokePath(SURFOBJ* pso,PATHOBJ* ppo,CLIPOBJ* pco,XFORMOBJ* pxo,BRUSHOBJ* pbo,POINTL* pptlBrushOrg,LINEATTRS* plineattrs,MIX mix)
+gdi32.dll|BOOL EngTextOut(SURFOBJ* pso,STROBJ* pstro,FONTOBJ* pfo,CLIPOBJ* pco,RECTL* prclExtra,RECTL* prclOpaque,BRUSHOBJ* pboFore,BRUSHOBJ* pboOpaque,POINTL* pptlOrg,MIX mix)
+gdi32.dll|BOOL EngTransparentBlt(SURFOBJ* psoDst,SURFOBJ* psoSrc,CLIPOBJ* pco,XLATEOBJ* pxlo,RECTL* prclDst,RECTL* prclSrc,ULONG TransColor,ULONG bCalledFromBitBlt)
+gdi32.dll|VOID EngUnicodeToMultiByteN(PCHAR MultiByteString,ULONG MaxBytesInMultiByteString,PULONG BytesInMultiByteString,PWSTR UnicodeString,ULONG BytesInUnicodeString)|Out
+gdi32.dll|VOID EngUnlockSurface(SURFOBJ* pso)|Out
+gdi32.dll|INT EngWideCharToMultiByte(UINT CodePage,LPWSTR WideCharString,INT BytesInWideCharString,LPSTR MultiByteString,INT BytesInMultiByteString)|Out
+gdi32.dll|BOOL EnumEnhMetaFile(HDC hdc,HENHMETAFILE hemf,ENHMFENUMPROC lpEnhMetaFunc,LPVOID lpData,RECT* lpRect)|Out
+gdi32.dll|int EnumFontFamiliesA(HDC hdc,LPCSTR lpszFamily,FONTENUMPROCA lpEnumFontFamProc,LPARAM lParam)|Out
+gdi32.dll|int EnumFontFamiliesExA(HDC hdc,LPLOGFONTA lpLogfont,FONTENUMPROCA lpEnumFontFamExProc,LPARAM lParam,DWORD dwFlags)|Out
+gdi32.dll|int EnumFontFamiliesExW(HDC hdc,LPLOGFONTW lpLogfont,FONTENUMPROCW lpEnumFontFamExProc,LPARAM lParam,DWORD dwFlags)|Out
+gdi32.dll|int EnumFontFamiliesW(HDC hdc,LPCWSTR lpszFamily,FONTENUMPROCW lpEnumFontFamProc,LPARAM lParam)|Out
+gdi32.dll|int EnumFontsA(HDC hdc,LPCSTR lpFaceName,FONTENUMPROCA lpFontFunc,LPARAM lParam)|Out
+gdi32.dll|int EnumFontsW(HDC hdc,LPCWSTR lpFaceName,FONTENUMPROCW lpFontFunc,LPARAM lParam)|Out
+gdi32.dll|int EnumICMProfilesA(HDC hDC,ICMENUMPROCA lpEnumICMProfilesFunc,LPARAM lParam)|Out
+gdi32.dll|int EnumICMProfilesW(HDC hDC,ICMENUMPROCW lpEnumICMProfilesFunc,LPARAM lParam)|Out
+gdi32.dll|BOOL EnumMetaFile(HDC hdc,HMETAFILE hmf,MFENUMPROC lpMetaFunc,LPARAM lParam)|Out
+gdi32.dll|int EnumObjects(HDC hdc,int nType,GOBJENUMPROC lpFunc,LPARAM lParam)|Out
+gdi32.dll|BOOL EqualRgn(HRGN hrgn1,HRGN hrgn2)
+gdi32.dll|int Escape(HDC hdc,int iEscape,int cjIn,LPCSTR pvIn,LPVOID pvOut)|Out
+gdi32.dll|EudcLoadLinkW(wchar_t* ,wchar_t* ,int,int)
+gdi32.dll|EudcUnloadLinkW(wchar_t* ,wchar_t* )
+gdi32.dll|int ExcludeClipRect(HDC hdc,int nLeftRect,int nTopRect,int nRightRect,int nBottomRect)
+gdi32.dll|HPEN ExtCreatePen(DWORD dwPenStyle,DWORD dwWidth,LOGBRUSH* lplb,DWORD dwStyleCount,DWORD* lpStyle)|Out
+gdi32.dll|HRGN ExtCreateRegion(XFORM* lpXform,DWORD nCount,RGNDATA* lpRgnData)|Out
+gdi32.dll|int ExtEscape(HDC hdc,int nEscape,int cbInput,LPCSTR lpszInData,int cbOutput,LPSTR lpszOutData)|Out
+gdi32.dll|BOOL ExtFloodFill(HDC hdc,int nXStart,int nYStart,COLORREF crColor,UINT fuFillType)
+gdi32.dll|int ExtSelectClipRgn(HDC hdc,HRGN hrgn,int fnMode)
+;lots of call
+!gdi32.dll|BOOL ExtTextOutA(HDC hdc,int X,int Y,UINT fuOptions,RECT* lprc,LPCSTR lpString,UINT cbCount,INT* lpDx)|Out|FailureIfNullRet
+;lots of call
+!gdi32.dll|BOOL ExtTextOutW(HDC hdc,int X,int Y,UINT fuOptions,RECT* lprc,LPCWSTR lpString,UINT cbCount,INT* lpDx)|Out|FailureIfNullRet
+gdi32.dll|ULONG FONTOBJ_cGetAllGlyphHandles(FONTOBJ* pfo,HGLYPH* phg)|Out
+gdi32.dll|ULONG FONTOBJ_cGetGlyphs(FONTOBJ* pfo,ULONG iMode,ULONG cGlyph,HGLYPH* phg,PVOID* ppvGlyph)|Out
+gdi32.dll|PFD_GLYPHATTR FONTOBJ_pQueryGlyphAttrs(FONTOBJ* pfo,ULONG iMode)
+gdi32.dll|FD_GLYPHSET* FONTOBJ_pfdg(FONTOBJ* pfo)
+gdi32.dll|IFIMETRICS* FONTOBJ_pifi(FONTOBJ* pfo)
+gdi32.dll|PVOID FONTOBJ_pvTrueTypeFontFile(FONTOBJ* pfo,ULONG* pcjFile)
+gdi32.dll|XFORMOBJ* FONTOBJ_pxoGetXform(FONTOBJ* pfo)
+gdi32.dll|VOID FONTOBJ_vGetInfo(FONTOBJ* pfo,ULONG cjSize,FONTINFO* pfi)|Out
+gdi32.dll|BOOL FillPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL FillRgn(HDC hdc,HRGN hrgn,HBRUSH hbr)|FailureIfNullRet
+gdi32.dll|BOOL FixBrushOrgEx(HDC hdc,int x,int y,LPPOINT ptl)|FailureIfNullRet
+gdi32.dll|BOOL FlattenPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL FloodFill(HDC hdc,int x,int y,COLORREF color)|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|FontIsLinked()
+gdi32.dll|BOOL FrameRgn(HDC hdc,HRGN hrgn,HBRUSH hbr,int nWidth,int nHeight)|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|Gdi32DllInitialize()
+gdi32.dll|GdiAddFontResourceW(UNKNOWN,UNKNOWN,UNKNOWN)
+gdi32.dll|GdiAddGlsBounds(UNKNOWN,UNKNOWN)
+gdi32.dll|GdiAddGlsRecord(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+
+; Unknown number of parameters
+!gdi32.dll|GdiAddInitialFonts()
+gdi32.dll|BOOL GdiAlphaBlend(HDC hdcDest,int xoriginDest,int yoriginDest,int wDest,int hDest,HDC hdcSrc,int xoriginSrc,int yoriginSrc,int wSrc,int hSrc,BLENDFUNCTION ftn)
+gdi32.dll|GdiArtificialDecrementDriver(wchar_t* ,char)
+gdi32.dll|GdiCleanCacheDC(UNKNOWN)
+gdi32.dll|BOOL GdiComment(HDC hdc,UINT cbSize,BYTE* lpData)|Out
+
+; Unknown number of parameters
+!gdi32.dll|GdiConsoleTextOut()
+gdi32.dll|GdiConvertAndCheckDC(HDC)
+gdi32.dll|GdiConvertBitmap(HANDLE)
+gdi32.dll|GdiConvertBitmapV5(HANDLE)
+gdi32.dll|GdiConvertBrush(HANDLE)
+gdi32.dll|GdiConvertDC(HANDLE)
+gdi32.dll|GdiConvertEnhMetaFile(UNKNOWN)
+gdi32.dll|GdiConvertFont(HANDLE)
+gdi32.dll|GdiConvertMetaFilePict(HGLOBAL hMem)
+gdi32.dll|GdiConvertPalette(HANDLE)
+gdi32.dll|GdiConvertRegion(HANDLE)
+gdi32.dll|GdiConvertToDevmodeW(UNKNOWN)
+gdi32.dll|GdiCreateLocalEnhMetaFile(HENHMETAFILE)
+gdi32.dll|GdiCreateLocalMetaFilePict(HENHMETAFILE)
+gdi32.dll|GdiCurrentProcessSplWow64()
+gdi32.dll|GdiDeleteLocalDC(HDC)
+gdi32.dll|BOOL GdiDeleteSpoolFileHandle(HANDLE SpoolFileHandle)|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|GdiDescribePixelFormat()
+gdi32.dll|GdiDllInitialize(HMODULE hLibModule,int,int)
+
+; Unknown number of parameters
+!gdi32.dll|GdiDrawStream()
+gdi32.dll|BOOL GdiEndDocEMF(HANDLE SpoolFileHandle)
+gdi32.dll|BOOL GdiEndPageEMF(HANDLE SpoolFileHandle,DWORD dwOptimization)
+gdi32.dll|GdiEntry1(LPDDRAWI_DIRECTDRAW_GBL pDirectDrawGlobal,HDC hdc)|Out
+gdi32.dll|GdiEntry10(LPDDRAWI_DIRECTDRAW_GBL pDirectDrawGlobal,BOOL *pbNewMode)|Out
+gdi32.dll|GdiEntry11(LPDDRAWI_DDRAWSURFACE_LCL pSurfaceFrom,LPDDRAWI_DDRAWSURFACE_LCL pSurfaceTo)|Out
+gdi32.dll|GdiEntry12(LPDDRAWI_DDRAWSURFACE_LCL pSurface,LPDDRAWI_DDRAWSURFACE_LCL pSurfaceAttached)|Out
+gdi32.dll|GdiEntry13()
+gdi32.dll|GdiEntry14(LPDDRAWI_DIRECTDRAW_LCL pDDraw,LPDDRAWI_DDRAWSURFACE_LCL pSurface,BOOL bRelease)|Out
+gdi32.dll|GdiEntry15(LPDDRAWI_DIRECTDRAW_LCL pDDraw,HDC hdc,LPVOID lpGammaRamp)|Out
+gdi32.dll|GdiEntry16(LPDDRAWI_DIRECTDRAW_LCL pDDraw,LPDDRAWI_DDRAWSURFACE_LCL pDDSLcl1,LPDDRAWI_DDRAWSURFACE_LCL pDDSLcl2)|Out
+gdi32.dll|GdiEntry2(LPDDRAWI_DIRECTDRAW_GBL pDirectDrawGlobal,LPDDHALINFO pHalInfo,LPDDHAL_DDCALLBACKS pDDCallbacks,LPDDHAL_DDSURFACECALLBACKS pDDSurfaceCallbacks,LPDDHAL_DDPALETTECALLBACKS pDDPaletteCallbacks,LPD3DHAL_CALLBACKS pD3dCallbacks,LPD3DHAL_GLOBALDRIVERDATA pD3dDriverData,LPDDHAL_DDEXEBUFCALLBACKS pD3dBufferCallbacks,LPDDSURFACEDESC pD3dTextureFormats,LPDWORD pdwFourCC,LPVIDMEM pvmList)
+gdi32.dll|GdiEntry3(LPDDRAWI_DIRECTDRAW_GBL pDirectDrawGlobal)|Out
+gdi32.dll|GdiEntry4(LPDDRAWI_DDRAWSURFACE_LCL pSurfaceLocal,BOOL bPrimarySurface)|Out
+gdi32.dll|GdiEntry5(LPDDRAWI_DDRAWSURFACE_LCL pSurfaceLocal)|Out
+gdi32.dll|GdiEntry6(LPDDRAWI_DDRAWSURFACE_LCL pSurfaceLocal,HWND hWnd)|Out
+gdi32.dll|GdiEntry7(LPDDRAWI_DDRAWSURFACE_LCL pSurfaceLocal)|Out
+gdi32.dll|GdiEntry8(LPDDRAWI_DDRAWSURFACE_LCL pSurfaceLocal)|Out
+gdi32.dll|GdiEntry9(HDC hdc, BITMAPINFO *pbmi,UINT iUsage,VOID **ppvBits,HANDLE hSectionApp,DWORD dwOffset)|Out
+gdi32.dll|GdiFixUpHandle(UNKNOWN)
+gdi32.dll|BOOL GdiFlush()|FailureIfNullRet
+
+; Unknown number of parameters
+gdi32.dll|GdiFullscreenControl()
+gdi32.dll|DWORD GdiGetBatchLimit()
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetBitmapBitsSize()
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetCharDimensions()
+
+; Unknown number of parameters
+gdi32.dll|GdiGetCodePage()
+gdi32.dll|HDC GdiGetDC(HANDLE SpoolFileHandle)
+gdi32.dll|BOOL GdiGetDevmodeForPage(HANDLE SpoolFileHandle,DWORD dwPageNumber,PDEVMODEW* pCurrDM,PDEVMODEW* pLastDM)
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetEntry()
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetLocalBrush()
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetLocalDC()
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetLocalFont()
+gdi32.dll|DWORD GdiGetPageCount(HANDLE SpoolFileHandle)
+gdi32.dll|HANDLE GdiGetPageHandle(HANDLE SpoolFileHandle,DWORD Page,LPDWORD pdwPageType)
+gdi32.dll|HANDLE GdiGetSpoolFileHandle(LPWSTR pwszPrinterName,LPDEVMODEW pDevmode,LPWSTR pwszDocName)
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetSpoolMessage()
+
+; Unknown number of parameters
+!gdi32.dll|GdiGetVariationStoreDelta()
+gdi32.dll|BOOL GdiGradientFill(HDC hdc,PTRIVERTEX pVertex,ULONG nVertex,PVOID pMesh,ULONG nCount,ULONG ulMode)
+
+; Unknown number of parameters
+!gdi32.dll|GdiInitSpool()
+
+; Unknown number of parameters
+!gdi32.dll|GdiInitializeLanguagePack()
+
+; Unknown number of parameters
+!gdi32.dll|GdiIsMetaFileDC()
+
+; Unknown number of parameters
+!gdi32.dll|GdiIsMetaPrintDC()
+
+; Unknown number of parameters
+!gdi32.dll|GdiIsPlayMetafileDC()
+
+; Unknown number of parameters
+!gdi32.dll|GdiIsScreenDC()
+
+; Unknown number of parameters
+!gdi32.dll|GdiIsTrackingEnabled()
+
+; Unknown number of parameters
+!gdi32.dll|GdiIsUMPDSandboxingEnabled()
+
+; Unknown number of parameters
+!gdi32.dll|GdiLoadType1Fonts()
+
+; Unknown number of parameters
+!gdi32.dll|GdiPlayDCScript()
+
+; Unknown number of parameters
+!gdi32.dll|GdiPlayEMF()
+
+; Unknown number of parameters
+!gdi32.dll|GdiPlayJournal()
+
+gdi32.dll|BOOL GdiPlayPageEMF(HANDLE SpoolFileHandle,HANDLE hemf,RECT* prectDocument,RECT* prectBorder,RECT* prectClip)|Out|FailureIfNullRet
+gdi32.dll|GdiPlayPrivatePageEMF(UNKNOWN,UNKNOWN,UNKNOWN)
+
+; Unknown number of parameters
+!gdi32.dll|GdiPlayScript()
+
+; Unknown number of parameters
+!gdi32.dll|GdiPrinterThunk()
+
+; Unknown number of parameters
+!gdi32.dll|GdiProcessSetup()
+
+; Unknown number of parameters
+!gdi32.dll|GdiQueryFonts()
+
+; Unknown number of parameters
+!gdi32.dll|GdiQueryTable()
+
+; Unknown number of parameters
+!gdi32.dll|GdiRealizationInfo()
+
+; Unknown number of parameters
+!gdi32.dll|GdiReleaseDC()
+
+; Unknown number of parameters
+!gdi32.dll|GdiReleaseLocalDC()
+gdi32.dll|BOOL GdiResetDCEMF(HANDLE SpoolFileHandle,PDEVMODEW pCurrDM)
+
+; Unknown number of parameters
+!gdi32.dll|GdiSetAttrs()
+gdi32.dll|DWORD GdiSetBatchLimit(DWORD dw)
+
+; Unknown number of parameters
+!gdi32.dll|GdiSetLastError()
+
+; Unknown number of parameters
+!gdi32.dll|GdiSetPixelFormat()
+
+; Unknown number of parameters
+!gdi32.dll|GdiSetServerAttr()
+gdi32.dll|BOOL GdiStartDocEMF(HANDLE SpoolFileHandle,DOCINFOW* pDocInfo)|FailureIfNullRet
+gdi32.dll|BOOL GdiStartPageEMF(HANDLE SpoolFileHandle)
+
+; Unknown number of parameters
+!gdi32.dll|GdiSupportsFontChangeEvent()
+
+; Unknown number of parameters
+!gdi32.dll|GdiSwapBuffers()
+
+gdi32.dll|BOOL GdiTransparentBlt(HDC hdcDest,int xoriginDest,int yoriginDest,int wDest,int hDest,HDC hdcSrc,int xoriginSrc,int yoriginSrc,int wSrc,int hSrc,UINT crTransparent)
+gdi32.dll|GdiValidateHandle(UNKNOWN)
+gdi32.dll|int GetArcDirection(HDC hdc)
+gdi32.dll|BOOL GetAspectRatioFilterEx(HDC hdc,LPSIZE lpAspectRatio)|Out|FailureIfNullRet
+gdi32.dll|GetBitmapAttributes(UNKNOWN)
+gdi32.dll|LONG GetBitmapBits(HBITMAP hbmp,LONG cbBuffer,LPVOID lpvBits)|Out
+gdi32.dll|BOOL GetBitmapDimensionEx(HBITMAP hBitmap,LPSIZE lpDimension)|Out|FailureIfNullRet
+gdi32.dll|COLORREF GetBkColor(HDC hdc)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|int GetBkMode(HDC hdc)
+gdi32.dll|UINT GetBoundsRect(HDC hdc,LPRECT lprcBounds,UINT flags)|Out
+
+; Unknown number of parameters
+!gdi32.dll|GetBrushAttributes()
+gdi32.dll|BOOL GetBrushOrgEx(HDC hdc,LPPOINT lppt)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|GetCOPPCompatibleOPMInformation()
+
+; Unknown number of parameters
+!gdi32.dll|GetCertificate()
+
+; Unknown number of parameters
+!gdi32.dll|GetCertificateByHandle()
+gdi32.dll|HRESULT GetCertificateSize(UINT *pCertificateSize)|Out
+
+; Unknown number of parameters
+!gdi32.dll|GetCertificateSizeByHandle()
+gdi32.dll|BOOL GetCharABCWidthsA(HDC hdc,UINT uFirstChar,UINT uLastChar,LPABC lpabc)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharABCWidthsFloatA(HDC hdc,UINT iFirstChar,UINT iLastChar,LPABCFLOAT lpABCF)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|GetCharABCWidthsFloatI()
+gdi32.dll|BOOL GetCharABCWidthsFloatW(HDC hdc,UINT iFirstChar,UINT iLastChar,LPABCFLOAT lpABCF)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharABCWidthsI(HDC hdc,UINT giFirst,UINT cgi,LPWORD pgi,LPABC lpabc)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharABCWidthsW(HDC hdc,UINT uFirstChar,UINT uLastChar,LPABC lpabc)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharWidth32A(HDC hdc,UINT uFirstChar,UINT uLastChar,UNKNOWN)
+gdi32.dll|BOOL GetCharWidth32W(HDC hdc,UINT uFirstChar,UINT uLastChar,UNKNOWN)
+gdi32.dll|BOOL GetCharWidthA(HDC hdc,UINT iFirstChar,UINT iLastChar,LPINT lpBuffer)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharWidthFloatA(HDC hdc,UINT iFirstChar,UINT iLastChar,PFLOAT pxBuffer)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharWidthFloatW(HDC hdc,UINT iFirstChar,UINT iLastChar,PFLOAT pxBuffer)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetCharWidthI(HDC hdc,UINT giFirst,UINT cgi,LPWORD pgi,LPINT lpBuffer)|Out|FailureIfNullRet
+gdi32.dll|GetCharWidthInfo(HDC hdc,UNKNOWN)|FailureIfNullRet
+gdi32.dll|BOOL GetCharWidthW(HDC hdc,UINT iFirstChar,UINT iLastChar,LPINT lpBuffer)|Out|FailureIfNullRet
+gdi32.dll|DWORD GetCharacterPlacementA(HDC hdc,LPCSTR lpString,int nCount,int nMaxExtent,LPGCP_RESULTSA lpResults,DWORD dwFlags)|Out
+gdi32.dll|DWORD GetCharacterPlacementW(HDC hdc,LPCWSTR lpString,int nCount,int nMaxExtent,LPGCP_RESULTSW lpResults,DWORD dwFlags)|Out
+gdi32.dll|int GetClipBox(HDC hdc,LPRECT lprect)|Out
+gdi32.dll|int GetClipRgn(HDC hdc,HRGN hrgn)
+gdi32.dll|BOOL GetColorAdjustment(HDC hdc,LPCOLORADJUSTMENT lpca)|Out
+gdi32.dll|HCOLORSPACE GetColorSpace(HDC hdc)
+
+; Unknown number of parameters
+!gdi32.dll|GetCurrentDpiInfo()
+gdi32.dll|HGDIOBJ GetCurrentObject(HDC hdc,UINT uObjectType)
+gdi32.dll|BOOL GetCurrentPositionEx(HDC hdc,LPPOINT lpPoint)|Out
+gdi32.dll|COLORREF GetDCBrushColor(HDC hdc)
+
+; Unknown number of parameters
+!gdi32.dll|GetDCDpiScaleValue()
+gdi32.dll|BOOL GetDCOrgEx(HDC hdc,LPPOINT lpPoint)|Out
+gdi32.dll|COLORREF GetDCPenColor(HDC hdc)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|UINT GetDIBColorTable(HDC hdc,UINT uStartIndex,UINT cEntries,RGBQUAD* pColors)|Out
+gdi32.dll|int GetDIBits(HDC hdc,HBITMAP hbmp,UINT uStartScan,UINT cScanLines,LPVOID lpvBits,LPBITMAPINFO lpbi,UINT uUsage)|Out
+gdi32.dll|int GetDeviceCaps(HDC hdc,int nIndex)
+gdi32.dll|BOOL GetDeviceGammaRamp(HDC hDC,LPVOID lpRamp)|Out|FailureIfNullRet
+gdi32.dll|GetETM(HDC,int)
+
+; Unknown number of parameters
+!gdi32.dll|GetEUDCTimeStamp()
+
+; Unknown number of parameters
+!gdi32.dll|GetEUDCTimeStampExW()
+gdi32.dll|HENHMETAFILE GetEnhMetaFileA(LPCSTR lpszMetaFile)
+gdi32.dll|UINT GetEnhMetaFileBits(HENHMETAFILE hemf,UINT cbBuffer,LPBYTE lpbBuffer)|Out
+gdi32.dll|UINT GetEnhMetaFileDescriptionA(HENHMETAFILE hemf,UINT cchBuffer,LPSTR lpszDescription)|Out
+gdi32.dll|UINT GetEnhMetaFileDescriptionW(HENHMETAFILE hemf,UINT cchBuffer,LPWSTR lpszDescription)|Out
+gdi32.dll|UINT GetEnhMetaFileHeader(HENHMETAFILE hemf,UINT cbBuffer,LPENHMETAHEADER lpemh)|Out
+gdi32.dll|UINT GetEnhMetaFilePaletteEntries(HENHMETAFILE hemf,UINT cEntries,LPPALETTEENTRY lppe)|Out
+gdi32.dll|UINT GetEnhMetaFilePixelFormat(HENHMETAFILE hemf,DWORD cbBuffer,PIXELFORMATDESCRIPTOR* ppfd)|Out
+gdi32.dll|HENHMETAFILE GetEnhMetaFileW(LPCWSTR lpszMetaFile)|FailureIfNullRet
+gdi32.dll|GetFontAssocStatus(UNKNOWN)
+gdi32.dll|DWORD GetFontData(HDC hdc,DWORD dwTable,DWORD dwOffset,LPVOID lpvBuffer,DWORD cbData)|Out
+
+; Unknown number of parameters
+!gdi32.dll|GetFontFileData()
+
+; Unknown number of parameters
+!gdi32.dll|GetFontFileInfo()
+gdi32.dll|DWORD GetFontLanguageInfo(HDC hdc)
+
+; Unknown number of parameters
+!gdi32.dll|GetFontRealizationInfo()
+
+gdi32.dll|GetFontResourceInfoW(LPCWSTR lpFileName,int,int,int)
+gdi32.dll|DWORD GetFontUnicodeRanges(HDC hdc,LPGLYPHSET lpgs)|Out
+gdi32.dll|DWORD GetGlyphIndicesA(HDC hdc,LPCSTR lpstr,int c,LPWORD pgi,DWORD fl)|Out
+gdi32.dll|DWORD GetGlyphIndicesW(HDC hdc,LPCWSTR lpstr,int c,LPWORD pgi,DWORD fl)|Out
+; GetGlyphOutlineA has the same entry point as GetGlyphOutline
+;gdi32.dll|DWORD GetGlyphOutline(HDC hdc,UINT uChar,UINT uFormat,LPGLYPHMETRICS lpgm,DWORD cbBuffer,LPVOID lpvBuffer,MAT2* lpmat2)|Out
+gdi32.dll|DWORD GetGlyphOutlineA(HDC hdc,UINT uChar,UINT uFormat,LPGLYPHMETRICS lpgm,DWORD cbBuffer,LPVOID lpvBuffer,MAT2* lpmat2)|Out
+gdi32.dll|DWORD GetGlyphOutlineW(HDC hdc,UINT uChar,UINT uFormat,LPGLYPHMETRICS lpgm,DWORD cbBuffer,LPVOID lpvBuffer,MAT2* lpmat2)|Out
+gdi32.dll|GetGlyphOutlineWow(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+gdi32.dll|int GetGraphicsMode(HDC hdc)
+gdi32.dll|GetHFONT(HFONT hfont)|FailureIfNullRet
+gdi32.dll|BOOL GetICMProfileA(HDC hDC,LPDWORD lpcbName,LPSTR lpszFilename)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetICMProfileW(HDC hDC,LPDWORD lpcbName,LPWSTR lpszFilename)|Out|FailureIfNullRet
+gdi32.dll|DWORD GetKerningPairs(HDC hdc,DWORD nNumPairs,LPKERNINGPAIR lpkrnpair)|Out
+; GetKerningPairsA has the same entry point as GetKerningPairs
+!gdi32.dll|DWORD GetKerningPairsA(HDC hdc,DWORD nNumPairs,LPKERNINGPAIR lpkrnpair)|Out
+gdi32.dll|DWORD GetKerningPairsW(HDC hdc,DWORD nNumPairs,LPKERNINGPAIR lpkrnpair)|Out
+gdi32.dll|DWORD GetLayout(HDC hdc)
+gdi32.dll|BOOL GetLogColorSpaceA(HCOLORSPACE hColorSpace,LPLOGCOLORSPACE lpBuffer,DWORD nSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetLogColorSpaceW(HCOLORSPACE hColorSpace,LPLOGCOLORSPACE lpBuffer,DWORD nSize)|Out|FailureIfNullRet
+gdi32.dll|int GetMapMode(HDC hdc)
+gdi32.dll|HMETAFILE GetMetaFileA(LPCSTR lpName)
+gdi32.dll|UINT GetMetaFileBitsEx(HMETAFILE hMF,UINT cbBuffer,LPVOID lpData)|Out
+gdi32.dll|HMETAFILE GetMetaFileW(LPCWSTR lpName)
+gdi32.dll|int GetMetaRgn(HDC hdc,HRGN hrgn)
+gdi32.dll|BOOL GetMiterLimit(HDC hdc,PFLOAT plimit)|Out
+gdi32.dll|COLORREF GetNearestColor(HDC hdc,COLORREF crColor)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|UINT GetNearestPaletteIndex(HPALETTE hpal,COLORREF crColor)
+gdi32.dll|NTSTATUS GetNumberOfPhysicalMonitors(UNICODE_STRING* pstrDeviceName,LPDWORD pdwNumberOfPhysicalMonitors)|Out|FailureIfNotNullRet
+gdi32.dll|NTSTATUS GetOPMInformation(OPM_PROTECTED_OUTPUT_HANDLE opoOPMProtectedOutput,DXGKMDT_OPM_GET_INFO_PARAMETERS* pParameters,DXGKMDT_OPM_REQUESTED_INFORMATION* pRequestedInformation)|Out|FailureIfNotNullRet
+gdi32.dll|NTSTATUS GetOPMRandomNumber(OPM_PROTECTED_OUTPUT_HANDLE opoOPMProtectedOutput,DXGKMDT_OPM_RANDOM_NUMBER* prnRandomNumber)|Out|FailureIfNotNullRet
+gdi32.dll|int GetObjectA(HANDLE h,int c,LPVOID pv)|Out|FailureIfNullRet
+gdi32.dll|DWORD GetObjectType(HGDIOBJ h)
+gdi32.dll|int GetObjectW(HANDLE h,int c,LPVOID pv)|Out|FailureIfNullRet
+gdi32.dll|UINT GetOutlineTextMetricsA(HDC hdc,UINT cbData,LPOUTLINETEXTMETRICA lpOTM)|Out
+gdi32.dll|UINT GetOutlineTextMetricsW(HDC hdc,UINT cbData,LPOUTLINETEXTMETRICW lpOTM)|Out
+gdi32.dll|UINT GetPaletteEntries(HPALETTE hpal,UINT iStartIndex,UINT nEntries,LPPALETTEENTRY pPalEntries)|Out
+gdi32.dll|int GetPath(HDC hdc,LPPOINT apt,LPBYTE aj,int cpt)|Out
+gdi32.dll|NTSTATUS GetPhysicalMonitorDescription(HANDLE hMonitor,DWORD dwPhysicalMonitorDescriptionSizeInChars,LPWSTR szPhysicalMonitorDescription)|FailureIfNotNullRet
+gdi32.dll|NTSTATUS GetPhysicalMonitors(UNICODE_STRING *pstrDeviceName,DWORD dwPhysicalMonitorArraySize,DWORD* pdwNumPhysicalMonitorHandlesInArray,HANDLE* phPhysicalMonitorArray)|FailureIfNotNullRet
+gdi32.dll|COLORREF GetPixel(HDC hdc,int nXPos,int nYPos)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|int GetPixelFormat(HDC hdc)
+gdi32.dll|int GetPolyFillMode(HDC hdc)
+
+; Unknown number of parameters
+!gdi32.dll|GetProcessSessionFonts()
+gdi32.dll|int GetROP2(HDC hdc)
+gdi32.dll|int GetRandomRgn(HDC hdc,HRGN hrgn,int iNum)
+gdi32.dll|BOOL GetRasterizerCaps(LPRASTERIZER_STATUS lprs,UINT cb)|Out|FailureIfNullRet
+gdi32.dll|DWORD GetRegionData(HRGN hRgn,DWORD dwCount,LPRGNDATA lpRgnData)|Out
+gdi32.dll|GetRelAbs(UNKNOWN)
+gdi32.dll|int GetRgnBox(HRGN hrgn,LPRECT lprc)|Out
+gdi32.dll|HGDIOBJ GetStockObject(int fnObject)|FailureIfNullRet
+gdi32.dll|int GetStretchBltMode(HDC hdc)
+gdi32.dll|GetStringBitmapA(int,LPCSTR lpMultiByteStr,WCHAR WideCharStr,int,int)
+gdi32.dll|GetStringBitmapW(int,LPCWSTR lpMultiByteStr,WCHAR WideCharStr,int,int)
+
+; Unknown number of parameters
+!gdi32.dll|GetSuggestedOPMProtectedOutputArraySize()
+gdi32.dll|UINT GetSystemPaletteEntries(HDC hdc,UINT iStartIndex,UINT nEntries,LPPALETTEENTRY lppe)|Out
+gdi32.dll|UINT GetSystemPaletteUse(HDC hdc)
+gdi32.dll|UINT GetTextAlign(HDC hdc)
+gdi32.dll|int GetTextCharacterExtra(HDC hdc)
+gdi32.dll|int GetTextCharset(HDC hdc)
+gdi32.dll|int GetTextCharsetInfo(HDC hdc,LPFONTSIGNATURE lpSig,DWORD dwFlags)|Out
+gdi32.dll|COLORREF GetTextColor(HDC hdc)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|BOOL GetTextExtentExPointA(HDC hdc,LPCSTR lpszStr,int cchString,int nMaxExtent,LPINT lpnFit,LPINT alpDx,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextExtentExPointI(HDC hdc,LPWORD pgiIn,int cgi,int nMaxExtent,LPINT lpnFit,LPINT alpDx,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextExtentExPointW(HDC hdc,LPCWSTR lpszStr,int cchString,int nMaxExtent,LPINT lpnFit,LPINT alpDx,LPSIZE lpSize)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|GetTextExtentExPointWPri()
+gdi32.dll|BOOL GetTextExtentPoint32A(HDC hdc,LPCSTR lpString,int cbString,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextExtentPoint32W(HDC hdc,LPCWSTR lpString,int cbString,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextExtentPointA(HDC hdc,LPCSTR lpString,int cbString,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextExtentPointI(HDC hdc,LPWORD pgiIn,int cgi,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextExtentPointW(HDC hdc,LPCWSTR lpString,int cbString,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|int GetTextFaceA(HDC hdc,int nCount,LPSTR lpFaceName)|Out|FailureIfNullRet
+gdi32.dll|GetTextFaceAliasW(HDC hdc,int nCount,LPWSTR lpFaceAlias)|Out|FailureIfNullRet
+gdi32.dll|int GetTextFaceW(HDC hdc,int nCount,LPWSTR lpFaceName)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextMetricsA(HDC hdc,LPTEXTMETRICA lptm)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetTextMetricsW(HDC hdc,LPTEXTMETRICW lptm)|Out|FailureIfNullRet
+gdi32.dll|Status GetTransform(Matrix* matrix)|Out
+gdi32.dll|BOOL GetViewportExtEx(HDC hdc,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetViewportOrgEx(HDC hdc,LPPOINT lpPoint)|Out|FailureIfNullRet
+gdi32.dll|UINT GetWinMetaFileBits(HENHMETAFILE hemf,UINT cbBuffer,LPBYTE lpbBuffer,int fnMapMode,HDC hdcRef)|Out
+gdi32.dll|BOOL GetWindowExtEx(HDC hdc,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetWindowOrgEx(HDC hdc,LPPOINT lpPoint)|Out|FailureIfNullRet
+gdi32.dll|BOOL GetWorldTransform(HDC hdc,LPXFORM lpXform)|Out|FailureIfNullRet
+gdi32.dll|LONG HT_Get8BPPFormatPalette(LPPALETTEENTRY pPaletteEntry,USHORT RedGamma,USHORT GreenGamma,USHORT BlueGamma)|Out
+gdi32.dll|LONG HT_Get8BPPMaskPalette(LPPALETTEENTRY pPaletteEntry,BOOL Use8BPPMaskPal,BYTE CMYMask,USHORT RedGamma,USHORT GreenGamma,USHORT BlueGamma)|Out
+
+; Unknown number of parameters
+!gdi32.dll|InternalDeleteDC()
+
+; Unknown number of parameters
+!gdi32.dll|InternalDeleteObject()
+
+gdi32.dll|int IntersectClipRect(HDC hdc,int left,int top,int right,int bottom)
+gdi32.dll|BOOL InvertRgn(HDC hdc,HRGN hrgn)|FailureIfNullRet
+gdi32.dll|BOOL LPtoDP(HDC hdc,LPPOINT lpPoints,int nCount)|Out|FailureIfNullRet
+gdi32.dll|BOOL LineDDA(int nXStart,int nYStart,int nXEnd,int nYEnd,LINEDDAPROC lpLineFunc,LPARAM lpData)|Out|FailureIfNullRet
+gdi32.dll|BOOL LineTo(HDC hdc,int nXEnd,int nYEnd)|FailureIfNullRet
+gdi32.dll|BOOL MaskBlt(HDC hdcDest,int nXDest,int nYDest,int nWidth,int nHeight,HDC hdcSrc,int nXSrc,int nYSrc,HBITMAP hbmMask,int xMask,int yMask,DWORD dwRop)|FailureIfNullRet
+gdi32.dll|MirrorRgn(HWND hWnd,HRGN)
+gdi32.dll|BOOL ModifyWorldTransform(HDC hdc,XFORM* lpXform,DWORD iMode)|Out|FailureIfNullRet
+gdi32.dll|BOOL MoveToEx(HDC hdc,int X,int Y,LPPOINT lpPoint)|Out|FailureIfNullRet
+gdi32.dll|NamedEscape(int,wchar_t* ,int,int,int,int,int)
+gdi32.dll|int OffsetClipRgn(HDC hdc,int nXOffset,int nYOffset)
+gdi32.dll|int OffsetRgn(HRGN hrgn,int nXOffset,int nYOffset)
+gdi32.dll|BOOL OffsetViewportOrgEx(HDC hdc,int nXOffset,int nYOffset,LPPOINT lpPoint)|Out|FailureIfNullRet
+gdi32.dll|BOOL OffsetWindowOrgEx(HDC hdc,int nXOffset,int nYOffset,LPPOINT lpPoint)|Out|FailureIfNullRet
+gdi32.dll|BOOL PATHOBJ_bEnum(PATHOBJ* ppo,PATHDATA* ppd)|Out|FailureIfNullRet
+gdi32.dll|BOOL PATHOBJ_bEnumClipLines(PATHOBJ* ppo,ULONG cb,CLIPLINE* pcl)|Out|FailureIfNullRet
+gdi32.dll|VOID PATHOBJ_vEnumStart(PATHOBJ* ppo)|Out
+gdi32.dll|VOID PATHOBJ_vEnumStartClipLines(PATHOBJ* ppo,CLIPOBJ* pco,SURFOBJ* pso,LINEATTRS* pla)|Out
+gdi32.dll|VOID PATHOBJ_vGetBounds(PATHOBJ* ppo,PRECTFX prectfx)|Out
+gdi32.dll|BOOL PaintRgn(HDC hdc,HRGN hrgn)|FailureIfNullRet
+gdi32.dll|BOOL PatBlt(HDC hdc,int nXLeft,int nYLeft,int nWidth,int nHeight,DWORD dwRop)|FailureIfNullRet
+gdi32.dll|HRGN PathToRegion(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL Pie(HDC hdc,int nLeftRect,int nTopRect,int nRightRect,int nBottomRect,int nXRadial1,int nYRadial1,int nXRadial2,int nYRadial2)|FailureIfNullRet
+gdi32.dll|BOOL PlayEnhMetaFile(HDC hdc,HENHMETAFILE hemf,RECT* lpRect)|Out|FailureIfNullRet
+gdi32.dll|BOOL PlayEnhMetaFileRecord(HDC hdc,LPHANDLETABLE lpHandletable,ENHMETARECORD* lpEnhMetaRecord,UINT nHandles)|Out|FailureIfNullRet
+gdi32.dll|BOOL PlayMetaFile(HDC hdc,HMETAFILE hmf)|FailureIfNullRet
+gdi32.dll|BOOL PlayMetaFileRecord(HDC hdc,LPHANDLETABLE lpHandletable,LPMETARECORD lpMetaRecord,UINT nHandles)|Out|FailureIfNullRet
+gdi32.dll|BOOL PlgBlt(HDC hdcDest,POINT* lpPoint,HDC hdcSrc,int nXSrc,int nYSrc,int nWidth,int nHeight,HBITMAP hbmMask,int xMask,int yMask)|Out|FailureIfNullRet
+gdi32.dll|BOOL PolyBezier(HDC hdc,POINT* lppt,DWORD cPoints)|Out|FailureIfNullRet
+gdi32.dll|BOOL PolyBezierTo(HDC hdc,POINT* lppt,DWORD cCount)|Out|FailureIfNullRet
+gdi32.dll|BOOL PolyDraw(HDC hdc,POINT* lppt,BYTE* lpbTypes,int cCount)|Out|FailureIfNullRet
+gdi32.dll|PolyPatBlt(HDC,DWORD,int,int,int)
+gdi32.dll|BOOL PolyPolygon(HDC hdc,POINT* lpPoints,INT* lpPolyCounts,int nCount)|Out|FailureIfNullRet
+gdi32.dll|BOOL PolyPolyline(HDC hdc,POINT* lppt,DWORD* lpdwPolyPoints,DWORD cCount)|Out|FailureIfNullRet
+gdi32.dll|BOOL PolyTextOutA(HDC hdc,POLYTEXT* pptxt,int cStrings)|Out|FailureIfNullRet
+gdi32.dll|BOOL PolyTextOutW(HDC hdc,POLYTEXT* pptxt,int cStrings)|Out|FailureIfNullRet
+gdi32.dll|BOOL Polygon(HDC hdc,POINT* apt,int cpt)
+gdi32.dll|BOOL Polyline(HDC hdc,POINT* apt,int cpt)
+gdi32.dll|BOOL PolylineTo(HDC hdc,POINT* lppt,DWORD cCount)|Out|FailureIfNullRet
+gdi32.dll|BOOL PtInRegion(HRGN hrgn,int X,int Y)
+gdi32.dll|BOOL PtVisible(HDC hdc,int x,int y)
+
+; Unknown number of parameters
+!gdi32.dll|QueryFontAssocStatus()
+gdi32.dll|UINT RealizePalette(HDC hdc)
+gdi32.dll|BOOL RectInRegion(HRGN hrgn,RECT* lprect)
+gdi32.dll|BOOL RectVisible(HDC hdc,RECT* lprect)
+gdi32.dll|BOOL Rectangle(HDC hdc,int left,int top,int right,int bottom)
+gdi32.dll|BOOL RemoveFontMemResourceEx(HANDLE fh)|FailureIfNullRet
+gdi32.dll|BOOL RemoveFontResourceA(LPCSTR lpFileName)|FailureIfNullRet
+gdi32.dll|BOOL RemoveFontResourceExA(LPCSTR lpFileName,DWORD fl,PVOID pdv)|Out|FailureIfNullRet
+gdi32.dll|BOOL RemoveFontResourceExW(LPCWSTR lpFileName,DWORD fl,PVOID pdv)|Out|FailureIfNullRet
+gdi32.dll|RemoveFontResourceTracking(LPCSTR lpString,int)
+gdi32.dll|BOOL RemoveFontResourceW(LPCWSTR lpFileName)|FailureIfNullRet
+gdi32.dll|HDC ResetDCA(HDC hdc,DEVMODEA* lpdm)
+gdi32.dll|HDC ResetDCW(HDC hdc,DEVMODEW* lpdm)
+gdi32.dll|BOOL ResizePalette(HPALETTE hpal,UINT nEntries)|FailureIfNullRet
+gdi32.dll|BOOL RestoreDC(HDC hdc,int nSavedDC)|FailureIfNullRet
+gdi32.dll|BOOL RoundRect(HDC hdc,int nLeftRect,int nTopRect,int nRightRect,int nBottomRect,int nWidth,int nHeight)|FailureIfNullRet
+gdi32.dll|BOOL STROBJ_bEnum(STROBJ* pstro,ULONG* pc,PGLYPHPOS* ppgpos)|Out|FailureIfNullRet
+gdi32.dll|BOOL STROBJ_bEnumPositionsOnly(STROBJ* pstro,ULONG* pc,PGLYPHOS** ppgpos)|Out|FailureIfNullRet
+gdi32.dll|BOOL STROBJ_bGetAdvanceWidths(STROBJ* pso,ULONG iFirst,ULONG c,POINTQF* pptqD)|Out|FailureIfNullRet
+gdi32.dll|DWORD STROBJ_dwGetCodePage(STROBJ* pstro)|Out
+gdi32.dll|VOID STROBJ_vEnumStart(STROBJ* pstro)|Out
+gdi32.dll|int SaveDC(HDC hdc)
+
+; Unknown number of parameters
+!gdi32.dll|ScaleRgn()
+
+; Unknown number of parameters
+!gdi32.dll|ScaleValues()
+
+gdi32.dll|BOOL ScaleViewportExtEx(HDC hdc,int xn,int dx,int yn,int yd,LPSIZE lpsz)|Out|FailureIfNullRet
+gdi32.dll|BOOL ScaleWindowExtEx(HDC hdc,int xn,int xd,int yn,int yd,LPSIZE lpsz)|Out|FailureIfNullRet
+
+;ScriptApplyDigitSubstitution() in gdi32.dll is a forwarded function for ScriptApplyDigitSubstitution() in gdi32full.dll
+gdi32.dll|HRESULT ScriptApplyDigitSubstitution(SCRIPT_DIGITSUBSTITUTE* psds,SCRIPT_CONTROL* psc,SCRIPT_STATE* pss)|Out
+
+;ScriptApplyLogicalWidth() in gdi32.dll is a forwarded function for ScriptApplyLogicalWidth() in gdi32full.dll
+gdi32.dll|HRESULT ScriptApplyLogicalWidth(int* piDx,int cChars,int cGlyphs,WORD* pwLogClust,SCRIPT_VISATTR* psva,int* piAdvance,SCRIPT_ANALYSIS* psa,ABC* pABC,int* piJustify)|Out
+
+;ScriptBreak() in gdi32.dll is a forwarded function for ScriptBreak() in gdi32full.dll
+gdi32.dll|HRESULT ScriptBreak(WCHAR* pwcChars,int cChars,SCRIPT_ANALYSIS* psa,SCRIPT_LOGATTR* psla)|Out
+
+;ScriptCPtoX() in gdi32.dll is a forwarded function for ScriptCPtoX() in gdi32full.dll
+gdi32.dll|HRESULT ScriptCPtoX(int iCP,BOOL fTrailing,int cChars,int cGlyphs,WORD* pwLogClust,SCRIPT_VISATTR* psva,int* piAdvance,SCRIPT_ANALYSIS* psa,int* piX)
+
+;ScriptCacheGetHeight() in gdi32.dll is a forwarded function for ScriptCacheGetHeight() in gdi32full.dll
+gdi32.dll|HRESULT ScriptCacheGetHeight(HDC hdc,SCRIPT_CACHE* psc,long* tmHeight)|Out
+
+;ScriptFreeCache() in gdi32.dll is a forwarded function for ScriptFreeCache() in gdi32full.dll
+gdi32.dll|HRESULT ScriptFreeCache(SCRIPT_CACHE* psc)|Out
+
+;ScriptGetCMap() in gdi32.dll is a forwarded function for ScriptGetCMap() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetCMap(HDC hdc,SCRIPT_CACHE* psc,WCHAR* pwcInChars,int cChars,DWORD dwFlags,WORD* pwOutGlyphs)|Out
+
+;ScriptGetFontAlternateGlyphs() in gdi32.dll is a forwarded function for ScriptGetFontAlternateGlyphs() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetFontAlternateGlyphs(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,OPENTYPE_TAG tagLangSys,OPENTYPE_TAG tagFeature,WORD wGlyphId,int cMaxAlternates,WORD* pAlternateGlyphs,int* pcAlternates)|Out
+
+;ScriptGetFontFeatureTags() in gdi32.dll is a forwarded function for ScriptGetFontFeatureTags() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetFontFeatureTags(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,OPENTYPE_TAG tagLangSys,int cMaxTags,OPENTYPE_TAG* pFeatureTags,int* pcTags)|Out
+
+;ScriptGetFontLanguageTags() in gdi32.dll is a forwarded function for ScriptGetFontLanguageTags() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetFontLanguageTags(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,int cMaxTags,OPENTYPE_TAG* pLangsysTags,int* pcTags)|Out
+
+;ScriptGetFontProperties() in gdi32.dll is a forwarded function for ScriptGetFontProperties() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetFontProperties(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_FONTPROPERTIES* sfp)|Out
+
+;ScriptGetFontScriptTags() in gdi32.dll is a forwarded function for ScriptGetFontScriptTags() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetFontScriptTags(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,int cMaxTags,OPENTYPE_TAG* pScriptTags,int* pcTags)|Out
+
+;ScriptGetGlyphABCWidth() in gdi32.dll is a forwarded function for ScriptGetGlyphABCWidth() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetGlyphABCWidth(HDC hdc,SCRIPT_CACHE* psc,WORD wGlyph,ABC* pABC)|Out
+
+;ScriptGetLogicalWidths() in gdi32.dll is a forwarded function for ScriptGetLogicalWidths() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetLogicalWidths(SCRIPT_ANALYSIS* psa,int cChars,int cGlyphs,int* piGlyphWidth,WORD* pwLogClust,SCRIPT_VISATTR* psva,int* piDx)
+
+;ScriptGetProperties() in gdi32.dll is a forwarded function for ScriptGetProperties() in gdi32full.dll
+gdi32.dll|HRESULT ScriptGetProperties(SCRIPT_PROPERTIES* **ppSp,int* piNumScripts)|Out
+
+;ScriptIsComplex() in gdi32.dll is a forwarded function for ScriptIsComplex() in gdi32full.dll
+gdi32.dll|HRESULT ScriptIsComplex(WCHAR* pwcInChars,int cInChars,DWORD dwFlags)
+
+;ScriptItemize() in gdi32.dll is a forwarded function for ScriptItemize() in gdi32full.dll
+gdi32.dll|HRESULT ScriptItemize(WCHAR* pwcInChars,int cInChars,int cMaxItems,SCRIPT_CONTROL* psControl,SCRIPT_STATE* psState,SCRIPT_ITEM* pItems,int* pcItems)|Out
+
+;ScriptItemizeOpenType() in gdi32.dll is a forwarded function for ScriptItemizeOpenType() in gdi32full.dll
+gdi32.dll|HRESULT ScriptItemizeOpenType(WCHAR* pwcInChars,int cInChars,int cMaxItems,SCRIPT_CONTROL* psControl,SCRIPT_STATE* psState,SCRIPT_ITEM* pItems,OPENTYPE_TAG* pScriptTags,int* pcItems)|Out
+
+;ScriptJustify() in gdi32.dll is a forwarded function for ScriptJustify() in gdi32full.dll
+gdi32.dll|HRESULT ScriptJustify(SCRIPT_VISATTR* psva,int* piAdvance,int cGlyphs,int iDx,int iMinKashida,int* piJustify)|Out
+
+;ScriptLayout() in gdi32.dll is a forwarded function for ScriptLayout() in gdi32full.dll
+gdi32.dll|HRESULT ScriptLayout(int cRuns,BYTE* pbLevel,int* piVisualToLogical,int* piLogicalToVisual)|Out
+
+;ScriptPlace() in gdi32.dll is a forwarded function for ScriptPlace() in gdi32full.dll
+gdi32.dll|HRESULT ScriptPlace(HDC hdc,SCRIPT_CACHE* psc,WORD* pwGlyphs,int cGlyphs,SCRIPT_VISATTR* psva,SCRIPT_ANALYSIS* psa,int* piAdvance,GOFFSET* pGoffset,ABC* pABC)|Out
+
+;ScriptPlaceOpenType() in gdi32.dll is a forwarded function for ScriptPlaceOpenType() in gdi32full.dll
+gdi32.dll|HRESULT ScriptPlaceOpenType(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,OPENTYPE_TAG tagLangSys,int* rcRangeChars,TEXTRANGE_PROPERTIES* *rpRangeProperties,int cRanges,WCHAR* pwcChars,WORD* pwLogClust,SCRIPT_CHARPROP* pCharProps,int cChars,WORD* pwGlyphs,SCRIPT_GLYPHPROP* pGlyphProps,int cGlyphs,int* piAdvance,GOFFSET* pGoffset,ABC* pABC)|Out
+
+;ScriptPositionSingleGlyph() in gdi32.dll is a forwarded function for ScriptPositionSingleGlyph() in gdi32full.dll
+gdi32.dll|HRESULT ScriptPositionSingleGlyph(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,OPENTYPE_TAG tagLangSys,OPENTYPE_TAG tagFeature,LONG lParameter,WORD wGlyphId,int iAdvance,GOFFSET GOffset,int* piOutAdvance,GOFFSET* pOutGoffset)|Out
+
+;ScriptRecordDigitSubstitution() in gdi32.dll is a forwarded function for ScriptRecordDigitSubstitution() in gdi32full.dll
+gdi32.dll|HRESULT ScriptRecordDigitSubstitution(LCID Locale,SCRIPT_DIGITSUBSTITUTE* psds)|Out
+
+;ScriptShape() in gdi32.dll is a forwarded function for ScriptShape() in gdi32full.dll
+gdi32.dll|HRESULT ScriptShape(HDC hdc,SCRIPT_CACHE* psc,WCHAR* pwcChars,int cChars,int cMaxGlyphs,SCRIPT_ANALYSIS* psa,WORD* pwOutGlyphs,WORD* pwLogClust,SCRIPT_VISATTR* psva,int* pcGlyphs)|Out
+
+;ScriptShapeOpenType() in gdi32.dll is a forwarded function for ScriptShapeOpenType() in gdi32full.dll
+gdi32.dll|HRESULT ScriptShapeOpenType(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,OPENTYPE_TAG tagLangSys,int* rcRangeChars,TEXTRANGE_PROPERTIES* *rpRangeProperties,int cRanges,WCHAR* pwcChars,int cChars,int cMaxGlyphs,WORD* pwLogClust,SCRIPT_CHARPROP* pCharProps,WORD* pwOutGlyphs,SCRIPT_GLYPHPROP* pOutGlyphProps,int* pcGlyphs)|Out
+
+;ScriptStringAnalyse() in gdi32.dll is a forwarded function for ScriptStringAnalyse() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringAnalyse(HDC hdc,void* pString,int cString,int cGlyphs,int iCharset,DWORD dwFlags,int iReqWidth,SCRIPT_CONTROL* psControl,SCRIPT_STATE* psState,int* piDx,SCRIPT_TABDEF* pTabdef,BYTE* pbInClass,SCRIPT_STRING_ANALYSIS* pssa)|Out
+
+;ScriptStringCPtoX() in gdi32.dll is a forwarded function for ScriptStringCPtoX() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringCPtoX(SCRIPT_STRING_ANALYSIS ssa,int icp,BOOL fTrailing,int* pX)|Out
+
+;ScriptStringFree() in gdi32.dll is a forwarded function for ScriptStringFree() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringFree(SCRIPT_STRING_ANALYSIS* pssa)|Out
+
+;ScriptStringGetLogicalWidths() in gdi32.dll is a forwarded function for ScriptStringGetLogicalWidths() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringGetLogicalWidths(SCRIPT_STRING_ANALYSIS ssa,int* piDx)
+
+;ScriptStringGetOrder() in gdi32.dll is a forwarded function for ScriptStringGetOrder() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringGetOrder(SCRIPT_STRING_ANALYSIS ssa,UINT* puOrder)
+
+;ScriptStringOut() in gdi32.dll is a forwarded function for ScriptStringOut() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringOut(SCRIPT_STRING_ANALYSIS ssa,int iX,int iY,UINT uOptions,RECT* prc,int iMinSel,int iMaxSel,BOOL fDisabled)
+
+;ScriptStringValidate() in gdi32.dll is a forwarded function for ScriptStringValidate() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringValidate(SCRIPT_STRING_ANALYSIS ssa)
+
+;ScriptStringXtoCP() in gdi32.dll is a forwarded function for ScriptStringXtoCP() in gdi32full.dll
+gdi32.dll|HRESULT ScriptStringXtoCP(SCRIPT_STRING_ANALYSIS ssa,int iX,int* piCh,int* piTrailing)|Out
+
+;ScriptString_pLogAttr() in gdi32.dll is a forwarded function for ScriptString_pLogAttr() in gdi32full.dll
+gdi32.dll|SCRIPT_LOGATTR* ScriptString_pLogAttr(SCRIPT_STRING_ANALYSIS ssa)
+
+;ScriptString_pSize() in gdi32.dll is a forwarded function for ScriptString_pSize() in gdi32full.dll
+gdi32.dll|SIZE* ScriptString_pSize(SCRIPT_STRING_ANALYSIS ssa)
+
+;ScriptString_pcOutChars() in gdi32.dll is a forwarded function for ScriptString_pcOutChars() in gdi32full.dll
+gdi32.dll|int* ScriptString_pcOutChars(SCRIPT_STRING_ANALYSIS ssa)
+
+;ScriptSubstituteSingleGlyph() in gdi32.dll is a forwarded function for ScriptSubstituteSingleGlyph() in gdi32full.dll
+gdi32.dll|HRESULT ScriptSubstituteSingleGlyph(HDC hdc,SCRIPT_CACHE* psc,SCRIPT_ANALYSIS* psa,OPENTYPE_TAG tagScript,OPENTYPE_TAG tagLangSys,OPENTYPE_TAG tagFeature,LONG lParameter,WORD wGlyphId,WORD* pwOutGlyphId)|Out
+
+;ScriptTextOut() in gdi32.dll is a forwarded function for ScriptTextOut() in gdi32full.dll
+gdi32.dll|HRESULT ScriptTextOut(HDC hdc,SCRIPT_CACHE* psc,int x,int y,UINT fuOptions,RECT* lprc,SCRIPT_ANALYSIS* psa,WCHAR* pwcReserved,int iReserved,WORD* pwGlyphs,int cGlyphs,int* piAdvance,int* piJustify,GOFFSET* pGoffset)|Out
+
+;ScriptXtoCP() in gdi32.dll is a forwarded function for ScriptXtoCP() in gdi32full.dll
+gdi32.dll|HRESULT ScriptXtoCP(int iX,int cChars,int cGlyphs,WORD* pwLogClust,SCRIPT_VISATTR* psva,int* piAdvance,SCRIPT_ANALYSIS* psa,int* piCP,int* piTrailing)|Out
+
+gdi32.dll|SelectBrushLocal(UNKNOWN,UNKNOWN)
+gdi32.dll|BOOL SelectClipPath(HDC hdc,int iMode)|FailureIfNullRet
+gdi32.dll|int SelectClipRgn(HDC hdc,HRGN hrgn)
+
+; Unknown number of parameters
+!gdi32.dll|SelectFontLocal()
+gdi32.dll|HGDIOBJ SelectObject(HDC hdc,HGDIOBJ hgdiobj)
+gdi32.dll|HPALETTE SelectPalette(HDC hdc,HPALETTE hpal,BOOL bForceBackground)
+gdi32.dll|int SetAbortProc(HDC hdc,ABORTPROC lpAbortProc)
+gdi32.dll|int SetArcDirection(HDC hdc,int ArcDirection)
+gdi32.dll|SetBitmapAttributes(UNKNOWN,UNKNOWN)
+gdi32.dll|LONG SetBitmapBits(HBITMAP hbmp,DWORD cBytes,VOID* lpBits)|Out
+gdi32.dll|BOOL SetBitmapDimensionEx(HBITMAP hBitmap,int nWidth,int nHeight,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|COLORREF SetBkColor(HDC hdc,COLORREF crColor)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|int SetBkMode(HDC hdc,int iBkMode)
+gdi32.dll|UINT SetBoundsRect(HDC hdc,RECT* lprcBounds,UINT flags)|Out
+gdi32.dll|SetBrushAttributes(UNKNOWN,UNKNOWN)
+gdi32.dll|BOOL SetBrushOrgEx(HDC hdc,int nXOrg,int nYOrg,LPPOINT lppt)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetColorAdjustment(HDC hdc,COLORADJUSTMENT* lpca)|Out|FailureIfNullRet
+gdi32.dll|HCOLORSPACE SetColorSpace(HCD hDC,HCOLORSPACE hColorSpace)|FailureIfNullRet
+gdi32.dll|COLORREF SetDCBrushColor(HDC hdc,COLORREF crColor)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|COLORREF SetDCPenColor(HDC hdc,COLORREF crColor)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|UINT SetDIBColorTable(HDC hdc,UINT uStartIndex,UINT cEntries,RGBQUAD* pColors)|Out|FailureIfNullRet
+gdi32.dll|int SetDIBits(HDC hdc,HBITMAP hbmp,UINT uStartScan,UINT cScanLines,VOID* lpvBits,BITMAPINFO* lpbmi,UINT fuColorUse)|Out|FailureIfNullRet
+gdi32.dll|int SetDIBitsToDevice(HDC hdc,int XDest,int YDest,DWORD dwWidth,DWORD dwHeight,int XSrc,int YSrc,UINT uStartScan,UINT cScanLines,VOID* lpvBits,BITMAPINFO* lpbmi,UINT fuColorUse)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetDeviceGammaRamp(HDC hDC,LPVOID lpRamp)|Out|FailureIfNullRet
+gdi32.dll|HENHMETAFILE SetEnhMetaFileBits(UINT cbBuffer,BYTE* lpData)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|SetFontEnumeration()
+
+gdi32.dll|int SetGraphicsMode(HDC hdc,int iMode)|FailureIfNullRet
+gdi32.dll|int SetICMMode(HDC hDC,int iEnableICM)|FailureIfNullRet
+gdi32.dll|BOOL SetICMProfileA(HDC hDC,LPSTR lpFileName)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetICMProfileW(HDC hDC,LPWSTR lpFileName)|Out|FailureIfNullRet
+gdi32.dll|DWORD SetLayout(HDC hdc,DWORD dwLayout)|FailureIfRetValue=0xFFFFFFFF
+
+; Unknown number of parameters
+!gdi32.dll|SetLayoutWidth()
+
+; Unknown number of parameters
+!gdi32.dll|SetMagicColors()
+
+gdi32.dll|int SetMapMode(HDC hdc,int fnMapMode)|FailureIfNullRet
+gdi32.dll|DWORD SetMapperFlags(HDC hdc,DWORD dwFlag)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|HMETAFILE SetMetaFileBitsEx(UINT nSize,BYTE* lpData)|Out|FailureIfNullRet
+gdi32.dll|int SetMetaRgn(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL SetMiterLimit(HDC hdc,FLOAT eNewLimit,PFLOAT peOldLimit)|Out|FailureIfNullRet
+gdi32.dll|NTSTATUS SetOPMSigningKeyAndSequenceNumbers(OPM_PROTECTED_OUTPUT_HANDLE opoOPMProtectedOutput,DXGKMDT_OPM_ENCRYPTED_PARAMETERS *pParameters)|FailureIfNotNullRet
+gdi32.dll|UINT SetPaletteEntries(HPALETTE hpal,UINT iStart,UINT cEntries,PALETTEENTRY* lppe)|Out|FailureIfNullRet
+gdi32.dll|COLORREF SetPixel(HDC hdc,int X,int Y,COLORREF crColor)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|BOOL SetPixelFormat(HDC hdc,int iPixelFormat,PIXELFORMATDESCRIPTOR* ppfd)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetPixelV(HDC hdc,int X,int Y,COLORREF crColor)|FailureIfNullRet
+gdi32.dll|int SetPolyFillMode(HDC hdc,int iPolyFillMode)
+gdi32.dll|int SetROP2(HDC hdc,int fnDrawMode)
+gdi32.dll|BOOL SetRectRgn(HRGN hrgn,int nLeftRect,int nTopRect,int nRightRect,int nBottomRect)|FailureIfNullRet
+gdi32.dll|SetRelAbs(UNKNOWN,UNKNOWN)
+gdi32.dll|int SetStretchBltMode(HDC hdc,int iStretchMode)|FailureIfNullRet
+gdi32.dll|UINT SetSystemPaletteUse(HDC hdc,UINT uUsage)|FailureIfNullRet
+gdi32.dll|UINT SetTextAlign(HDC hdc,UINT fMode)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|int SetTextCharacterExtra(HDC hdc,int nCharExtra)|FailureIfRetValue=0x80000000
+gdi32.dll|COLORREF SetTextColor(HDC hdc,COLORREF crColor)|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|BOOL SetTextJustification(HDC hdc,int nBreakExtra,int nBreakCount)|FailureIfNullRet
+gdi32.dll|BOOL SetViewportExtEx(HDC hdc,int nXExtent,int nYExtent,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetViewportOrgEx(HDC hdc,int X,int Y,LPPOINT lpPoint)|Out|FailureIfNullRet
+
+; Unknown number of parameters
+!gdi32.dll|SetVirtualResolution()
+
+gdi32.dll|HENHMETAFILE SetWinMetaFileBits(UINT cbBuffer,BYTE* lpbBuffer,HDC hdcRef,METAFILEPICT* lpmfp)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetWindowExtEx(HDC hdc,int nXExtent,int nYExtent,LPSIZE lpSize)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetWindowOrgEx(HDC hdc,int X,int Y,LPPOINT lpPoint)|Out|FailureIfNullRet
+gdi32.dll|BOOL SetWorldTransform(HDC hdc,XFORM* lpXform)|Out|FailureIfNullRet
+gdi32.dll|int StartDocA(HDC hdc,DOCINFOA* lpdi)|Out
+gdi32.dll|int StartDocW(HDC hdc,DOCINFWO* lpdi)|Out
+
+; Unknown number of parameters
+!gdi32.dll|StartFormPage()
+
+gdi32.dll|int StartPage(HDC hDC)
+gdi32.dll|BOOL StretchBlt(HDC hdcDest,int nXOriginDest,int nYOriginDest,int nWidthDest,int nHeightDest,HDC hdcSrc,int nXOriginSrc,int nYOriginSrc,int nWidthSrc,int nHeightSrc,DWORD dwRop)|FailureIfNullRet
+gdi32.dll|int StretchDIBits(HDC hdc,int XDest,int YDest,int nDestWidth,int nDestHeight,int XSrc,int YSrc,int nSrcWidth,int nSrcHeight,VOID* lpBits,BITMAPINFO* lpBitsInfo,UINT iUsage,DWORD dwRop)|Out|FailureIfRetValue=0xFFFFFFFF
+gdi32.dll|BOOL StrokeAndFillPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL StrokePath(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL SwapBuffers(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL TextOutA(HDC hdc,int nXStart,int nYStart,LPCSTR lpString,int cbString)|FailureIfNullRet
+gdi32.dll|BOOL TextOutW(HDC hdc,int nXStart,int nYStart,LPCWSTR lpString,int cbString)|FailureIfNullRet
+gdi32.dll|BOOL TranslateCharsetInfo(DWORD* pSrc,LPCHARSETINFO lpCs,DWORD dwFlags)|Out|FailureIfNullRet
+gdi32.dll|UnloadNetworkFonts(int)
+gdi32.dll|BOOL UnrealizeObject(HGDIOBJ hgdiobj)|FailureIfNullRet
+gdi32.dll|BOOL UpdateColors(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL UpdateICMRegKeyA(DWORD dwReserved,LPSTR lpszCMID,LPSTR lpszFileName,UINT nCommand)|Out|FailureIfNullRet
+gdi32.dll|BOOL UpdateICMRegKeyW(DWORD dwReserved,LPWSTR lpszCMID,LPWSTR lpszFileName,UINT nCommand)|Out|FailureIfNullRet
+gdi32.dll|BOOL WidenPath(HDC hdc)|FailureIfNullRet
+gdi32.dll|BOOL XFORMOBJ_bApplyXform(XFORMOBJ* pxo,ULONG iMode,ULONG cPoints,PVOID pvIn,PVOID pvOut)|Out|FailureIfNullRet
+gdi32.dll|ULONG XFORMOBJ_iGetXform(XFORMOBJ* pxo,XFORML* pxform)|Out
+gdi32.dll|ULONG XLATEOBJ_cGetPalette(XLATEOBJ* pxlo,ULONG iPal,ULONG cPal,ULONG* pPal)|Out
+gdi32.dll|HANDLE XLATEOBJ_hGetColorTransform(XLATEOBJ* pxlo)|Out
+gdi32.dll|ULONG XLATEOBJ_iXlate(XLATEOBJ* pxlo,ULONG iColor)|Out
+gdi32.dll|ULONG* XLATEOBJ_piVector(XLATEOBJ* pxlo)|Out
+
+; Unknown number of parameters
+gdi32.dll|bCreateDCW()
+
+; Unknown number of parameters
+gdi32.dll|bDeleteLDC()
+
+gdi32.dll|bInitSystemAndFontsDirectoriesW(UNKNOWN,UNKNOWN)
+gdi32.dll|bMakePathNameW(LPWSTR lpBuffer,LPCWSTR lpFileName,LPWSTR* lpFilePart,int)

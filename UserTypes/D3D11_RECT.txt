@@ -1,0 +1,1 @@
+typedef RECT D3D11_RECT;

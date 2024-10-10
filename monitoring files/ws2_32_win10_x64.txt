@@ -1,0 +1,203 @@
+;   Monitoring file generated for exports table of ws2_32.dll v10.0.19041.1081 by MonitoringFileBuilder
+
+ws2_32.dll|SOCKET accept(SOCKET Socket,sockaddr* addr,int* addrlen)|Out|FailureIfRetValue=-1
+ws2_32.dll|int bind(SOCKET Socket,sockaddr* name,int namelen)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int closesocket(SOCKET Socket)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int connect(SOCKET Socket,sockaddr* name,int namelen)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int getpeername(SOCKET Socket,sockaddr* name,int* namelen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int getsockname(SOCKET Socket,sockaddr* name,int* namelen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int getsockopt(SOCKET Socket,int level,int optname,byte* optval:PointedDataSize=Arg5,int* optlen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|u_long htonl(u_long hostlong)
+ws2_32.dll|u_short htons(u_short hostshort)
+ws2_32.dll|int ioctlsocket(SOCKET Socket,long cmd,u_long* argp)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|unsigned long inet_addr(char* cp)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|char* inet_ntoa(DWORD in)|FailureIfNullRet
+ws2_32.dll|int listen(SOCKET Socket,int backlog)|FailureIfRetValue=0xFFFFFFFF
+;ntohl() in ws2_32.dll has the same entry point as htonl
+;ws2_32.dll|u_long ntohl(u_long netlong)
+;ntohs() in ws2_32.dll has the same entry point as htons
+;ws2_32.dll|u_short ntohs(u_short netshort)
+ws2_32.dll|int recv(SOCKET Socket,PBYTE buf:PointedDataSize=Arg3,int len,int flags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int recvfrom(SOCKET Socket,PBYTE buf:PointedDataSize=Arg3,int len,int flags,sockaddr* from,int* fromlen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int select(int nfds,fd_set* readfds,fd_set* writefds,fd_set* exceptfds,timeval* timeout)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int send(SOCKET Socket,PBYTE buf:PointedDataSize=Arg3,int len,int flags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int sendto(SOCKET Socket,PBYTE buf:PointedDataSize=Arg3,int len,int flags,sockaddr* to,int tolen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int setsockopt(SOCKET Socket,int level,int optname,const byte* optval:PointedDataSize=Arg5,int optlen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int shutdown(SOCKET Socket,int how)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|SOCKET socket(int af,int type,int protocol)|FailureIfRetValue=-1
+ws2_32.dll|WSApSetPostRoutine(UNKNOWN)
+ws2_32.dll|void FreeAddrInfoEx(PADDRINFOEXA pAddrInfoEx)
+;FreeAddrInfoExW() in ws2_32.dll has the same entry point as FreeAddrInfoEx
+;ws2_32.dll|void FreeAddrInfoExW(PADDRINFOEXW pAddrInfoEx)
+ws2_32.dll|VOID FreeAddrInfoW(PADDRINFOW pAddrInfo)
+ws2_32.dll|INT GetAddrInfoExA(PCSTR pName,PCSTR pServiceName,DWORD dwNameSpace,LPGUID lpNspId,ADDRINFOEXA* hints,PADDRINFOEXA* ppResult,timeval* timeout,LPOVERLAPPED lpOverlapped,LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,LPHANDLE lpNameHandle)|Out
+ws2_32.dll|INT GetAddrInfoExCancel(LPHANDLE lpHandle)
+ws2_32.dll|INT GetAddrInfoExOverlappedResult(LPOVERLAPPED lpOverlapped)
+ws2_32.dll|INT GetAddrInfoExW(PCWSTR pName,PCWSTR pServiceName,DWORD dwNameSpace,LPGUID lpNspId,ADDRINFOEXW* hints,PADDRINFOEXW* ppResult,timeval* timeout,LPOVERLAPPED lpOverlapped,LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,LPHANDLE lpHandle)|Out
+ws2_32.dll|INT GetAddrInfoW(PCWSTR pNodeName,PCWSTR pServiceName,ADDRINFOW* pHints,PADDRINFOW* ppResult)|Out
+ws2_32.dll|int GetHostNameW(PWSTR name,int namelen)|Out
+ws2_32.dll|INT GetNameInfoW(SOCKADDR* pSockaddr,socklen_t SockaddrLength,PWCHAR pNodeBuffer,DWORD NodeBufferSize,PWCHAR pServiceBuffer,DWORD ServiceBufferSize,INT Flags)|Out
+ws2_32.dll|PCWSTR InetNtopW(INT Family,VOID* pAddr,PWSTR pStringBuf,size_t StringBufSize)|Out
+ws2_32.dll|INT InetPtonW(INT Family,PCWSTR pszAddrString,PVOID pAddrBuf)
+ws2_32.dll|INT SetAddrInfoExA(PCSTR pName,PCSTR pServiceName,SOCKET_ADDRESS* pAddresses,DWORD dwAddressCount,LPBLOB lpBlob,DWORD dwFlags,DWORD dwNameSpace,LPGUID lpNspId,timeval* timeout,LPOVERLAPPED lpOverlapped,LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,LPHANDLE lpNameHandle)|Out
+ws2_32.dll|INT SetAddrInfoExW(PCWSTR pName,PCWSTR pServiceName,SOCKET_ADDRESS* pAddresses,DWORD dwAddressCount,LPBLOB lpBlob,DWORD dwFlags,DWORD dwNameSpace,LPGUID lpNspId,timeval* timeout,LPOVERLAPPED lpOverlapped,LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,LPHANDLE lpNameHandle)|Out
+ws2_32.dll|int WPUCompleteOverlappedRequest(SOCKET Socket,LPWSAOVERLAPPED lpOverlapped,DWORD dwError,DWORD cbTransferred,LPINT lpErrno)|Out|FailureIfNotNullRet
+ws2_32.dll|WPUGetProviderPathEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|SOCKET WSAAccept(SOCKET Socket,sockaddr* addr,LPINT addrlen,LPCONDITIONPROC lpfnCondition,DWORD_PTR dwCallbackData)|Out|FailureIfRetValue=-1
+ws2_32.dll|INT WSAAddressToStringA(LPSOCKADDR lpsaAddress,DWORD dwAddressLength,LPWSAPROTOCOL_INFOA lpProtocolInfo,LPSTR lpszAddressString,LPDWORD lpdwAddressStringLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAAddressToStringW(LPSOCKADDR lpsaAddress,DWORD dwAddressLength,LPWSAPROTOCOL_INFOW lpProtocolInfo,LPWSTR lpszAddressString,LPDWORD lpdwAddressStringLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAAdvertiseProvider(GUID* puuidProviderId,LPCNSPV2_ROUTINE pNSPv2Routine)
+ws2_32.dll|BOOL WSACloseEvent(WSAEVENT hEvent)|FailureIfNullRet
+ws2_32.dll|int WSAConnect(SOCKET Socket,sockaddr* name,int namelen,LPWSABUF lpCallerData,LPWSABUF lpCalleeData,LPQOS lpSQOS,LPQOS lpGQOS)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|BOOL WSAConnectByList(SOCKET s,PSOCKET_ADDRESS_LIST SocketAddress,LPDWORD LocalAddressLength,LPSOCKADDR LocalAddress,LPDWORD RemoteAddressLength,LPSOCKADDR RemoteAddress,timeval* timeout,LPWSAOVERLAPPED Reserved)|Out
+ws2_32.dll|BOOL WSAConnectByNameA(SOCKET s,LPCSTR nodename,LPCSTR servicename,LPDWORD LocalAddressLength,LPSOCKADDR LocalAddress,LPDWORD RemoteAddressLength,LPSOCKADDR RemoteAddress,timeval* timeout,LPWSAOVERLAPPED Reserved)|Out
+ws2_32.dll|BOOL WSAConnectByNameW(SOCKET s,LPWSTR nodename,LPWSTR servicename,LPDWORD LocalAddressLength,LPSOCKADDR LocalAddress,LPDWORD RemoteAddressLength,LPSOCKADDR RemoteAddress,timeval* timeout,LPWSAOVERLAPPED Reserved)|Out
+ws2_32.dll|WSAEVENT WSACreateEvent()|FailureIfNullRet
+ws2_32.dll|hostent* gethostbyaddr(char* addr,int len,int type)|FailureIfNullRet
+ws2_32.dll|hostent* gethostbyname(char* name)|Out|FailureIfNullRet
+ws2_32.dll|protoent* getprotobyname(char* name)|FailureIfNullRet
+ws2_32.dll|protoent* getprotobynumber(int number)|FailureIfNullRet
+ws2_32.dll|servent* getservbyname(char* name,byte* proto)|Out|FailureIfNullRet
+ws2_32.dll|servent* getservbyport(int port,byte* proto)|Out|FailureIfNullRet
+ws2_32.dll|int gethostname(char* name,int namelen)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSADuplicateSocketA(SOCKET Socket,DWORD dwProcessId,LPWSAPROTOCOL_INFOA lpProtocolInfo)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSADuplicateSocketW(SOCKET Socket,DWORD dwProcessId,LPWSAPROTOCOL_INFOW lpProtocolInfo)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAEnumNameSpaceProvidersA(LPDWORD lpdwBufferLength,LPWSANAMESPACE_INFOA lpnspBuffer)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAEnumNameSpaceProvidersExA(LPDWORD lpdwBufferLength,LPWSANAMESPACE_INFOEXA lpnspBuffer)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAEnumNameSpaceProvidersExW(LPDWORD lpdwBufferLength,LPWSANAMESPACE_INFOEXW lpnspBuffer)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAEnumNameSpaceProvidersW(LPDWORD lpdwBufferLength,LPWSANAMESPACE_INFOW lpnspBuffer)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAEnumNetworkEvents(SOCKET Socket,WSAEVENT hEventObject,LPWSANETWORKEVENTS lpNetworkEvents)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAEnumProtocolsA(LPINT lpiProtocols,LPWSAPROTOCOL_INFOA lpProtocolBuffer,LPDWORD lpdwBufferLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAEnumProtocolsW(LPINT lpiProtocols,LPWSAPROTOCOL_INFOW lpProtocolBuffer,LPDWORD lpdwBufferLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAEventSelect(SOCKET Socket,WSAEVENT hEventObject,long lNetworkEvents)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|BOOL WSAGetOverlappedResult(SOCKET Socket,LPWSAOVERLAPPED lpOverlapped,LPDWORD lpcbTransfer,BOOL fWait,LPDWORD lpdwFlags)|Out
+ws2_32.dll|BOOL WSAGetQOSByName(SOCKET Socket,LPWSABUF lpQOSName,LPQOS lpQOS)|Out|FailureIfNullRet
+ws2_32.dll|INT WSAGetServiceClassInfoA(LPGUID lpProviderId,LPGUID lpServiceClassId,LPDWORD lpdwBufferLength,LPWSASERVICECLASSINFOA lpServiceClassInfo)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAGetServiceClassInfoW(LPGUID lpProviderId,LPGUID lpServiceClassId,LPDWORD lpdwBufferLength,LPWSASERVICECLASSINFOW lpServiceClassInfo)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAGetServiceClassNameByClassIdA(LPGUID lpServiceClassId,LPSTR lpszServiceClassName,LPDWORD lpdwBufferLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAGetServiceClassNameByClassIdW(LPGUID lpServiceClassId,LPWSTR lpszServiceClassName,LPDWORD lpdwBufferLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAHtonl(SOCKET Socket,u_long hostlong,u_long* lpnetlong)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAHtons(SOCKET Socket,u_short hostshort,u_short* lpnetshort)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAInstallServiceClassA(LPWSASERVICECLASSINFOA lpServiceClassInfo)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAInstallServiceClassW(LPWSASERVICECLASSINFOW lpServiceClassInfo)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSAIoctl(SOCKET Socket,DWORD dwIoControlCode,LPVOID lpvInBuffer,DWORD cbInBuffer,LPVOID lpvOutBuffer,DWORD cbOutBuffer,LPDWORD lpcbBytesReturned,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|SOCKET WSAJoinLeaf(SOCKET Socket,sockaddr* name,int namelen,LPWSABUF lpCallerData,LPWSABUF lpCalleeData,LPQOS lpSQOS,LPQOS lpGQOS,DWORD dwFlags)|Out|FailureIfRetValue=-1
+ws2_32.dll|INT WSALookupServiceBeginA(LPWSAQUERYSETA lpqsRestrictions,DWORD dwControlFlags,LPHANDLE lphLookup)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSALookupServiceBeginW(LPWSAQUERYSETW lpqsRestrictions,DWORD dwControlFlags,LPHANDLE lphLookup)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSALookupServiceEnd(HANDLE hLookup)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSALookupServiceNextA(HANDLE hLookup,DWORD dwControlFlags,LPDWORD lpdwBufferLength,LPWSAQUERYSETA lpqsResults)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSALookupServiceNextW(HANDLE hLookup,DWORD dwControlFlags,LPDWORD lpdwBufferLength,LPWSAQUERYSETW lpqsResults)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSANSPIoctl(HANDLE hLookup,DWORD dwControlCode,LPVOID lpvInBuffer,DWORD cbInBuffer,LPVOID lpvOutBuffer,DWORD cbOutBuffer,LPDWORD lpcbBytesReturned,LPWSACOMPLETION lpCompletion)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSANtohl(SOCKET s,u_long netlong,u_long* lphostlong)|Out
+ws2_32.dll|int WSANtohs(SOCKET s,u_short netshort,u_short* lphostshort)|Out
+ws2_32.dll|int WSAPoll(LPWSAPOLLFD fdArray,ULONG fds,INT timeout)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAProviderCompleteAsyncCall(HANDLE hAsyncCall,INT iRetCode)
+ws2_32.dll|INT WSAProviderConfigChange(LPHANDLE lpNotificationHandle,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSARecv(SOCKET Socket,LPWSABUF lpBuffers,DWORD dwBufferCount,LPDWORD lpNumberOfBytesRecvd,LPDWORD lpFlags,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSARecvDisconnect(SOCKET Socket,LPWSABUF lpInboundDisconnectData)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSARecvFrom(SOCKET Socket,LPWSABUF lpBuffers,DWORD dwBufferCount,LPDWORD lpNumberOfBytesRecvd,LPDWORD lpFlags,sockaddr* lpFrom,LPINT lpFromlen,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSARemoveServiceClass(LPGUID lpServiceClassId)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|BOOL WSAResetEvent(WSAEVENT hEvent)|FailureIfNullRet
+ws2_32.dll|int WSASend(SOCKET Socket,LPWSABUF lpBuffers,DWORD dwBufferCount,LPDWORD lpNumberOfBytesSent,DWORD dwFlags,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSASendDisconnect(SOCKET Socket,LPWSABUF lpOutboundDisconnectData)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSASendMsg(SOCKET Handle,LPWSAMSG lpMsg,DWORD dwFlags,LPDWORD lpNumberOfBytesSent,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSASendTo(SOCKET Socket,LPWSABUF lpBuffers,DWORD dwBufferCount,LPDWORD lpNumberOfBytesSent,DWORD dwFlags,sockaddr* lpTo,int iToLen,LPWSAOVERLAPPED lpOverlapped,LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|BOOL WSASetEvent(WSAEVENT hEvent)|FailureIfNullRet
+ws2_32.dll|int WSAAsyncSelect(SOCKET Socket,HWND hWnd,unsigned int wMsg,long lEvent)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|HANDLE WSAAsyncGetHostByAddr(HWND hWnd,unsigned int wMsg,char* addr,int len,int type,char* buf,int buflen)|Out|FailureIfNullRet
+ws2_32.dll|HANDLE WSAAsyncGetHostByName(HWND hWnd,unsigned int wMsg,char* name,char* buf,int buflen)|Out|FailureIfNullRet
+ws2_32.dll|HANDLE WSAAsyncGetProtoByNumber(HWND hWnd,unsigned int wMsg,int number,char* buf,int buflen)|Out|FailureIfNullRet
+ws2_32.dll|HANDLE WSAAsyncGetProtoByName(HWND hWnd,unsigned int wMsg,char* name,char* buf,int buflen)|Out|FailureIfNullRet
+ws2_32.dll|HANDLE WSAAsyncGetServByPort(HWND hWnd,unsigned int wMsg,int port,byte* proto,char* buf,int buflen)|Out|FailureIfNullRet
+ws2_32.dll|HANDLE WSAAsyncGetServByName(HWND hWnd,unsigned int wMsg,char* name,byte* proto,char* buf,int buflen)|Out|FailureIfNullRet
+ws2_32.dll|int WSACancelAsyncRequest(HANDLE hAsyncTaskHandle)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|FARPROC WSASetBlockingHook(FARPROC lpBlockFunc)
+ws2_32.dll|int WSAUnhookBlockingHook()
+ws2_32.dll|int WSAGetLastError()
+ws2_32.dll|void WSASetLastError(int iError)
+ws2_32.dll|int WSACancelBlockingCall()
+ws2_32.dll|BOOL WSAIsBlocking()
+ws2_32.dll|int WSAStartup(WORD wVersionRequested,LPWSADATA lpWSAData:ProcessorDependent)|Out
+ws2_32.dll|int WSACleanup()|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSASetServiceA(LPWSAQUERYSETA lpqsRegInfo,WSAESETSERVICEOP essOperation,DWORD dwControlFlags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSASetServiceW(LPWSAQUERYSETW lpqsRegInfo,WSAESETSERVICEOP essOperation,DWORD dwControlFlags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|SOCKET WSASocketA(int af,int type,int protocol,LPWSAPROTOCOL_INFOA lpProtocolInfo,UINT group,DWORD dwFlags)|Out|FailureIfRetValue=-1
+ws2_32.dll|SOCKET WSASocketW(int af,int type,int protocol,LPWSAPROTOCOL_INFOW lpProtocolInfo,UINT group,DWORD dwFlags)|Out|FailureIfRetValue=-1
+ws2_32.dll|INT WSAStringToAddressA(LPSTR AddressString,INT AddressFamily,LPWSAPROTOCOL_INFOA lpProtocolInfo,LPSOCKADDR lpAddress,LPINT lpAddressLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAStringToAddressW(LPWSTR AddressString,INT AddressFamily,LPWSAPROTOCOL_INFOW lpProtocolInfo,LPSOCKADDR lpAddress,LPINT lpAddressLength)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSAUnadvertiseProvider(GUID* puuidProviderId)
+ws2_32.dll|DWORD WSAWaitForMultipleEvents(DWORD cEvents,WSAEVENT* lphEvents,BOOL fWaitAll,DWORD dwTimeout,BOOL fAlertable)|Out
+ws2_32.dll|int WSCDeinstallProvider(LPGUID lpProviderId,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCDeinstallProvider32(LPGUID lpProviderId,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|WSCDeinstallProviderEx(LPGUID lpProviderId,LPINT lpErrno,DWORD Flags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSCEnableNSProvider(LPGUID lpProviderId,BOOL fEnable)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSCEnableNSProvider32(LPGUID lpProviderId,BOOL fEnable)
+ws2_32.dll|INT WSCEnumNameSpaceProviders32(LPDWORD lpdwBufferLength,LPWSANAMESPACE_INFOW lpnspBuffer)|Out
+ws2_32.dll|INT WSCEnumNameSpaceProvidersEx32(LPDWORD lpdwBufferLength,LPWSANAMESPACE_INFOEXW lpnspBuffer)|Out
+ws2_32.dll|int WSCEnumProtocols(LPINT lpiProtocols,LPWSAPROTOCOL_INFOW lpProtocolBuffer,LPDWORD lpdwBufferLength,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCEnumProtocols32(LPINT lpiProtocols,LPWSAPROTOCOL_INFOW lpProtocolBuffer,LPDWORD lpdwBufferLength,LPINT lpErrno)|Out
+ws2_32.dll|int WSCEnumProtocolsEx(LPINT lpiProtocols,LPWSAPROTOCOL_INFOW lpProtocolBuffer,LPDWORD lpdwBufferLength,LPINT lpErrno,DWORD Flags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCGetApplicationCategory(LPCWSTR Path,DWORD PathLength,LPCWSTR Extra,DWORD ExtraLength,DWORD* pPermittedLspCategories,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|WSCGetApplicationCategoryEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|int WSCGetProviderInfo(LPGUID lpProviderId,WSC_PROVIDER_INFO_TYPE InfoType,PBYTE Info,size_t* InfoSize,DWORD Flags,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCGetProviderInfo32(LPGUID lpProviderId,WSC_PROVIDER_INFO_TYPE InfoType,PBYTE Info,size_t* InfoSize,DWORD Flags,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCGetProviderPath(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPINT lpProviderDllPathLen,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCGetProviderPath32(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPINT lpProviderDllPathLen,LPINT lpErrno)|Out
+ws2_32.dll|INT WSCInstallNameSpace(WCHAR* lpszIdentifier,WCHAR* lpszPathName,DWORD dwNameSpace,DWORD dwVersion,LPGUID lpProviderId)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSCInstallNameSpace32(LPWSTR lpszIdentifier,LPWSTR lpszPathName,DWORD dwNameSpace,DWORD dwVersion,LPGUID lpProviderId)
+ws2_32.dll|INT WSCInstallNameSpaceEx(LPWSTR lpszIdentifier,LPWSTR lpszPathName,DWORD dwNameSpace,DWORD dwVersion,LPGUID lpProviderId,LPBLOB lpProviderSpecific)
+ws2_32.dll|INT WSCInstallNameSpaceEx2(LPWSTR lpszIdentifier,LPWSTR lpszPathName,DWORD dwNameSpace,DWORD dwVersion,LPGUID lpProviderId,LPBLOB lpProviderSpecific,DWORD Flags)
+ws2_32.dll|INT WSCInstallNameSpaceEx32(LPWSTR lpszIdentifier,LPWSTR lpszPathName,DWORD dwNameSpace,DWORD dwVersion,LPGUID lpProviderId,LPBLOB lpProviderSpecific)
+ws2_32.dll|int WSCInstallProvider(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPWSAPROTOCOL_INFOW lpProtocolInfoList,DWORD dwNumberOfEntries,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCInstallProvider64_32(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPWSAPROTOCOL_INFOW lpProtocolInfoList,DWORD dwNumberOfEntries,LPINT lpErrno)|Out
+ws2_32.dll|int WSCInstallProviderAndChains64_32(int WSCInstallProviderAndChains(LPGUID lpProviderId,LPWSTR lpszProviderDllPath,LPWSTR lpszProviderDllPath32,LPWSTR lpszLspName,DWORD dwServiceFlags,LPWSAPROTOCOL_INFOW lpProtocolInfoList,DWORD dwNumberOfEntries,LPDWORD lpdwCatalogEntryId,LPINT lpErrno);|Out
+ws2_32.dll|int WSCInstallProviderEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|int WSCSetApplicationCategory(LPCWSTR Path,DWORD PathLength,LPCWSTR Extra,DWORD ExtraLength,DWORD PermittedLspCategories,DWORD* pPrevPermLspCat,LPINT lpErrno)|Out
+ws2_32.dll|int __WSAFDIsSet(SOCKET fd,fd_set* set)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCSetApplicationCategoryEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|int WSCSetProviderInfo(LPGUID lpProviderId,WSC_PROVIDER_INFO_TYPE InfoType,PBYTE Info,size_t InfoSize,DWORD Flags,LPINT lpErrno)|Out
+ws2_32.dll|int WSCSetProviderInfo32(LPGUID lpProviderId,WSC_PROVIDER_INFO_TYPE InfoType,PBYTE Info,size_t InfoSize,DWORD Flags,LPINT lpErrno)|Out
+ws2_32.dll|INT WSCUnInstallNameSpace(LPGUID lpProviderId)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|INT WSCUnInstallNameSpace32(LPGUID lpProviderId)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCUnInstallNameSpaceEx2(LPGUID lpProviderId,DWORD Flags)|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCUpdateProvider(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPWSAPROTOCOL_INFOW lpProtocolInfoList,DWORD dwNumberOfEntries,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCUpdateProvider32(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPWSAPROTOCOL_INFOW lpProtocolInfoList,DWORD dwNumberOfEntries,LPINT lpErrno)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCUpdateProviderEx(LPGUID lpProviderId,WCHAR* lpszProviderDllPath,LPWSAPROTOCOL_INFOW lpProtocolInfoList,DWORD dwNumberOfEntries,LPINT lpErrno,DWORD Flags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCWriteNameSpaceOrder(LPGUID lpProviderId,DWORD dwNumberOfEntries)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCWriteNameSpaceOrder32(LPGUID lpProviderId,DWORD dwNumberOfEntries)
+ws2_32.dll|int WSCWriteProviderOrder(LPDWORD lpwdCatalogEntryId,DWORD dwNumberOfEntries)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCWriteProviderOrder32(LPDWORD lpwdCatalogEntryId,DWORD dwNumberOfEntries)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int WSCWriteProviderOrderEx(LPDWORD lpwdCatalogEntryId,DWORD dwNumberOfEntries,DWORD Flag)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|WahCloseApcHelper(UNKNOWN)
+ws2_32.dll|WahCloseHandleHelper(UNKNOWN)
+ws2_32.dll|WahCloseNotificationHandleHelper(UNKNOWN)
+ws2_32.dll|WahCloseSocketHandle(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahCloseThread(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahCompleteRequest(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|WahCreateHandleContextTable(UNKNOWN)
+ws2_32.dll|WahCreateNotificationHandle(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahCreateSocketHandle(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahDestroyHandleContextTable(UNKNOWN)
+ws2_32.dll|WahDisableNonIFSHandleSupport()
+ws2_32.dll|WahEnableNonIFSHandleSupport()
+ws2_32.dll|WahEnumerateHandleContexts(UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|WahInsertHandleContext(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahNotifyAllProcesses(UNKNOWN)
+ws2_32.dll|WahOpenApcHelper(UNKNOWN)
+ws2_32.dll|WahOpenCurrentThread(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahOpenHandleHelper(UNKNOWN)
+ws2_32.dll|WahOpenNotificationHandleHelper(UNKNOWN)
+ws2_32.dll|WahQueueUserApc(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|WahReferenceContextByHandle(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahRemoveHandleContext(UNKNOWN,UNKNOWN)
+ws2_32.dll|WahWaitForNotification(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ws2_32.dll|WahWriteLSPEvent(UNKNOWN,UNKNOWN)
+;freeaddrinfo() in ws2_32.dll has the same entry point as FreeAddrInfoW
+;ws2_32.dll|VOID freeaddrinfo(PADDRINFOA pAddrInfo)
+ws2_32.dll|int getaddrinfo(char* nodename,char* servname,addrinfo* hints,addrinfo** res)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|int getnameinfo(sockaddr* sa,socklen_t salen,char* host,DWORD hostlen,char* serv,DWORD servlen,int flags)|Out|FailureIfRetValue=0xFFFFFFFF
+ws2_32.dll|PCSTR inet_ntop(INT Family,VOID* pAddr,PSTR pStringBuf,size_t StringBufSize)|Out
+ws2_32.dll|INT inet_pton(INT Family,PCSTR pszAddrString,PVOID pAddrBuf)
+
+;can't be hooked less than 5 bytes 
+;ws2_32.dll|WEP()

@@ -1,0 +1,31 @@
+;@InterfaceName=IDirectInputDevice7W
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3 |HRESULT IDirectInputDevice7W::GetCapabilities(IUnknown* pObject,LPDIDEVCAPS);|FailureIfNegativeRet
+VTBLIndex=4 |HRESULT IDirectInputDevice7W::EnumObjects(IUnknown* pObject,LPDIENUMDEVICEOBJECTSCALLBACKW,LPVOID,DWORD);|FailureIfNegativeRet
+VTBLIndex=5 |HRESULT IDirectInputDevice7W::GetProperty(IUnknown* pObject,REFGUID,LPDIPROPHEADER);|FailureIfNegativeRet
+VTBLIndex=6 |HRESULT IDirectInputDevice7W::SetProperty(IUnknown* pObject,REFGUID,LPCDIPROPHEADER);|FailureIfNegativeRet
+VTBLIndex=7 |HRESULT IDirectInputDevice7W::Acquire(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=8 |HRESULT IDirectInputDevice7W::Unacquire(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=9 |HRESULT IDirectInputDevice7W::GetDeviceState(IUnknown* pObject,DWORD cbData,PBYTE Data:PointedDataSize=Arg2);|Out|FailureIfNegativeRet
+VTBLIndex=10|HRESULT IDirectInputDevice7W::GetDeviceData(IUnknown* pObject,DWORD cbObjectData,LPDIDEVICEOBJECTDATA_DILE7 DeviceObjectDataArray:PointedElementsCount=Arg4,LPDWORD pNbElements,DWORD dwFlags);|Out|FailureIfNegativeRet
+VTBLIndex=11|HRESULT IDirectInputDevice7W::SetDataFormat(IUnknown* pObject,LPCDIDATAFORMAT);|FailureIfNegativeRet
+VTBLIndex=12|HRESULT IDirectInputDevice7W::SetEventNotification(IUnknown* pObject,HANDLE hEvent);|FailureIfNegativeRet
+VTBLIndex=13|HRESULT IDirectInputDevice7W::SetCooperativeLevel(IUnknown* pObject,HWND hwnd,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=14|HRESULT IDirectInputDevice7W::GetObjectInfo(IUnknown* pObject,LPDIDEVICEOBJECTINSTANCEW, dwObj,DWORD dwHow);|FailureIfNegativeRet
+VTBLIndex=15|HRESULT IDirectInputDevice7W::GetDeviceInfo(IUnknown* pObject,LPDIDEVICEINSTANCEW);|FailureIfNegativeRet
+VTBLIndex=16|HRESULT IDirectInputDevice7W::RunControlPanel(IUnknown* pObject,HWND hwndOwner,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=17|HRESULT IDirectInputDevice7W::Initialize(IUnknown* pObject,HINSTANCE hinst,DWORD dwVersion,REFGUID);|FailureIfNegativeRet
+VTBLIndex=18|HRESULT IDirectInputDevice7W::CreateEffect(IUnknown* pObject,REFGUID,LPCDIEFFECT,LPDIRECTINPUTEFFECT *,LPUNKNOWN);|FailureIfNegativeRet|ObjectCreation(CLSIDValue=CurrentObjectCLSID|IIDValue={E7E1F7C0-88D2-11D0-9AD0-00A0C9A06E35}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+VTBLIndex=19|HRESULT IDirectInputDevice7W::EnumEffects(IUnknown* pObject,LPDIENUMEFFECTSCALLBACKW,LPVOID,DWORD dwEffType);|FailureIfNegativeRet
+VTBLIndex=20|HRESULT IDirectInputDevice7W::GetEffectInfo(IUnknown* pObject,LPDIEFFECTINFOW,REFGUID);|Out|FailureIfNegativeRet
+VTBLIndex=21|HRESULT IDirectInputDevice7W::GetForceFeedbackState(IUnknown* pObject,LPDWORD pdwOut);|Out|FailureIfNegativeRet
+VTBLIndex=22|HRESULT IDirectInputDevice7W::SendForceFeedbackCommand(IUnknown* pObject,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=23|HRESULT IDirectInputDevice7W::EnumCreatedEffectObjects(IUnknown* pObject,LPDIENUMCREATEDEFFECTOBJECTSCALLBACK,LPVOID,DWORD);|FailureIfNegativeRet
+VTBLIndex=24|HRESULT IDirectInputDevice7W::Escape(IUnknown* pObject,LPDIEFFESCAPE);|FailureIfNegativeRet
+VTBLIndex=25|HRESULT IDirectInputDevice7W::Poll(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=26|HRESULT IDirectInputDevice7W::SendDeviceData(IUnknown* pObject,DWORD cbObjectData,LPCDIDEVICEOBJECTDATA_DILE7 DeviceObjectDataArray:PointedElementsCount=Arg4,LPDWORD pNbElements,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=27|HRESULT IDirectInputDevice7W::EnumEffectsInFile(IUnknown* pObject,LPCWSTR lpszFileName,LPDIENUMEFFECTSINFILECALLBACK,LPVOID,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=28|HRESULT IDirectInputDevice7W::WriteEffectToFile(IUnknown* pObject,LPCWSTR lpszFileName,DWORD dwEntries,LPDIFILEEFFECT,DWORD dwFlags);|FailureIfNegativeRet

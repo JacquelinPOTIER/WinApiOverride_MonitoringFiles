@@ -1,0 +1,12 @@
+typedef struct _DIACTIONW {
+    UINT_PTR    uAppData;
+    DWORD       dwSemantic;
+    DWORD       dwFlags;
+    union {
+        LPCWSTR lptszActionName;
+        UINT    uResIdString;
+    };
+    GUID        guidInstance;
+    DWORD       dwObjID;
+    DWORD       dwHow;
+} DIACTIONW, *LPDIACTIONW;

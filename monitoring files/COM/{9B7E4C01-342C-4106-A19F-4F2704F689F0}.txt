@@ -1,0 +1,8 @@
+;@InterfaceName=ID3D10Resource
+
+; include ID3D10DeviceChild
+BaseIID={9B7E4C00-342C-4106-A19F-4F2704F689F0}
+
+VTBLIndex=7| void ID3D10Resource::GetType(IUnknown* pObject,D3D10_RESOURCE_DIMENSION* rType);|Out
+VTBLIndex=8| void ID3D10Resource::SetEvictionPriority(IUnknown* pObject,UINT EvictionPriority);
+VTBLIndex=9| UINT ID3D10Resource::GetEvictionPriority(IUnknown* pObject);

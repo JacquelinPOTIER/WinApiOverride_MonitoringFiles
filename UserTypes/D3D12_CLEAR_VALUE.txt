@@ -1,0 +1,15 @@
+typedef struct D3D12_DEPTH_STENCIL_VALUE
+    {
+    FLOAT Depth;
+    UINT8 Stencil;
+    } 	D3D12_DEPTH_STENCIL_VALUE;
+
+typedef struct D3D12_CLEAR_VALUE
+    {
+    DXGI_FORMAT Format;
+    union 
+        {
+        FLOAT Color[4];
+        D3D12_DEPTH_STENCIL_VALUE DepthStencil;
+        } 	;
+    }D3D12_CLEAR_VALUE;

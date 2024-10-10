@@ -1,0 +1,15 @@
+
+typedef struct tagIUnknownVtbl
+{
+    // HRESULT ( STDMETHODCALLTYPE *QueryInterface )(IUnknown * This,REFIID riid,void **ppvObject);
+    PVOID QueryInterface;
+    // ULONG ( STDMETHODCALLTYPE *AddRef )(IUnknown * This);
+    PVOID AddRef;
+    // ULONG ( STDMETHODCALLTYPE *Release )(IUnknown * This);
+    PVOID Release;
+} IUnknownVtbl;
+
+typedef struct IUnknown
+{
+    IUnknownVtbl *lpVtbl;
+};

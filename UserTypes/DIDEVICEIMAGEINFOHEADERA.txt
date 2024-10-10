@@ -1,0 +1,11 @@
+typedef struct _DIDEVICEIMAGEINFOHEADERA {
+    DWORD       dwSize;
+    DWORD       dwSizeImageInfo;
+    DWORD       dwcViews;
+    DWORD       dwcButtons;
+    DWORD       dwcAxes;
+    DWORD       dwcPOVs;
+    DWORD       dwBufferSize;
+    DWORD       dwBufferUsed;
+    LPDIDEVICEIMAGEINFOA lprgImageInfoArray;
+} DIDEVICEIMAGEINFOHEADERA, *LPDIDEVICEIMAGEINFOHEADERA;

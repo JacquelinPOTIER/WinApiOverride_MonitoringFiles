@@ -1,0 +1,8 @@
+;@InterfaceName=IDirect3DVertexDeclaration9
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3|HRESULT IDirect3DVertexDeclaration9::GetDevice(IUnknown* pObject,IDirect3DDevice9** ppDevice);|FailureIfNegativeRet
+VTBLIndex=4|HRESULT IDirect3DVertexDeclaration9::GetDeclaration(IUnknown* pObject,D3DVERTEXELEMENT9* pElement,UINT* pNumElements);|FailureIfNegativeRet
+

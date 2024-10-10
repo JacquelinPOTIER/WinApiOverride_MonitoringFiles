@@ -1,0 +1,9 @@
+typedef enum _KEY_VALUE_INFORMATION_CLASS {
+  KeyValueBasicInformation,
+  KeyValueFullInformation,
+  KeyValuePartialInformation,
+  KeyValueFullInformationAlign64,
+  KeyValuePartialInformationAlign64,
+  KeyValueLayerInformation,
+  MaxKeyValueInfoClass
+} KEY_VALUE_INFORMATION_CLASS;

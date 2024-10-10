@@ -1,0 +1,30 @@
+;@InterfaceName=IDirect3DDevice9Ex
+
+; include IDirect3DDevice9
+BaseIID={D0223B96-BF7A-43fd-92BD-A43B0D82B9EB}
+
+VTBLIndex=119|HRESULT IDirect3DDevice9Ex::SetConvolutionMonoKernel(IUnknown* pObject,UINT width,UINT height,float* rows,float* columns);|FailureIfNegativeRet
+VTBLIndex=120|HRESULT IDirect3DDevice9Ex::ComposeRects(IUnknown* pObject,IDirect3DSurface9* pSrc,IDirect3DSurface9* pDst,IDirect3DVertexBuffer9* pSrcRectDescs,UINT NumRects,IDirect3DVertexBuffer9* pDstRectDescs,D3DCOMPOSERECTSOP Operation,int Xoffset,int Yoffset);|FailureIfNegativeRet
+VTBLIndex=121|HRESULT IDirect3DDevice9Ex::PresentEx(IUnknown* pObject,CONST RECT* pSourceRect,CONST RECT* pDestRect,HWND hDestWindowOverride,CONST RGNDATA* pDirtyRegion,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=122|HRESULT IDirect3DDevice9Ex::GetGPUThreadPriority(IUnknown* pObject,INT* pPriority);|FailureIfNegativeRet
+VTBLIndex=123|HRESULT IDirect3DDevice9Ex::SetGPUThreadPriority(IUnknown* pObject,INT Priority);|FailureIfNegativeRet
+VTBLIndex=124|HRESULT IDirect3DDevice9Ex::WaitForVBlank(IUnknown* pObject,UINT iSwapChain);|FailureIfNegativeRet
+VTBLIndex=125|HRESULT IDirect3DDevice9Ex::CheckResourceResidency(IUnknown* pObject,IDirect3DResource9** pResourceArray,UINT32 NumResources);|FailureIfNegativeRet
+VTBLIndex=126|HRESULT IDirect3DDevice9Ex::SetMaximumFrameLatency(IUnknown* pObject,UINT MaxLatency);|FailureIfNegativeRet
+VTBLIndex=127|HRESULT IDirect3DDevice9Ex::GetMaximumFrameLatency(IUnknown* pObject,UINT* pMaxLatency);|FailureIfNegativeRet
+VTBLIndex=128|HRESULT IDirect3DDevice9Ex::CheckDeviceState(IUnknown* pObject,HWND hDestinationWindow);|FailureIfNegativeRet
+
+;CLSID ??? use IID_IDirect3DSurface9
+;IID_IDirect3DSurface9 {0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}
+VTBLIndex=129|HRESULT IDirect3DDevice9Ex::CreateRenderTargetEx(IUnknown* pObject,UINT Width,UINT Height,D3DFORMAT Format,D3DMULTISAMPLE_TYPE MultiSample,DWORD MultisampleQuality,BOOL Lockable,IDirect3DSurface9** ppSurface,HANDLE* pSharedHandle,DWORD Usage);|FailureIfNegativeRet |ObjectCreation(CLSIDValue={0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}|IIDValue={0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}|ObjectStackIndex=28|x64ObjectStackIndex=24)
+
+;CLSID ??? use IID_IDirect3DSurface9
+;IID_IDirect3DSurface9 {0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}
+VTBLIndex=130|HRESULT IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx(IUnknown* pObject,UINT Width,UINT Height,D3DFORMAT Format,D3DPOOL Pool,IDirect3DSurface9** ppSurface,HANDLE* pSharedHandle,DWORD Usage);|FailureIfNegativeRet |ObjectCreation(CLSIDValue={0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}|IIDValue={0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}|ObjectStackIndex=20|x64ObjectStackIndex=8)
+
+;CLSID ??? use IID_IDirect3DSurface9
+;IID_IDirect3DSurface9 {0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}
+VTBLIndex=131|HRESULT IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx(IUnknown* pObject,UINT Width,UINT Height,D3DFORMAT Format,D3DMULTISAMPLE_TYPE MultiSample,DWORD MultisampleQuality,BOOL Discard,IDirect3DSurface9** ppSurface,HANDLE* pSharedHandle,DWORD Usage);|FailureIfNegativeRet |ObjectCreation(CLSIDValue={0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}|IIDValue={0CFBAF3A-9FF6-429a-99B3-A2796AF8B89B}|ObjectStackIndex=28|x64ObjectStackIndex=24)
+
+VTBLIndex=132|HRESULT IDirect3DDevice9Ex::ResetEx(IUnknown* pObject,D3DPRESENT_PARAMETERS* pPresentationParameters,D3DDISPLAYMODEEX *pFullscreenDisplayMode);|FailureIfNegativeRet
+VTBLIndex=133|HRESULT IDirect3DDevice9Ex::GetDisplayModeEx(IUnknown* pObject,UINT iSwapChain,D3DDISPLAYMODEEX* pMode,D3DDISPLAYROTATION* pRotation);|FailureIfNegativeRet

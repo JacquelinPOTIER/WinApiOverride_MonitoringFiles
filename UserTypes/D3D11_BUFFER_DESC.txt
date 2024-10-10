@@ -1,0 +1,18 @@
+typedef 
+enum D3D11_USAGE
+    {
+        D3D11_USAGE_DEFAULT	= 0,
+        D3D11_USAGE_IMMUTABLE	= 1,
+        D3D11_USAGE_DYNAMIC	= 2,
+        D3D11_USAGE_STAGING	= 3
+    } 	D3D11_USAGE;
+
+typedef struct D3D11_BUFFER_DESC
+    {
+    UINT ByteWidth;
+    D3D11_USAGE Usage;
+    UINT BindFlags;
+    UINT CPUAccessFlags;
+    UINT MiscFlags;
+    UINT StructureByteStride;
+    } 	D3D11_BUFFER_DESC;

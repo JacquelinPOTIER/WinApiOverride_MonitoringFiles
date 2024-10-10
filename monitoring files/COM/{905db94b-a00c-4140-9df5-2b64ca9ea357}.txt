@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D12DeviceChild
+
+; include ID3D12Object
+BaseIID={c4fec28f-7966-4e95-9f94-f431cb56c3b8}
+
+VTBLIndex=7|HRESULT ID3D12DeviceChild::GetDevice(REFIID riid,void **ppvDevice)|Out|FailureIfNegativeRet

@@ -1,0 +1,6 @@
+typedef struct D3D11_MAPPED_SUBRESOURCE
+    {
+    void *pData;
+    UINT RowPitch;
+    UINT DepthPitch;
+    } 	D3D11_MAPPED_SUBRESOURCE;

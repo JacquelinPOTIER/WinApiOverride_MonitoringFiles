@@ -1,0 +1,29 @@
+;      Monitoring file generated for exports table of psapi.dll v10.0.19041.546 by MonitoringFileBuilder
+
+psapi.dll|BOOL EmptyWorkingSet(HANDLE hProcess)
+psapi.dll|BOOL EnumDeviceDrivers(LPVOID* lpImageBase,DWORD cb,LPDWORD lpcbNeeded)|Out
+psapi.dll|BOOL EnumPageFilesA(PENUM_PAGE_FILE_CALLBACKA pCallBackRoutine,LPVOID pContext)
+psapi.dll|BOOL EnumPageFilesW(PENUM_PAGE_FILE_CALLBACKW pCallBackRoutine,LPVOID pContext)
+psapi.dll|BOOL EnumProcessModules(HANDLE hProcess,HMODULE* lphModule,DWORD cb,LPDWORD lpcbNeeded)|Out
+psapi.dll|BOOL EnumProcessModulesEx(HANDLE hProcess,HMODULE* lphModule,DWORD cb,LPDWORD lpcbNeeded,DWORD dwFilterFlag)|Out
+psapi.dll|BOOL EnumProcesses(DWORD* pProcessIds,DWORD cb,DWORD* pBytesReturned)|Out
+psapi.dll|DWORD GetDeviceDriverBaseNameA(LPVOID ImageBase,LPSTR lpBaseName,DWORD nSize)|Out
+psapi.dll|DWORD GetDeviceDriverBaseNameW(LPVOID ImageBase,LPWSTR lpBaseName,DWORD nSize)|Out
+psapi.dll|DWORD GetDeviceDriverFileNameA(LPVOID ImageBase,LPSTR lpFilename,DWORD nSize)|Out
+psapi.dll|DWORD GetDeviceDriverFileNameW(LPVOID ImageBase,LPWSTR lpFilename,DWORD nSize)|Out
+psapi.dll|DWORD GetMappedFileNameA(HANDLE hProcess,LPVOID lpv,LPSTR lpFilename,DWORD nSize)|Out
+psapi.dll|DWORD GetMappedFileNameW(HANDLE hProcess,LPVOID lpv,LPWSTR lpFilename,DWORD nSize)|Out
+psapi.dll|DWORD GetModuleBaseNameA(HANDLE hProcess,HMODULE hModule,LPSTR lpBaseName,DWORD nSize)|Out
+psapi.dll|DWORD GetModuleBaseNameW(HANDLE hProcess,HMODULE hModule,LPWSTR lpBaseName,DWORD nSize)|Out
+psapi.dll|DWORD GetModuleFileNameExA(HANDLE hProcess,HMODULE hModule,LPSTR lpFilename,DWORD nSize)
+psapi.dll|DWORD GetModuleFileNameExW(HANDLE hProcess,HMODULE hModule,LPWSTR lpFilename,DWORD nSize)
+psapi.dll|BOOL GetModuleInformation(HANDLE hProcess,HMODULE hModule,LPMODULEINFO lpmodinfo,DWORD cb)|Out
+psapi.dll|BOOL GetPerformanceInfo(PPERFORMANCE_INFORMATION pPerformanceInformation,DWORD cb)
+psapi.dll|DWORD GetProcessImageFileNameA(HANDLE hProcess,LPSTR lpImageFileName,DWORD nSize)|Out
+psapi.dll|DWORD GetProcessImageFileNameW(HANDLE hProcess,LPWSTR lpImageFileName,DWORD nSize)|Out
+psapi.dll|BOOL GetProcessMemoryInfo(HANDLE Process,PPROCESS_MEMORY_COUNTERS ppsmemCounters,DWORD cb)
+psapi.dll|BOOL GetWsChanges(HANDLE hProcess,PPSAPI_WS_WATCH_INFORMATION lpWatchInfo,DWORD cb)|Out
+psapi.dll|BOOL GetWsChangesEx(HANDLE hProcess,PPSAPI_WS_WATCH_INFORMATION_EX lpWatchInfoEx,PDWORD cb)|Out
+psapi.dll|BOOL InitializeProcessForWsWatch(HANDLE hProcess)
+psapi.dll|BOOL QueryWorkingSet(HANDLE hProcess,PVOID pv,DWORD cb)|Out
+psapi.dll|BOOL QueryWorkingSetEx(HANDLE hProcess,PVOID pv,DWORD cb)|Out

@@ -1,0 +1,15 @@
+;@InterfaceName=IDirectInputEffect
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3 |HRESULT IDirectInputEffect::Initialize(IUnknown* pObject,HINSTANCE,DWORD,REFGUID);|FailureIfNegativeRet
+VTBLIndex=4 |HRESULT IDirectInputEffect::GetEffectGuid(IUnknown* pObject,LPGUID);|FailureIfNegativeRet
+VTBLIndex=5 |HRESULT IDirectInputEffect::GetParameters(IUnknown* pObject,LPDIEFFECT,DWORD dwFlags);|Out|FailureIfNegativeRet
+VTBLIndex=6 |HRESULT IDirectInputEffect::SetParameters(IUnknown* pObject,LPCDIEFFECT,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=7 |HRESULT IDirectInputEffect::Start(IUnknown* pObject,DWORD dwIterations,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=8 |HRESULT IDirectInputEffect::Stop(IUnknown* pObject));|FailureIfNegativeRet
+VTBLIndex=9 |HRESULT IDirectInputEffect::GetEffectStatus(IUnknown* pObject,LPDWORD pdwFlags);|Out|FailureIfNegativeRet
+VTBLIndex=10|HRESULT IDirectInputEffect::Download(IUnknown* pObject));|FailureIfNegativeRet
+VTBLIndex=11|HRESULT IDirectInputEffect::Unload(IUnknown* pObject));|FailureIfNegativeRet
+VTBLIndex=12|HRESULT IDirectInputEffect::Escape(IUnknown* pObject,LPDIEFFESCAPE);|FailureIfNegativeRet

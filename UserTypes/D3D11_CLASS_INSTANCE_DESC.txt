@@ -1,0 +1,11 @@
+typedef struct D3D11_CLASS_INSTANCE_DESC
+    {
+    UINT InstanceId;
+    UINT InstanceIndex;
+    UINT TypeId;
+    UINT ConstantBuffer;
+    UINT BaseConstantBufferOffset;
+    UINT BaseTexture;
+    UINT BaseSampler;
+    BOOL Created;
+    } 	D3D11_CLASS_INSTANCE_DESC;

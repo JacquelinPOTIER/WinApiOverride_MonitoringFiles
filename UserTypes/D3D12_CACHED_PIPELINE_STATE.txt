@@ -1,0 +1,5 @@
+typedef struct D3D12_CACHED_PIPELINE_STATE
+    {
+    PBYTE pCachedBlob;
+    SIZE_T CachedBlobSizeInBytes;
+    } 	D3D12_CACHED_PIPELINE_STATE;

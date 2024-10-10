@@ -1,0 +1,13 @@
+typedef enum _KEY_INFORMATION_CLASS {
+  KeyBasicInformation,
+  KeyNodeInformation,
+  KeyFullInformation,
+  KeyNameInformation,
+  KeyCachedInformation,
+  KeyFlagsInformation,
+  KeyVirtualizationInformation,
+  KeyHandleTagsInformation,
+  KeyTrustInformation,
+  KeyLayerInformation,
+  MaxKeyInfoClass
+} KEY_INFORMATION_CLASS;

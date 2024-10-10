@@ -1,0 +1,8 @@
+;@InterfaceName=ID3D12DescriptorHeap
+
+; include ID3D12Pageable
+BaseIID={63ee58fb-1268-4835-86da-f008ce62f0d6}
+    
+VTBLIndex=8 | D3D12_DESCRIPTOR_HEAP_DESC STDMETHODCALLTYPE ID3D12DescriptorHeap::GetDesc(IUnknown* pObject)
+VTBLIndex=9 | D3D12_CPU_DESCRIPTOR_HANDLE STDMETHODCALLTYPE ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart(IUnknown* pObject)
+VTBLIndex=10| D3D12_GPU_DESCRIPTOR_HANDLE STDMETHODCALLTYPE ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart(IUnknown* pObject)

@@ -1,0 +1,10 @@
+;@InterfaceName=IDirect3DCubeTexture9
+
+; include IDirect3DBaseTexture9
+BaseIID={580CA87E-1D3C-4d54-991D-B7D3E3C298CE}
+
+VTBLIndex=17|HRESULT IDirect3DCubeTexture9::GetLevelDesc(IUnknown* pObject,UINT Level,D3DSURFACE_DESC *pDesc);|FailureIfNegativeRet
+VTBLIndex=18|HRESULT IDirect3DCubeTexture9::GetCubeMapSurface(IUnknown* pObject,D3DCUBEMAP_FACES FaceType,UINT Level,IDirect3DSurface9** ppCubeMapSurface);|FailureIfNegativeRet
+VTBLIndex=19|HRESULT IDirect3DCubeTexture9::LockRect(IUnknown* pObject,D3DCUBEMAP_FACES FaceType,UINT Level,D3DLOCKED_RECT* pLockedRect,CONST RECT* pRect,DWORD Flags);|FailureIfNegativeRet
+VTBLIndex=20|HRESULT IDirect3DCubeTexture9::UnlockRect(IUnknown* pObject,D3DCUBEMAP_FACES FaceType,UINT Level);|FailureIfNegativeRet
+VTBLIndex=21|HRESULT IDirect3DCubeTexture9::AddDirtyRect(IUnknown* pObject,D3DCUBEMAP_FACES FaceType,CONST RECT* pDirtyRect);|FailureIfNegativeRet

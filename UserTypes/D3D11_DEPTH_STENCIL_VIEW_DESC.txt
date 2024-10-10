@@ -1,0 +1,57 @@
+typedef struct D3D11_TEX1D_DSV
+    {
+    UINT MipSlice;
+    } 	D3D11_TEX1D_DSV;
+
+typedef struct D3D11_TEX1D_ARRAY_DSV
+    {
+    UINT MipSlice;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX1D_ARRAY_DSV;
+
+typedef struct D3D11_TEX2D_DSV
+    {
+    UINT MipSlice;
+    } 	D3D11_TEX2D_DSV;
+
+typedef struct D3D11_TEX2D_ARRAY_DSV
+    {
+    UINT MipSlice;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX2D_ARRAY_DSV;
+
+typedef struct D3D11_TEX2DMS_DSV
+    {
+    UINT UnusedField_NothingToDefine;
+    } 	D3D11_TEX2DMS_DSV;
+
+typedef struct D3D11_TEX2DMS_ARRAY_DSV
+    {
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX2DMS_ARRAY_DSV;
+
+typedef 
+enum D3D11_DSV_FLAG
+    {
+        D3D11_DSV_READ_ONLY_DEPTH	= 0x1L,
+        D3D11_DSV_READ_ONLY_STENCIL	= 0x2L
+    } 	D3D11_DSV_FLAG;
+
+typedef struct D3D11_DEPTH_STENCIL_VIEW_DESC
+    {
+    DXGI_FORMAT Format;
+    D3D11_DSV_DIMENSION ViewDimension;
+    UINT Flags;
+    union 
+        {
+        D3D11_TEX1D_DSV Texture1D;
+        D3D11_TEX1D_ARRAY_DSV Texture1DArray;
+        D3D11_TEX2D_DSV Texture2D;
+        D3D11_TEX2D_ARRAY_DSV Texture2DArray;
+        D3D11_TEX2DMS_DSV Texture2DMS;
+        D3D11_TEX2DMS_ARRAY_DSV Texture2DMSArray;
+        } 	;
+    } 	D3D11_DEPTH_STENCIL_VIEW_DESC;

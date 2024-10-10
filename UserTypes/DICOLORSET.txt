@@ -1,0 +1,11 @@
+typedef struct _DICOLORSET {
+    DWORD    dwSize
+    D3DCOLOR cTextFore;
+    D3DCOLOR cTextHighlight;
+    D3DCOLOR cCalloutLine;
+    D3DCOLOR cCalloutHighlight;
+    D3DCOLOR cBorder;
+    D3DCOLOR cControlFill;
+    D3DCOLOR cHighlightFill;
+    D3DCOLOR cAreaFill;
+} DICOLORSET, *LPDICOLORSET;

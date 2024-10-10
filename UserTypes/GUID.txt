@@ -1,0 +1,7 @@
+typedef struct _GUID
+{
+    unsigned long Data1;
+    short Data2;
+    short Data3;
+    unsigned char Data4[8];
+}GUID;

@@ -1,0 +1,8 @@
+typedef enum _D3DORDERTYPE {
+   D3DORDER_LINEAR      = 1,
+   D3DORDER_QUADRATIC   = 2,   
+   D3DORDER_CUBIC       = 3,
+   D3DORDER_QUINTIC     = 5, 
+
+   D3DORDER_FORCE_DWORD = 0x7fffffff
+} D3DORDERTYPE;

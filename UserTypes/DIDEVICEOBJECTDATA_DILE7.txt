@@ -1,0 +1,6 @@
+typedef struct DIDEVICEOBJECTDATA_DILE7 {
+    DWORD       dwOfs;
+    DWORD       dwData;
+    DWORD       dwTimeStamp;
+    DWORD       dwSequence;
+} DIDEVICEOBJECTDATA_DILE7, *LPDIDEVICEOBJECTDATA_DILE7;

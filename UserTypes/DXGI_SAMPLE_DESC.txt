@@ -1,0 +1,4 @@
+typedef struct DXGI_SAMPLE_DESC {
+  UINT Count;
+  UINT Quality;
+} DXGI_SAMPLE_DESC;

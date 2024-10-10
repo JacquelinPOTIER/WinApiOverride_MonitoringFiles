@@ -1,0 +1,22 @@
+typedef struct tagIDispatchVtbl
+{
+    // HRESULT ( STDMETHODCALLTYPE *QueryInterface )( IDispatch * This,REFIID riid,void **ppvObject);
+    PVOID QueryInterface;
+    // ULONG ( STDMETHODCALLTYPE *AddRef )( IDispatch * This);
+    PVOID AddRef;
+    // ULONG ( STDMETHODCALLTYPE *Release )( IDispatch * This);
+    PVOID Release;
+    // HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( IDispatch * This,UINT *pctinfo);
+    PVOID GetTypeInfoCount;
+    // HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( IDispatch * This,UINT iTInfo,LCID lcid,ITypeInfo **ppTInfo);
+    PVOID GetTypeInfo;
+    // HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( IDispatch * This,REFIID riid,LPOLESTR *rgszNames,UINT cNames,LCID lcid,DISPID *rgDispId);
+    PVOID GetIDsOfNames;
+    // HRESULT ( STDMETHODCALLTYPE *Invoke )( IDispatch * This,DISPID dispIdMember,REFIID riid,LCID lcid,WORD wFlags,DISPPARAMS *pDispParams,VARIANT *pVarResult,EXCEPINFO *pExcepInfo,UINT *puArgErr);
+    PVOID Invoke;
+} IDispatchVtbl;
+
+typedef struct IDispatch
+{
+    IDispatchVtbl *lpVtbl;
+};

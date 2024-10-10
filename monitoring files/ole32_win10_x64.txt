@@ -1,0 +1,509 @@
+;   Monitoring file generated for exports table of ole32.dll v10.0.19041.1320 by MonitoringFileBuilder
+
+
+
+ole32.dll|OleGetPackageClipboardOwner(UNKNOWN)
+ole32.dll|CLIPFORMAT_UserFreeExt(ULONG* pFlags,CLIPFORMAT* pCF)
+ole32.dll|CLIPFORMAT_UserMarshalExt(ULONG* pFlags,PBYTE Buffer,CLIPFORMAT* pCF)|Out
+ole32.dll|CLIPFORMAT_UserSizeExt(ULONG* pFlags,ULONG Size,CLIPFORMAT* pCF)
+ole32.dll|CLIPFORMAT_UserUnmarshalExt(ULONG* pFlags,PBYTE Buffer,CLIPFORMAT* pCF)|Out
+ole32.dll|ClipboardProcessUninitialize()
+ole32.dll|HPALETTE_UserFreeExt(HBITMAP hBitmap,HPALETTE hPalette,WICBitmapAlphaChannelOption options,IWICBitmap** ppIBitmap)|Out
+ole32.dll|HPALETTE_UserMarshalExt(HBITMAP hBitmap,HPALETTE hPalette,WICBitmapAlphaChannelOption options,IWICBitmap** ppIBitmap)|Out
+ole32.dll|HPALETTE_UserSizeExt(HBITMAP hBitmap,HPALETTE hPalette,WICBitmapAlphaChannelOption options,IWICBitmap** ppIBitmap)|Out
+ole32.dll|HPALETTE_UserUnmarshalExt(HBITMAP hBitmap,HPALETTE hPalette,WICBitmapAlphaChannelOption options,IWICBitmap** ppIBitmap)|Out
+ole32.dll|HWND_UserFree64Ext(ULONG* pFlags,HWND* phWnd)
+ole32.dll|HWND_UserFreeExt(ULONG* pFlags,HWND* phWnd)
+ole32.dll|HWND_UserMarshal64Ext(ULONG* pFlags,PBYTE Buffer,HWND* phWnd)|Out
+ole32.dll|HWND_UserMarshalExt(ULONG* pFlags,PBYTE Buffer,HWND* phWnd)|Out
+ole32.dll|HWND_UserSize64Ext(ULONG* pFlags,ULONG Size,HWND* phWnd)
+ole32.dll|HWND_UserSizeExt(ULONG* pFlags,ULONG Size,HWND* phWnd)
+ole32.dll|HWND_UserUnmarshal64Ext(ULONG* pFlags,PBYTE Buffer,HWND* phWnd)|Out
+ole32.dll|HWND_UserUnmarshalExt(ULONG* pFlags,PBYTE Buffer,HWND* phWnd)|Out
+ole32.dll|MonikerLoadTypeLib(UNKNOWN,UNKNOWN)
+; coml2 ReadClassStg import
+ole32.dll|ReadStorageProperties(UNKNOWN,UNKNOWN)
+ole32.dll|STGMEDIUM_UserFreeExt(ULONG* pFlags,STGMEDIUM* pStg)
+ole32.dll|STGMEDIUM_UserMarshalExt(ULONG* pFlags,PBYTE Buffer,STGMEDIUM* pStg)
+ole32.dll|STGMEDIUM_UserSizeExt(ULONG* pFlags,ULONG Size,STGMEDIUM* pStg)
+ole32.dll|STGMEDIUM_UserUnmarshalExt(ULONG* pFlags,PBYTE Buffer,STGMEDIUM* pStg)
+ole32.dll|SetOleautModule(UNKNOWN)
+ole32.dll|StdTypesGetClassObject(UNKNOWN)
+ole32.dll|StdTypesRegisterServer()
+ole32.dll|WriteStorageProperties(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT BindMoniker(LPMONIKER pmk,DWORD grfOpt,REFIID iidResult,LPVOID* ppvResult)|Out|FailureIfNotNullRet
+ole32.dll|void CLIPFORMAT_UserFree(ULONG* pFlags,CLIPFORMAT* pCF)
+ole32.dll|void CLIPFORMAT_UserFree64(ULONG* pFlags,CLIPFORMAT* pCF)
+ole32.dll|unsigned BYTE* CLIPFORMAT_UserMarshal(ULONG* pFlags,unsigned BYTE* pBuffer,CLIPFORMAT* pCF)|Out
+ole32.dll|unsigned BYTE* CLIPFORMAT_UserMarshal64(ULONG* pFlags,unsigned BYTE* pBuffer,CLIPFORMAT* pCF)|Out
+ole32.dll|long CLIPFORMAT_UserSize(ULONG* pFlags,ULONG StartingSize,CLIPFORMAT* pCF)
+ole32.dll|long CLIPFORMAT_UserSize64(ULONG* pFlags,ULONG StartingSize,CLIPFORMAT* pCF)
+ole32.dll|unsigned BYTE* CLIPFORMAT_UserUnmarshal(ULONG* pFlags,unsigned BYTE* pBuffer,CLIPFORMAT* pCF)|Out
+ole32.dll|unsigned BYTE* CLIPFORMAT_UserUnmarshal64(ULONG* pFlags,unsigned BYTE* pBuffer,CLIPFORMAT* pCF)|Out
+ole32.dll|CLSIDFromOle1Class(UNKNOWN,UNKNOWN,LPCLSID clsid)|Out
+ole32.dll|HRESULT CLSIDFromProgID(LPCOLESTR lpszProgID,LPCLSID lpclsid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CLSIDFromProgIDEx(LPCOLESTR lpszProgID,LPCLSID lpclsid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CLSIDFromString(LPCOLESTR lpsz,LPCLSID pclsid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CStdAsyncStubBuffer2_Connect(IRpcStubBuffer* pthis,IUnknown* pUnkServer)|FailureIfNotNullRet
+ole32.dll|void CStdAsyncStubBuffer2_Disconnect(IRpcStubBuffer* pthis)
+ole32.dll|ULONG CStdAsyncStubBuffer2_Release(IRpcStubBuffer* pthis)
+ole32.dll|ULONG CStdAsyncStubBuffer_AddRef(IRpcStubBuffer* pthis)
+ole32.dll|HRESULT CStdAsyncStubBuffer_Connect(IRpcStubBuffer* pthis,IUnknown* pUnkServer)|FailureIfNotNullRet
+ole32.dll|void CStdAsyncStubBuffer_Disconnect(IRpcStubBuffer* pthis)
+ole32.dll|HRESULT CStdAsyncStubBuffer_Invoke(IRpcStubBuffer* pthis,RPCOLEMESSAGE* _prpcmsg,IRpcChannelBuffer* _pRpcChannelBuffer)|FailureIfNotNullRet
+ole32.dll|HRESULT CStdAsyncStubBuffer_QueryInterface(IRpcStubBuffer* pthis,REFIID riid,void** ppvObject)|FailureIfNotNullRet
+ole32.dll|ULONG CStdAsyncStubBuffer_Release(IRpcStubBuffer* pthis)
+ole32.dll|HRESULT CStdStubBuffer2_Connect(IRpcStubBuffer* pthis,IUnknown* pUnkServer)|FailureIfNotNullRet
+ole32.dll|ULONG CStdStubBuffer2_CountRefs(IRpcStubBuffer* pthis)
+ole32.dll|void CStdStubBuffer2_Disconnect(IRpcStubBuffer* pthis)
+ole32.dll|HRESULT CStdStubBuffer2_QueryInterface(IRpcStubBuffer* This,REFIID riid,void** ppvObject)|FailureIfNotNullRet
+ole32.dll|CheckInitDde(UNKNOWN)
+ole32.dll|CleanROTForApartment()
+ole32.dll|ULONG CoAddRefServerProcess()
+ole32.dll|CoAicGetTokenForCOM(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoAllowSetForegroundWindow(IUnknown* pUnk,LPVOID lpvReserved)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoAllowUnmarshalerCLSID(REFCLSID clsid)
+ole32.dll|DWORD CoBuildVersion()
+ole32.dll|HRESULT CoCancelCall(DWORD dwThreadId,ULONG ulTimeout)|FailureIfNotNullRet
+ole32.dll|DWORD CoCheckElevationEnabled(BOOL* pResult)
+ole32.dll|HRESULT CoCopyProxy(IUnknown* pProxy,IUnknown** ppCopy)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoCreateFreeThreadedMarshaler(LPUNKNOWN punkOuter,LPUNKNOWN* ppunkMarshal)|FailureIfNotNullRet
+ole32.dll|HRESULT CoCreateGuid(GUID* pguid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoCreateInstance(REFCLSID rclsid,LPUNKNOWN pUnkOuter,DWORD dwClsContext,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoCreateInstanceEx(REFCLSID rclsid,IUnknown* punkOuter,DWORD dwClsCtx,COSERVERINFO* pServerInfo,DWORD dwCount,MULTI_QI* pResults)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoCreateInstanceFromApp(REFCLSID Clsid,IUnknown* punkOuter,DWORD dwClsCtx,PVOID reserved,DWORD dwCount,MULTI_QI* pResults)|Out|FailureIfNotNullRet
+ole32.dll|CoCreateObjectInContext(IUnknown* pUnk,IObjContext* pObjectCtx,REFIID riid,void** ppv)
+ole32.dll|CoDeactivateObject(IUnknown* pUnk,IUnknown** ppCookie)
+ole32.dll|HRESULT CoDecodeProxy(DWORD dwClientPid,UINT64 ui64ProxyAddress,PServerInformation pServerInformation)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoDecrementMTAUsage(CO_MTA_USAGE_COOKIE Cookie)|FailureIfNotNullRet
+ole32.dll|HRESULT CoDisableCallCancellation(LPVOID pReserved)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoDisconnectContext(DWORD dwTimeout)|FailureIfNotNullRet
+ole32.dll|HRESULT CoDisconnectObject(IUnknown* pUnk,DWORD dwReserved)|FailureIfNotNullRet
+ole32.dll|BOOL CoDosDateTimeToFileTime(WORD nDosDate,WORD nDosTime,FILETIME* lpFileTime)|Out
+ole32.dll|HRESULT CoEnableCallCancellation(LPVOID pReserved)|FailureIfNotNullRet
+ole32.dll|HRESULT CoFileTimeNow(FILETIME* lpFileTime)|Out|FailureIfNotNullRet
+ole32.dll|BOOL CoFileTimeToDosDateTime(FILETIME* lpFileTime,LPWORD lpDosDate,LPWORD lpDosTime)|Out
+;Function CoFreeAllLibraries can't be hooked: It's size is less than 5 bytes
+;ole32.dll|void CoFreeAllLibraries()
+ole32.dll|void CoFreeLibrary(HINSTANCE hInst)
+ole32.dll|void CoFreeUnusedLibraries()
+ole32.dll|void CoFreeUnusedLibrariesEx(DWORD dwUnloadDelay,DWORD dwReserved)
+ole32.dll|CoGetActivationState(PCOGETCALLSTATE CallStateCallback,PCOGETACTIVATIONSTATE ActivationStateCallback)
+ole32.dll|CoGetApartmentID(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoGetApartmentType(APTTYPE* pAptType,APTTYPEQUALIFIER* pAptQualifier)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetCallContext(REFIID riid,void** ppInterface)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetCallState(PCOGETCALLSTATE CallStateCallback,PCOGETACTIVATIONSTATE ActivationStateCallback)|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetCallerTID(LPDWORD lpdwTID)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetCancelObject(DWORD dwThreadId,REFIID riid,void** ppUnk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetClassObject(REFCLSID rclsid,DWORD dwClsContext,LPVOID pvReserved,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+ole32.dll|CoGetClassVersion(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|CoGetComCatalog(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoGetContextToken(ULONG_PTR* pToken)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetCurrentLogicalThreadId(GUID* pGUID)|Out
+ole32.dll|DWORD CoGetCurrentProcess()
+ole32.dll|HRESULT CoGetDefaultContext(APTTYPE aptType,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetInstanceFromFile(COSERVERINFO* pServerInfo,CLSID* pClsid,IUnknown* punkOuter,DWORD dwClsCtx,DWORD grfMode,OLECHAR* pwszName,DWORD dwCount,MULTI_QI* pResults)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetInstanceFromIStorage(COSERVERINFO* pServerInfo,CLSID* pClsid,IUnknown* punkOuter,DWORD dwClsCtx,IStorage* pstg,DWORD dwCount,MULTI_QI* pResults)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetInterceptor(REFIID iidIntercepted,IUnknown* punkOuter,REFIID iid,void** ppv)|FailureIfNotNullRet
+ole32.dll|CoGetInterceptorForOle32(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoGetInterceptorFromTypeInfo(REFIID iidIntercepted,IUnknown* punkOuter,ITypeInfo* typeInfo,REFIID iid,void** ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetInterfaceAndReleaseStream(LPSTREAM pStm,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetMalloc(DWORD dwMemContext,LPMALLOC* ppMalloc)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetMarshalSizeMax(ULONG* pulSize,REFIID riid,IUnknown* pUnk,DWORD dwDestContext,LPVOID pvDestContext,DWORD mshlflags)|Out|FailureIfNotNullRet
+ole32.dll|CoGetModuleType(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoGetObject(LPCWSTR pszName,BIND_OPTS* pBindOptions,REFIID riid,void** ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetObjectContext(REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetPSClsid(REFIID riid,CLSID* pClsid)|Out|FailureIfNotNullRet
+ole32.dll|CoGetProcessIdentifier(UNKNOWN)
+ole32.dll|HRESULT CoGetStandardMarshal(REFIID riid,IUnknown* pUnk,DWORD dwDestContext,LPVOID pvDestContext,DWORD mshlflags,LPMARSHAL* ppMarshal)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetStdMarshalEx(IUnknown* pUnkOuter,DWORD smexflags,IUnknown** ppUnkInner)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoGetSystemSecurityPermissions(COMSD comSDType,PSECURITY_DESCRIPTOR* ppSD)|Out|FailureIfNotNullRet
+ole32.dll|UINT CoGetSystemWow64DirectoryW(LPWSTR lpBuffer,UINT uSize)|Out|FailureIfNullRet
+ole32.dll|HRESULT CoGetTreatAsClass(REFCLSID clsidOld,LPCLSID pClsidNew)|FailureIfNotNullRet
+;CoHandlePriorityEventsFromMessagePump() in ole32.dll shouldn't be hooked: Address is not in an executable section, it can be an exported variable
+;ole32.dll|void CoHandlePriorityEventsFromMessagePump()
+ole32.dll|HRESULT CoImpersonateClient()|FailureIfNotNullRet
+ole32.dll|HRESULT CoIncrementMTAUsage(CO_MTA_USAGE_COOKIE* pCookie)|Out|FailureIfNotNullRet|FailureIfNotNullRet
+ole32.dll|HRESULT CoInitialize(LPVOID pvReserved)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoInitializeEx(LPVOID pvReserved,DWORD dwCoInit)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoInitializeSecurity(PSECURITY_DESCRIPTOR pSecDesc,LONG cAuthSvc,SOLE_AUTHENTICATION_SERVICE* asAuthSvc,void* pReserved1,DWORD dwAuthnLevel,DWORD dwImpLevel,void* pAuthList,DWORD dwCapabilities,void* pReserved3)|Out|FailureIfNotNullRet
+ole32.dll|CoInitializeWOW(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoInstall(IBindCtx* pbc,DWORD dwFlags,uCLSSPEC* pClassSpec,QUERYCONTEXT* pQuery,LPWSTR pszCodeBase)|FailureIfNotNullRet
+ole32.dll|HRESULT CoInvalidateRemoteMachineBindings(LPOLESTR pszMachineName)|Out|FailureIfNotNullRet
+ole32.dll|BOOL CoIsHandlerConnected(LPUNKNOWN pUnk)|Out
+ole32.dll|BOOL CoIsOle1Class(REFCLSID rclsid)
+ole32.dll|HINSTANCE CoLoadLibrary(LPOLESTR lpszLibName,BOOL bAutoFree)|Out|FailureIfNullRet
+ole32.dll|HRESULT CoLockObjectExternal(IUnknown* pUnk,BOOL fLock,BOOL fLastUnlockReleases)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoMarshalHresult(IStream* pstm,HRESULT hresult)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoMarshalInterThreadInterfaceInStream(REFIID riid,LPUNKNOWN pUnk,LPSTREAM* ppStm)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoMarshalInterface(IStream* pStm,REFIID riid,IUnknown* pUnk,DWORD dwDestContext,LPVOID pvDestContext,DWORD mshlflags)|Out|FailureIfNotNullRet
+ole32.dll|CoPopServiceDomain(UNKNOWN)
+ole32.dll|CoPushServiceDomain(UNKNOWN)
+ole32.dll|HRESULT CoQueryAuthenticationServices(DWORD* pcAuthSvc,SOLE_AUTHENTICATION_SERVICE** asAuthSvc)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoQueryClientBlanket(DWORD* pAuthnSvc,DWORD* pAuthzSvc,OLECHAR** pServerPrincName,DWORD* pAuthnLevel,DWORD* pImpLevel,RPC_AUTHZ_HANDLE* pPrivs,DWORD* pCapabilities)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoQueryProxyBlanket(IUnknown* pProxy,DWORD* pwAuthnSvc,DWORD* pAuthzSvc,OLECHAR** pServerPrincName,DWORD* pAuthnLevel,DWORD* pImpLevel,RPC_AUTH_IDENTITY_HANDLE* pAuthInfo,DWORD* pCapabilities)|Out|FailureIfNotNullRet
+ole32.dll|CoQueryReleaseObject()
+ole32.dll|CoReactivateObject(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT CoRegisterActivationFilter(IActivationFilter* pActivationFilter)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterChannelHook(REFGUID ExtensionUuid,IChannelHook* pChannelHook)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterClassObject(REFCLSID rclsid,IUnknown* pUnk,DWORD dwClsContext,DWORD flags,LPDWORD lpdwRegister)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterInitializeSpy(IInitializeSpy* pSpy,ULARGE_INTEGER* puliCookie)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterMallocSpy(LPMALLOCSPY pMallocSpy)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterMessageFilter(LPMESSAGEFILTER lpMessageFilter,LPMESSAGEFILTER* lplpMessageFilter)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterPSClsid(REFIID riid,REFCLSID rclsid)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterSurrogate(ISurrogate* pSurrogate)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRegisterSurrogateEx(REFGUID rguidProcessID,void* reserved)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoReleaseMarshalData(IStream* pStm)|FailureIfNotNullRet
+ole32.dll|ULONG CoReleaseServerProcess()
+ole32.dll|HRESULT CoResumeClassObjects()|FailureIfNotNullRet
+ole32.dll|CoRetireServer(UNKNOWN)
+ole32.dll|HRESULT CoRevertToSelf()|FailureIfNotNullRet
+ole32.dll|HRESULT CoRevokeClassObject(DWORD dwRegister)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRevokeInitializeSpy(ULARGE_INTEGER uliCookie)|FailureIfNotNullRet
+ole32.dll|HRESULT CoRevokeMallocSpy()|FailureIfNotNullRet
+ole32.dll|HRESULT CoSetCancelObject(IUnknown* pUnk)|FailureIfNotNullRet
+ole32.dll|void CoSetMessageDispatcher(PMessageDispatcher pMessageDispatcher)
+ole32.dll|HRESULT CoSetProxyBlanket(IUnknown* pProxy,DWORD dwAuthnSvc,DWORD dwAuthzSvc,OLECHAR* pServerPrincName,DWORD dwAuthnLevel,DWORD dwImpLevel,RPC_AUTH_IDENTITY_HANDLE pAuthInfo,DWORD dwCapabilities)|Out|FailureIfNotNullRet
+ole32.dll|CoSetState()
+ole32.dll|HRESULT CoSuspendClassObjects()|FailureIfNotNullRet
+ole32.dll|HRESULT CoSwitchCallContext(IUnknown* pNewObject,IUnknown** ppOldObject)|Out|FailureIfNotNullRet
+ole32.dll|LPVOID CoTaskMemAlloc(SIZE_T cb)
+ole32.dll|void CoTaskMemFree(LPVOID pv)
+ole32.dll|LPVOID CoTaskMemRealloc(LPVOID pv,SIZE_T cb)|Out
+ole32.dll|HRESULT CoTestCancel()|FailureIfNotNullRet
+ole32.dll|HRESULT CoTreatAsClass(REFCLSID clsidOld,REFCLSID clsidNew)|FailureIfNotNullRet
+ole32.dll|void CoUninitialize()
+; shared export
+;ole32.dll|CoUnloadingWOW()
+ole32.dll|HRESULT CoUnmarshalHresult(IStream* pstm,HRESULT* phresult)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoUnmarshalInterface(IStream* pStm,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+ole32.dll|CoVrfCheckThreadState(UNKNOWN)
+ole32.dll|CoVrfGetThreadState(UNKNOWN)
+ole32.dll|CoVrfReleaseThreadState(UNKNOWN)
+ole32.dll|HRESULT CoWaitForMultipleHandles(DWORD dwFlags,DWORD dwTimeout,ULONG cHandles,LPHANDLE pHandles,LPDWORD lpdwindex)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CoWaitForMultipleObjects(DWORD dwFlags,DWORD dwTimeout,ULONG cHandles,HANDLE* pHandles,LPDWORD lpdwindex)|Out|FailureIfNotNullRet
+;ComPs_NdrDllCanUnloadNow() in ole32.dll has the same entry point as CoQueryReleaseObject
+;ole32.dll|ComPs_NdrDllCanUnloadNow(CStdPSFactoryBuffer* pPSFactoryBuffer)|Out
+ole32.dll|ComPs_NdrDllGetClassObject(REFCLSID rclsid,REFIID riid,void** ppv, ProxyFileInfo** pProxyFileList, CLSID* pclsid,CStdPSFactoryBuffer* pPSFactoryBuffer)|Out
+ole32.dll|ComPs_NdrDllRegisterProxy(HMODULE hDll, ProxyFileInfo** pProxyFileList, CLSID* pclsid)
+ole32.dll|ComPs_NdrDllUnregisterProxy(HMODULE hDll, ProxyFileInfo** pProxyFileList, CLSID* pclsid)
+ole32.dll|HRESULT CreateAntiMoniker(LPMONIKER* ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateBindCtx(DWORD reserved,LPBC* ppbc)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateClassMoniker(REFCLSID rclsid,IMoniker** ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateDataAdviseHolder(IDataAdviseHolder** ppDAHolder)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateDataCache(LPUNKNOWN pUnkOuter,REFCLSID rclsid,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateErrorInfo(ICreateErrorInfo** pperrinfo)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateFileMoniker(LPCOLESTR lpszPathName,LPMONIKER* ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateGenericComposite(LPMONIKER pmkFirst,LPMONIKER pmkRest,LPMONIKER* ppmkComposite)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateILockBytesOnHGlobal(HGLOBAL hGlobal,BOOL fDeleteOnRelease,ILockBytes** pplkbyt)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateItemMoniker(LPCOLESTR lpszDelim,LPCOLESTR lpszItem,LPMONIKER* ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateObjrefMoniker(LPUNKNOWN punk,LPMONIKER* ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateOleAdviseHolder(LPOLEADVISEHOLDER* ppOAHolder)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreatePointerMoniker(LPUNKNOWN punk,LPMONIKER* ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateStdProgressIndicator(HWND hwndParent,LPCOLESTR pszTitle,IBindStatusCallback* pIbscCaller,IBindStatusCallback** ppIbsc)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT CreateStreamOnHGlobal(HGLOBAL hGlobal,BOOL fDeleteOnRelease,LPSTREAM* ppstm)|Out|FailureIfNotNullRet
+ole32.dll|DcomChannelSetHResult(LPVOID pvReserved,ULONG* pulReserved,HRESULT appsHR)|FailureIfNotNullRet
+ole32.dll|DdeBindToObject(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|DeletePatternAndExtensionTables()
+ole32.dll|DestroyRunningObjectTable()
+ole32.dll|BOOL DllDebugObjectRPCHook(BOOL fTrace,LPORPC_INIT_ARGS lpOrpcInitArgs)|FailureIfNullRet
+ole32.dll|HRESULT DllGetClassObject(REFCLSID rclsid,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+;DllGetClassObjectWOW() in ole32.dll has the same entry point as DllGetClassObject
+;ole32.dll|DllGetClassObjectWOW(REFCLSID rclsid,REFIID riid,LPVOID* ppv)
+;DllRegisterServer() in ole32.dll has the same entry point as CoSetState
+;ole32.dll|HRESULT DllRegisterServer()|FailureIfNotNullRet
+ole32.dll|HRESULT DoDragDrop(IDataObject* pDataObject,IDropSource* pDropSource,DWORD dwOKEffect,DWORD* pdwEffect)|Out|FailureIfNotNullRet
+ole32.dll|DragDropSetFDT(UNKNOWN)
+ole32.dll|EnableHookObject(UNKNOWN,UNKNOWN)
+ole32.dll|WCHAR* FindExt(WCHAR* Str)
+ole32.dll|HRESULT FmtIdToPropStgName(FMTID* pfmtid,LPOLESTR oszName)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT FreePropVariantArray(ULONG cVariants,PROPVARIANT* rgvars)|FailureIfNotNullRet
+ole32.dll|GetActiveObjectExt(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT GetClassFile(LPCOLESTR szFilename,CLSID* pclsid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT GetConvertStg(IStorage* pStg)|FailureIfNotNullRet
+; Unknown number of parameters
+;ole32.dll|GetDocumentBitStg()
+ole32.dll|HRESULT GetErrorInfo(ULONG dwReserved,IErrorInfo** pperrinfo)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT GetHGlobalFromILockBytes(ILockBytes* pLkbyt,HGLOBAL* phglobal)|FailureIfNotNullRet
+ole32.dll|HRESULT GetHGlobalFromStream(IStream* pstm,HGLOBAL* phglobal)|Out|FailureIfNotNullRet
+; Unknown number of parameters
+;ole32.dll|GetHookInterface()
+ole32.dll|GetObjectFromRotByPath(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT GetRunningObjectTable(DWORD reserved,LPRUNNINGOBJECTTABLE* pprot)|Out|FailureIfNotNullRet
+ole32.dll|void HACCEL_UserFree(long* ,HACCEL* )
+ole32.dll|void HACCEL_UserFree64(long* ,HACCEL* )
+ole32.dll|BYTE* HACCEL_UserMarshal(long* ,BYTE* ,HACCEL* )|Out
+ole32.dll|BYTE* HACCEL_UserMarshal64(long* ,BYTE* ,HACCEL* )|Out
+ole32.dll|long HACCEL_UserSize(long* ,long,HACCEL* )
+ole32.dll|long HACCEL_UserSize64(long* ,long,HACCEL* )
+ole32.dll|BYTE* HACCEL_UserUnmarshal(long* ,BYTE* ,HACCEL* )|Out
+ole32.dll|BYTE* HACCEL_UserUnmarshal64(long* ,BYTE* ,HACCEL* )|Out
+ole32.dll|void HBITMAP_UserFree(long* ,HBITMAP* )
+ole32.dll|void HBITMAP_UserFree64(long* ,HBITMAP* )
+ole32.dll|BYTE* HBITMAP_UserMarshal(long* ,BYTE* ,HBITMAP* )|Out
+ole32.dll|BYTE* HBITMAP_UserMarshal64(long* ,BYTE* ,HBITMAP* )|Out
+ole32.dll|long HBITMAP_UserSize(long* ,long,HBITMAP* )
+ole32.dll|long HBITMAP_UserSize64(long* ,long,HBITMAP* )
+ole32.dll|BYTE* HBITMAP_UserUnmarshal(long* ,BYTE* ,HBITMAP* )|Out
+ole32.dll|BYTE* HBITMAP_UserUnmarshal64(long* ,BYTE* ,HBITMAP* )|Out
+ole32.dll|HBRUSH_UserFree(ULONG* pFlags,HBRUSH* pBrush)
+ole32.dll|HBRUSH_UserFree64(ULONG* pFlags,HBRUSH* pBrush)
+ole32.dll|HBRUSH_UserMarshal(ULONG* pFlags,PBYTE Buffer,HBRUSH* pBrush)|Out
+ole32.dll|HBRUSH_UserMarshal64(ULONG* pFlags,PBYTE Buffer,HBRUSH* pBrush)|Out
+ole32.dll|HBRUSH_UserSize(ULONG* pFlags,ULONG Size,HBRUSH* pBrush)
+ole32.dll|HBRUSH_UserSize64(ULONG* pFlags,ULONG Size,HBRUSH* pBrush)
+ole32.dll|HBRUSH_UserUnmarshal(ULONG* pFlags,PBYTE Buffer,HBRUSH* pBrush)|Out
+ole32.dll|HBRUSH_UserUnmarshal64(ULONG* pFlags,PBYTE Buffer,HBRUSH* pBrush)|Out
+ole32.dll|void HDC_UserFree(long* ,HDC* )
+ole32.dll|void HDC_UserFree64(long* ,HDC* )
+ole32.dll|BYTE* HDC_UserMarshal(long* ,BYTE* ,HDC* )|Out
+ole32.dll|BYTE* HDC_UserMarshal64(long* ,BYTE* ,HDC* )|Out
+ole32.dll|long HDC_UserSize(long* ,long,HDC* )
+ole32.dll|long HDC_UserSize64(long* ,long,HDC* )
+ole32.dll|BYTE* HDC_UserUnmarshal(long* ,BYTE* ,HDC* )|Out
+ole32.dll|BYTE* HDC_UserUnmarshal64(long* ,BYTE* ,HDC* )|Out
+ole32.dll|HENHMETAFILE_UserFree(ULONG* pFlags,HENHMETAFILE* ph)
+ole32.dll|HENHMETAFILE_UserFree64(ULONG* pFlags,HENHMETAFILE* ph)
+ole32.dll|HENHMETAFILE_UserMarshal(ULONG* pFlags,PBYTE Buffer,HENHMETAFILE* ph)
+ole32.dll|HENHMETAFILE_UserMarshal64(ULONG* pFlags,PBYTE Buffer,HENHMETAFILE* ph)
+ole32.dll|HENHMETAFILE_UserSize(ULONG* pFlags,ULONG Size,HENHMETAFILE* ph)
+ole32.dll|HENHMETAFILE_UserSize64(ULONG* pFlags,ULONG Size,HENHMETAFILE* ph)
+ole32.dll|HENHMETAFILE_UserUnmarshal(ULONG* pFlags,PBYTE Buffer,HENHMETAFILE* phWnd)|Out
+ole32.dll|HENHMETAFILE_UserUnmarshal64(ULONG* pFlags,PBYTE Buffer,HENHMETAFILE* phWnd)|Out
+ole32.dll|void HGLOBAL_UserFree(long* ,HGLOBAL* )
+ole32.dll|void HGLOBAL_UserFree64(long* ,HGLOBAL* )
+ole32.dll|BYTE* HGLOBAL_UserMarshal(long* ,BYTE* ,HGLOBAL* )|Out
+ole32.dll|BYTE* HGLOBAL_UserMarshal64(long* ,BYTE* ,HGLOBAL* )|Out
+ole32.dll|long HGLOBAL_UserSize(long* ,long,HGLOBAL* )
+ole32.dll|long HGLOBAL_UserSize64(long* ,long,HGLOBAL* )
+ole32.dll|BYTE* HGLOBAL_UserUnmarshal(long* ,BYTE* ,HGLOBAL* )|Out
+ole32.dll|BYTE* HGLOBAL_UserUnmarshal64(long* ,BYTE* ,HGLOBAL* )|Out
+ole32.dll|void HICON_UserFree(long* ,HICON* )
+ole32.dll|void HICON_UserFree64(long* ,HICON* )
+ole32.dll|BYTE* HICON_UserMarshal(long* ,BYTE* ,HICON* )|Out
+ole32.dll|BYTE* HICON_UserMarshal64(long* ,BYTE* ,HICON* )|Out
+ole32.dll|long HICON_UserSize(long* ,long,HICON* )
+ole32.dll|long HICON_UserSize64(long* ,long,HICON* )
+ole32.dll|BYTE* HICON_UserUnmarshal(long* ,BYTE* ,HICON* )|Out
+ole32.dll|BYTE* HICON_UserUnmarshal64(long* ,BYTE* ,HICON* )|Out
+ole32.dll|void HMENU_UserFree(long* ,HMENU* )
+ole32.dll|void HMENU_UserFree64(long* ,HMENU* )
+ole32.dll|BYTE* HMENU_UserMarshal(long* ,BYTE* ,HMENU* )|Out
+ole32.dll|BYTE* HMENU_UserMarshal64(long* ,BYTE* ,HMENU* )|Out
+ole32.dll|long HMENU_UserSize(long* ,long,HMENU* )
+ole32.dll|long HMENU_UserSize64(long* ,long,HMENU* )
+ole32.dll|BYTE* HMENU_UserUnmarshal(long* ,BYTE* ,HMENU* )|Out
+ole32.dll|BYTE* HMENU_UserUnmarshal64(long* ,BYTE* ,HMENU* )|Out
+ole32.dll|HMETAFILEPICT_UserFree(ULONG* pFlags,HMETAFILEPICT* ph)
+ole32.dll|HMETAFILEPICT_UserFree64(ULONG* pFlags,HMETAFILEPICT* ph)
+ole32.dll|HMETAFILEPICT_UserMarshal(ULONG* pFlags,PBYTE Buffer,HMETAFILEPICT* ph)|Out
+ole32.dll|HMETAFILEPICT_UserMarshal64(ULONG* pFlags,PBYTE Buffer,HMETAFILEPICT* ph)|Out
+ole32.dll|HMETAFILEPICT_UserSize(ULONG* pFlags,ULONG Size,HMETAFILEPICT* ph)
+ole32.dll|HMETAFILEPICT_UserSize64(ULONG* pFlags,ULONG Size,HMETAFILEPICT* ph)
+ole32.dll|HMETAFILEPICT_UserUnmarshal(ULONG* pFlags,PBYTE Buffer,HMETAFILEPICT* ph)|Out
+ole32.dll|HMETAFILEPICT_UserUnmarshal64(ULONG* pFlags,PBYTE Buffer,HMETAFILEPICT* ph)|Out
+ole32.dll|HMETAFILE_UserFree(ULONG* pFlags,HMETAFILE* ph)
+ole32.dll|HMETAFILE_UserFree64(ULONG* pFlags,HMETAFILE* ph)
+ole32.dll|HMETAFILE_UserMarshal(ULONG* pFlags,PBYTE Buffer,HMETAFILE* ph|Out
+ole32.dll|HMETAFILE_UserMarshal64(ULONG* pFlags,PBYTE Buffer,HMETAFILE* ph)|Out
+ole32.dll|HMETAFILE_UserSize(ULONG* pFlags,ULONG Size,HMETAFILE* ph)
+ole32.dll|HMETAFILE_UserSize64(ULONG* pFlags,ULONG Size,HMETAFILE* ph)
+ole32.dll|HMETAFILE_UserUnmarshal(ULONG* pFlags,PBYTE Buffer,HMETAFILE* ph)|Out
+ole32.dll|HMETAFILE_UserUnmarshal64(ULONG* pFlags,PBYTE Buffer,HMETAFILE* ph)|Out
+ole32.dll|void HMONITOR_UserFree(long* ,HMONITOR* )
+ole32.dll|void HMONITOR_UserFree64(long* ,HMONITOR* )
+ole32.dll|BYTE* HMONITOR_UserMarshal(long* ,BYTE* ,HMONITOR* )|Out
+ole32.dll|BYTE* HMONITOR_UserMarshal64(long* ,BYTE* ,HMONITOR* )|Out
+ole32.dll|long HMONITOR_UserSize(long* ,long,HMONITOR* )
+ole32.dll|long HMONITOR_UserSize64(long* ,long,HMONITOR* )
+ole32.dll|BYTE* HMONITOR_UserUnmarshal(long* ,BYTE* ,HMONITOR* )|Out
+ole32.dll|BYTE* HMONITOR_UserUnmarshal64(long* ,BYTE* ,HMONITOR* )|Out
+ole32.dll|void HPALETTE_UserFree(long* ,HPALETTE* )
+ole32.dll|void HPALETTE_UserFree64(long* ,HPALETTE* )
+ole32.dll|BYTE* HPALETTE_UserMarshal(long* ,BYTE* ,HPALETTE* )|Out
+ole32.dll|BYTE* HPALETTE_UserMarshal64(long* ,BYTE* ,HPALETTE* )|Out
+ole32.dll|long HPALETTE_UserSize(long* ,long,HPALETTE* )
+ole32.dll|long HPALETTE_UserSize64(long* ,long,HPALETTE* )
+ole32.dll|BYTE* HPALETTE_UserUnmarshal(long* ,BYTE* ,HPALETTE* )|Out
+ole32.dll|BYTE* HPALETTE_UserUnmarshal64(long* ,BYTE* ,HPALETTE* )|Out
+ole32.dll|void HRGN_UserFree(long* ,HRGN* )
+ole32.dll|BYTE* HRGN_UserMarshal(long* ,BYTE* ,HRGN* )|Out
+ole32.dll|long HRGN_UserSize(long* ,long,HRGN* )
+ole32.dll|BYTE* HRGN_UserUnmarshal(long* ,BYTE* ,HRGN* )|Out
+ole32.dll|void HWND_UserFree(long* ,HWND* )
+ole32.dll|void HWND_UserFree64(long* ,HWND* )
+ole32.dll|BYTE* HWND_UserMarshal(long* ,BYTE* ,HWND* )|Out
+ole32.dll|BYTE* HWND_UserMarshal64(long* ,BYTE* ,HWND* )|Out
+ole32.dll|long HWND_UserSize(long* ,long,HWND* )
+ole32.dll|long HWND_UserSize64(long* ,long,HWND* )
+ole32.dll|BYTE* HWND_UserUnmarshal(long* ,BYTE* ,HWND* )|Out
+ole32.dll|BYTE* HWND_UserUnmarshal64(long* ,BYTE* ,HWND* )|Out
+; Unknown number of parameters
+;ole32.dll|HkOleRegisterObject()
+ole32.dll|HRESULT IIDFromString(LPCOLESTR lpsz,LPIID lpiid)|Out|FailureIfNotNullRet
+ole32.dll|BOOL IsAccelerator(HACCEL hAccel,int cAccelEntries,LPMSG lpMsg,WORD* lpwCmd)|Out
+ole32.dll|int IsEqualGUID(REFGUID rguid1,REFGUID rguid2)
+ole32.dll|IsRoInitializeASTAAllowedInDesktop(UNKNOWN)
+;IsValidIid() in ole32.dll has the same entry point as CoQueryReleaseObject
+;ole32.dll|IsValidIid()
+ole32.dll|IsValidInterface(UNKNOWN)
+;IsValidPtrIn() in ole32.dll has the same entry point as CoQueryReleaseObject
+;ole32.dll|IsValidPtrIn()
+;IsValidPtrOut() in ole32.dll has the same entry point as CoQueryReleaseObject
+;ole32.dll|IsValidPtrOut()
+ole32.dll|HRESULT MkParseDisplayName(LPBC pbc,LPCOLESTR szUserName,ULONG* pchEaten,LPMONIKER* ppmk)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT MonikerCommonPrefixWith(LPMONIKER pmkThis,LPMONIKER pmkOther,LPMONIKER* ppmkCommon)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT MonikerRelativePathTo(LPMONIKER pmkSrc,LPMONIKER pmkDest,LPMONIKER* ppmkRelPath,BOOL dwReserved)|Out|FailureIfNotNullRet
+ole32.dll|NdrOleInitializeExtension(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT Ole32DllGetClassObject(REFCLSID rclsid,REFIID riid,LPVOID* ppv)|Out|FailureIfNotNullRet
+;OleBuildVersion() in ole32.dll has the same entry point as CoBuildVersion
+;ole32.dll|DWORD OleBuildVersion()
+ole32.dll|HRESULT OleConvertIStorageToOLESTREAM(IStorage* pStg,LPOLESTREAM lpolestream)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleConvertIStorageToOLESTREAMEx(IStorage* pStg,CLIPFORMAT cfFormat,LONG lWidth,LONG lHeight,DWORD dwSize,LPSTGMEDIUM pmedium,LPOLESTREAM polestm)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleConvertOLESTREAMToIStorage(LPOLESTREAM lpolestream,IStorage* pstg,DVTARGETDEVICE* ptd)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleConvertOLESTREAMToIStorageEx(LPOLESTREAM polestm,IStorage* pstg,CLIPFORMAT* pcfFormat,LONG* plwWidth,LONG* plHeight,DWORD* pdwSize,LPSTGMEDIUM pmedium)|Out|FailureIfNotNullRet
+ole32.dll|OLESTATUS OleCreate(REFCLSID rclsid,REFIID riid,DWORD renderopt,LPFORMATETC pFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateDefaultHandler(REFCLSID clsid,LPUNKNOWN pUnkOuter,REFIID riid,LPVOID* lplpObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateEmbeddingHelper(REFCLSID clsid,LPUNKNOWN pUnkOuter,DWORD flags,LPCLASSFACTORY pCF,REFIID riid,LPVOID* lplpObj)|Out
+ole32.dll|HRESULT OleCreateEx(REFCLSID rclsid,REFIID riid,DWORD dwFlags,DWORD renderopt,ULONG cFormats,DWORD* rgAdvf,LPFORMATETC rgFormatEtc,IAdviseSink* lpAdviseSink,DWORD* rgdwConnection,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out
+ole32.dll|OleCreateFontIndirectExt(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT OleCreateFromData(LPDATAOBJECT pSrcDataObj,REFIID riid,DWORD renderopt,LPFORMATETC pFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateFromDataEx(LPDATAOBJECT pSrcDataObj,REFIID riid,DWORD dwFlags,DWORD renderopt,ULONG cFormats,DWORD* rgAdvf,LPFORMATETC rgFormatEtc,IAdviseSink* lpAdviseSink,DWORD* rgdwConnection,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|OLESTATUS OleCreateFromFile(REFCLSID rclsid,LPCOLESTR lpszFileName,REFIID riid,DWORD renderopt,LPFORMATETC lpFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateFromFileEx(REFCLSID rclsid,LPCOLESTR lpszFileName,REFIID riid,DWORD dwFlags,DWORD renderopt,ULONG cFormats,DWORD* rgAdvf,LPFORMATETC rgFormatEtc,IAdviseSink* lpAdviseSink,DWORD* rgdwConnection,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateLink(LPMONIKER pmkLinkSrc,REFIID riid,DWORD renderopt,LPFORMATETC lpFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateLinkEx(LPMONIKER pmkLinkSrc,REFIID riid,DWORD dwFlags,DWORD renderopt,ULONG cFormats,DWORD* rgAdvf,LPFORMATETC rgFormatEtc,IAdviseSink* lpAdviseSink,DWORD* rgdwConnection,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateLinkFromData(LPDATAOBJECT pSrcDataObj,REFIID riid,DWORD renderopt,LPFORMATETC pFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateLinkFromDataEx(LPDATAOBJECT pSrcDataObj,REFIID riid,DWORD dwFlags,DWORD renderopt,ULONG cFormats,DWORD* rgAdvf,LPFORMATETC rgFormatEtc,IAdviseSink* lpAdviseSink,DWORD* rgdwConnection,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateLinkToFile(LPCOLESTR lpszFileName,REFIID riid,DWORD renderopt,LPFORMATETC lpFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleCreateLinkToFileEx(LPCOLESTR lpszFileName,REFIID riid,DWORD dwFlags,DWORD renderopt,ULONG cFormats,DWORD* rgAdvf,LPFORMATETC rgFormatEtc,IAdviseSink* lpAdviseSink,DWORD* rgdwConnection,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HOLEMENU OleCreateMenuDescriptor(HMENU hmenuCombined,LPOLEMENUGROUPWIDTHS lpMenuWidths)|FailureIfNullRet
+ole32.dll|OleCreatePictureIndirectExt(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|OleCreatePropertyFrameIndirectExt(UNKNOWN)
+ole32.dll|HRESULT OleCreateStaticFromData(LPDATAOBJECT pSrcDataObj,REFIID riid,DWORD renderopt,LPFORMATETC pFormatEtc,LPOLECLIENTSITE pClientSite,LPSTORAGE pStg,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleDestroyMenuDescriptor(HOLEMENU holemenu)
+ole32.dll|HRESULT OleDoAutoConvert(IStorage* pStg,LPCLSID pClsidNew)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleDraw(IUnknown* pUnknown,DWORD dwAspect,HDC hdcDraw,LPCRECT lprcBounds)|FailureIfNotNullRet
+ole32.dll|HANDLE OleDuplicateData(HANDLE hSrc,CLIPFORMAT cfFormat,UINT uiFlags)|FailureIfNullRet
+ole32.dll|HRESULT OleFlushClipboard()
+ole32.dll|HRESULT OleGetAutoConvert(REFCLSID clsidOld,LPCLSID pClsidNew)|FailureIfNotNullRet
+ole32.dll|HRESULT OleGetClipboard(IDataObject** ppDataObj)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleGetClipboardWithEnterpriseInfo(IDataObject** dataObject,PWSTR* dataEnterpriseId,PWSTR* sourceDescription,PWSTR* targetDescription,PWSTR* dataDescription)|Out|FailureIfNotNullRet
+ole32.dll|HGLOBAL OleGetIconOfClass(REFCLSID rclsid,LPOLESTR lpszLabel,BOOL fUseTypeAsLabel)|FailureIfNullRet
+ole32.dll|HGLOBAL OleGetIconOfFile(LPOLESTR lpszPath,BOOL fUseFileAsLabel)|FailureIfNullRet
+ole32.dll|OleIconToCursorExt(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT OleInitialize(LPVOID pvReserved)|Out|FailureIfNotNullRet
+ole32.dll|OleInitializeWOW()
+ole32.dll|HRESULT OleIsCurrentClipboard(IDataObject* pDataObject)|FailureIfNotNullRet
+ole32.dll|BOOL OleIsRunning(LPOLEOBJECT pObject)
+ole32.dll|HRESULT OleLoad(IStorage* pStg,REFIID riid,IOleClientSite* pClientSite,LPVOID* ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|OLESTATUS OleLoadFromStream(IStream* pStm,REFIID iidInterface,void** ppvObj)|Out|FailureIfNotNullRet
+ole32.dll|OleLoadPictureExt(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|OleLoadPictureFileExt(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|OleLoadPicturePathExt(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT OleLockRunning(LPUNKNOWN pUnknown,BOOL fLock,BOOL fLastUnlockCloses)|FailureIfNotNullRet
+ole32.dll|HGLOBAL OleMetafilePictFromIconAndLabel(HICON hIcon,LPOLESTR lpszLabel,LPOLESTR lpszSourceFile,UINT iIconIndex)|FailureIfNotNullRet
+ole32.dll|HRESULT OleNoteObjectVisible(LPUNKNOWN pUnknown,BOOL fVisible)|FailureIfNotNullRet
+ole32.dll|HRESULT OleQueryCreateFromData(IDataObject* pSrcDataObject)|FailureIfNotNullRet
+ole32.dll|HRESULT OleQueryLinkFromData(IDataObject* pSrcDataObject)|FailureIfNotNullRet
+ole32.dll|HRESULT OleRegEnumFormatEtc(REFCLSID clsid,DWORD dwDirection,IEnumFORMATETC** ppenumFormatetc)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleRegEnumVerbs(REFCLSID clsid,LPENUMOLEVERB* ppenumOleVerb)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleRegGetMiscStatus(REFCLSID clsid,DWORD dwAspect,DWORD* pdwStatus)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT OleRegGetUserType(REFCLSID clsid,DWORD dwFormOfType,LPOLESTR* pszUserType)|Out|FailureIfNotNullRet
+ole32.dll|OleReleaseEnumVerbCache()
+ole32.dll|HRESULT OleRun(LPUNKNOWN pUnknown)|FailureIfNotNullRet
+ole32.dll|HRESULT OleSave(IPersistStorage* pPS,IStorage* pStg,BOOL fSameAsLoad)|FailureIfNotNullRet
+ole32.dll|OleSavePictureFileExt(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT OleSaveToStream(IPersistStream* pPStm,IStream* pStm)|FailureIfNotNullRet
+ole32.dll|HRESULT OleSetAutoConvert(REFCLSID clsidOld,REFCLSID clsidNew)|FailureIfNotNullRet
+ole32.dll|HRESULT OleSetClipboard(IDataObject* pDataObj)|FailureIfNotNullRet
+ole32.dll|HRESULT OleSetContainedObject(LPUNKNOWN pUnknown,BOOL fContained)|FailureIfNotNullRet
+ole32.dll|HRESULT OleSetMenuDescriptor(HOLEMENU holemenu,HWND hwndFrame,HWND hwndActiveObject,LPOLEINPLACEFRAME lpFrame,LPOLEINPLACEACTIVEOBJECT lpActiveObj)|FailureIfNotNullRet
+ole32.dll|HRESULT OleTranslateAccelerator(LPOLEINPLACEFRAME lpFrame,LPOLEINPLACEFRAMEINFO lpFrameInfo,LPMSG lpmsg)|FailureIfNotNullRet
+ole32.dll|OleTranslateColorExt(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|void OleUninitialize()
+ole32.dll|OpenOrCreateStream(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT ProgIDFromCLSID(REFCLSID clsid,LPOLESTR* lplpszProgID)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT PropStgNameToFmtId(LPOLESTR oszName,FMTID* pfmtid)|Out|FailureIfNotNullRet
+; oleaut32 SysAllocString redirection
+!ole32.dll|BSTR PropSysAllocString(OLECHAR* psz)
+; oleaut32 SysFreeString redirection
+!ole32.dll|void PropSysFreeString(BSTR bstrString)
+ole32.dll|HRESULT PropVariantChangeType(PROPVARIANT* ppropvarDest,REFPROPVARIANT propvarSrc,PROPVAR_CHANGE_FLAGS flags,VARTYPE vt)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT PropVariantClear(PROPVARIANT* pvar)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT PropVariantCopy(PROPVARIANT* pvarDest,PROPVARIANT* pvarSrc)|Out|FailureIfNotNullRet
+;ReadClassStg() in ole32.dll has the same entry point as ReadStorageProperties
+;ole32.dll|HRESULT ReadClassStg(IStorage* pStg,CLSID* pclsid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT ReadClassStm(IStream* pStm,CLSID* pclsid)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT ReadFmtUserTypeStg(IStorage* pstg,CLIPFORMAT* pcf,LPOLESTR* lplpszUserType)|Out|FailureIfNotNullRet
+ole32.dll|ReadOleStg(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|ReadStringStream(UNKNOWN,UNKNOWN)
+ole32.dll|RegisterActiveObjectExt(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT RegisterDragDrop(HWND hwnd,IDropTarget* pDropTarget)|FailureIfNotNullRet
+ole32.dll|void ReleaseStgMedium(STGMEDIUM* pmedium)
+ole32.dll|RevokeActiveObjectExt(UNKNOWN)
+ole32.dll|HRESULT RevokeDragDrop(HWND hwnd)|FailureIfNotNullRet
+ole32.dll|HRESULT RoGetAgileReference(AgileReferenceOptions options,REFIID riid,IUnknown* pUnk,IAgileReference** ppAgileReference)|Out|FailureIfNotNullRet
+ole32.dll|void SNB_UserFree(long* ,SNB* )
+ole32.dll|void SNB_UserFree64(long* ,SNB* )
+ole32.dll|BYTE* SNB_UserMarshal(long* ,BYTE* ,SNB* )|Out
+ole32.dll|BYTE* SNB_UserMarshal64(long* ,BYTE* ,SNB* )|Out
+ole32.dll|long SNB_UserSize(long* ,long,SNB* )
+ole32.dll|long SNB_UserSize64(long* ,long,SNB* )
+ole32.dll|BYTE* SNB_UserUnmarshal(long* ,BYTE* ,SNB* )|Out
+ole32.dll|BYTE* SNB_UserUnmarshal64(long* ,BYTE* ,SNB* )|Out
+ole32.dll|void STGMEDIUM_UserFree(long* ,STGMEDIUM* )
+ole32.dll|void STGMEDIUM_UserFree64(long* ,STGMEDIUM* )
+ole32.dll|BYTE* STGMEDIUM_UserMarshal(long* ,BYTE* ,STGMEDIUM* )|Out
+ole32.dll|BYTE* STGMEDIUM_UserMarshal64(long* ,BYTE* ,STGMEDIUM* )|Out
+ole32.dll|long STGMEDIUM_UserSize(long* ,long,STGMEDIUM* )
+ole32.dll|long STGMEDIUM_UserSize64(long* ,long,STGMEDIUM* )
+ole32.dll|BYTE* STGMEDIUM_UserUnmarshal(long* ,BYTE* ,STGMEDIUM* )|Out
+ole32.dll|BYTE* STGMEDIUM_UserUnmarshal64(long* ,BYTE* ,STGMEDIUM* )|Out
+ole32.dll|HRESULT SetConvertStg(IStorage* pStg,BOOL fConvert)|FailureIfNotNullRet
+ole32.dll|SetDocumentBitStg(UNKNOWN,UNKNOWN)
+ole32.dll|HRESULT SetErrorInfo(DWORD dwReserved,IErrorInfo* perrinfo)|Out|FailureIfNotNullRet
+;SetWOWThunkGlobalPtr() in ole32.dll has the same entry point as CoFreeAllLibraries
+;ole32.dll|SetWOWThunkGlobalPtr()
+ole32.dll|BOOLEAN StgConvertPropertyToVariant(SERIALIZEDPROPERTYVALUE* pprop,USHORT CodePage,PROPVARIANT* pVar,PMemoryAllocator* pma)|Out|FailureIfNullRet
+ole32.dll|SERIALIZEDPROPERTYVALUE* StgConvertVariantToProperty(PROPVARIANT* pvar,USHORT CodePage,SERIALIZEDPROPERTYVALUE* pprop,ULONG* pcb,PROPID pid,BOOLEAN fReserved,ULONG* pcIndirect)|Out|FailureIfNullRet
+ole32.dll|HRESULT StgCreateDocfile(WCHAR* pwcsName,DWORD grfMode,DWORD reserved,IStorage** ppstgOpen)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgCreateDocfileOnILockBytes(ILockBytes* plkbyt,DWORD grfMode,DWORD reserved,IStorage** ppstgOpen)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgCreatePropSetStg(IStorage* pStorage,DWORD dwReserved,IPropertySetStorage** ppPropSetStg)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgCreatePropStg(IUnknown* pUnk,REFFMTID fmtid,CLSID* pclsid,DWORD grfFlags,DWORD dwReserved,IPropertyStorage** ppPropStg)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgCreateStorageEx(WCHAR* pwcsName,DWORD grfMode,DWORD stgfmt,DWORD grfAttrs,STGOPTIONS* pStgOptions,PSECURITY_DESCRIPTOR pSecurityDescriptor,REFIID riid,void** ppObjectOpen)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgGetIFillLockBytesOnFile(OLECHAR* pwcsName,IFillLockBytes** ppflb)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgGetIFillLockBytesOnILockBytes(ILockBytes* pilb,IFillLockBytes** ppflb)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgIsStorageFile(WCHAR* pwcsName)|FailureIfNotNullRet
+ole32.dll|HRESULT StgIsStorageILockBytes(ILockBytes* plkbyt)|FailureIfNotNullRet
+ole32.dll|HRESULT StgOpenAsyncDocfileOnIFillLockBytes(IFillLockBytes* pflb,DWORD grfMode,DWORD asyncFlags,IStorage** ppstgOpen)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgOpenPropStg(IUnknown* pUnk,REFFMTID fmtid,DWORD grfFlags,DWORD dwReserved,IPropertyStorage** ppPropStg)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgOpenStorage(WCHAR* pwcsName,IStorage* pstgPriority,DWORD grfMode,SNB snbExclude,DWORD reserved,IStorage** ppstgOpen)|Out|FailureIfNotNullRet
+ole32.dll|HRESULT StgOpenStorageEx(WCHAR* pwcsName,DWORD grfMode,DWORD stgfmt,DWORD grfAttrs,STGOPTIONS* pStgOptions,PSECURITY_DESCRIPTOR pSecurityDescriptor,REFIID riid,void** ppObjectOpen)|Out|FailureIfNotNullRet
+; Unknown number of parameters
+!ole32.dll|StgOpenStorageOnHandle()
+ole32.dll|HRESULT StgOpenStorageOnILockBytes(ILockBytes* plkbyt,IStorage* pStgPriority,DWORD grfMode,SNB snbExclude,DWORD reserved,IStorage** ppstgOpen)|Out|FailureIfNotNullRet
+ole32.dll|ULONG StgPropertyLengthAsVariant(SERIALIZEDPROPERTYVALUE* pProp,ULONG cbProp,USHORT CodePage,BYTE bReserved)
+ole32.dll|HRESULT StgSetTimes(WCHAR* lpszName,FILETIME* pctime,FILETIME* patime,FILETIME* pmtime)|FailureIfNotNullRet
+ole32.dll|HRESULT StringFromCLSID(REFCLSID rclsid,LPOLESTR* lplpsz)|Out|FailureIfNotNullRet
+ole32.dll|int StringFromGUID2(REFGUID rguid,LPOLESTR lpsz,int cchMax)|Out|FailureIfNullRet
+ole32.dll|HRESULT StringFromIID(REFIID rclsid,LPOLESTR* lplpsz)|Out|FailureIfNotNullRet
+ole32.dll|void UpdateDCOMSettings()
+ole32.dll|UpdateProcessTracing(UNKNOWN,UNKNOWN)
+ole32.dll|UtConvertDvtd16toDvtd32(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|UtConvertDvtd32toDvtd16(UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|UtGetDvtd16Info(UNKNOWN,UNKNOWN)
+ole32.dll|UtGetDvtd32Info(UNKNOWN,UNKNOWN)
+ole32.dll|WdtpInterfacePointer_UserFree(ULONG* pFlags,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserFree64(ULONG* pFlags,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserMarshal(ULONG* pFlags,PBYTE Buffer,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserMarshal64(ULONG* pFlags,PBYTE Buffer,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserSize(ULONG* pFlags,ULONG Size,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserSize64(ULONG* pFlags,ULONG Size,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserUnmarshal(ULONG* pFlags,PBYTE Buffer,VOID* ph)
+ole32.dll|WdtpInterfacePointer_UserUnmarshal64(ULONG* pFlags,PBYTE Buffer,VOID* ph)
+ole32.dll|HRESULT WriteClassStg(IStorage* pStg,REFCLSID rclsid)|FailureIfNotNullRet
+ole32.dll|HRESULT WriteClassStm(IStream* pStm,REFCLSID rclsid)|FailureIfNotNullRet
+ole32.dll|HRESULT WriteFmtUserTypeStg(IStorage* pstg,CLIPFORMAT cf,LPOLESTR lpszUserType)|FailureIfNotNullRet
+ole32.dll|WriteOleStg(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+ole32.dll|WriteStringStream(UNKNOWN,UNKNOWN)

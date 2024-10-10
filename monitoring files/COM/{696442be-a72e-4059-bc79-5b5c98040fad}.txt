@@ -1,0 +1,12 @@
+;@InterfaceName=ID3D12Resource
+
+; include ID3D12Pageable
+BaseIID={63ee58fb-1268-4835-86da-f008ce62f0d6}
+    
+VTBLIndex=8 |HRESULT ID3D12Resource::Map(IUnknown* pObject,UINT Subresource,D3D12_RANGE* pReadRange,BYTE** ppData)|FailureIfNegativeRet|Out
+VTBLIndex=9 |void ID3D12Resource::Unmap(IUnknown* pObject,UINT Subresource,D3D12_RANGE* pWrittenRange)
+VTBLIndex=10|D3D12_RESOURCE_DESC ID3D12Resource::GetDesc(IUnknown* pObject)
+VTBLIndex=11|D3D12_GPU_VIRTUAL_ADDRESS ID3D12Resource::GetGPUVirtualAddress(IUnknown* pObject)
+VTBLIndex=12|HRESULT ID3D12Resource::WriteToSubresource(IUnknown* pObject,UINT DstSubresource,D3D12_BOX* pDstBox,PBYTE pSrcData,UINT SrcRowPitch,UINT SrcDepthPitch)|FailureIfNegativeRet
+VTBLIndex=13|HRESULT ID3D12Resource::ReadFromSubresource(IUnknown* pObject,PBYTE pDstData,UINT DstRowPitch,UINT DstDepthPitch,UINT SrcSubresource,D3D12_BOX *pSrcBox)|FailureIfNegativeRet|Out
+VTBLIndex=14|HRESULT ID3D12Resource::GetHeapProperties(IUnknown* pObject,D3D12_HEAP_PROPERTIES* pHeapProperties,D3D12_HEAP_FLAGS* pHeapFlags)|Out

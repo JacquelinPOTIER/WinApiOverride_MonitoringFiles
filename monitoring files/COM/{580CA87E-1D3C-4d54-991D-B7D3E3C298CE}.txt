@@ -1,0 +1,11 @@
+;@InterfaceName=IDirect3DBaseTexture9
+
+; include IDirect3DResource9
+BaseIID={05EEC05D-8F7D-4362-B999-D1BAF357C704}
+
+VTBLIndex=11|DWORD IDirect3DBaseTexture9::SetLOD(IUnknown* pObject,DWORD LODNew);
+VTBLIndex=12|DWORD IDirect3DBaseTexture9::GetLOD(IUnknown* pObject);
+VTBLIndex=13|DWORD IDirect3DBaseTexture9::GetLevelCount(IUnknown* pObject);
+VTBLIndex=14|HRESULT IDirect3DBaseTexture9::SetAutoGenFilterType(IUnknown* pObject,D3DTEXTUREFILTERTYPE FilterType);|FailureIfNegativeRet
+VTBLIndex=15|D3DTEXTUREFILTERTYPE IDirect3DBaseTexture9::GetAutoGenFilterType(IUnknown* pObject);
+VTBLIndex=16|void IDirect3DBaseTexture9::GenerateMipSubLevels(IUnknown* pObject);

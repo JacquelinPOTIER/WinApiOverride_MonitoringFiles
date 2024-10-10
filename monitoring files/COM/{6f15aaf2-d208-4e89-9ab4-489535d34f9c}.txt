@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D11Texture2D
+
+; include ID3D11Resource
+BaseIID={dc8e63f3-d12b-4952-b47b-5e45026a862d}
+
+VTBLIndex=10|void STDMETHODCALLTYPE void STDMETHODCALLTYPE ID3D11Texture2D::GetDesc(IUnknown* pObject,D3D11_TEXTURE2D_DESC *pDesc)|Out

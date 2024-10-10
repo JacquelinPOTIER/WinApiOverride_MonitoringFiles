@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D11RenderTargetView
+
+; include ID3D11View
+BaseIID={839d1216-bb2e-412b-b7f4-a9dbebe08ed1}
+
+VTBLIndex=8|void STDMETHODCALLTYPE ID3D11RenderTargetView::GetDesc(D3D11_RENDER_TARGET_VIEW_DESC *pDesc)|Out

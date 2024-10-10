@@ -1,0 +1,1055 @@
+;      Monitoring file generated for exports table of user32.dll v10.0.19041.1 by MonitoringFileBuilder
+
+
+
+user32.dll|GetPointerFrameArrivalTimes(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HKL ActivateKeyboardLayout(HKL hkl,UINT Flags)
+user32.dll|BOOL AddClipboardFormatListener(HWND hwnd)
+; Unknown number of parameters not in all win10 versions
+!user32.dll|AddVisualIdentifier(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL AdjustWindowRect(LPRECT lpRect,DWORD dwStyle,BOOL bMenu)|Out
+user32.dll|BOOL AdjustWindowRectEx(LPRECT lpRect,DWORD dwStyle,BOOL bMenu,DWORD dwExStyle)|Out
+user32.dll|BOOL AdjustWindowRectExForDpi(LPRECT lpRect,DWORD dwStyle,BOOL bMenu,DWORD dwExStyle,UINT dpi)|Out
+user32.dll|AlignRects(LPRECT rect, DWORD b, DWORD c, DWORD d)
+user32.dll|AllowForegroundActivation()
+user32.dll|BOOL AllowSetForegroundWindow(DWORD dwProcessId)
+user32.dll|BOOL AnimateWindow(HWND hWnd,DWORD dwTime,DWORD dwFlags)
+user32.dll|BOOL AnyPopup()
+user32.dll|BOOL AppendMenuA(HMENU hMenu,UINT uFlags,UINT_PTR uIDNewItem,LPCSTR lpNewItem)
+user32.dll|BOOL AppendMenuW(HMENU hMenu,UINT uFlags,UINT_PTR uIDNewItem,LPCWSTR lpNewItem)
+user32.dll|BOOL AreDpiAwarenessContextsEqual(DPI_AWARENESS_CONTEXT dpiContextA,DPI_AWARENESS_CONTEXT dpiContextB)
+user32.dll|UINT ArrangeIconicWindows(HWND hWnd)
+user32.dll|BOOL AttachThreadInput(DWORD idAttach,DWORD idAttachTo,BOOL fAttach)
+user32.dll|HDWP BeginDeferWindowPos(int nNumWindows)
+user32.dll|HDC BeginPaint(HWND hWnd,LPPAINTSTRUCT lpPaint)|Out
+user32.dll|BOOL BlockInput(BOOL fBlockIt)
+user32.dll|BOOL BringWindowToTop(HWND hWnd)
+;BroadcastSystemMessageA() in user32.dll has the same entry point as BroadcastSystemMessage
+;user32.dll|long BroadcastSystemMessage(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam)|Out
+user32.dll|long BroadcastSystemMessageA(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam)|Out
+user32.dll|long BroadcastSystemMessageExA(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam,PBSMINFO pbsmInfo)|Out
+user32.dll|long BroadcastSystemMessageExW(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam,PBSMINFO pbsmInfo)|Out
+user32.dll|long BroadcastSystemMessageW(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam)|Out
+user32.dll|BuildReasonArray(UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|CalcMenuBar(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL CalculatePopupWindowPosition(POINT* anchorPoint,SIZE* windowSize,UINT flags,RECT* excludeRect,RECT* popupWindowPosition)|Out
+;CallMsgFilterA() in user32.dll has the same entry point as CallMsgFilter
+;user32.dll|BOOL CallMsgFilter(LPMSG lpMsg,int nCode)
+user32.dll|BOOL CallMsgFilterA(LPMSG lpMsg,int nCode)
+user32.dll|BOOL CallMsgFilterW(LPMSG lpMsg,int nCode)
+user32.dll|LRESULT CallNextHookEx(HHOOK hhk,int nCode,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT CallWindowProcA(WNDPROC lpPrevWndFunc,HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT CallWindowProcW(WNDPROC lpPrevWndFunc,HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|BOOL CancelShutdown()
+user32.dll|CascadeChildWindows(HWND parent, UINT flags)
+user32.dll|WORD CascadeWindows(HWND hwndParent,UINT wHow,RECT*  lpRect,UINT cKids,HWND*  lpKids)
+user32.dll|BOOL ChangeClipboardChain(HWND hWndRemove,HWND hWndNewNext)
+user32.dll|LONG ChangeDisplaySettingsA(DEVMODEA* lpDevMode,DWORD dwFlags)
+user32.dll|LONG ChangeDisplaySettingsExA(LPCSTR lpszDeviceName,DEVMODEA* lpDevMode,HWND hwnd,DWORD dwflags,LPVOID lParam)
+user32.dll|LONG ChangeDisplaySettingsExW(LPCWSTR lpszDeviceName,DEVMODEW* lpDevMode,HWND hwnd,DWORD dwflags,LPVOID lParam)
+user32.dll|LONG ChangeDisplaySettingsW(DEVMODEW* lpDevMode,DWORD dwFlags)
+user32.dll|BOOL ChangeMenuA(HMENU hMenu,UINT cmd,LPCSTR lpszNewItem,UINT cmdInsert,UINT flags)
+user32.dll|BOOL ChangeMenuW(HMENU hMenu,UINT cmd,LPCWSTR lpszNewItem,UINT cmdInsert,UINT flags)
+user32.dll|BOOL ChangeWindowMessageFilter(UINT message,DWORD dwFlag)
+user32.dll|BOOL ChangeWindowMessageFilterEx(HWND hwnd,UINT message,DWORD action,PCHANGEFILTERSTRUCT pChangeFilterStruct)|Out
+;DwmGetDxRgn dummy retun 0 function
+user32.dll|DwmGetDxRgn()
+user32.dll|LPSTR CharLowerA(LPSTR lpsz)|Out
+user32.dll|DWORD CharLowerBuffA(LPSTR lpsz,DWORD cchLength)|Out
+user32.dll|DWORD CharLowerBuffW(LPWSTR lpsz,DWORD cchLength)|Out
+user32.dll|LPWSTR CharLowerW(LPWSTR lpsz)|Out
+user32.dll|LPSTR CharNextA(LPCSTR lpsz)
+user32.dll|LPSTR CharNextExA(WORD CodePage,LPCSTR lpCurrentChar,DWORD dwFlags)
+user32.dll|LPWSTR CharNextW(LPCWSTR lpsz)
+user32.dll|LPSTR CharPrevA(LPCSTR lpszStart,LPCSTR lpszCurrent)
+user32.dll|LPSTR CharPrevExA(WORD CodePage,LPCSTR lpStart,LPCSTR lpCurrentChar,DWORD dwFlags)
+user32.dll|LPWSTR CharPrevW(LPCWSTR lpszStart,LPCWSTR lpszCurrent)
+user32.dll|BOOL CharToOemA(LPCSTR pSrc,LPSTR pDst)|Out
+user32.dll|BOOL CharToOemBuffA(LPCSTR lpszSrc,LPSTR lpszDst,DWORD cchDstLength)|Out
+user32.dll|BOOL CharToOemBuffW(LPCWSTR lpszSrc,LPSTR lpszDst,DWORD cchDstLength)|Out
+user32.dll|BOOL CharToOemW(LPCWSTR pSrc,LPSTR pDst)|Out
+user32.dll|LPSTR CharUpperA(LPSTR lpsz)|Out
+user32.dll|DWORD CharUpperBuffA(LPSTR lpsz,DWORD cchLength)|Out
+user32.dll|DWORD CharUpperBuffW(LPWSTR lpsz,DWORD cchLength)|Out
+user32.dll|LPWSTR CharUpperW(LPWSTR lpsz)|Out
+user32.dll|CheckBannedOneCoreTransformApi()
+user32.dll|CheckDBCSEnabledExt()
+user32.dll|BOOL CheckDlgButton(HWND hDlg,int nIDButton,UINT uCheck)
+user32.dll|DWORD CheckMenuItem(HMENU hMenu,UINT uIDCheckItem,UINT uCheck)
+user32.dll|BOOL CheckMenuRadioItem(HMENU hmenu,UINT first,UINT last,UINT check,UINT flags)
+user32.dll|CheckProcessForClipboardAccess(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|CheckProcessSession(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL CheckRadioButton(HWND hDlg,int nIDFirstButton,int nIDLastButton,int nIDCheckButton)
+user32.dll|CheckWindowThreadDesktop(UNKNOWN,UNKNOWN)
+user32.dll|HWND ChildWindowFromPoint(HWND hWndParent,POINT Point)
+user32.dll|HWND ChildWindowFromPointEx(HWND hwnd,POINT pt,UINT flags)
+user32.dll|CliImmSetHotKey(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|ClientThreadSetup()
+user32.dll|BOOL ClientToScreen(HWND hWnd,LPPOINT lpPoint)|Out
+user32.dll|BOOL ClipCursor(RECT* lpRect)
+user32.dll|BOOL CloseClipboard()
+user32.dll|BOOL CloseDesktop(HDESK hDesktop)
+user32.dll|BOOL CloseGestureInfoHandle(HGESTUREINFO hGestureInfo)
+user32.dll|BOOL CloseTouchInputHandle(HTOUCHINPUT hTouchInput)
+user32.dll|BOOL CloseWindow(HWND hWnd)
+user32.dll|BOOL CloseWindowStation(HWINSTA hWinSta)
+user32.dll|ConsoleControl(UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|ControlMagnification(UNKNOWN,UNKNOWN)
+user32.dll|int CopyAcceleratorTableA(HACCEL hAccelSrc,LPACCEL lpAccelDst,int cAccelEntries)|Out
+user32.dll|int CopyAcceleratorTableW(HACCEL hAccelSrc,LPACCEL lpAccelDst,int cAccelEntries)|Out
+user32.dll|HICON CopyIcon(HICON hIcon)
+user32.dll|HANDLE CopyImage(HANDLE h,UINT type,int cx,int cy,UINT flags)
+user32.dll|BOOL CopyRect(LPRECT lprcDst,RECT* lprcSrc)|Out
+user32.dll|int CountClipboardFormats()
+user32.dll|HACCEL CreateAcceleratorTableA(LPACCEL paccel,int cAccel)
+user32.dll|HACCEL CreateAcceleratorTableW(LPACCEL paccel,int cAccel)
+user32.dll|BOOL CreateCaret(HWND hWnd,HBITMAP hBitmap,int nWidth,int nHeight)
+user32.dll|HCURSOR CreateCursor(HINSTANCE hInst,int xHotSpot,int yHotSpot,int nWidth,int nHeight,VOID* pvANDPlane,VOID* pvXORPlane)
+user32.dll|CreateDCompositionHwndTarget(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HDESK CreateDesktopA(LPCSTR lpszDesktop,LPCSTR lpszDevice,DEVMODEA* pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa)
+user32.dll|HDESK CreateDesktopExA(LPCSTR lpszDesktop,LPCSTR lpszDevice,DEVMODEA* pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa,ULONG ulHeapSize,PVOID pvoid)
+user32.dll|HDESK CreateDesktopExW(LPCWSTR lpszDesktop,LPCWSTR lpszDevice,DEVMODEW* pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa,ULONG ulHeapSize,PVOID pvoid)
+user32.dll|HDESK CreateDesktopW(LPCWSTR lpszDesktop,LPCWSTR lpszDevice,DEVMODEW* pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa)
+user32.dll|HWND CreateDialogIndirectParamA(HINSTANCE hInstance,LPCDLGTEMPLATEA lpTemplate,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|HWND CreateDialogIndirectParamAorW(HINSTANCE hInstance,LPCDLGTEMPLATEAorW lpTemplate,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam,DWORD Flags)
+user32.dll|HWND CreateDialogIndirectParamW(HINSTANCE hInstance,LPCDLGTEMPLATEW lpTemplate,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|HWND CreateDialogParamA(HINSTANCE hInstance,LPCSTR lpTemplateName,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|HWND CreateDialogParamW(HINSTANCE hInstance,LPCWSTR lpTemplateName,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|HICON CreateIcon(HINSTANCE hInstance,int nWidth,int nHeight,BYTE cPlanes,BYTE cBitsPixel,BYTE* lpbANDbits,BYTE* lpbXORbits)
+user32.dll|HICON CreateIconFromResource(PBYTE presbits,DWORD dwResSize,BOOL fIcon,DWORD dwVer)
+user32.dll|HICON CreateIconFromResourceEx(PBYTE presbits,DWORD dwResSize,BOOL fIcon,DWORD dwVer,int cxDesired,int cyDesired,UINT Flags)
+user32.dll|HICON CreateIconIndirect(PICONINFO piconinfo)
+user32.dll|HWND CreateMDIWindowA(LPCSTR lpClassName,LPCSTR lpWindowName,DWORD dwStyle,int X,int Y,int nWidth,int nHeight,HWND hWndParent,HINSTANCE hInstance,LPARAM lParam)
+user32.dll|HWND CreateMDIWindowW(LPCWSTR lpClassName,LPCWSTR lpWindowName,DWORD dwStyle,int X,int Y,int nWidth,int nHeight,HWND hWndParent,HINSTANCE hInstance,LPARAM lParam)
+user32.dll|HMENU CreateMenu()
+user32.dll|HMENU CreatePopupMenu()
+user32.dll|HSYNTHETICPOINTERDEVICE CreateSyntheticPointerDevice(POINTER_INPUT_TYPE pointerType,ULONG maxCount,POINTER_FEEDBACK_MODE mode)
+user32.dll|CreateSystemThreads(UNKNOWN)
+user32.dll|HWND CreateWindowExA(DWORD dwExStyle,LPCSTR lpClassName,LPCSTR lpWindowName,DWORD dwStyle,int X,int Y,int nWidth,int nHeight,HWND hWndParent,HMENU hMenu,HINSTANCE hInstance,LPVOID lpParam)
+user32.dll|HWND CreateWindowExW(DWORD dwExStyle,LPCWSTR lpClassName,LPCWSTR lpWindowName,DWORD dwStyle,int X,int Y,int nWidth,int nHeight,HWND hWndParent,HMENU hMenu,HINSTANCE hInstance,LPVOID lpParam)
+user32.dll|CreateWindowInBand(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|CreateWindowInBandEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|CreateWindowIndirect(UNKNOWN)
+user32.dll|HWINSTA CreateWindowStationA(LPCSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa)
+user32.dll|HWINSTA CreateWindowStationW(LPCWSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa)
+user32.dll|CsrBroadcastSystemMessageExW(DWORD dwflags,DWORD* lpdwRecipients,UINT uiMessage,WPARAM wParam,LPARAM lParam,PBSMINFO pBSMInfo)
+user32.dll|CtxInitUser32()
+user32.dll|BOOL DdeAbandonTransaction(DWORD idInst,HCONV hConv,DWORD idTransaction)
+user32.dll|LPBYTE DdeAccessData(HDDEDATA hData,LPDWORD pcbDataSize)|Out
+user32.dll|HDDEDATA DdeAddData(HDDEDATA hData,LPBYTE pSrc,DWORD cb,DWORD cbOff)
+user32.dll|HDDEDATA DdeClientTransaction(LPBYTE pData,DWORD cbData,HCONV hConv,HSZ hszItem,UINT wFmt,UINT wType,DWORD dwTimeout,LPDWORD pdwResult)|Out
+user32.dll|int DdeCmpStringHandles(HSZ hsz1,HSZ hsz2)
+user32.dll|HCONV DdeConnect(DWORD idInst,HSZ hszService,HSZ hszTopic,PCONVCONTEXT pCC)
+user32.dll|HCONVLIST DdeConnectList(DWORD idInst,HSZ hszService,HSZ hszTopic,HCONVLIST hConvList,PCONVCONTEXT pCC)
+user32.dll|HDDEDATA DdeCreateDataHandle(DWORD idInst,LPBYTE pSrc,DWORD cb,DWORD cbOff,HSZ hszItem,UINT wFmt,UINT afCmd)
+user32.dll|HSZ DdeCreateStringHandleA(DWORD idInst,LPCSTR psz,int iCodePage)
+user32.dll|HSZ DdeCreateStringHandleW(DWORD idInst,LPCWSTR psz,int iCodePage)
+user32.dll|BOOL DdeDisconnect(HCONV hConv)
+user32.dll|BOOL DdeDisconnectList(HCONVLIST hConvList)
+user32.dll|BOOL DdeEnableCallback(DWORD idInst,HCONV hConv,UINT wCmd)
+user32.dll|BOOL DdeFreeDataHandle(HDDEDATA hData)
+user32.dll|BOOL DdeFreeStringHandle(DWORD idInst,HSZ hsz)
+user32.dll|DWORD DdeGetData(HDDEDATA hData,LPBYTE pDst,DWORD cbMax,DWORD cbOff)|Out
+user32.dll|UINT DdeGetLastError(DWORD idInst)
+user32.dll|BOOL DdeGetQualityOfService(HWND hWnd,DWORD Reserved,PSECURITY_QUALITY_OF_SERVICE pqosPrev)
+user32.dll|BOOL DdeImpersonateClient(HCONV hConv)
+user32.dll|UINT DdeInitializeA(LPDWORD pidInst,PFNCALLBACK pfnCallback,DWORD afCmd,DWORD ulRes)|Out
+user32.dll|UINT DdeInitializeW(LPDWORD pidInst,PFNCALLBACK pfnCallback,DWORD afCmd,DWORD ulRes)|Out
+user32.dll|BOOL DdeKeepStringHandle(DWORD idInst,HSZ hsz)
+user32.dll|HDDEDATA DdeNameService(DWORD idInst,HSZ hsz1,HSZ hsz2,UINT afCmd)
+user32.dll|BOOL DdePostAdvise(DWORD idInst,HSZ hszTopic,HSZ hszItem)
+user32.dll|UINT DdeQueryConvInfo(HCONV hConv,DWORD idTransaction,PCONVINFO pConvInfo)|Out
+user32.dll|HCONV DdeQueryNextServer(HCONVLIST hConvList,HCONV hConvPrev)
+user32.dll|DWORD DdeQueryStringA(DWORD idInst,HSZ hsz,LPSTR psz,DWORD cchMax,int iCodePage)|Out
+user32.dll|DWORD DdeQueryStringW(DWORD idInst,HSZ hsz,LPWSTR psz,DWORD cchMax,int iCodePage)|Out
+user32.dll|HCONV DdeReconnect(HCONV hConv)
+;DdeSetQualityOfService() in user32.dll has the same entry point as DdeGetQualityOfService stub 
+;user32.dll|DdeSetQualityOfService(HWND hwndClient,SECURITY_QUALITY_OF_SERVICE* pqosNew,PSECURITY_QUALITY_OF_SERVICE pqosPrev)
+user32.dll|BOOL DdeSetUserHandle(HCONV hConv,DWORD id,DWORD_PTR hUser)
+user32.dll|BOOL DdeUnaccessData(HDDEDATA hData)
+user32.dll|BOOL DdeUninitialize(DWORD idInst)
+;DefDlgProcA() in user32.dll is a forwarded function for NtdllDialogWndProc_A() in NTDLL.dll
+user32.dll|LRESULT LRESULT CALLBACK DefDlgProcA(HWND hDlg,UINT Msg,WPARAM wParam,LPARAM lParam)
+;DefDlgProcW() in user32.dll is a forwarded function for NtdllDialogWndProc_W() in NTDLL.dll
+user32.dll|LRESULT LRESULT CALLBACK DefDlgProcW(HWND hDlg,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT DefFrameProcA(HWND hWnd,HWND hWndMDIClient,UINT uMsg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT DefFrameProcW(HWND hWnd,HWND hWndMDIClient,UINT uMsg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT LRESULT CALLBACK DefMDIChildProcA(HWND hWnd,UINT uMsg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT LRESULT CALLBACK DefMDIChildProcW(HWND hWnd,UINT uMsg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT DefRawInputProc(PRAWINPUT* paRawInput,INT nInput,UINT cbSizeHeader)
+;DefWindowProcA() in user32.dll is a forwarded function for NtdllDefWindowProc_A() in NTDLL.dll
+user32.dll|LRESULT LRESULT CALLBACK DefWindowProcA(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+;DefWindowProcW() in user32.dll is a forwarded function for NtdllDefWindowProc_W() in NTDLL.dll
+user32.dll|LRESULT LRESULT CALLBACK DefWindowProcW(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|HDWP DeferWindowPos(HDWP hWinPosInfo,HWND hWnd,HWND hWndInsertAfter,int x,int y,int cx,int cy,UINT uFlags)
+user32.dll|DeferWindowPosAndBand(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL DeleteMenu(HMENU hMenu,UINT uPosition,UINT uFlags)
+user32.dll|BOOL DeregisterShellHookWindow(HWND hwnd)
+user32.dll|BOOL DestroyAcceleratorTable(HACCEL hAccel)
+user32.dll|BOOL DestroyCaret()
+;DestroyIcon() in user32.dll has the same entry point as DestroyCursor
+;user32.dll|BOOL DestroyCursor(HCURSOR hCursor)
+user32.dll|DestroyDCompositionHwndTarget(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+;DestroyIcon() in user32.dll has the same entry point as DestroyCursor
+user32.dll|BOOL DestroyIcon(HICON hIcon)
+user32.dll|BOOL DestroyMenu(HMENU hMenu)
+user32.dll|DestroyReasons(UNKNOWN)
+user32.dll|VOID DestroySyntheticPointerDevice(HSYNTHETICPOINTERDEVICE device)
+user32.dll|BOOL DestroyWindow(HWND hWnd)
+user32.dll|INT_PTR DialogBoxIndirectParamA(HINSTANCE hInstance,LPCDLGTEMPLATEA hDialogTemplate,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|INT_PTR DialogBoxIndirectParamAorW(HINSTANCE hInstance,LPCDLGTEMPLATEAorW hDialogTemplate, HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam,DWORD Flags)
+user32.dll|INT_PTR DialogBoxIndirectParamW(HINSTANCE hInstance,LPCDLGTEMPLATEW hDialogTemplate,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|INT_PTR DialogBoxParamA(HINSTANCE hInstance,LPCSTR lpTemplateName,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|INT_PTR DialogBoxParamW(HINSTANCE hInstance,LPCWSTR lpTemplateName,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam)
+user32.dll|VOID DisableProcessWindowsGhosting()
+user32.dll|LRESULT DispatchMessageA(MSG* lpMsg)
+user32.dll|LRESULT DispatchMessageW(MSG* lpMsg)
+user32.dll|LONG DisplayConfigGetDeviceInfo(DISPLAYCONFIG_DEVICE_INFO_HEADER* requestPacket)|Out
+user32.dll|LONG DisplayConfigSetDeviceInfo(DISPLAYCONFIG_DEVICE_INFO_HEADER* setPacket)
+user32.dll|BOOL DisplayExitWindowsWarnings(ULONG flags)
+user32.dll|int DlgDirListA(HWND hDlg,LPSTR lpPathSpec,int nIDListBox,int nIDStaticPath,UINT uFileType)|Out
+user32.dll|int DlgDirListComboBoxA(HWND hDlg,LPSTR lpPathSpec,int nIDComboBox,int nIDStaticPath,UINT uFiletype)|Out
+user32.dll|int DlgDirListComboBoxW(HWND hDlg,LPWSTR lpPathSpec,int nIDComboBox,int nIDStaticPath,UINT uFiletype)|Out
+user32.dll|int DlgDirListW(HWND hDlg,LPWSTR lpPathSpec,int nIDListBox,int nIDStaticPath,UINT uFileType)|Out
+user32.dll|BOOL DlgDirSelectComboBoxExA(HWND hwndDlg,LPSTR lpString,int cchOut,int idComboBox)|Out
+user32.dll|BOOL DlgDirSelectComboBoxExW(HWND hwndDlg,LPWSTR lpString,int cchOut,int idComboBox)|Out
+user32.dll|BOOL DlgDirSelectExA(HWND hwndDlg,LPSTR lpString,int chCount,int idListBox)|Out
+user32.dll|BOOL DlgDirSelectExW(HWND hwndDlg,LPWSTR lpString,int chCount,int idListBox)|Out
+user32.dll|DoSoundConnect()
+user32.dll|DoSoundDisconnect()
+user32.dll|BOOL DragDetect(HWND hwnd,POINT pt)
+user32.dll|DWORD DragObject(HWND hwndParent,HWND hwndFrom,UINT fmt,ULONG_PTR data,HCURSOR hcur)
+user32.dll|BOOL DrawAnimatedRects(HWND hwnd,int idAni,RECT* lprcFrom,RECT* lprcTo)
+user32.dll|BOOL DrawCaption(HWND hwnd,HDC hdc,RECT* lprect,UINT flags)
+user32.dll|DrawCaptionTempA(HWND hwnd,HDC hdc,RECT* rect,HFONT hFont,HICON hIcon,LPCSTR str,UINT uFlags)
+user32.dll|DrawCaptionTempW(HWND hwnd,HDC hdc,RECT* rect,HFONT hFont,HICON hIcon,LPCWSTR str,UINT uFlags)
+user32.dll|BOOL DrawEdge(HDC hdc,LPRECT qrc,UINT edge,UINT grfFlags)|Out
+user32.dll|BOOL DrawFocusRect(HDC hDC,RECT* lprc)
+user32.dll|DrawFrame(HDC hDc,RECT* lprc,DWORD width,DWORD type)
+user32.dll|BOOL DrawFrameControl(HDC hDc,LPRECT lprc,UINT,UINT)|Out
+user32.dll|BOOL DrawIcon(HDC hDC,int X,int Y,HICON hIcon)
+user32.dll|BOOL DrawIconEx(HDC hdc,int xLeft,int yTop,HICON hIcon,int cxWidth,int cyWidth,UINT istepIfAniCur,HBRUSH hbrFlickerFreeDraw,UINT diFlags)
+user32.dll|BOOL DrawMenuBar(HWND hWnd)
+user32.dll|DrawMenuBarTemp(HWND hWnd,HDC hdc,LPRECT lprc,HMENU hMenu,HFONT hFont)
+user32.dll|BOOL DrawStateA(HDC hdc,HBRUSH hbrFore,DRAWSTATEPROC qfnCallBack,LPARAM lData,WPARAM wData,int x,int y,int cx,int cy,UINT uFlags)
+user32.dll|BOOL DrawStateW(HDC hdc,HBRUSH hbrFore,DRAWSTATEPROC qfnCallBack,LPARAM lData,WPARAM wData,int x,int y,int cx,int cy,UINT uFlags)
+user32.dll|int DrawTextA(HDC hdc,LPCSTR lpchText,int cchText,LPRECT lprc,UINT format)|Out
+user32.dll|int DrawTextExA(HDC hdc,LPSTR lpchText,int cchText,LPRECT lprc,UINT format,LPDRAWTEXTPARAMS lpdtp)|Out
+user32.dll|int DrawTextExW(HDC hdc,LPWSTR lpchText,int cchText,LPRECT lprc,UINT format,LPDRAWTEXTPARAMS lpdtp)|Out
+user32.dll|int DrawTextW(HDC hdc,LPCWSTR lpchText,int cchText,LPRECT lprc,UINT format)|Out
+user32.dll|BOOL DwmGetDxSharedSurface(HWND hwnd,HANDLE* phSurface,LUID* pAdapterLuid,ULONG* pFmtWindow,ULONG* pPresentFlags,ULONG64* pWin32kUpdateId)
+user32.dll|DwmGetRemoteSessionOcclusionEvent(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|DwmGetRemoteSessionOcclusionState(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|DwmKernelShutdown(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|DwmKernelStartup(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|DwmLockScreenUpdates(UNKNOWN)
+user32.dll|DwmValidateWindow(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|EditWndProc(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL EmptyClipboard()
+user32.dll|BOOL EnableMenuItem(HMENU hMenu,UINT uIDEnableItem,UINT uEnable)
+user32.dll|BOOL EnableMouseInPointer(BOOL fEnable)
+user32.dll|BOOL EnableNonClientDpiScaling(HWND hwnd)
+user32.dll|EnableOneCoreTransformMode(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL EnableScrollBar(HWND hWnd,UINT wSBflags,UINT wArrows)
+user32.dll|EnableSessionForMMCSS(UNKNOWN)
+user32.dll|BOOL EnableWindow(HWND hWnd,BOOL bEnable)
+user32.dll|BOOL EndDeferWindowPos(HDWP hWinPosInfo)
+user32.dll|BOOL EndDeferWindowPosEx(HDWP hWinPosInfo,UNKNOWN)
+user32.dll|BOOL EndDialog(HWND hDlg,INT_PTR nResult)
+user32.dll|BOOL EndMenu()
+user32.dll|BOOL EndPaint(HWND hWnd,PAINTSTRUCT* lpPaint)
+user32.dll|BOOL EndTask(HWND hWnd,BOOL fShutDown,BOOL fForce)
+user32.dll|BOOL EnterReaderModeHelper(HWND hwnd)
+user32.dll|BOOL EnumChildWindows(HWND hWndParent,WNDENUMPROC lpEnumFunc,LPARAM lParam)
+user32.dll|UINT EnumClipboardFormats(UINT format)
+user32.dll|BOOL EnumDesktopWindows(HDESK hDesktop,WNDENUMPROC lpfn,LPARAM lParam)
+user32.dll|BOOL EnumDesktopsA(HWINSTA hwinsta,DESKTOPENUMPROCA lpEnumFunc,LPARAM lParam)
+user32.dll|BOOL EnumDesktopsW(HWINSTA hwinsta,DESKTOPENUMPROCW lpEnumFunc,LPARAM lParam)
+user32.dll|BOOL EnumDisplayDevicesA(LPCSTR lpDevice,DWORD iDevNum,PDISPLAY_DEVICEA lpDisplayDevice,DWORD dwFlags)|Out
+user32.dll|BOOL EnumDisplayDevicesW(LPCWSTR lpDevice,DWORD iDevNum,PDISPLAY_DEVICEW lpDisplayDevice,DWORD dwFlags)|Out
+user32.dll|BOOL EnumDisplayMonitors(HDC hdc,LPCRECT lprcClip,MONITORENUMPROC lpfnEnum,LPARAM dwData)
+user32.dll|BOOL EnumDisplaySettingsA(LPCSTR lpszDeviceName,DWORD iModeNum,DEVMODEA* lpDevMode)|Out
+user32.dll|BOOL EnumDisplaySettingsExA(LPCSTR lpszDeviceName,DWORD iModeNum,DEVMODEA* lpDevMode,DWORD dwFlags)|Out
+user32.dll|BOOL EnumDisplaySettingsExW(LPCWSTR lpszDeviceName,DWORD iModeNum,DEVMODEW* lpDevMode,DWORD dwFlags)|Out
+user32.dll|BOOL EnumDisplaySettingsW(LPCWSTR lpszDeviceName,DWORD iModeNum,DEVMODEW* lpDevMode)|Out
+user32.dll|int EnumPropsA(HWND hWnd,PROPENUMPROCA lpEnumFunc)
+user32.dll|int EnumPropsExA(HWND hWnd,PROPENUMPROCEXA lpEnumFunc,LPARAM lParam)
+user32.dll|int EnumPropsExW(HWND hWnd,PROPENUMPROCEXW lpEnumFunc,LPARAM lParam)
+user32.dll|int EnumPropsW(HWND hWnd,PROPENUMPROCW lpEnumFunc)
+user32.dll|BOOL EnumThreadWindows(DWORD dwThreadId,WNDENUMPROC lpfn,LPARAM lParam)
+user32.dll|BOOL EnumWindowStationsA(WINSTAENUMPROCA lpEnumFunc,LPARAM lParam)
+user32.dll|BOOL EnumWindowStationsW(WINSTAENUMPROCW lpEnumFunc,LPARAM lParam)
+user32.dll|BOOL EnumWindows(WNDENUMPROC lpEnumFunc,LPARAM lParam)
+user32.dll|BOOL EqualRect(RECT* lprc1,RECT* lprc2)
+user32.dll|BOOL EvaluateProximityToPolygon(UINT32 numVertices,POINT* controlPolygon,TOUCH_HIT_TESTING_INPUT* pHitTestingInput,TOUCH_HIT_TESTING_PROXIMITY_EVALUATION* pProximityEval)|Out
+user32.dll|BOOL EvaluateProximityToRect(RECT* controlBoundingBox,TOUCH_HIT_TESTING_INPUT* pHitTestingInput,TOUCH_HIT_TESTING_PROXIMITY_EVALUATION* pProximityEval)|Out
+user32.dll|int ExcludeUpdateRgn(HDC hDC,HWND hWnd)
+user32.dll|BOOL ExitWindowsEx(UINT uFlags,DWORD dwReason)
+user32.dll|int FillRect(HDC hDC,RECT* lprc,HBRUSH hbr)
+user32.dll|HWND FindWindowA(LPCSTR lpClassName,LPCSTR lpWindowName)
+user32.dll|HWND FindWindowExA(HWND hWndParent,HWND hWndChildAfter,LPCSTR lpszClass,LPCSTR lpszWindow)
+user32.dll|HWND FindWindowExW(HWND hWndParent,HWND hWndChildAfter,LPCWSTR lpszClass,LPCWSTR lpszWindow)
+user32.dll|HWND FindWindowW(LPCWSTR lpClassName,LPCWSTR lpWindowName)
+user32.dll|BOOL FlashWindow(HWND hWnd,BOOL bInvert)
+user32.dll|BOOL FlashWindowEx(PFLASHWINFO pfwi)
+user32.dll|int FrameRect(HDC hDC,RECT* lprc,HBRUSH hbr)
+user32.dll|BOOL FreeDDElParam(UINT msg,LPARAM lParam)
+user32.dll|HWND FrostCrashedWindow(HWND hwndToReplace,HWND hwndErrorReportOwnerWnd)
+user32.dll|HWND GetActiveWindow()
+;GetAltTabInfoA() in user32.dll has the same entry point as GetAltTabInfo
+;user32.dll|BOOL GetAltTabInfo(HWND hwnd,int iItem,PALTTABINFO pati,LPSTR pszItemText,UINT cchItemText)|Out
+user32.dll|BOOL GetAltTabInfoA(HWND hwnd,int iItem,PALTTABINFO pati,LPSTR pszItemText,UINT cchItemText)|Out
+user32.dll|BOOL GetAltTabInfoW(HWND hwnd,int iItem,PALTTABINFO pati,LPWSTR pszItemText,UINT cchItemText)|Out
+user32.dll|HWND GetAncestor(HWND hwnd,UINT gaFlags)
+user32.dll|DWORD GetAppCompatFlags(HTASK hTask)
+user32.dll|DWORD GetAppCompatFlags2(HTASK hTask)
+user32.dll|SHORT GetAsyncKeyState(int vKey)
+user32.dll|BOOL GetAutoRotationState(PAR_STATE pState)|Out
+user32.dll|DPI_AWARENESS GetAwarenessFromDpiAwarenessContext(DPI_AWARENESS_CONTEXT value)
+user32.dll|BOOL GetCIMSSM(INPUT_MESSAGE_SOURCE* inputMessageSource)|Out
+user32.dll|HWND GetCapture()
+user32.dll|UINT GetCaretBlinkTime()
+user32.dll|BOOL GetCaretPos(LPPOINT lpPoint)|Out
+user32.dll|BOOL GetClassInfoA(HINSTANCE hInstance,LPCSTR lpClassName,LPWNDCLASSA lpWndClass)|Out
+user32.dll|BOOL GetClassInfoExA(HINSTANCE hInstance,LPCSTR lpszClass,LPWNDCLASSEXA lpwcx)|Out
+user32.dll|BOOL GetClassInfoExW(HINSTANCE hInstance,LPCWSTR lpszClass,LPWNDCLASSEXW lpwcx)|Out
+user32.dll|BOOL GetClassInfoW(HINSTANCE hInstance,LPCWSTR lpClassName,LPWNDCLASSW lpWndClass)|Out
+user32.dll|DWORD GetClassLongA(HWND hWnd,int nIndex)
+user32.dll|ULONG_PTR GetClassLongPtrA(HWND hWnd,int nIndex)
+user32.dll|ULONG_PTR GetClassLongPtrW(HWND hWnd,int nIndex)
+user32.dll|DWORD GetClassLongW(HWND hWnd,int nIndex)
+user32.dll|int GetClassNameA(HWND hWnd,LPSTR lpClassName,int nMaxCount)|Out
+user32.dll|int GetClassNameW(HWND hWnd,LPWSTR lpClassName,int nMaxCount)|Out
+user32.dll|WORD GetClassWord(HWND hWnd,int nIndex)
+user32.dll|BOOL GetClientRect(HWND hWnd,LPRECT lpRect)|Out
+user32.dll|BOOL GetClipCursor(LPRECT lpRect)|Out
+user32.dll|GetClipboardAccessToken(UNKNOWN)
+user32.dll|HANDLE GetClipboardData(UINT uFormat)
+user32.dll|int GetClipboardFormatNameA(UINT format,LPSTR lpszFormatName,int cchMaxCount)|Out
+user32.dll|int GetClipboardFormatNameW(UINT format,LPWSTR lpszFormatName,int cchMaxCount)|Out
+user32.dll|HWND GetClipboardOwner()
+user32.dll|DWORD GetClipboardSequenceNumber()
+user32.dll|HWND GetClipboardViewer()
+user32.dll|BOOL GetComboBoxInfo(HWND hwndCombo,PCOMBOBOXINFO pcbi)|Out
+user32.dll|BOOL GetCurrentInputMessageSource(INPUT_MESSAGE_SOURCE* inputMessageSource)|Out
+user32.dll|HCURSOR GetCursor()
+user32.dll|HCURSOR GetCursorFrameInfo(HCURSOR hCursor,DWORD reserved,DWORD istep,INT* rate_jiffies,DWORD* num_steps)
+user32.dll|BOOL GetCursorInfo(PCURSORINFO pci)|Out
+user32.dll|BOOL GetCursorPos(LPPOINT lpPoint)|Out
+user32.dll|HDC GetDC(HWND hWnd)
+user32.dll|HDC GetDCEx(HWND hWnd,HRGN hrgnClip,DWORD flags)
+user32.dll|GetDesktopID(UNKNOWN)
+user32.dll|HWND GetDesktopWindow()
+user32.dll|long GetDialogBaseUnits()
+user32.dll|DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS GetDialogControlDpiChangeBehavior(HWND hWnd)
+user32.dll|DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg)
+user32.dll|BOOL GetDisplayAutoRotationPreferences(ORIENTATION_PREFERENCE* pOrientation)|Out
+user32.dll|LONG GetDisplayConfigBufferSizes(UINT32 flags,UINT32* numPathArrayElements,UINT32* numModeInfoArrayElements)|Out
+user32.dll|int GetDlgCtrlID(HWND hWnd)
+user32.dll|HWND GetDlgItem(HWND hDlg,int nIDDlgItem)
+user32.dll|UINT GetDlgItemInt(HWND hDlg,int nIDDlgItem,BOOL* lpTranslated,BOOL bSigned)|Out
+user32.dll|UINT GetDlgItemTextA(HWND hDlg,int nIDDlgItem,LPSTR lpString,int cchMax)|Out
+user32.dll|UINT GetDlgItemTextW(HWND hDlg,int nIDDlgItem,LPWSTR lpString,int cchMax)|Out
+user32.dll|UINT GetDoubleClickTime()
+user32.dll|DPI_AWARENESS_CONTEXT GetDpiAwarenessContextForProcess(HANDLE hProcess)
+user32.dll|GetDpiForMonitorInternal(UNKNOWN,UNKNOWN)
+user32.dll|UINT GetDpiForSystem()
+user32.dll|UINT GetDpiForWindow(HWND hwnd)
+user32.dll|UINT GetDpiFromDpiAwarenessContext(DPI_AWARENESS_CONTEXT value)
+; Unknown number of parameters not in all win10 versions
+!user32.dll|GetExtendedPointerDeviceProperty(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HWND GetFocus()
+user32.dll|HWND GetForegroundWindow()
+user32.dll|BOOL GetGUIThreadInfo(DWORD idThread,PGUITHREADINFO pgui)|Out
+user32.dll|BOOL GetGestureConfig(HWND hwnd,DWORD dwReserved,DWORD dwFlags,PUINT pcIDs,PGESTURECONFIG pGestureConfig,UINT cbSize)|Out
+user32.dll|BOOL GetGestureExtraArgs(HGESTUREINFO hGestureInfo,UINT cbExtraArgs,PBYTE pExtraArgs)|Out
+user32.dll|BOOL GetGestureInfo(HGESTUREINFO hGestureInfo,PGESTUREINFO pGestureInfo)|Out
+user32.dll|DWORD GetGuiResources(HANDLE hProcess,DWORD uiFlags)
+user32.dll|BOOL GetIconInfo(HICON hIcon,PICONINFO piconinfo)|Out
+user32.dll|BOOL GetIconInfoExA(HICON hicon,PICONINFOEXA piconinfo)|Out
+user32.dll|BOOL GetIconInfoExW(HICON hicon,PICONINFOEXW piconinfo)|Out
+user32.dll|GetInputDesktop()
+user32.dll|GetInputLocaleInfo(UNKNOWN,UNKNOWN)
+user32.dll|BOOL GetInputState()
+user32.dll|UINT GetInternalWindowPos(HWND hwnd,RECT* rectWnd,POINT* ptIcon)
+user32.dll|UINT GetKBCodePage()
+user32.dll|int GetKeyNameTextA(LONG lParam,LPSTR lpString,int cchSize)|Out
+user32.dll|int GetKeyNameTextW(LONG lParam,LPWSTR lpString,int cchSize)|Out
+user32.dll|SHORT GetKeyState(int nVirtKey)
+user32.dll|HKL GetKeyboardLayout(DWORD idThread)
+user32.dll|int GetKeyboardLayoutList(int nBuff,HKL* lpList)|Out
+user32.dll|BOOL GetKeyboardLayoutNameA(LPSTR pwszKLID)|Out
+user32.dll|BOOL GetKeyboardLayoutNameW(LPWSTR pwszKLID)|Out
+user32.dll|BOOL GetKeyboardState(PBYTE lpKeyState)|Out
+user32.dll|int GetKeyboardType(int nTypeFlag)
+user32.dll|HWND GetLastActivePopup(HWND hWnd)
+user32.dll|BOOL GetLastInputInfo(PLASTINPUTINFO plii)|Out
+user32.dll|BOOL GetLayeredWindowAttributes(HWND hwnd,COLORREF* pcrKey,BYTE* pbAlpha,DWORD* pdwFlags)|Out
+user32.dll|DWORD GetListBoxInfo(HWND hwnd)
+user32.dll|GetMagnificationDesktopColorEffect(UNKNOWN)
+user32.dll|GetMagnificationDesktopMagnification(UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|GetMagnificationDesktopSamplingMode(UNKNOWN)
+user32.dll|GetMagnificationLensCtxInformation(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HMENU GetMenu(HWND hWnd)
+user32.dll|BOOL GetMenuBarInfo(HWND hwnd,LONG idObject,LONG idItem,PMENUBARINFO pmbi)|Out
+user32.dll|LONG GetMenuCheckMarkDimensions()
+user32.dll|DWORD GetMenuContextHelpId(HMENU)
+user32.dll|UINT GetMenuDefaultItem(HMENU hMenu,UINT fByPos,UINT gmdiFlags)
+user32.dll|BOOL GetMenuInfo(HMENU,LPMENUINFO)|Out
+user32.dll|int GetMenuItemCount(HMENU hMenu)
+user32.dll|UINT GetMenuItemID(HMENU hMenu,int nPos)
+user32.dll|BOOL GetMenuItemInfoA(HMENU hmenu,UINT item,BOOL fByPosition,LPMENUITEMINFOA lpmii)|Out
+user32.dll|BOOL GetMenuItemInfoW(HMENU hmenu,UINT item,BOOL fByPosition,LPMENUITEMINFOW lpmii)|Out
+user32.dll|BOOL GetMenuItemRect(HWND hWnd,HMENU hMenu,UINT uItem,LPRECT lprcItem)|Out
+user32.dll|UINT GetMenuState(HMENU hMenu,UINT uId,UINT uFlags)
+user32.dll|int GetMenuStringA(HMENU hMenu,UINT uIDItem,LPSTR lpString,int cchMax,UINT flags)|Out
+user32.dll|int GetMenuStringW(HMENU hMenu,UINT uIDItem,LPWSTR lpString,int cchMax,UINT flags)|Out
+user32.dll|BOOL GetMessageA(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax)|Out
+user32.dll|LPARAM GetMessageExtraInfo()
+user32.dll|DWORD GetMessagePos()
+user32.dll|LONG GetMessageTime()
+user32.dll|BOOL GetMessageW(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax)|Out
+user32.dll|BOOL GetMonitorInfoA(HMONITOR hMonitor,LPMONITORINFO lpmi)|Out
+user32.dll|BOOL GetMonitorInfoW(HMONITOR hMonitor,LPMONITORINFO lpmi)|Out
+user32.dll|int GetMouseMovePointsEx(UINT cbSize,LPMOUSEMOVEPOINT lppt,LPMOUSEMOVEPOINT lpptBuf,int nBufPoints,DWORD resolution)|Out
+user32.dll|HWND GetNextDlgGroupItem(HWND hDlg,HWND hCtl,BOOL bPrevious)
+user32.dll|HWND GetNextDlgTabItem(HWND hDlg,HWND hCtl,BOOL bPrevious)
+user32.dll|HWND GetOpenClipboardWindow()
+user32.dll|HWND GetParent(HWND hWnd)
+;GetPhysicalCursorPos() in user32.dll has the same entry point as GetCursorPos
+;user32.dll|BOOL GetPhysicalCursorPos(LPPOINT lpPoint)|Out
+user32.dll|BOOL GetPointerCursorId(UINT32 pointerId,UINT32* cursorId)|Out
+user32.dll|BOOL GetPointerDevice(HANDLE device,POINTER_DEVICE_INFO* pointerDevice)|Out
+user32.dll|BOOL GetPointerDeviceCursors(HANDLE device,UINT32* cursorCount,POINTER_DEVICE_CURSOR_INFO* deviceCursors)|Out
+; Unknown number of parameters not in all win10 versions
+!user32.dll|GetPointerDeviceInputSpace(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+; Unknown number of parameters not in all win10 versions
+!user32.dll|GetPointerDeviceOrientation(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL GetPointerDeviceProperties(HANDLE device,UINT32* propertyCount,POINTER_DEVICE_PROPERTY* pointerProperties)|Out
+user32.dll|BOOL GetPointerDeviceRects(HANDLE device,RECT* pointerDeviceRect,RECT* displayRect)|Out
+user32.dll|BOOL GetPointerDevices(UINT32* deviceCount,POINTER_DEVICE_INFO* pointerDevices)|Out
+user32.dll|BOOL GetPointerFrameInfo(UINT32 pointerId,UINT32* pointerCount,POINTER_INFO* pointerInfo)|Out
+user32.dll|BOOL GetPointerFrameInfoHistory(UINT32 pointerId,UINT32* entriesCount,UINT32* pointerCount,POINTER_INFO* pointerInfo)|Out
+user32.dll|BOOL GetPointerFramePenInfo(UINT32 pointerId,UINT32* pointerCount,POINTER_PEN_INFO* penInfo)|Out
+user32.dll|BOOL GetPointerFramePenInfoHistory(UINT32 pointerId,UINT32* entriesCount,UINT32* pointerCount,POINTER_PEN_INFO* penInfo)|Out
+; Unknown number of parameters not in all win10 versions
+!user32.dll|GetPointerFrameTimes(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL GetPointerFrameTouchInfo(UINT32 pointerId,UINT32* pointerCount,POINTER_TOUCH_INFO* touchInfo)|Out
+user32.dll|BOOL GetPointerFrameTouchInfoHistory(UINT32 pointerId,UINT32* entriesCount,UINT32* pointerCount,POINTER_TOUCH_INFO* touchInfo)|Out
+user32.dll|BOOL GetPointerInfo(UINT32 pointerId,POINTER_INFO* pointerInfo)|Out
+user32.dll|BOOL GetPointerInfoHistory(UINT32 pointerId,UINT32* entriesCount,POINTER_INFO* pointerInfo)|Out
+user32.dll|BOOL GetPointerInputTransform(UINT32 pointerId,UINT32 historyCount,INPUT_TRANSFORM* inputTransform)|Out
+user32.dll|BOOL GetPointerPenInfo(UINT32 pointerId,POINTER_PEN_INFO* penInfo)|Out
+user32.dll|BOOL GetPointerPenInfoHistory(UINT32 pointerId,UINT32* entriesCount,POINTER_PEN_INFO* penInfo)|Out
+user32.dll|BOOL GetPointerTouchInfo(UINT32 pointerId,POINTER_TOUCH_INFO* touchInfo)|Out
+user32.dll|BOOL GetPointerTouchInfoHistory(UINT32 pointerId,UINT32* entriesCount,POINTER_TOUCH_INFO* touchInfo)|Out
+user32.dll|BOOL GetPointerType(UINT32 pointerId,POINTER_INPUT_TYPE* pointerType)|Out
+user32.dll|int GetPriorityClipboardFormat(UINT* paFormatPriorityList,int cFormats)
+user32.dll|BOOL GetProcessDefaultLayout(DWORD* pdwDefaultLayout)|Out
+user32.dll|GetProcessDpiAwarenessInternal(UNKNOWN,UNKNOWN)
+user32.dll|HWINSTA GetProcessWindowStation()
+user32.dll|GetProgmanWindow()
+user32.dll|HANDLE GetPropA(HWND hWnd,LPCSTR lpString)
+user32.dll|HANDLE GetPropW(HWND hWnd,LPCWSTR lpString)
+user32.dll|DWORD GetQueueStatus(UINT flags)
+user32.dll|UINT GetRawInputBuffer(PRAWINPUT pData,PUINT pcbSize,UINT cbSizeHeader)|Out
+user32.dll|UINT GetRawInputData(HRAWINPUT hRawInput,UINT uiCommand,LPVOID pData,PUINT pcbSize,UINT cbSizeHeader)|Out
+user32.dll|UINT GetRawInputDeviceInfoA(HANDLE hDevice,UINT uiCommand,LPVOID pData,PUINT pcbSize)|Out
+user32.dll|UINT GetRawInputDeviceInfoW(HANDLE hDevice,UINT uiCommand,LPVOID pData,PUINT pcbSize)|Out
+user32.dll|UINT GetRawInputDeviceList(PRAWINPUTDEVICELIST pRawInputDeviceList,PUINT puiNumDevices,UINT cbSize)|Out
+user32.dll|BOOL GetRawPointerDeviceData(UINT32 pointerId,UINT32 historyCount,UINT32 propertiesCount,POINTER_DEVICE_PROPERTY* pProperties,LONG* pValues)|Out
+user32.dll|GetReasonTitleFromReasonCode(UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|UINT GetRegisteredRawInputDevices(PRAWINPUTDEVICE pRawInputDevices,PUINT puiNumDevices,UINT cbSize)|Out
+user32.dll|BOOL GetScrollBarInfo(HWND hwnd,LONG idObject,PSCROLLBARINFO psbi)|Out
+user32.dll|BOOL GetScrollInfo(HWND hwnd,int nBar,LPSCROLLINFO lpsi)|Out
+user32.dll|int GetScrollPos(HWND hWnd,int nBar)
+user32.dll|BOOL GetScrollRange(HWND hWnd,int nBar,LPINT lpMinPos,LPINT lpMaxPos)|Out
+user32.dll|HWND GetSendMessageReceiver(DWORD threadId)
+user32.dll|GetShellChangeNotifyWindow()
+user32.dll|HWND GetShellWindow()
+user32.dll|HMENU GetSubMenu(HMENU hMenu,int nPos)
+user32.dll|DWORD GetSysColor(int nIndex)
+user32.dll|HBRUSH GetSysColorBrush(int nIndex)
+user32.dll|UINT GetSystemDpiForProcess(HANDLE hProcess)
+user32.dll|HMENU GetSystemMenu(HWND hWnd,BOOL bRevert)
+user32.dll|int GetSystemMetrics(int nIndex)
+user32.dll|int GetSystemMetricsForDpi(int nIndex,UINT dpi)
+user32.dll|DWORD GetTabbedTextExtentA(HDC hdc,LPCSTR lpString,int chCount,int nTabPositions,INT* lpnTabStopPositions)
+user32.dll|DWORD GetTabbedTextExtentW(HDC hdc,LPCWSTR lpString,int chCount,int nTabPositions,INT* lpnTabStopPositions)
+user32.dll|GetTaskmanWindow()
+user32.dll|HDESK GetThreadDesktop(DWORD dwThreadId)
+user32.dll|DPI_AWARENESS_CONTEXT GetThreadDpiAwarenessContext()
+user32.dll|DPI_HOSTING_BEHAVIOR GetThreadDpiHostingBehavior()
+user32.dll|BOOL GetTitleBarInfo(HWND hwnd,PTITLEBARINFO pti)|Out
+user32.dll|HWND GetTopLevelWindow(HWND hWnd)
+user32.dll|HWND GetTopWindow(HWND hWnd)
+user32.dll|BOOL GetTouchInputInfo(HTOUCHINPUT hTouchInput,UINT cInputs,PTOUCHINPUT pInputs,int cbSize)|Out
+user32.dll|DWORD GetUnpredictedMessagePos()
+user32.dll|BOOL GetUpdateRect(HWND hWnd,LPRECT lpRect,BOOL bErase)|Out
+user32.dll|int GetUpdateRgn(HWND hWnd,HRGN hRgn,BOOL bErase)
+user32.dll|BOOL GetUpdatedClipboardFormats(PUINT lpuiFormats,UINT cFormats,PUINT pcFormatsOut)|Out
+user32.dll|BOOL GetUserObjectInformationA(HANDLE hObj,int nIndex,PVOID pvInfo,DWORD nLength,LPDWORD lpnLengthNeeded)|Out
+user32.dll|BOOL GetUserObjectInformationW(HANDLE hObj,int nIndex,PVOID pvInfo,DWORD nLength,LPDWORD lpnLengthNeeded)|Out
+user32.dll|BOOL GetUserObjectSecurity(HANDLE hObj,PSECURITY_INFORMATION pSIRequested,PSECURITY_DESCRIPTOR pSID,DWORD nLength,LPDWORD lpnLengthNeeded)|Out
+user32.dll|GetWinStationInfo(UNKNOWN)
+user32.dll|HWND GetWindow(HWND hWnd,UINT uCmd)
+user32.dll|GetWindowBand(UNKNOWN)
+user32.dll|BOOL GetWindowCompositionAttribute(HWND hwnd,WINCOMPATTRDATA* pAttrData)
+user32.dll|GetWindowCompositionInfo(UNKNOWN,UNKNOWN)
+user32.dll|DWORD GetWindowContextHelpId(HWND)
+user32.dll|HDC GetWindowDC(HWND hWnd)
+user32.dll|BOOL GetWindowDisplayAffinity(HWND hWnd,DWORD* pdwAffinity)|Out
+user32.dll|DPI_AWARENESS_CONTEXT GetWindowDpiAwarenessContext(HWND hwnd)
+user32.dll|DPI_HOSTING_BEHAVIOR GetWindowDpiHostingBehavior(HWND hwnd)
+user32.dll|BOOL GetWindowFeedbackSetting(HWND hwnd,FEEDBACK_TYPE feedback,DWORD dwFlags,UINT32* pSize,VOID* config)|Out
+user32.dll|BOOL GetWindowInfo(HWND hwnd,PWINDOWINFO pwi)|Out
+user32.dll|LONG GetWindowLongA(HWND hWnd,int nIndex)
+user32.dll|LONG_PTR GetWindowLongPtrA(HWND hWnd,int nIndex)
+user32.dll|LONG_PTR GetWindowLongPtrW(HWND hWnd,int nIndex)
+user32.dll|LONG GetWindowLongW(HWND hWnd,int nIndex)
+user32.dll|BOOL GetWindowMinimizeRect(HWND hwnd,RECT* pRect)|Out
+;GetWindowModuleFileNameA() in user32.dll has the same entry point as GetWindowModuleFileName
+;user32.dll|UINT GetWindowModuleFileName(HWND hwnd,LPWSTR pszFileName,UINT cchFileNameMax)|Out
+user32.dll|UINT GetWindowModuleFileNameA(HWND hwnd,LPSTR pszFileName,UINT cchFileNameMax)|Out
+user32.dll|UINT GetWindowModuleFileNameW(HWND hwnd,LPWSTR pszFileName,UINT cchFileNameMax)|Out
+user32.dll|BOOL GetWindowPlacement(HWND hWnd,WINDOWPLACEMENT* lpwndpl)|Out
+user32.dll|GetWindowProcessHandle(HWND hWnd)
+user32.dll|BOOL GetWindowRect(HWND hWnd,LPRECT lpRect)|Out
+user32.dll|int GetWindowRgn(HWND hWnd,HRGN hRgn)
+user32.dll|int GetWindowRgnBox(HWND hWnd,LPRECT lprc)|Out
+user32.dll|GetWindowRgnEx(UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|int GetWindowTextA(HWND hWnd,LPSTR lpString,int nMaxCount)|Out
+user32.dll|int GetWindowTextLengthA(HWND hWnd)
+user32.dll|int GetWindowTextLengthW(HWND hWnd)
+user32.dll|int GetWindowTextW(HWND hWnd,LPWSTR lpString,int nMaxCount)|Out
+user32.dll|DWORD GetWindowThreadProcessId(HWND hWnd,LPDWORD lpdwProcessId)|Out
+user32.dll|WORD GetWindowWord(HWND hWnd,int nIndex)
+user32.dll|HWND GhostWindowFromHungWindow(HWND hwndGhost)
+user32.dll|BOOL GrayStringA(HDC hDC,HBRUSH hBrush,GRAYSTRINGPROC lpOutputFunc,LPARAM lpData,int nCount,int X,int Y,int nWidth,int nHeight)
+user32.dll|BOOL GrayStringW(HDC hDC,HBRUSH hBrush,GRAYSTRINGPROC lpOutputFunc,LPARAM lpData,int nCount,int X,int Y,int nWidth,int nHeight)
+user32.dll|BOOL HideCaret(HWND hWnd)
+user32.dll|BOOL HiliteMenuItem(HWND hWnd,HMENU hMenu,UINT uIDHiliteItem,UINT uHilite)
+user32.dll|HWND HungWindowFromGhostWindow(HWND hwndGhost)
+user32.dll|BOOL IMPGetIMEA(HWND,LPIMEPROA)|Out
+user32.dll|BOOL IMPGetIMEW(HWND,LPIMEPROW)|Out
+user32.dll|BOOL IMPQueryIMEA(LPIMEPROA)|Out
+user32.dll|BOOL IMPQueryIMEW(LPIMEPROW)|Out
+user32.dll|BOOL IMPSetIMEA(HWND,LPIMEPROA)
+user32.dll|BOOL IMPSetIMEW(HWND,LPIMEPROW)
+user32.dll|BOOL ImpersonateDdeClientWindow(HWND hWndClient,HWND hWndServer)
+user32.dll|BOOL InSendMessage()
+user32.dll|DWORD InSendMessageEx(LPVOID lpReserved)
+user32.dll|BOOL InflateRect(LPRECT lprc,int dx,int dy)|Out
+user32.dll|BOOL InheritWindowMonitor(HWND hwnd,HWND hwndInherit)
+user32.dll|InitDManipHook()
+user32.dll|InitializeGenericHidInjection(UNKNOWN)
+user32.dll|InitializeInputDeviceInjection(UNKNOWN)
+user32.dll|InitializeLpkHooks(UNKNOWN)
+user32.dll|InitializePointerDeviceInjection(UNKNOWN)
+user32.dll|InitializePointerDeviceInjectionEx(UNKNOWN)
+user32.dll|BOOL InitializeTouchInjection(UINT32 maxCount,DWORD dwMode)
+user32.dll|InjectDeviceInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|InjectGenericHidInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|InjectKeyboardInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|InjectMouseInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+;InjectSyntheticPointerInput() in user32.dll has the same entry point as InjectPointerInput
+;user32.dll|InjectPointerInput(HSYNTHETICPOINTERDEVICE device,POINTER_TYPE_INFO* pointerInfo,UINT32 count)
+user32.dll|BOOL InjectSyntheticPointerInput(HSYNTHETICPOINTERDEVICE device,POINTER_TYPE_INFO* pointerInfo,UINT32 count)
+user32.dll|BOOL InjectTouchInput(UINT32 count,POINTER_TOUCH_INFO* contacts)
+; Unknown number of parameters not in all win10 versions
+!user32.dll|InputSpaceRegionFromPoint(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL InsertMenuA(HMENU hMenu,UINT uPosition,UINT uFlags,UINT_PTR uIDNewItem,LPCSTR lpNewItem)
+user32.dll|BOOL InsertMenuItemA(HMENU hmenu,UINT item,BOOL fByPosition,LPCMENUITEMINFOA lpmi)
+user32.dll|BOOL InsertMenuItemW(HMENU hmenu,UINT item,BOOL fByPosition,LPCMENUITEMINFOW lpmi)
+user32.dll|BOOL InsertMenuW(HMENU hMenu,UINT uPosition,UINT uFlags,UINT_PTR uIDNewItem,LPCWSTR lpNewItem)
+user32.dll|HICON InternalGetWindowIcon(HWND hwnd,UINT iconType)
+user32.dll|int InternalGetWindowText(HWND hWnd,LPWSTR pString,int cchMaxCount)|Out
+user32.dll|BOOL IntersectRect(LPRECT lprcDst,RECT* lprcSrc1,RECT* lprcSrc2)|Out
+user32.dll|BOOL InvalidateRect(HWND hWnd,RECT* lpRect,BOOL bErase)
+user32.dll|BOOL InvalidateRgn(HWND hWnd,HRGN hRgn,BOOL bErase)
+user32.dll|BOOL InvertRect(HDC hDC,RECT* lprc)
+user32.dll|BOOL IsCharAlphaA(CHAR ch)
+user32.dll|BOOL IsCharAlphaNumericA(CHAR ch)
+user32.dll|BOOL IsCharAlphaNumericW(WCHAR ch)
+user32.dll|BOOL IsCharAlphaW(WCHAR ch)
+user32.dll|BOOL IsCharLowerA(CHAR ch)
+user32.dll|BOOL IsCharLowerW(WCHAR ch)
+user32.dll|BOOL IsCharUpperA(CHAR ch)
+user32.dll|BOOL IsCharUpperW(WCHAR ch)
+user32.dll|BOOL IsChild(HWND hWndParent,HWND hWnd)
+user32.dll|BOOL IsClipboardFormatAvailable(UINT format)
+;IsDialogMessageA() in user32.dll has the same entry point as IsDialogMessage
+;user32.dll|BOOL IsDialogMessage(HWND hDlg,LPMSG lpMsg)
+user32.dll|BOOL IsDialogMessageA(HWND hDlg,LPMSG lpMsg)
+user32.dll|BOOL IsDialogMessageW(HWND hDlg,LPMSG lpMsg)
+user32.dll|UINT IsDlgButtonChecked(HWND hDlg,int nIDButton)
+user32.dll|BOOL IsGUIThread(BOOL bConvert)
+user32.dll|BOOL IsHungAppWindow(HWND hwnd)
+user32.dll|BOOL IsIconic(HWND hWnd)
+user32.dll|BOOL IsImmersiveProcess(HANDLE hProcess)
+user32.dll|BOOL IsInDesktopWindowBand(UNKNOWN)
+user32.dll|BOOL IsMenu(HMENU hMenu)
+user32.dll|BOOL IsMouseInPointerEnabled()
+user32.dll|BOOL IsOneCoreTransformMode(UNKNOWN)
+user32.dll|BOOL IsProcessDPIAware()
+user32.dll|BOOL IsQueueAttached()
+user32.dll|BOOL IsRectEmpty(RECT* lprc)
+user32.dll|BOOL IsSETEnabled()
+user32.dll|BOOL IsServerSideWindow(HWND wnd)
+user32.dll|BOOL IsThreadDesktopComposited()
+user32.dll|BOOL IsThreadTSFEventAware(UNKNOWN)
+user32.dll|BOOL IsTopLevelWindow(HWND hWnd)
+user32.dll|BOOL IsTouchWindow(HWND hwnd,PULONG pulFlags)|Out
+user32.dll|BOOL IsValidDpiAwarenessContext(DPI_AWARENESS_CONTEXT value)
+user32.dll|BOOL IsWinEventHookInstalled(DWORD event)
+user32.dll|BOOL IsWindow(HWND hWnd)
+user32.dll|BOOL IsWindowArranged(HWND hWnd)
+user32.dll|BOOL IsWindowEnabled(HWND hWnd)
+user32.dll|BOOL IsWindowInDestroy(HWND hWnd)
+user32.dll|BOOL IsWindowRedirectedForPrint(HWND hWnd)
+user32.dll|BOOL IsWindowUnicode(HWND hWnd)
+user32.dll|BOOL IsWindowVisible(HWND hWnd)
+user32.dll|BOOL IsWow64Message()
+user32.dll|BOOL IsZoomed(HWND hWnd)
+user32.dll|BOOL KillTimer(HWND hWnd,UINT_PTR uIDEvent)
+user32.dll|HACCEL LoadAcceleratorsA(HINSTANCE hInstance,LPCSTR lpTableName)
+user32.dll|HACCEL LoadAcceleratorsW(HINSTANCE hInstance,LPCWSTR lpTableName)
+user32.dll|HBITMAP LoadBitmapA(HINSTANCE hInstance,LPCSTR lpBitmapName)
+user32.dll|HBITMAP LoadBitmapW(HINSTANCE hInstance,LPCWSTR lpBitmapName)
+user32.dll|HCURSOR LoadCursorA(HINSTANCE hInstance,LPCSTR lpCursorName)
+user32.dll|HCURSOR LoadCursorFromFileA(LPCSTR lpFileName)
+user32.dll|HCURSOR LoadCursorFromFileW(LPCWSTR lpFileName)
+user32.dll|HCURSOR LoadCursorW(HINSTANCE hInstance,LPCWSTR lpCursorName)
+user32.dll|HICON LoadIconA(HINSTANCE hInstance,LPCSTR lpIconName)
+user32.dll|HICON LoadIconW(HINSTANCE hInstance,LPCWSTR lpIconName)
+user32.dll|HANDLE LoadImageA(HINSTANCE hInst,LPCSTR name,UINT type,int cx,int cy,UINT fuLoad)
+user32.dll|HANDLE LoadImageW(HINSTANCE hInst,LPCWSTR name,UINT type,int cx,int cy,UINT fuLoad)
+user32.dll|HKL LoadKeyboardLayoutA(LPCSTR pwszKLID,UINT Flags)
+user32.dll|HKL LoadKeyboardLayoutEx(UNKNOWN,LPCWSTR pwszKLID,UINT Flags)
+user32.dll|HKL LoadKeyboardLayoutW(LPCWSTR pwszKLID,UINT Flags)
+user32.dll|VOID LoadLocalFonts()
+user32.dll|HMENU LoadMenuA(HINSTANCE hInstance,LPCSTR lpMenuName)
+user32.dll|HMENU LoadMenuIndirectA(MENUTEMPLATEA* lpMenuTemplate)
+;LoadMenuIndirectW() in user32.dll has the same entry point as LoadMenuIndirectA
+;user32.dll|HMENU LoadMenuIndirectW(MENUTEMPLATEW* lpMenuTemplate)
+user32.dll|HMENU LoadMenuW(HINSTANCE hInstance,LPCWSTR lpMenuName)
+user32.dll|VOID LoadRemoteFonts()
+user32.dll|int LoadStringA(HINSTANCE hInstance,UINT uID,LPSTR lpBuffer,int cchBufferMax)|Out
+user32.dll|int LoadStringW(HINSTANCE hInstance,UINT uID,LPWSTR lpBuffer,int cchBufferMax)|Out
+user32.dll|BOOL LockSetForegroundWindow(UINT uLockCode)
+user32.dll|BOOL LockWindowStation(HWINSTA hWinSta)
+user32.dll|BOOL LockWindowUpdate(HWND hWndLock)
+user32.dll|BOOL LockWorkStation()
+user32.dll|BOOL LogicalToPhysicalPoint(HWND hWnd,LPPOINT lpPoint)|Out
+user32.dll|BOOL LogicalToPhysicalPointForPerMonitorDPI(HWND hWnd,LPPOINT lpPoint)|Out
+user32.dll|int LookupIconIdFromDirectory(PBYTE presbits,BOOL fIcon)
+user32.dll|int LookupIconIdFromDirectoryEx(PBYTE presbits,BOOL fIcon,int cxDesired,int cyDesired,UINT Flags)
+user32.dll|MBToWCSEx(WORD CodePage,LPSTR MBString,LONG MBSize,LPWSTR *UnicodeString,LONG UnicodeSize,BOOL Allocate)
+;MBToWCSExt = MBToWCSEx with 0 code page
+user32.dll|MBToWCSExt(LPSTR MBString,LONG MBSize,LPWSTR *UnicodeString,LONG UnicodeSize,BOOL Allocate)
+user32.dll|MB_GetString(UINT wBtn)
+; MIT function are being removed from user32 depending on win10 versions
+;user32.dll|MITGetCursorUpdateHandle()
+;MITSetForegroundRoutingInfo() in user32.dll has the same entry point as DwmGetDxRgn
+;user32.dll|MITSetForegroundRoutingInfo()
+;user32.dll|MITSetInputDelegationMode()
+;user32.dll|MITSetLastInputRecipient()
+;user32.dll|MITSynthesizeTouchInput()
+user32.dll|MakeThreadTSFEventAware(UNKNOWN)
+user32.dll|BOOL MapDialogRect(HWND hDlg,LPRECT lpRect)|Out
+; Unknown number of parameters not in all win10 versions
+!user32.dll|MapPointsByVisualIdentifier(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|UINT MapVirtualKeyA(UINT uCode,UINT uMapType)
+user32.dll|UINT MapVirtualKeyExA(UINT uCode,UINT uMapType,HKL dwhkl)
+user32.dll|UINT MapVirtualKeyExW(UINT uCode,UINT uMapType,HKL dwhkl)
+user32.dll|UINT MapVirtualKeyW(UINT uCode,UINT uMapType)
+user32.dll|MapVisualRelativePoints(UNKNOWN)
+user32.dll|int MapWindowPoints(HWND hWndFrom,HWND hWndTo,LPPOINT lpPoints,UINT cPoints)|Out
+user32.dll|int MenuItemFromPoint(HWND hWnd,HMENU hMenu,POINT ptScreen)
+user32.dll|MenuWindowProcA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|MenuWindowProcW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL MessageBeep(UINT uType)
+user32.dll|int MessageBoxA(HWND hWnd,LPCSTR lpText,LPCSTR lpCaption,UINT uType)
+user32.dll|int MessageBoxExA(HWND hWnd,LPCSTR lpText,LPCSTR lpCaption,UINT uType,WORD wLanguageId)
+user32.dll|int MessageBoxExW(HWND hWnd,LPCWSTR lpText,LPCWSTR lpCaption,UINT uType,WORD wLanguageId)
+user32.dll|int MessageBoxIndirectA(MSGBOXPARAMSA*  lpmbp)
+user32.dll|int MessageBoxIndirectW(MSGBOXPARAMSW*  lpmbp)
+;not on all windows version
+!user32.dll|MessageBoxTimeoutA(HWND hWnd,LPCSTR lpText,LPCSTR lpCaption,UINT uType,WORD wLanguageId,DWORD dwTimeout))
+user32.dll|MessageBoxTimeoutW(HWND hWnd,LPCWSTR lpText,LPCWSTR lpCaption,UINT uType,WORD wLanguageId,DWORD dwTime)
+user32.dll|int MessageBoxW(HWND hWnd,LPCWSTR lpText,LPCWSTR lpCaption,UINT uType)
+user32.dll|BOOL ModifyMenuA(HMENU hMnu,UINT uPosition,UINT uFlags,UINT_PTR uIDNewItem,LPCSTR lpNewItem)
+user32.dll|BOOL ModifyMenuW(HMENU hMnu,UINT uPosition,UINT uFlags,UINT_PTR uIDNewItem,LPCWSTR lpNewItem)
+user32.dll|HMONITOR MonitorFromPoint(POINT pt,DWORD dwFlags)
+user32.dll|HMONITOR MonitorFromRect(LPCRECT lprc,DWORD dwFlags)
+user32.dll|HMONITOR MonitorFromWindow(HWND hwnd,DWORD dwFlags)
+user32.dll|BOOL MoveWindow(HWND hWnd,int X,int Y,int nWidth,int nHeight,BOOL bRepaint)
+user32.dll|DWORD MsgWaitForMultipleObjects(DWORD nCount,HANDLE* pHandles:PointedElementsCount=Arg1,BOOL fWaitAll,DWORD dwMilliseconds,DWORD dwWakeMask)
+user32.dll|DWORD MsgWaitForMultipleObjectsEx(DWORD nCount,HANDLE* pHandles:PointedElementsCount=Arg1,DWORD dwMilliseconds,DWORD dwWakeMask,DWORD dwFlags)
+user32.dll|NotifyOverlayWindow(UNKNOWN,UNKNOWN)
+user32.dll|VOID NotifyWinEvent(DWORD event,HWND hwnd,LONG idObject,LONG idChild)
+user32.dll|DWORD OemKeyScan(WORD wOemChar)
+user32.dll|BOOL OemToCharA(LPCSTR pSrc,LPSTR pDst)|Out
+user32.dll|BOOL OemToCharBuffA(LPCSTR lpszSrc,LPSTR lpszDst,DWORD cchDstLength)|Out
+user32.dll|BOOL OemToCharBuffW(LPCSTR lpszSrc,LPWSTR lpszDst,DWORD cchDstLength)|Out
+user32.dll|BOOL OemToCharW(LPCSTR pSrc,LPWSTR pDst)|Out
+user32.dll|BOOL OffsetRect(LPRECT lprc,int dx,int dy)|Out
+user32.dll|BOOL OpenClipboard(HWND hWndNewOwner)
+user32.dll|HDESK OpenDesktopA(LPCSTR lpszDesktop,DWORD dwFlags,BOOL fInherit,ACCESS_MASK dwDesiredAccess)
+user32.dll|HDESK OpenDesktopW(LPCWSTR lpszDesktop,DWORD dwFlags,BOOL fInherit,ACCESS_MASK dwDesiredAccess)
+user32.dll|BOOL OpenIcon(HWND hWnd)
+user32.dll|HDESK OpenInputDesktop(DWORD dwFlags,BOOL fInherit,ACCESS_MASK dwDesiredAccess)
+user32.dll|OpenThreadDesktop(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HWINSTA OpenWindowStationA(LPCSTR lpszWinSta,BOOL fInherit,ACCESS_MASK dwDesiredAccess)
+user32.dll|HWINSTA OpenWindowStationW(LPCWSTR lpszWinSta,BOOL fInherit,ACCESS_MASK dwDesiredAccess)
+user32.dll|LPARAM PackDDElParam(UINT msg,UINT_PTR uiLo,UINT_PTR uiHi)
+user32.dll|LRESULT PackTouchHitTestingProximityEvaluation(TOUCH_HIT_TESTING_INPUT* pHitTestingInput,TOUCH_HIT_TESTING_PROXIMITY_EVALUATION* pProximityEval)
+user32.dll|BOOL PaintDesktop(HDC hdc)
+user32.dll|PaintMenuBar(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|PaintMonitor(UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL PeekMessageA(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax,UINT wRemoveMsg)|Out
+user32.dll|BOOL PeekMessageW(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax,UINT wRemoveMsg)|Out
+user32.dll|BOOL PhysicalToLogicalPoint(HWND hWnd,LPPOINT lpPoint)|Out
+user32.dll|BOOL PhysicalToLogicalPointForPerMonitorDPI(HWND hWnd,LPPOINT lpPoint)|Out
+user32.dll|BOOL PostMessageA(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|BOOL PostMessageW(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|VOID PostQuitMessage(int nExitCode)
+user32.dll|BOOL PostThreadMessageA(DWORD idThread,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|BOOL PostThreadMessageW(DWORD idThread,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|BOOL PrintWindow(HWND hwnd,HDC hdcBlt,UINT nFlags)
+user32.dll|UINT PrivateExtractIconExA(LPCSTR lpstrFile,int nIndex,HICON* phIconLarge,HICON* phIconSmall,UINT nIcons)|Out
+user32.dll|UINT PrivateExtractIconExW(LPCWSTR lpwstrFile,int nIndex,HICON* phIconLarge,HICON* phIconSmall,UINT nIcons)|Out
+user32.dll|UINT PrivateExtractIconsA(LPCSTR szFileName,int nIconIndex,int cxIcon,int cyIcon,HICON* phicon,UINT* piconid,UINT nIcons,UINT flags)|Out
+user32.dll|UINT PrivateExtractIconsW(LPCWSTR szFileName,int nIconIndex,int cxIcon,int cyIcon,HICON* phicon,UINT* piconid,UINT nIcons,UINT flags)|Out
+user32.dll|PrivateRegisterICSProc(UNKNOWN ICSProc)
+user32.dll|BOOL PtInRect(RECT* lprc,POINT pt)
+user32.dll|QueryBSDRWindow(UNKNOWN)
+user32.dll|QueryDisplayConfig(UINT32 flags,UINT32* numPathArrayElements,DISPLAYCONFIG_PATH_INFO* pathArray,UINT32* numModeInfoArrayElements,DISPLAYCONFIG_MODE_INFO* modeInfoArray,DISPLAYCONFIG_TOPOLOGY_ID* currentTopologyId)|Out
+user32.dll|BOOL QuerySendMessage(MSG* pMsg)
+user32.dll|RIMAddInputObserver(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMAreSiblingDevices(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMDeviceIoControl(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMEnableMonitorMappingForDevice(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMFreeInputBuffer(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMGetDevicePreparsedData(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMGetDevicePreparsedDataLockfree(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMGetDeviceProperties(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMGetDevicePropertiesLockfree(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMGetPhysicalDeviceRect(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMGetSourceProcessId(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMObserveNextInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMOnPnpNotification(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMOnTimerNotification(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMQueryDevicePath(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMReadInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMRegisterForInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMRemoveInputObserver(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMSetExtendedDeviceProperty(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMSetTestModeStatus(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMUnregisterForInput(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|RIMUpdateInputObserverRegistration(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HWND RealChildWindowFromPoint(HWND hwndParent,POINT ptParentClientCoords)
+;RealGetWindowClassA() in user32.dll has the same entry point as RealGetWindowClass
+;user32.dll|UINT RealGetWindowClass(HWND hwnd,LPWSTR ptszClassName,UINT cchClassNameMax)|Out
+user32.dll|UINT RealGetWindowClassA(HWND hwnd,LPSTR ptszClassName,UINT cchClassNameMax)|Out
+user32.dll|UINT RealGetWindowClassW(HWND hwnd,LPWSTR ptszClassName,UINT cchClassNameMax)|Out
+user32.dll|BOOL ReasonCodeNeedsBugID(DWORD dwReason)
+user32.dll|BOOL ReasonCodeNeedsComment(DWORD dwReason)
+user32.dll|RecordShutdownReason(DWORD dwReason)
+user32.dll|BOOL RedrawWindow(HWND hWnd,RECT* lprcUpdate,HRGN hrgnUpdate,UINT flags)
+user32.dll|RegisterBSDRWindow(UNKNOWN)
+user32.dll|ATOM RegisterClassA(WNDCLASSA* lpWndClass)
+user32.dll|ATOM RegisterClassExA(WNDCLASSEXA* )
+user32.dll|ATOM RegisterClassExW(WNDCLASSEXW* )
+user32.dll|ATOM RegisterClassW(WNDCLASSW* lpWndClass)
+user32.dll|UINT RegisterClipboardFormatA(LPCSTR lpszFormat)
+user32.dll|UINT RegisterClipboardFormatW(LPCWSTR lpszFormat)
+user32.dll|RegisterDManipHook(UNKNOWN)
+user32.dll|HDEVNOTIFY RegisterDeviceNotificationA(HANDLE hRecipient,LPVOID NotificationFilter,DWORD Flags)
+;RegisterDeviceNotificationW() in user32.dll has the same entry point as RegisterDeviceNotificationA
+;user32.dll|HDEVNOTIFY RegisterDeviceNotificationW(HANDLE hRecipient,LPVOID NotificationFilter,DWORD Flags)
+user32.dll|RegisterErrorReportingDialog(UNKNOWN,UNKNOWN)
+user32.dll|RegisterFrostWindow(UNKNOWN,UNKNOWN)
+user32.dll|RegisterGhostWindow(UNKNOWN,UNKNOWN)
+user32.dll|BOOL RegisterHotKey(HWND hWnd,int id,UINT fsModifiers,UINT vk)
+user32.dll|RegisterLogonProcess(DWORD dwProcessId, BOOL bRegister)
+user32.dll|RegisterMessagePumpHook(UNKNOWN)
+user32.dll|BOOL RegisterPointerDeviceNotifications(HWND window,BOOL notifyRange)
+user32.dll|BOOL RegisterPointerInputTarget(HWND hwnd,POINTER_INPUT_TYPE pointerType)
+!user32.dll|BOOL RegisterPointerInputTargetEx(HWND hwnd,POINTER_INPUT_TYPE pointerType,BOOL fObserve)
+user32.dll|HPOWERNOTIFY RegisterPowerSettingNotification(HANDLE hRecipient,LPCGUID PowerSettingGuid,DWORD Flags)
+user32.dll|BOOL RegisterRawInputDevices(PCRAWINPUTDEVICE pRawInputDevices,UINT uiNumDevices,UINT cbSize)
+user32.dll|RegisterServicesProcess(UNKNOWN)
+user32.dll|RegisterSessionPort(UNKNOWN,UNKNOWN)
+user32.dll|BOOL RegisterShellHookWindow(HWND hwnd)
+user32.dll|HPOWERNOTIFY RegisterSuspendResumeNotification(HANDLE hRecipient,DWORD Flags)
+user32.dll|RegisterSystemThread(UNKNOWN,UNKNOWN)
+user32.dll|RegisterTasklist(UNKNOWN)
+user32.dll|BOOL RegisterTouchHitTestingWindow(HWND hwnd,ULONG value)
+user32.dll|BOOL RegisterTouchWindow(HWND hwnd,ULONG ulFlags)
+user32.dll|RegisterUserApiHook(UNKNOWN)
+;RegisterWindowMessageA() in user32.dll has the same entry point as RegisterClipboardFormatA
+;user32.dll|UINT RegisterWindowMessageA(LPCSTR lpString)
+;RegisterWindowMessageW() in user32.dll has the same entry point as RegisterClipboardFormatW
+;user32.dll|UINT RegisterWindowMessageW(LPCWSTR lpString)
+user32.dll|BOOL ReleaseCapture()
+user32.dll|int ReleaseDC(HWND hWnd,HDC hDC)
+user32.dll|ReleaseDwmHitTestWaiters(UNKNOWN)
+user32.dll|BOOL RemoveClipboardFormatListener(HWND hwnd)
+;RemoveInjectionDevice() in user32.dll has the same entry point as DestroySyntheticPointerDevice
+;user32.dll|RemoveInjectionDevice(HSYNTHETICPOINTERDEVICE device)
+user32.dll|BOOL RemoveMenu(HMENU hMenu,UINT uPosition,UINT uFlags)
+user32.dll|HANDLE RemovePropA(HWND hWnd,LPCSTR lpString)
+user32.dll|HANDLE RemovePropW(HWND hWnd,LPCWSTR lpString)
+user32.dll|RemoveThreadTSFEventAwareness(UNKNOWN)
+; Unknown number of parameters not in all win10 versions
+!user32.dll|RemoveVisualIdentifier(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL ReplyMessage(LRESULT lResult)
+user32.dll|ResolveDesktopForWOW(UNKNOWN)
+user32.dll|LPARAM ReuseDDElParam(LPARAM lParam,UINT msgIn,UINT msgOut,UINT_PTR uiLo,UINT_PTR uiHi)
+user32.dll|BOOL ScreenToClient(HWND hWnd,LPPOINT lpPoint)|Out
+user32.dll|ScrollChildren(INT dx,INT dy,LPCRECT lprcScroll,LPCRECT lprcClip,HRGN hrgnUpdate,LPRECT lprcUpdate,UINT fuScroll)|Out
+user32.dll|BOOL ScrollDC(HDC hDC,int dx,int dy,RECT* lprcScroll,RECT* lprcClip,HRGN hrgnUpdate,LPRECT lprcUpdate)|Out
+user32.dll|BOOL ScrollWindow(HWND hWnd,int XAmount,int YAmount,RECT* lpRect,RECT* lpClipRect)
+user32.dll|int ScrollWindowEx(HWND hWnd,int dx,int dy,RECT* prcScroll,RECT* prcClip,HRGN hrgnUpdate,LPRECT prcUpdate,UINT flags)|Out
+user32.dll|LRESULT SendDlgItemMessageA(HWND hDlg,int nIDDlgItem,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT SendDlgItemMessageW(HWND hDlg,int nIDDlgItem,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|LRESULT SendIMEMessageExA(HWND,LPARAM)
+user32.dll|LRESULT SendIMEMessageExW(HWND,LPARAM)
+user32.dll|UINT SendInput(UINT cInputs,LPINPUT pInputs,int cbSize)
+user32.dll|LRESULT SendMessageA(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)|Out
+user32.dll|BOOL SendMessageCallbackA(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam,SENDASYNCPROC lpResultCallBack,ULONG_PTR dwData)
+user32.dll|BOOL SendMessageCallbackW(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam,SENDASYNCPROC lpResultCallBack,ULONG_PTR dwData)
+user32.dll|LRESULT SendMessageTimeoutA(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam,UINT fuFlags,UINT uTimeout,PDWORD_PTR lpdwResult)|Out
+user32.dll|LRESULT SendMessageTimeoutW(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam,UINT fuFlags,UINT uTimeout,PDWORD_PTR lpdwResult)|Out
+user32.dll|LRESULT SendMessageW(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)|Out
+user32.dll|BOOL SendNotifyMessageA(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|BOOL SendNotifyMessageW(HWND hWnd,UINT Msg,WPARAM wParam,LPARAM lParam)
+user32.dll|HWND SetActiveWindow(HWND hWnd)
+user32.dll|HWND SetCapture(HWND hWnd)
+user32.dll|BOOL SetCaretBlinkTime(UINT uMSeconds)
+user32.dll|BOOL SetCaretPos(int X,int Y)
+user32.dll|DWORD SetClassLongA(HWND hWnd,int nIndex,LONG dwNewLong)
+user32.dll|ULONG_PTR SetClassLongPtrA(HWND hWnd,int nIndex,LONG_PTR dwNewLong)
+user32.dll|ULONG_PTR SetClassLongPtrW(HWND hWnd,int nIndex,LONG_PTR dwNewLong)
+user32.dll|DWORD SetClassLongW(HWND hWnd,int nIndex,LONG dwNewLong)
+user32.dll|WORD SetClassWord(HWND hWnd,int nIndex,WORD wNewWord)
+user32.dll|HANDLE SetClipboardData(UINT uFormat,HANDLE hMem)
+user32.dll|HWND SetClipboardViewer(HWND hWndNewViewer)
+user32.dll|UINT_PTR SetCoalescableTimer(HWND hWnd,UINT_PTR nIDEvent,UINT uElapse,TIMERPROC lpTimerFunc,ULONG uToleranceDelay)
+user32.dll|HCURSOR SetCursor(HCURSOR hCursor)
+user32.dll|SetCursorContents(UNKNOWN,UNKNOWN)
+user32.dll|BOOL SetCursorPos(int X,int Y)
+;SetDebugErrorLevel() in user32.dll has the same entry point as CheckBannedOneCoreTransformApi (Dummy function always return 0)
+;user32.dll|VOID SetDebugErrorLevel(DWORD dwLevel)
+user32.dll|SetDeskWallpaper(UINT uiAction,UINT uiParam,PVOID pvParam,UINT fWinIni)|Out
+user32.dll|SetDesktopColorTransform(UNKNOWN)
+user32.dll|BOOL SetDialogControlDpiChangeBehavior(HWND hWnd,DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS mask,DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS values)
+user32.dll|BOOL SetDialogDpiChangeBehavior(HWND hDlg,DIALOG_DPI_CHANGE_BEHAVIORS mask,DIALOG_DPI_CHANGE_BEHAVIORS values)
+user32.dll|BOOL SetDisplayAutoRotationPreferences(ORIENTATION_PREFERENCE orientation)
+user32.dll|LONG SetDisplayConfig(UINT32 numPathArrayElements,DISPLAYCONFIG_PATH_INFO* pathArray,UINT32 numModeInfoArrayElements,DISPLAYCONFIG_MODE_INFO* modeInfoArray,UINT32 flags)
+user32.dll|BOOL SetDlgItemInt(HWND hDlg,int nIDDlgItem,UINT uValue,BOOL bSigned)
+user32.dll|BOOL SetDlgItemTextA(HWND hDlg,int nIDDlgItem,LPCSTR lpString)
+user32.dll|BOOL SetDlgItemTextW(HWND hDlg,int nIDDlgItem,LPCWSTR lpString)
+user32.dll|BOOL SetDoubleClickTime(UINT)
+user32.dll|SetFeatureReportResponse(UNKNOWN)
+user32.dll|HWND SetFocus(HWND hWnd)
+user32.dll|BOOL SetForegroundWindow(HWND hWnd)
+;SetFullscreenMagnifierOffsetsDWMUpdated : not present on all win10 versions
+!user32.dll|SetFullscreenMagnifierOffsetsDWMUpdated(UNKNOWN)
+user32.dll|BOOL SetGestureConfig(HWND hwnd,DWORD dwReserved,UINT cIDs,PGESTURECONFIG pGestureConfig,UINT cbSize)
+user32.dll|SetInternalWindowPos(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|BOOL SetKeyboardState(LPBYTE lpKeyState)
+user32.dll|VOID SetLastErrorEx(DWORD dwErrCode,DWORD dwType)
+user32.dll|BOOL SetLayeredWindowAttributes(HWND hwnd,COLORREF crKey,BYTE bAlpha,DWORD dwFlags)
+user32.dll|SetMagnificationDesktopColorEffect(UNKNOWN)
+user32.dll|SetMagnificationDesktopMagnification(double )
+;SetMagnificationDesktopMagnifierOffsetsDWMUpdated : not present on all win10 versions
+!user32.dll|SetMagnificationDesktopMagnifierOffsetsDWMUpdated(UNKNOWN)
+user32.dll|SetMagnificationDesktopSamplingMode(UNKNOWN)
+user32.dll|SetMagnificationLensCtxInformation(UNKNOWN)
+user32.dll|BOOL SetMenu(HWND hWnd,HMENU hMenu)
+user32.dll|BOOL SetMenuContextHelpId(HMENU,DWORD)
+user32.dll|BOOL SetMenuDefaultItem(HMENU hMenu,UINT uItem,UINT fByPos)
+user32.dll|BOOL SetMenuInfo(HMENU,LPCMENUINFO)
+user32.dll|BOOL SetMenuItemBitmaps(HMENU hMenu,UINT uPosition,UINT uFlags,HBITMAP hBitmapUnchecked,HBITMAP hBitmapChecked)
+user32.dll|BOOL SetMenuItemInfoA(HMENU hmenu,UINT item,BOOL fByPositon,LPCMENUITEMINFOA lpmii)
+user32.dll|BOOL SetMenuItemInfoW(HMENU hmenu,UINT item,BOOL fByPositon,LPCMENUITEMINFOW lpmii)
+user32.dll|LPARAM SetMessageExtraInfo(LPARAM lParam)
+;SetMessageQueue() in user32.dll has the same entry point as DdeGetQualityOfService (emtpt function returning 1)
+;user32.dll|BOOL SetMessageQueue(int cMessagesMax)
+user32.dll|SetMirrorRendering(UNKNOWN,UNKNOWN)
+user32.dll|HWND SetParent(HWND hWndChild,HWND hWndNewParent)
+;SetPhysicalCursorPos() in user32.dll has the same entry point as SetCursorPos
+;user32.dll|BOOL SetPhysicalCursorPos(int X,int Y)
+user32.dll|SetPointerDeviceInputSpace(UNKNOWN)
+user32.dll|BOOL SetProcessDPIAware()
+user32.dll|BOOL SetProcessDefaultLayout(DWORD dwDefaultLayout)
+user32.dll|BOOL SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT value)
+user32.dll|SetProcessDpiAwarenessInternal(UNKNOWN)
+user32.dll|BOOL SetProcessRestrictionExemption(BOOL fEnableExemption)
+user32.dll|BOOL SetProcessWindowStation(HWINSTA hWinSta)
+user32.dll|SetProgmanWindow(HWND hWnd)
+user32.dll|BOOL SetPropA(HWND hWnd,LPCSTR lpString,HANDLE hData)
+user32.dll|BOOL SetPropW(HWND hWnd,LPCWSTR lpString,HANDLE hData)
+user32.dll|BOOL SetRect(LPRECT lprc,int xLeft,int yTop,int xRight,int yBottom)|Out
+user32.dll|BOOL SetRectEmpty(LPRECT lprc)|Out
+user32.dll|int SetScrollInfo(HWND hwnd,int nBar,LPCSCROLLINFO lpsi,BOOL redraw)
+user32.dll|int SetScrollPos(HWND hWnd,int nBar,int nPos,BOOL bRedraw)
+user32.dll|BOOL SetScrollRange(HWND hWnd,int nBar,int nMinPos,int nMaxPos,BOOL bRedraw)
+user32.dll|SetShellChangeNotifyWindow(UNKNOWN)
+user32.dll|SetShellWindow(HWND hwndShell)
+user32.dll|SetShellWindowEx(HWND hwndShell,HWND hwndShellListView)
+user32.dll|BOOL SetSysColors(int cElements,INT* lpaElements,COLORREF* lpaRgbValues)
+user32.dll|SetSysColorsTemp(COLORREF* pPens,HBRUSH* pBrushes,DWORD_PTR n)
+user32.dll|BOOL SetSystemCursor(HCURSOR hcur,DWORD id)
+user32.dll|SetSystemMenu(HWND hwnd,HMENU hMenu)
+user32.dll|SetTaskmanWindow(HWND hWnd)
+user32.dll|BOOL SetThreadDesktop(HDESK hDesktop)
+user32.dll|DPI_AWARENESS_CONTEXT SetThreadDpiAwarenessContext(DPI_AWARENESS_CONTEXT dpiContext)
+user32.dll|DPI_HOSTING_BEHAVIOR SetThreadDpiHostingBehavior(DPI_HOSTING_BEHAVIOR value)
+user32.dll|SetThreadInputBlocked(UNKNOWN)
+user32.dll|UINT_PTR SetTimer(HWND hWnd,UINT_PTR nIDEvent,UINT uElapse,TIMERPROC lpTimerFunc)
+user32.dll|BOOL SetUserObjectInformationA(HANDLE hObj,int nIndex,PVOID pvInfo,DWORD nLength)
+user32.dll|BOOL SetUserObjectInformationW(HANDLE hObj,int nIndex,PVOID pvInfo,DWORD nLength)
+user32.dll|BOOL SetUserObjectSecurity(HANDLE hObj,PSECURITY_INFORMATION pSIRequested,PSECURITY_DESCRIPTOR pSID)
+user32.dll|HWINEVENTHOOK SetWinEventHook(DWORD eventMin,DWORD eventMax,HMODULE hmodWinEventProc,WINEVENTPROC pfnWinEventProc,DWORD idProcess,DWORD idThread,DWORD dwFlags)
+user32.dll|SetWindowBand(UNKNOWN)
+user32.dll|SetWindowCompositionAttribute(HWND hwnd, DWORD dwAttribute,LPCVOID pvAttribute, DWORD cbAttribute)
+user32.dll|SetWindowCompositionTransition(UNKNOWN)
+user32.dll|BOOL SetWindowContextHelpId(HWND,DWORD)
+user32.dll|BOOL SetWindowDisplayAffinity(HWND hWnd,DWORD dwAffinity)
+user32.dll|BOOL SetWindowFeedbackSetting(HWND hwnd,FEEDBACK_TYPE feedback,DWORD dwFlags,UINT32 size,VOID* configuration)
+user32.dll|LONG SetWindowLongA(HWND hWnd,int nIndex,LONG dwNewLong)
+user32.dll|LONG_PTR SetWindowLongPtrA(HWND hWnd,int nIndex,LONG_PTR dwNewLong)
+user32.dll|LONG_PTR SetWindowLongPtrW(HWND hWnd,int nIndex,LONG_PTR dwNewLong)
+user32.dll|LONG SetWindowLongW(HWND hWnd,int nIndex,LONG dwNewLong)
+user32.dll|BOOL SetWindowPlacement(HWND hWnd,WINDOWPLACEMENT* lpwndpl)
+user32.dll|BOOL SetWindowPos(HWND hWnd,HWND hWndInsertAfter,int X,int Y,int cx,int cy,UINT uFlags)
+user32.dll|int SetWindowRgn(HWND hWnd,HRGN hRgn,BOOL bRedraw)
+user32.dll|SetWindowRgnEx(UNKNOWN,UNKNOWN)
+user32.dll|SetWindowStationUser(HWINSTA hWindowStation,PLUID pluid,PSID psid,DWORD size)
+user32.dll|BOOL SetWindowTextA(HWND hWnd,LPCSTR lpString)
+user32.dll|BOOL SetWindowTextW(HWND hWnd,LPCWSTR lpString)
+user32.dll|WORD SetWindowWord(HWND hWnd,int nIndex,WORD wNewWord)
+user32.dll|HHOOK SetWindowsHookA(int nFilterType,HOOKPROC pfnFilterProc)
+user32.dll|HHOOK SetWindowsHookExA(int idHook,HOOKPROC lpfn,HINSTANCE hmod,DWORD dwThreadId)
+user32.dll|SetWindowsHookExAW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|HHOOK SetWindowsHookExW(int idHook,HOOKPROC lpfn,HINSTANCE hmod,DWORD dwThreadId)
+user32.dll|HHOOK SetWindowsHookW(int nFilterType,HOOKPROC pfnFilterProc)
+user32.dll|BOOL ShowCaret(HWND hWnd)
+user32.dll|int ShowCursor(BOOL bShow)
+user32.dll|BOOL ShowOwnedPopups(HWND hWnd,BOOL fShow)
+user32.dll|BOOL ShowScrollBar(HWND hWnd,int wBar,BOOL bShow)
+user32.dll|ShowStartGlass()
+user32.dll|ShowSystemCursor(UNKNOWN)
+user32.dll|BOOL ShowWindow(HWND hWnd,int nCmdShow)
+user32.dll|BOOL ShowWindowAsync(HWND hWnd,int nCmdShow)
+user32.dll|BOOL ShutdownBlockReasonCreate(HWND hWnd,LPCWSTR pwszReason)
+user32.dll|BOOL ShutdownBlockReasonDestroy(HWND hWnd)
+user32.dll|BOOL ShutdownBlockReasonQuery(HWND hWnd,LPWSTR pwszBuff,DWORD* pcchBuff)|Out
+user32.dll|SignalRedirectionStartComplete(UNKNOWN)
+user32.dll|BOOL SkipPointerFrameMessages(UINT32 pointerId)
+; warning MSGBOXDATA depends of windows version, see reactos.org / messagebox.c
+user32.dll|SoftModalMessageBox(UNKNOWN pMsgBoxData)
+user32.dll|BOOL SoundSentry()|FailureIfNullRet
+user32.dll|BOOL SubtractRect(LPRECT lprcDst,RECT* lprcSrc1,RECT* lprcSrc2)|Out
+user32.dll|BOOL SwapMouseButton(BOOL fSwap)|FailureIfNullRet
+user32.dll|BOOL SwitchDesktop(HDESK hDesktop)|FailureIfNullRet
+user32.dll|BOOL SwitchDesktopWithFade(HDESK hDesktop,UNKNOWN,UNKNOWN)|FailureIfNullRet
+user32.dll|VOID SwitchToThisWindow(HWND hwnd,BOOL fUnknown)
+user32.dll|BOOL SystemParametersInfoA(UINT uiAction,UINT uiParam,PVOID pvParam,UINT fWinIni)|Out|FailureIfNullRet
+user32.dll|BOOL SystemParametersInfoForDpi(UINT uiAction,UINT uiParam,PVOID pvParam,UINT fWinIni,UINT dpi)|Out|FailureIfNullRet
+user32.dll|BOOL SystemParametersInfoW(UINT uiAction,UINT uiParam,PVOID pvParam,UINT fWinIni)|Out|FailureIfNullRet
+user32.dll|LONG TabbedTextOutA(HDC hdc,int x,int y,LPCSTR lpString,int chCount,int nTabPositions,INT* lpnTabStopPositions,int nTabOrigin)
+user32.dll|LONG TabbedTextOutW(HDC hdc,int x,int y,LPCWSTR lpString,int chCount,int nTabPositions,INT* lpnTabStopPositions,int nTabOrigin)
+user32.dll|TileChildWindows(UNKNOWN,UNKNOWN)
+user32.dll|WORD TileWindows(HWND hwndParent,UINT wHow,RECT*  lpRect,UINT cKids,HWND*  lpKids)
+user32.dll|int ToAscii(UINT uVirtKey,UINT uScanCode,BYTE* lpKeyState,LPWORD lpChar,UINT uFlags)|Out
+user32.dll|int ToAsciiEx(UINT uVirtKey,UINT uScanCode,BYTE* lpKeyState,LPWORD lpChar,UINT uFlags,HKL dwhkl)|Out
+user32.dll|int ToUnicode(UINT wVirtKey,UINT wScanCode,BYTE* lpKeyState,LPWSTR pwszBuff,int cchBuff,UINT wFlags)|Out
+user32.dll|int ToUnicodeEx(UINT wVirtKey,UINT wScanCode,BYTE* lpKeyState,LPWSTR pwszBuff,int cchBuff,UINT wFlags,HKL dwhkl)|Out
+user32.dll|BOOL TrackMouseEvent(LPTRACKMOUSEEVENT lpEventTrack)|Out
+user32.dll|BOOL TrackPopupMenu(HMENU hMenu,UINT uFlags,int x,int y,int nReserved,HWND hWnd,RECT* prcRect)
+user32.dll|BOOL TrackPopupMenuEx(HMENU hMenu,UINT uFlags,int x,int y,HWND hwnd,LPTPMPARAMS lptpm)
+;TranslateAcceleratorA() in user32.dll has the same entry point as TranslateAccelerator
+;user32.dll|int TranslateAccelerator(HWND hWnd,HACCEL hAccTable,LPMSG lpMsg)
+user32.dll|int TranslateAcceleratorA(HWND hWnd,HACCEL hAccTable,LPMSG lpMsg)
+user32.dll|int TranslateAcceleratorW(HWND hWnd,HACCEL hAccTable,LPMSG lpMsg)
+user32.dll|BOOL TranslateMDISysAccel(HWND hWndClient,LPMSG lpMsg)
+user32.dll|BOOL TranslateMessage(MSG* lpMsg)
+user32.dll|TranslateMessageEx(MSG* lpMsg,UNKNOWN)
+user32.dll|BOOL UnhookWinEvent(HWINEVENTHOOK hWinEventHook)
+user32.dll|BOOL UnhookWindowsHook(int nCode,HOOKPROC pfnFilterProc)
+user32.dll|BOOL UnhookWindowsHookEx(HHOOK hhk)
+user32.dll|BOOL UnionRect(LPRECT lprcDst,RECT* lprcSrc1,RECT* lprcSrc2)|Out
+user32.dll|BOOL UnloadKeyboardLayout(HKL hkl)
+user32.dll|UnlockWindowStation(HWINSTA)
+user32.dll|BOOL UnpackDDElParam(UINT msg,LPARAM lParam,PUINT_PTR puiLo,PUINT_PTR puiHi)|Out
+user32.dll|BOOL UnregisterClassA(LPCSTR lpClassName,HINSTANCE hInstance)
+user32.dll|BOOL UnregisterClassW(LPCWSTR lpClassName,HINSTANCE hInstance)
+user32.dll|BOOL UnregisterDeviceNotification(HDEVNOTIFY Handle)
+user32.dll|BOOL UnregisterHotKey(HWND hWnd,int id)
+user32.dll|UnregisterMessagePumpHook()
+user32.dll|BOOL UnregisterPointerInputTarget(HWND hwnd,POINTER_INPUT_TYPE pointerType)
+;UnregisterPointerInputTargetEx() in user32.dll has the same entry point as GetPointerFrameArrivalTimes
+;user32.dll|BOOL UnregisterPointerInputTargetEx(HWND hwnd,POINTER_INPUT_TYPE pointerType)
+user32.dll|BOOL UnregisterPowerSettingNotification(HPOWERNOTIFY Handle)
+user32.dll|UnregisterSessionPort()
+user32.dll|BOOL UnregisterSuspendResumeNotification(HPOWERNOTIFY Handle)
+user32.dll|BOOL UnregisterTouchWindow(HWND hwnd)
+user32.dll|UnregisterUserApiHook()
+user32.dll|UpdateDefaultDesktopThumbnail(UNKNOWN)
+user32.dll|BOOL UpdateLayeredWindow(HWND hWnd,HDC hdcDst,POINT* pptDst,SIZE* psize,HDC hdcSrc,POINT* pptSrc,COLORREF crKey,BLENDFUNCTION* pblend,DWORD dwFlags)
+user32.dll|UpdateLayeredWindowIndirect(HWND hwnd, UPDATELAYEREDWINDOWINFO* info)
+user32.dll|UpdatePerUserSystemParameters(DWORD dwReserved, BOOL bEnable)
+user32.dll|BOOL UpdateWindow(HWND hWnd)
+user32.dll|UpdateWindowInputSinkHints(UNKNOWN)
+user32.dll|User32InitializeImmEntryTable(DWORD magic)
+user32.dll|UserClientDllInitialize(UNKNOWN,UNKNOWN)
+user32.dll|BOOL UserHandleGrantAccess(HANDLE hUserHandle,HANDLE hJob,BOOL bGrant)
+user32.dll|UserLpkPSMTextOut(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|UserLpkTabbedTextOut(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+user32.dll|UserRealizePalette(HDC hDC)
+user32.dll|UserRegisterWowHandlers(UNKNOWN,UNKNOWN)
+;VRipOutput() in user32.dll has the same entry point as DwmGetDxRgn
+;user32.dll|VRipOutput()
+;VTagOutput() in user32.dll has the same entry point as DwmGetDxRgn
+;user32.dll|VTagOutput()
+user32.dll|BOOL ValidateRect(HWND hWnd,RECT* lpRect)
+user32.dll|BOOL ValidateRgn(HWND hWnd,HRGN hRgn)
+user32.dll|SHORT VkKeyScanA(CHAR ch)
+user32.dll|SHORT VkKeyScanExA(CHAR ch,HKL dwhkl)
+user32.dll|SHORT VkKeyScanExW(WCHAR ch,HKL dwhkl)
+user32.dll|SHORT VkKeyScanW(WCHAR ch)
+user32.dll|WCSToMBEx(WORD CodePage,LPWSTR UnicodeString,LONG UnicodeSize,LPSTR* MBString,LONG MBSize,BOOL Allocate)
+user32.dll|BOOL WINNLSEnableIME(HWND,BOOL)
+user32.dll|BOOL WINNLSGetEnableStatus(HWND)
+;WINNLSGetIMEHotkey() in user32.dll has the same entry point as DwmGetDxRgn
+!user32.dll|UINT WINNLSGetIMEHotkey(HWND)
+user32.dll|DWORD WaitForInputIdle(HANDLE hProcess,DWORD dwMilliseconds)
+user32.dll|WaitForRedirectionStartComplete(UNKNOWN)
+user32.dll|BOOL WaitMessage()
+user32.dll|BOOL WinHelpA(HWND hWndMain,LPCSTR lpszHelp,UINT uCommand,ULONG_PTR dwData)
+user32.dll|BOOL WinHelpW(HWND hWndMain,LPCWSTR lpszHelp,UINT uCommand,ULONG_PTR dwData)
+user32.dll|HWND WindowFromDC(HDC hDC)
+user32.dll|HWND WindowFromPhysicalPoint(POINT Point)
+user32.dll|HWND WindowFromPoint(POINT Point)
+user32.dll|_UserTestTokenForInteractive(UNKNOWN,UNKNOWN)
+;gSharedInfo() in user32.dll shouldn't be hooked: Address is not in an executable section, it can be an exported variable
+;user32.dll|gSharedInfo()
+;gapfnScSendMessage() in user32.dll shouldn't be hooked: Address is not in an executable section, it can be an exported variable
+;user32.dll|gapfnScSendMessage()
+user32.dll|DelegateInput(UNKNOWN)
+user32.dll|UndelegateInput(UNKNOWN)
+user32.dll|HandleDelegatedInput(UNKNOWN)
+user32.dll|GetProcessUIContextInformation(UNKNOWN)
+user32.dll|IsThreadMessageQueueAttached(UNKNOWN)
+user32.dll|VOID keybd_event(BYTE bVk,BYTE bScan,DWORD dwFlags,ULONG_PTR dwExtraInfo)
+user32.dll|VOID mouse_event(DWORD dwFlags,DWORD dx,DWORD dy,DWORD dwData,ULONG_PTR dwExtraInfo)
+user32.dll|ReportInertia(UNKNOWN)
+user32.dll|int wsprintfA(LPSTR,LPCSTR)|Out
+user32.dll|SetCoreWindow(UNKNOWN)
+user32.dll|int wsprintfW(LPWSTR,LPCWSTR)|Out
+user32.dll|int wvsprintfA(LPSTR,LPCSTR,va_list arglist)|Out
+user32.dll|int wvsprintfW(LPWSTR,LPCWSTR,va_list arglist)|Out

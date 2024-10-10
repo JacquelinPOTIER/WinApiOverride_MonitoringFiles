@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D10DepthStencilState
+
+; include ID3D10DeviceChild
+BaseIID={9B7E4C00-342C-4106-A19F-4F2704F689F0}
+
+VTBLIndex=7| void ID3D10DepthStencilState::GetDesc(IUnknown* pObject,D3D10_DEPTH_STENCIL_DESC* pDesc);|Out

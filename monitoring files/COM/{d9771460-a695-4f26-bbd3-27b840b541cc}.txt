@@ -1,0 +1,10 @@
+;@InterfaceName=IDirect3DQuery9
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=|HRESULT GetDevice(IUnknown* pObject,IDirect3DDevice9** ppDevice);|FailureIfNegativeRet
+VTBLIndex=|D3DQUERYTYPE GetType(IUnknown* pObject);
+VTBLIndex=|DWORD GetDataSize(IUnknown* pObject);
+VTBLIndex=|HRESULT Issue(IUnknown* pObject,DWORD dwIssueFlags);|FailureIfNegativeRet
+VTBLIndex=|HRESULT GetData(IUnknown* pObject,void* pData,DWORD dwSize,DWORD dwGetDataFlags);|FailureIfNegativeRet

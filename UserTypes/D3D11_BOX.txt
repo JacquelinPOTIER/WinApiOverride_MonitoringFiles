@@ -1,0 +1,9 @@
+typedef struct D3D11_BOX
+    {
+    UINT left;
+    UINT top;
+    UINT front;
+    UINT right;
+    UINT bottom;
+    UINT back;
+    } 	D3D11_BOX;

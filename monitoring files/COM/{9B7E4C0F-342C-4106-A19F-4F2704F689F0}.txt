@@ -1,0 +1,159 @@
+;@InterfaceName=ID3D10Device
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+
+VTBLIndex=3| void ID3D10Device::VSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppConstantBuffers);
+VTBLIndex=4| void ID3D10Device::PSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D10ShaderResourceView** ppShaderResourceViews);
+VTBLIndex=5| void ID3D10Device::PSSetShader(IUnknown* pObject,ID3D10PixelShader* pPixelShader);
+VTBLIndex=6| void ID3D10Device::PSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D10SamplerState** ppSamplers);
+VTBLIndex=7| void ID3D10Device::VSSetShader(IUnknown* pObject,ID3D10VertexShader* pVertexShader);
+VTBLIndex=8| void ID3D10Device::DrawIndexed(IUnknown* pObject,UINT IndexCount,UINT StartIndexLocation,INT BaseVertexLocation);
+VTBLIndex=9| void ID3D10Device::Draw(IUnknown* pObject,UINT VertexCount,UINT StartVertexLocation);
+VTBLIndex=10|void ID3D10Device::PSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppConstantBuffers);
+VTBLIndex=11|void ID3D10Device::IASetInputLayout(IUnknown* pObject,ID3D10InputLayout* pInputLayout);
+VTBLIndex=12|void ID3D10Device::IASetVertexBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppVertexBuffers,UINT* pStrides,UINT* pOffsets);
+VTBLIndex=13|void ID3D10Device::IASetIndexBuffer(IUnknown* pObject,ID3D10Buffer* pIndexBuffer,DXGI_FORMAT Format,UINT Offset);
+VTBLIndex=14|void ID3D10Device::DrawIndexedInstanced(IUnknown* pObject,UINT IndexCountPerInstance,UINT InstanceCount,UINT StartIndexLocation,INT BaseVertexLocation,UINT StartInstanceLocation);
+VTBLIndex=15|void ID3D10Device::DrawInstanced(IUnknown* pObject,UINT VertexCountPerInstance,UINT InstanceCount,UINT StartVertexLocation,UINT StartInstanceLocation);
+VTBLIndex=16|void ID3D10Device::GSSetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppConstantBuffers);|Out
+VTBLIndex=17|void ID3D10Device::GSSetShader(IUnknown* pObject,ID3D10GeometryShader* pShader);|Out
+VTBLIndex=18|void ID3D10Device::IASetPrimitiveTopology(IUnknown* pObject,D3D10_PRIMITIVE_TOPOLOGY Topology);|Out
+VTBLIndex=19|void ID3D10Device::VSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D10ShaderResourceView** ppShaderResourceViews);
+VTBLIndex=20|void ID3D10Device::VSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D10SamplerState** ppSamplers);
+VTBLIndex=21|void ID3D10Device::SetPredication(IUnknown* pObject,ID3D10Predicate* pPredicate,BOOL PredicateValue);
+VTBLIndex=22|void ID3D10Device::GSSetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D10ShaderResourceView** ppShaderResourceViews);
+VTBLIndex=23|void ID3D10Device::GSSetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D10SamplerState** ppSamplers);
+VTBLIndex=24|void ID3D10Device::OMSetRenderTargets(IUnknown* pObject,UINT NumViews,ID3D10RenderTargetView** ppRenderTargetViews,ID3D10DepthStencilView* pDepthStencilView);
+VTBLIndex=25|void ID3D10Device::OMSetBlendState(IUnknown* pObject,ID3D10BlendState* pBlendState,FLOAT BlendFactor[4],UINT SampleMask);
+VTBLIndex=26|void ID3D10Device::OMSetDepthStencilState(IUnknown* pObject,ID3D10DepthStencilState* pDepthStencilState,UINT StencilRef);
+VTBLIndex=27|void ID3D10Device::SOSetTargets(IUnknown* pObject,UINT NumBuffers,ID3D10Buffer** ppSOTargets,UINT* pOffsets);
+VTBLIndex=28|void ID3D10Device::DrawAuto(IUnknown* pObject);
+VTBLIndex=29|void ID3D10Device::RSSetState(IUnknown* pObject,ID3D10RasterizerState* pRasterizerState);
+VTBLIndex=30|void ID3D10Device::RSSetViewports(IUnknown* pObject,UINT NumViewports,D3D10_VIEWPORT* pViewports);
+VTBLIndex=31|void ID3D10Device::RSSetScissorRects(IUnknown* pObject,UINT NumRects,D3D10_RECT* pRects);
+VTBLIndex=32|void ID3D10Device::CopySubresourceRegion(IUnknown* pObject,ID3D10Resource* pDstResource,UINT DstSubresource,UINT DstX,UINT DstY,UINT DstZ,ID3D10Resource* pSrcResource,UINT SrcSubresource,D3D10_BOX* pSrcBox);
+VTBLIndex=33|void ID3D10Device::CopyResource(IUnknown* pObject,ID3D10Resource* pDstResource,ID3D10Resource* pSrcResource);
+VTBLIndex=34|void ID3D10Device::UpdateSubresource(IUnknown* pObject,ID3D10Resource* pDstResource,UINT DstSubresource,D3D10_BOX* pDstBox,void* pSrcData,UINT SrcRowPitch,UINT SrcDepthPitch);
+VTBLIndex=35|void ID3D10Device::ClearRenderTargetView(IUnknown* pObject,ID3D10RenderTargetView* pRenderTargetView,FLOAT ColorRGBA[4]);
+VTBLIndex=36|void ID3D10Device::ClearDepthStencilView(IUnknown* pObject,ID3D10DepthStencilView* pDepthStencilView,UINT ClearFlags,FLOAT Depth,UINT8 Stencil);
+VTBLIndex=37|void ID3D10Device::GenerateMips(IUnknown* pObject,ID3D10ShaderResourceView* pShaderResourceView);
+VTBLIndex=38|void ID3D10Device::ResolveSubresource(IUnknown* pObject,ID3D10Resource* pDstResource,UINT DstSubresource,ID3D10Resource* pSrcResource,UINT SrcSubresource,DXGI_FORMAT Format);
+VTBLIndex=39|void ID3D10Device::VSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppConstantBuffers);|Out
+VTBLIndex=40|void ID3D10Device::PSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D10ShaderResourceView** ppShaderResourceViews);|Out
+VTBLIndex=41|void ID3D10Device::PSGetShader(IUnknown* pObject,ID3D10PixelShader** ppPixelShader);|Out
+VTBLIndex=42|void ID3D10Device::PSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D10SamplerState** ppSamplers);|Out
+VTBLIndex=43|void ID3D10Device::VSGetShader(IUnknown* pObject,ID3D10VertexShader** ppVertexShader);|Out
+VTBLIndex=44|void ID3D10Device::PSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppConstantBuffers);|Out
+VTBLIndex=45|void ID3D10Device::IAGetInputLayout(IUnknown* pObject,ID3D10InputLayout** ppInputLayout);|Out
+VTBLIndex=46|void ID3D10Device::IAGetVertexBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppVertexBuffers,UINT* pStrides,UINT* pOffsets);|Out
+VTBLIndex=47|void ID3D10Device::IAGetIndexBuffer(IUnknown* pObject,ID3D10Buffer** pIndexBuffer,DXGI_FORMAT* Format,UINT* Offset);|Out
+VTBLIndex=48|void ID3D10Device::GSGetConstantBuffers(IUnknown* pObject,UINT StartSlot,UINT NumBuffers,ID3D10Buffer** ppConstantBuffers);|Out
+VTBLIndex=49|void ID3D10Device::GSGetShader(IUnknown* pObject,ID3D10GeometryShader** ppGeometryShader);|Out
+VTBLIndex=50|void ID3D10Device::IAGetPrimitiveTopology(IUnknown* pObject,D3D10_PRIMITIVE_TOPOLOGY* pTopology);|Out
+VTBLIndex=51|void ID3D10Device::VSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D10ShaderResourceView** ppShaderResourceViews);|Out
+VTBLIndex=52|void ID3D10Device::VSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D10SamplerState** ppSamplers);|Out
+VTBLIndex=53|void ID3D10Device::GetPredication(IUnknown* pObject,ID3D10Predicate** ppPredicate,BOOL* pPredicateValue);|Out
+VTBLIndex=54|void ID3D10Device::GSGetShaderResources(IUnknown* pObject,UINT StartSlot,UINT NumViews,ID3D10ShaderResourceView** ppShaderResourceViews);|Out
+VTBLIndex=55|void ID3D10Device::GSGetSamplers(IUnknown* pObject,UINT StartSlot,UINT NumSamplers,ID3D10SamplerState** ppSamplers);|Out
+VTBLIndex=56|void ID3D10Device::OMGetRenderTargets(IUnknown* pObject,UINT NumViews,ID3D10RenderTargetView** ppRenderTargetViews,ID3D10DepthStencilView** ppDepthStencilView);|Out
+VTBLIndex=57|void ID3D10Device::OMGetBlendState(IUnknown* pObject,ID3D10BlendState** ppBlendState,FLOAT BlendFactor[4],UINT* pSampleMask);|Out
+VTBLIndex=58|void ID3D10Device::OMGetDepthStencilState(IUnknown* pObject,ID3D10DepthStencilState** ppDepthStencilState,UINT* pStencilRef);|Out
+VTBLIndex=59|void ID3D10Device::SOGetTargets(IUnknown* pObject,UINT NumBuffers,ID3D10Buffer** ppSOTargets,UINT* pOffsets);|Out
+VTBLIndex=60|void ID3D10Device::RSGetState(IUnknown* pObject,ID3D10RasterizerState** ppRasterizerState);|Out
+VTBLIndex=61|void ID3D10Device::RSGetViewports(IUnknown* pObject,UINT* NumViewports,D3D10_VIEWPORT* pViewports);|Out
+VTBLIndex=62|void ID3D10Device::RSGetScissorRects(IUnknown* pObject,UINT* NumRects,D3D10_RECT* pRects);|Out
+VTBLIndex=63|HRESULT ID3D10Device::GetDeviceRemovedReason(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=64|HRESULT ID3D10Device::SetExceptionMode(IUnknown* pObject,UINT RaiseFlags);|FailureIfNegativeRet
+VTBLIndex=65|UINT ID3D10Device::GetExceptionMode(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=66|HRESULT ID3D10Device::GetPrivateData(IUnknown* pObject,REFGUID guid,UINT* pDataSize,void* pData);|FailureIfNegativeRet|Out
+VTBLIndex=67|HRESULT ID3D10Device::SetPrivateData(IUnknown* pObject,REFGUID guid,UINT DataSize,void *pData);|FailureIfNegativeRet
+VTBLIndex=68|HRESULT ID3D10Device::SetPrivateDataInterface(IUnknown* pObject,REFGUID guid,IUnknown *pData);|FailureIfNegativeRet
+VTBLIndex=69|void ID3D10Device::ClearState(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=70|void ID3D10Device::Flush(IUnknown* pObject);|FailureIfNegativeRet
+
+; CLSID ??? use IID_ID3D10Buffer
+; IID_ID3D10Buffer {9B7E4C02-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=71|HRESULT ID3D10Device::CreateBuffer(IUnknown* pObject,D3D10_BUFFER_DESC* pDesc,D3D10_SUBRESOURCE_DATA* pInitialData,ID3D10Buffer** ppBuffer);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C02-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C02-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10Texture1D
+; IID_ID3D10Texture1D {9B7E4C03-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=72| HRESULT ID3D10Device::CreateTexture1D(IUnknown* pObject,D3D10_TEXTURE1D_DESC* pDesc,D3D10_SUBRESOURCE_DATA* pInitialData,ID3D10Texture1D** ppTexture1D);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C03-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C03-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10Texture2D
+; IID_ID3D10Texture2D {9B7E4C04-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=73| HRESULT ID3D10Device::CreateTexture2D(IUnknown* pObject,D3D10_TEXTURE2D_DESC* pDesc,D3D10_SUBRESOURCE_DATA* pInitialData,ID3D10Texture2D** ppTexture2D);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C04-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C04-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10Texture3D
+; IID_ID3D10Texture3D {9B7E4C05-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=74| HRESULT ID3D10Device::CreateTexture3D(IUnknown* pObject,D3D10_TEXTURE3D_DESC* pDesc,D3D10_SUBRESOURCE_DATA* pInitialData,ID3D10Texture3D** ppTexture3D);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C05-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C05-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10ShaderResourceView
+; IID_ID3D10ShaderResourceView {9B7E4C08-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=75| HRESULT ID3D10Device::CreateShaderResourceView(IUnknown* pObject,ID3D10Resource* pResource,D3D10_SHADER_RESOURCE_VIEW_DESC* pDesc,ID3D10ShaderResourceView** ppSRView);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C07-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C07-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10RenderTargetView
+; IID_ID3D10RenderTargetView {9B7E4C08-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=76| HRESULT ID3D10Device::CreateRenderTargetView(IUnknown* pObject,ID3D10Resource* pResource,D3D10_RENDER_TARGET_VIEW_DESC* pDesc,ID3D10RenderTargetView** ppRTView);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C08-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C08-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10DepthStencilView
+; IID_ID3D10DepthStencilView {9B7E4C09-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=77| HRESULT ID3D10Device::CreateDepthStencilView(IUnknown* pObject,ID3D10Resource* pResource,D3D10_DEPTH_STENCIL_VIEW_DESC* pDesc,ID3D10DepthStencilView** ppDepthStencilView);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C09-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C09-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10InputLayout
+; IID_ID3D10InputLayout {9B7E4C0B-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=78| HRESULT ID3D10Device::CreateInputLayout(IUnknown* pObject,D3D10_INPUT_ELEMENT_DESC* pInputElementDescs,UINT NumElements,void* pShaderBytecodeWithInputSignature,SIZE_T BytecodeLength,ID3D10InputLayout** ppInputLayout);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C0B-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C0B-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=20|x64ObjectStackIndex=8)
+
+; CLSID ??? use IID_ID3D10VertexShader
+; IID_ID3D10VertexShader {9B7E4C0A-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=79| HRESULT ID3D10Device::CreateVertexShader(IUnknown* pObject,void* pShaderBytecode,SIZE_T BytecodeLength,ID3D10VertexShader** ppVertexShader);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C0A-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C0A-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10GeometryShader
+; IID_ID3D10GeometryShader {6316BE88-54CD-4040-AB44-20461BC81F68}
+VTBLIndex=80| HRESULT ID3D10Device::CreateGeometryShader(IUnknown* pObject,void* pShaderBytecode,SIZE_T BytecodeLength,ID3D10GeometryShader** ppGeometryShader);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={6316BE88-54CD-4040-AB44-20461BC81F68}|IIDValue={6316BE88-54CD-4040-AB44-20461BC81F68}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10GeometryShader
+; IID_ID3D10GeometryShader {6316BE88-54CD-4040-AB44-20461BC81F68}
+VTBLIndex=81| HRESULT ID3D10Device::CreateGeometryShaderWithStreamOutput(IUnknown* pObject,void* pShaderBytecode,SIZE_T BytecodeLength,D3D10_SO_DECLARATION_ENTRY* pSODeclaration,UINT NumEntries,UINT OutputStreamStride,ID3D10GeometryShader** ppGeometryShader);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={6316BE88-54CD-4040-AB44-20461BC81F68}|IIDValue={6316BE88-54CD-4040-AB44-20461BC81F68}|ObjectStackIndex=24|x64ObjectStackIndex=16)
+
+; CLSID ??? use IID_ID3D10PixelShader
+; IID_ID3D10PixelShader {4968B601-9D00-4cde-8346-8E7F675819B6}
+VTBLIndex=82| HRESULT ID3D10Device::CreatePixelShader(IUnknown* pObject,void* pShaderBytecode,SIZE_T BytecodeLength,ID3D10PixelShader** ppPixelShader);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={4968B601-9D00-4cde-8346-8E7F675819B6}|IIDValue={4968B601-9D00-4cde-8346-8E7F675819B6}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+
+; CLSID ??? use IID_ID3D10BlendState
+; IID_ID3D10BlendState {EDAD8D19-8A35-4d6d-8566-2EA276CDE161}
+VTBLIndex=83| HRESULT ID3D10Device::CreateBlendState(IUnknown* pObject,D3D10_BLEND_DESC* pBlendStateDesc,ID3D10BlendState** ppBlendState);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={EDAD8D19-8A35-4d6d-8566-2EA276CDE161}|IIDValue={EDAD8D19-8A35-4d6d-8566-2EA276CDE161}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+; CLSID ??? use IID_ID3D10DepthStencilState
+; IID_ID3D10DepthStencilState {2B4B1CC8-A4AD-41f8-8322-CA86FC3EC675}
+VTBLIndex=84| HRESULT ID3D10Device::CreateDepthStencilState(IUnknown* pObject,D3D10_DEPTH_STENCIL_DESC* pDepthStencilDesc,ID3D10DepthStencilState** ppDepthStencilState);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={2B4B1CC8-A4AD-41f8-8322-CA86FC3EC675}|IIDValue={2B4B1CC8-A4AD-41f8-8322-CA86FC3EC675}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+; CLSID ??? use IID_ID3D10RasterizerState
+; IID_ID3D10RasterizerState {A2A07292-89AF-4345-BE2E-C53D9FBB6E9F}
+VTBLIndex=85| HRESULT ID3D10Device::CreateRasterizerState(IUnknown* pObject,D3D10_RASTERIZER_DESC* pRasterizerDesc,ID3D10RasterizerState** ppRasterizerState);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={A2A07292-89AF-4345-BE2E-C53D9FBB6E9F}|IIDValue={A2A07292-89AF-4345-BE2E-C53D9FBB6E9F}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+; CLSID ??? use IID_ID3D10SamplerState
+; IID_ID3D10SamplerState {9B7E4C0C-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=86| HRESULT ID3D10Device::CreateSamplerState(IUnknown* pObject,D3D10_SAMPLER_DESC* pSamplerDesc,ID3D10SamplerState** ppSamplerState);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C0C-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C0C-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+; CLSID ??? use IID_ID3D10Query
+; IID_ID3D10Query {9B7E4C0E-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=87| HRESULT ID3D10Device::CreateQuery(IUnknown* pObject,D3D10_QUERY_DESC *pQueryDesc,ID3D10Query** ppQuery);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C0E-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C0E-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+; CLSID ??? use IID_ID3D10Predicate
+; IID_ID3D10Predicate {9B7E4C10-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=88| HRESULT ID3D10Device::CreatePredicate(IUnknown* pObject,D3D10_QUERY_DESC* pPredicateDesc,ID3D10Predicate** ppPredicate);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C10-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C10-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+; CLSID ??? use IID_ID3D10Counter
+; IID_ID3D10Counter {9B7E4C11-342C-4106-A19F-4F2704F689F0}
+VTBLIndex=89| HRESULT ID3D10Device::CreateCounter(IUnknown* pObject,D3D10_COUNTER_DESC* pCounterDesc,ID3D10Counter** ppCounter);|FailureIfNegativeRet|Out|ObjectCreation(CLSIDValue={9B7E4C11-342C-4106-A19F-4F2704F689F0}|IIDValue={9B7E4C11-342C-4106-A19F-4F2704F689F0}|ObjectStackIndex=8|x64ObjectStackIndex=R8)
+
+VTBLIndex=90| HRESULT ID3D10Device::CheckFormatSupport(IUnknown* pObject,DXGI_FORMAT Format,UINT* pFormatSupport);|FailureIfNegativeRet|Out
+VTBLIndex=91| HRESULT ID3D10Device::CheckMultisampleQualityLevels(IUnknown* pObject,DXGI_FORMAT Format,UINT SampleCount,UINT* pNumQualityLevels);|FailureIfNegativeRet|Out
+VTBLIndex=92|void ID3D10Device::CheckCounterInfo(IUnknown* pObject,D3D10_COUNTER_INFO* pCounterInfo);|FailureIfNegativeRet|Out
+VTBLIndex=93|HRESULT ID3D10Device::CheckCounter(IUnknown* pObject,D3D10_COUNTER_DESC* pDesc,D3D10_COUNTER_TYPE* pType,UINT* pActiveCounters,LPSTR szName,UINT *pNameLength,LPSTR szUnits,UINT* pUnitsLength,LPSTR szDescription,UINT* pDescriptionLength);|FailureIfNegativeRet|Out
+VTBLIndex=94|UINT ID3D10Device::GetCreationFlags(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=95|HRESULT ID3D10Device::OpenSharedResource(IUnknown* pObject,HANDLE hResource,REFIID ReturnedInterface,void** ppResource);|FailureIfNegativeRet|Out
+VTBLIndex=96|void ID3D10Device::SetTextFilterSize(IUnknown* pObject,UINT Width,UINT Height);|FailureIfNegativeRet
+VTBLIndex=97|void ID3D10Device::GetTextFilterSize(IUnknown* pObject,UINT* pWidth,UINT* pHeight);|FailureIfNegativeRet|Out

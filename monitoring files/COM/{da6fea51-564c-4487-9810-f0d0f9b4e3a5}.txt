@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D11SamplerState
+
+; include ID3D11DeviceChild
+BaseIID={1841e5c8-16b0-489b-bcc8-44cfb0d5deae}
+
+VTBLIndex=7|void STDMETHODCALLTYPE ID3D11SamplerState::GetDesc(IUnknown* pObject,D3D11_SAMPLER_DESC *pDesc)|Out

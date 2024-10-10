@@ -1,0 +1,34 @@
+;@InterfaceName=IDirectInputDeviceW
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3 |HRESULT IDirectInputDeviceW::GetCapabilities(IUnknown* pObject,LPDIDEVCAPS);|FailureIfNegativeRet
+VTBLIndex=4 |HRESULT IDirectInputDeviceW::EnumObjects(IUnknown* pObject,LPDIENUMDEVICEOBJECTSCALLBACKW,LPVOID,DWORD);|FailureIfNegativeRet
+VTBLIndex=5 |HRESULT IDirectInputDeviceW::GetProperty(IUnknown* pObject,REFGUID,LPDIPROPHEADER);|FailureIfNegativeRet
+VTBLIndex=6 |HRESULT IDirectInputDeviceW::SetProperty(IUnknown* pObject,REFGUID,LPCDIPROPHEADER);|FailureIfNegativeRet
+VTBLIndex=7 |HRESULT IDirectInputDeviceW::Acquire(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=8 |HRESULT IDirectInputDeviceW::Unacquire(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=9 |HRESULT IDirectInputDeviceW::GetDeviceState(IUnknown* pObject,DWORD cbData,PBYTE Data:PointedDataSize=Arg2);|Out|FailureIfNegativeRet
+VTBLIndex=10|HRESULT IDirectInputDeviceW::GetDeviceData(IUnknown* pObject,DWORD cbObjectData,LPDIDEVICEOBJECTDATA DeviceObjectDataArray:PointedElementsCount=Arg4,LPDWORD pNbElements,DWORD dwFlags);|Out|FailureIfNegativeRet
+VTBLIndex=11|HRESULT IDirectInputDeviceW::SetDataFormat(IUnknown* pObject,LPCDIDATAFORMAT);|FailureIfNegativeRet
+VTBLIndex=12|HRESULT IDirectInputDeviceW::SetEventNotification(IUnknown* pObject,HANDLE hEvent);|FailureIfNegativeRet
+VTBLIndex=13|HRESULT IDirectInputDeviceW::SetCooperativeLevel(IUnknown* pObject,HWND hwnd,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=14|HRESULT IDirectInputDeviceW::GetObjectInfo(IUnknown* pObject,LPDIDEVICEOBJECTINSTANCEW, dwObj,DWORD dwHow);|FailureIfNegativeRet
+VTBLIndex=15|HRESULT IDirectInputDeviceW::GetDeviceInfo(IUnknown* pObject,LPDIDEVICEINSTANCEW);|FailureIfNegativeRet
+VTBLIndex=16|HRESULT IDirectInputDeviceW::RunControlPanel(IUnknown* pObject,HWND hwndOwner,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=17|HRESULT IDirectInputDeviceW::Initialize(IUnknown* pObject,HINSTANCE hinst,DWORD dwVersion,REFGUID);|FailureIfNegativeRet
+VTBLIndex=18|HRESULT IDirectInputDeviceW::CreateEffect(IUnknown* pObject,REFGUID,LPCDIEFFECT,LPDIRECTINPUTEFFECT *,LPUNKNOWN);|FailureIfNegativeRet|ObjectCreation(CLSIDValue=CurrentObjectCLSID|IIDValue={E7E1F7C0-88D2-11D0-9AD0-00A0C9A06E35}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+VTBLIndex=19|HRESULT IDirectInputDeviceW::EnumEffects(IUnknown* pObject,LPDIENUMEFFECTSCALLBACKW,LPVOID,DWORD dwEffType);|FailureIfNegativeRet
+VTBLIndex=20|HRESULT IDirectInputDeviceW::GetEffectInfo(IUnknown* pObject,LPDIEFFECTINFOW,REFGUID);|Out|FailureIfNegativeRet
+VTBLIndex=21|HRESULT IDirectInputDeviceW::GetForceFeedbackState(IUnknown* pObject,LPDWORD pdwOut);|Out|FailureIfNegativeRet
+VTBLIndex=22|HRESULT IDirectInputDeviceW::SendForceFeedbackCommand(IUnknown* pObject,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=23|HRESULT IDirectInputDeviceW::EnumCreatedEffectObjects(IUnknown* pObject,LPDIENUMCREATEDEFFECTOBJECTSCALLBACK,LPVOID,DWORD);|FailureIfNegativeRet
+VTBLIndex=24|HRESULT IDirectInputDeviceW::Escape(IUnknown* pObject,LPDIEFFESCAPE);|FailureIfNegativeRet
+VTBLIndex=25|HRESULT IDirectInputDeviceW::Poll(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=26|HRESULT IDirectInputDeviceW::SendDeviceData(IUnknown* pObject,DWORD cbObjectData,LPCDIDEVICEOBJECTDATA DeviceObjectDataArray:PointedElementsCount=Arg4,LPDWORD pNbElements,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=27|HRESULT IDirectInputDeviceW::EnumEffectsInFile(IUnknown* pObject,LPCWSTR lpszFileName,LPDIENUMEFFECTSINFILECALLBACK,LPVOID,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=28|HRESULT IDirectInputDeviceW::WriteEffectToFile(IUnknown* pObject,LPCWSTR lpszFileName,DWORD dwEntries,LPDIFILEEFFECT,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=29|HRESULT IDirectInputDeviceW::BuildActionMap(IUnknown* pObject,LPDIACTIONFORMATW,LPCWSTR lpszUserName,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=30|HRESULT IDirectInputDeviceW::SetActionMap(IUnknown* pObject,LPDIACTIONFORMATW,LPCWSTR lpszUserName,DWORD dwFlags);|FailureIfNegativeRet
+VTBLIndex=31|HRESULT IDirectInputDeviceW::GetImageInfo(IUnknown* pObject,LPDIDEVICEIMAGEINFOHEADERW);|FailureIfNegativeRet

@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D12Heap
+
+; include ID3D12Pageable
+BaseIID={63ee58fb-1268-4835-86da-f008ce62f0d6}
+    
+VTBLIndex=8 |D3D12_HEAP_DESC ID3D12Heap::GetDesc(IUnknown* pObject)

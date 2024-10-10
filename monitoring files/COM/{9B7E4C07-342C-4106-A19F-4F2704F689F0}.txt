@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D10ShaderResourceView
+
+; include ID3D10View
+BaseIID={C902B03F-60A7-49BA-9936-2A3AB37A7E33}
+
+VTBLIndex=8| void ID3D10ShaderResourceView::GetDesc( D3D10_SHADER_RESOURCE_VIEW_DESC *pDesc);|Out

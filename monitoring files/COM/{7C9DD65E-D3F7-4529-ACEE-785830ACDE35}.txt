@@ -1,0 +1,8 @@
+;@InterfaceName=IDirect3DIndexBuffer9
+
+; include IDirect3DResource9
+BaseIID={05EEC05D-8F7D-4362-B999-D1BAF357C704}
+
+VTBLIndex=11|HRESULT IDirect3DIndexBuffer9::Lock(IUnknown* pObject,UINT OffsetToLock,UINT SizeToLock,BYTE** ppbData,DWORD Flags);|FailureIfNegativeRet
+VTBLIndex=12|HRESULT IDirect3DIndexBuffer9::Unlock(IUnknown* pObject);|FailureIfNegativeRet
+VTBLIndex=13|HRESULT IDirect3DIndexBuffer9::GetDesc(IUnknown* pObject,D3DINDEXBUFFER_DESC *pDesc);|FailureIfNegativeRet

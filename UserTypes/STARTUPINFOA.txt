@@ -1,0 +1,22 @@
+typedef struct _STARTUPINFOA {
+    DWORD   cb;
+    LPSTR   lpReserved;
+    LPSTR   lpDesktop;
+    LPSTR   lpTitle;
+    DWORD   dwX;
+    DWORD   dwY;
+    DWORD   dwXSize;
+    DWORD   dwYSize;
+    DWORD   dwXCountChars;
+    DWORD   dwYCountChars;
+    DWORD   dwFillAttribute;
+    #pragma next_field_define_values_file("kernel32.dll/CreateProcess_STARTUPINFO_Flags.txt")
+    DWORD   dwFlags;
+    #pragma next_field_define_values_file("user32.dll/ShowWindow_CmdShow.txt")
+    WORD    wShowWindow;
+    WORD    cbReserved2;
+    LPBYTE  lpReserved2;
+    HANDLE  hStdInput;
+    HANDLE  hStdOutput;
+    HANDLE  hStdError;
+} STARTUPINFOA, *LPSTARTUPINFOA;

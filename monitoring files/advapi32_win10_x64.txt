@@ -1,0 +1,855 @@
+;   Monitoring file generated for exports table of advapi32.dll v10.0.19041.1 by MonitoringFileBuilder
+
+
+;advapi32.dll|I_ScGetCurrentGroupStateW()
+advapi32.dll|A_SHAFinal(UNKNOWN,UNKNOWN)
+advapi32.dll|A_SHAInit(UNKNOWN)
+advapi32.dll|A_SHAUpdate(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL AbortSystemShutdownA(LPSTR lpMachineName)|FailureIfNullRet
+advapi32.dll|BOOL AbortSystemShutdownW(LPWSTR lpMachineName)|FailureIfNullRet
+advapi32.dll|BOOL AccessCheck(PSECURITY_DESCRIPTOR pSecurityDescriptor,HANDLE ClientToken,DWORD DesiredAccess,PGENERIC_MAPPING GenericMapping,PPRIVILEGE_SET PrivilegeSet,LPDWORD PrivilegeSetLength,LPDWORD GrantedAccess,LPBOOL AccessStatus)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckAndAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,LPSTR ObjectTypeName,LPSTR ObjectName,PSECURITY_DESCRIPTOR SecurityDescriptor,DWORD DesiredAccess,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccess,LPBOOL AccessStatus,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckAndAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,LPWSTR ObjectTypeName,LPWSTR ObjectName,PSECURITY_DESCRIPTOR SecurityDescriptor,DWORD DesiredAccess,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccess,LPBOOL AccessStatus,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByType(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,HANDLE ClientToken,DWORD DesiredAccess,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,PPRIVILEGE_SET PrivilegeSet,LPDWORD PrivilegeSetLength,LPDWORD GrantedAccess,LPBOOL AccessStatus)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeAndAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,LPCSTR ObjectTypeName,LPCSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,DWORD DesiredAccess,AUDIT_EVENT_TYPE AuditType,DWORD Flags,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccess,LPBOOL AccessStatus,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeAndAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,LPCWSTR ObjectTypeName,LPCWSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,DWORD DesiredAccess,AUDIT_EVENT_TYPE AuditType,DWORD Flags,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccess,LPBOOL AccessStatus,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeResultList(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,HANDLE ClientToken,DWORD DesiredAccess,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,PPRIVILEGE_SET PrivilegeSet,LPDWORD PrivilegeSetLength,LPDWORD GrantedAccessList,LPDWORD AccessStatusList)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeResultListAndAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,LPCSTR ObjectTypeName,LPCSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,DWORD DesiredAccess,AUDIT_EVENT_TYPE AuditType,DWORD Flags,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccess,LPDWORD AccessStatusList,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeResultListAndAuditAlarmByHandleA(LPCSTR SubsystemName,LPVOID HandleId,HANDLE ClientToken,LPCSTR ObjectTypeName,LPCSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,DWORD DesiredAccess,AUDIT_EVENT_TYPE AuditType,DWORD Flags,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccess,LPDWORD AccessStatusList,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeResultListAndAuditAlarmByHandleW(LPCWSTR SubsystemName,LPVOID HandleId,HANDLE ClientToken,LPCWSTR ObjectTypeName,LPCWSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,DWORD DesiredAccess,AUDIT_EVENT_TYPE AuditType,DWORD Flags,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccessList,LPDWORD AccessStatusList,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AccessCheckByTypeResultListAndAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,LPCWSTR ObjectTypeName,LPCWSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID PrincipalSelfSid,DWORD DesiredAccess,AUDIT_EVENT_TYPE AuditType,DWORD Flags,POBJECT_TYPE_LIST ObjectTypeList,DWORD ObjectTypeListLength,PGENERIC_MAPPING GenericMapping,BOOL ObjectCreation,LPDWORD GrantedAccessList,LPDWORD AccessStatusList,LPBOOL pfGenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAccessAllowedAce(PACL pAcl,DWORD dwAceRevision,DWORD AccessMask,PSID pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAccessAllowedAceEx(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD AccessMask,PSID pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAccessAllowedObjectAce(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD AccessMask,GUID* ObjectTypeGuid,GUID* InheritedObjectTypeGuid,PSID pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAccessDeniedAce(PACL pAcl,DWORD dwAceRevision,DWORD AccessMask,PSID pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAccessDeniedAceEx(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD AccessMask,PSID pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAccessDeniedObjectAce(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD AccessMask,GUID* ObjectTypeGuid,GUID* InheritedObjectTypeGuid,PSID pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAce(PACL pAcl,DWORD dwAceRevision,DWORD dwStartingAceIndex,LPVOID pAceList,DWORD nAceListLength)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAuditAccessAce(PACL pAcl,DWORD dwAceRevision,DWORD dwAccessMask,PSID pSid,BOOL bAuditSuccess,BOOL bAuditFailure)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAuditAccessAceEx(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD dwAccessMask,PSID pSid,BOOL bAuditSuccess,BOOL bAuditFailure)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddAuditAccessObjectAce(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD AccessMask,GUID* ObjectTypeGuid,GUID* InheritedObjectTypeGuid,PSID pSid,BOOL bAuditSuccess,BOOL bAuditFailure)|Out|FailureIfNullRet
+advapi32.dll|BOOL AddConditionalAce(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,UCHAR AceType,DWORD AccessMask,PSID pSid,PWCHAR ConditionStr,DWORD* ReturnLength)|Out
+advapi32.dll|BOOL AddMandatoryAce(PACL pAcl,DWORD dwAceRevision,DWORD AceFlags,DWORD MandatoryPolicy,PSID pLabelSid)|Out
+advapi32.dll|DWORD AddUsersToEncryptedFile(LPCWSTR lpFileName,PENCRYPTION_CERTIFICATE_LIST pEncryptionCertificates)
+advapi32.dll|DWORD AddUsersToEncryptedFileEx(LPCWSTR lpFileName,PENCRYPTION_CERTIFICATE_LIST pEncryptionCertificates,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL AdjustTokenGroups(HANDLE TokenHandle,BOOL ResetToDefault,PTOKEN_GROUPS NewState,DWORD BufferLength,PTOKEN_GROUPS PreviousState,PDWORD ReturnLength)|Out|FailureIfNullRet
+advapi32.dll|BOOL AdjustTokenPrivileges(HANDLE TokenHandle,BOOL DisableAllPrivileges,PTOKEN_PRIVILEGES NewState,DWORD BufferLength,PTOKEN_PRIVILEGES PreviousState,PDWORD ReturnLength)|Out|FailureIfNullRet
+advapi32.dll|BOOL AllocateAndInitializeSid(PSID_IDENTIFIER_AUTHORITY pIdentifierAuthority,BYTE nSubAuthorityCount,DWORD dwSubAuthority0,DWORD dwSubAuthority1,DWORD dwSubAuthority2,DWORD dwSubAuthority3,DWORD dwSubAuthority4,DWORD dwSubAuthority5,DWORD dwSubAuthority6,DWORD dwSubAuthority7,PSID* pSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AllocateLocallyUniqueId(PLUID Luid)|Out|FailureIfNullRet
+advapi32.dll|BOOL AreAllAccessesGranted(DWORD GrantedAccess,DWORD DesiredAccess)|FailureIfNullRet
+advapi32.dll|BOOL AreAnyAccessesGranted(DWORD GrantedAccess,DWORD DesiredAccess)|FailureIfNullRet
+advapi32.dll|BOOLEAN AuditComputeEffectivePolicyBySid(PSID pSid,GUID* pSubCategoryGuids,ULONG dwPolicyCount,PAUDIT_POLICY_INFORMATION* ppAuditPolicy)|Out
+advapi32.dll|BOOLEAN AuditComputeEffectivePolicyByToken(HANDLE hTokenHandle,GUID* pSubCategoryGuids,ULONG dwPolicyCount,PAUDIT_POLICY_INFORMATION* ppAuditPolicy)|Out
+advapi32.dll|BOOLEAN AuditEnumerateCategories(GUID** ppAuditCategoriesArray,PULONG pdwCountReturned)|Out
+advapi32.dll|BOOLEAN AuditEnumeratePerUserPolicy(PPOLICY_AUDIT_SID_ARRAY* ppAuditSidArray)|Out
+advapi32.dll|BOOLEAN AuditEnumerateSubCategories(GUID* pAuditCategoryGuid,BOOLEAN bRetrieveAllSubCategories,GUID** ppAuditSubCategoriesArray,PULONG pdwCountReturned)|Out
+advapi32.dll|VOID AuditFree(PVOID Buffer)|Out
+advapi32.dll|BOOLEAN AuditLookupCategoryGuidFromCategoryId(POLICY_AUDIT_EVENT_TYPE AuditCategoryId,GUID* pAuditCategoryGuid)|Out
+advapi32.dll|BOOLEAN AuditLookupCategoryIdFromCategoryGuid(GUID* pAuditCategoryGuid,PPOLICY_AUDIT_EVENT_TYPE pAuditCategoryId)|Out
+advapi32.dll|BOOLEAN AuditLookupCategoryNameA(GUID* pAuditCategoryGuid,PSTR* ppszCategoryName)|Out
+advapi32.dll|BOOLEAN AuditLookupCategoryNameW(GUID* pAuditCategoryGuid,PWSTR* ppszCategoryName)|Out
+advapi32.dll|BOOLEAN AuditLookupSubCategoryNameA(GUID* pAuditSubCategoryGuid,PSTR* ppszSubCategoryName)|Out
+advapi32.dll|BOOLEAN AuditLookupSubCategoryNameW(GUID* pAuditSubCategoryGuid,PWSTR* ppszSubCategoryName)|Out
+advapi32.dll|BOOLEAN AuditQueryGlobalSaclA(PCSTR ObjectTypeName,PACL* Acl)|Out
+advapi32.dll|BOOLEAN AuditQueryGlobalSaclW(PCWSTR ObjectTypeName,PACL* Acl)|Out
+advapi32.dll|BOOLEAN AuditQueryPerUserPolicy(PSID pSid,GUID* pSubCategoryGuids,ULONG dwPolicyCount,PAUDIT_POLICY_INFORMATION* ppAuditPolicy)|Out
+advapi32.dll|BOOLEAN AuditQuerySecurity(SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR* ppSecurityDescriptor)|Out
+advapi32.dll|BOOLEAN AuditQuerySystemPolicy(GUID* pSubCategoryGuids,ULONG dwPolicyCount,PAUDIT_POLICY_INFORMATION* ppAuditPolicy)|Out
+advapi32.dll|BOOLEAN AuditSetGlobalSaclA(PCSTR ObjectTypeName,PACL Acl)
+advapi32.dll|BOOLEAN AuditSetGlobalSaclW(PCWSTR ObjectTypeName,PACL Acl)
+advapi32.dll|BOOLEAN AuditSetPerUserPolicy(PSID pSid,PCAUDIT_POLICY_INFORMATION pAuditPolicy,ULONG dwPolicyCount)
+advapi32.dll|BOOLEAN AuditSetSecurity(SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor)
+advapi32.dll|BOOLEAN AuditSetSystemPolicy(PCAUDIT_POLICY_INFORMATION pAuditPolicy,ULONG dwPolicyCount)
+advapi32.dll|BOOL BackupEventLogA(HANDLE hEventLog,LPCSTR lpBackupFileName)|FailureIfNullRet
+advapi32.dll|BOOL BackupEventLogW(HANDLE hEventLog,LPCWSTR lpBackupFileName)|FailureIfNullRet
+advapi32.dll|error_status_t BaseRegCloseKey(PRPC_HKEY hKey)
+advapi32.dll|error_status_t BaseRegCreateKey(RPC_HKEY hKey,PRRP_UNICODE_STRING lpSubKey,PRRP_UNICODE_STRING lpClass,DWORD dwOptions,REGSAM samDesired,PRPC_SECURITY_ATTRIBUTES lpSecurityAttributes,PRPC_HKEY phkResult,LPDWORD lpdwDisposition);
+advapi32.dll|error_status_t BaseRegDeleteKeyEx(RPC_HKEY hKey,PRRP_UNICODE_STRING lpSubKey,REGSAM AccessMask,DWORD Reserved)
+advapi32.dll|error_status_t BaseRegDeleteValue(RPC_HKEY hKey,PRRP_UNICODE_STRING lpValueName)
+advapi32.dll|error_status_t BaseRegFlushKey(RPC_HKEY hKey)
+advapi32.dll|error_status_t BaseRegGetVersion(RPC_HKEY hKey,LPDWORD lpdwVersion)|Out
+advapi32.dll|error_status_t BaseRegLoadKey(RPC_HKEY hKey,PRRP_UNICODE_STRING lpSubKey,PRRP_UNICODE_STRING lpFile)
+advapi32.dll|error_status_t BaseRegOpenKey(RPC_HKEY hKey,PRRP_UNICODE_STRING lpSubKey,DWORD dwOptions,REGSAM samDesired,PRPC_HKEY phkResult)|Out
+advapi32.dll|error_status_t BaseRegRestoreKey(RPC_HKEY hKey,PRRP_UNICODE_STRING lpFile,DWORD Flags)
+advapi32.dll|error_status_t BaseRegSaveKeyEx(RPC_HKEY hKey,PRRP_UNICODE_STRING lpFile,PRPC_SECURITY_ATTRIBUTES pSecurityAttributes,DWORD Flags)
+advapi32.dll|error_status_t BaseRegSetKeySecurity(RPC_HKEY hKey,SECURITY_INFORMATION SecurityInformation,PRPC_SECURITY_DESCRIPTOR pRpcSecurityDescriptor)
+advapi32.dll|error_status_t BaseRegSetValue(RPC_HKEY hKey,PRRP_UNICODE_STRING lpValueName,DWORD dwType,LPBYTE lpData,DWORD cbData)
+advapi32.dll|error_status_t BaseRegUnLoadKey(RPC_HKEY hKey,PRRP_UNICODE_STRING lpSubKey)
+advapi32.dll|VOID BuildExplicitAccessWithNameA(PEXPLICIT_ACCESS_A pExplicitAccess,LPSTR pTrusteeName,DWORD AccessPermissions,ACCESS_MODE AccessMode,DWORD Inheritance)|Out
+;BuildExplicitAccessWithNameW() in advapi32.dll has the same entry point as BuildExplicitAccessWithNameA
+!advapi32.dll|VOID BuildExplicitAccessWithNameW(PEXPLICIT_ACCESS_W pExplicitAccess,LPWSTR pTrusteeName,DWORD AccessPermissions,ACCESS_MODE AccessMode,DWORD Inheritance)|Out
+advapi32.dll|VOID BuildImpersonateExplicitAccessWithNameA(PEXPLICIT_ACCESS_A pExplicitAccess,LPSTR pTrusteeName,PTRUSTEE_A pTrustee,DWORD AccessPermissions,ACCESS_MODE AccessMode,DWORD Inheritance)|Out
+;BuildImpersonateExplicitAccessWithNameW() in advapi32.dll has the same entry point as BuildImpersonateExplicitAccessWithNameA
+!advapi32.dll|VOID BuildImpersonateExplicitAccessWithNameW(PEXPLICIT_ACCESS_W pExplicitAccess,LPWSTR pTrusteeName,PTRUSTEE_W pTrustee,DWORD AccessPermissions,ACCESS_MODE AccessMode,DWORD Inheritance)|Out
+advapi32.dll|VOID BuildImpersonateTrusteeA(PTRUSTEE_A pTrustee,PTRUSTEE_A pImpersonateTrustee)|Out
+;BuildImpersonateTrusteeW() in advapi32.dll has the same entry point as BuildImpersonateTrusteeA
+!advapi32.dll|VOID BuildImpersonateTrusteeW(PTRUSTEE_W pTrustee,PTRUSTEE_W pImpersonateTrustee)|Out
+advapi32.dll|DWORD BuildSecurityDescriptorA(PTRUSTEE_A pOwner,PTRUSTEE_A pGroup,ULONG cCountOfAccessEntries,PEXPLICIT_ACCESS_A pListOfAccessEntries,ULONG cCountOfAuditEntries,PEXPLICIT_ACCESS_A pListOfAuditEntries,PSECURITY_DESCRIPTOR pOldSD,PULONG pSizeNewSD,PSECURITY_DESCRIPTOR* pNewSD)|Out
+advapi32.dll|DWORD BuildSecurityDescriptorW(PTRUSTEE_W pOwner,PTRUSTEE_W pGroup,ULONG cCountOfAccessEntries,PEXPLICIT_ACCESS_W pListOfAccessEntries,ULONG cCountOfAuditEntries,PEXPLICIT_ACCESS_W pListOfAuditEntries,PSECURITY_DESCRIPTOR pOldSD,PULONG pSizeNewSD,PSECURITY_DESCRIPTOR* pNewSD)|Out
+advapi32.dll|VOID BuildTrusteeWithNameA(PTRUSTEE_A pTrustee,LPSTR pName)|Out
+;BuildTrusteeWithNameW() in advapi32.dll has the same entry point as BuildTrusteeWithNameA
+!advapi32.dll|VOID BuildTrusteeWithNameW(PTRUSTEE_W pTrustee,LPWSTR pName)|Out
+advapi32.dll|VOID BuildTrusteeWithObjectsAndNameA(PTRUSTEE_A pTrustee,POBJECTS_AND_NAME_A pObjName,SE_OBJECT_TYPE ObjectType,LPSTR ObjectTypeName,LPSTR InheritedObjectTypeName,LPSTR Name)|Out
+;BuildTrusteeWithObjectsAndNameW() in advapi32.dll has the same entry point as BuildTrusteeWithObjectsAndNameA
+!advapi32.dll|VOID BuildTrusteeWithObjectsAndNameW(PTRUSTEE_W pTrustee,POBJECTS_AND_NAME_W pObjName,SE_OBJECT_TYPE ObjectType,LPWSTR ObjectTypeName,LPWSTR InheritedObjectTypeName,LPWSTR Name)|Out
+advapi32.dll|VOID BuildTrusteeWithObjectsAndSidA(PTRUSTEE_A pTrustee,POBJECTS_AND_SID pObjSid,GUID* pObjectGuid,GUID* pInheritedObjectGuid,PSID pSid)|Out
+;BuildTrusteeWithObjectsAndSidW() in advapi32.dll has the same entry point as BuildTrusteeWithObjectsAndSidA
+!advapi32.dll|VOID BuildTrusteeWithObjectsAndSidW(PTRUSTEE_W pTrustee,POBJECTS_AND_SID pObjSid,GUID* pObjectGuid,GUID* pInheritedObjectGuid,PSID pSid)|Out
+advapi32.dll|VOID BuildTrusteeWithSidA(PTRUSTEE_A pTrustee,PSID pSid)|Out
+;BuildTrusteeWithSidW() in advapi32.dll has the same entry point as BuildTrusteeWithSidA
+!advapi32.dll|VOID BuildTrusteeWithSidW(PTRUSTEE_W pTrustee,PSID pSid)|Out
+advapi32.dll|CancelOverlappedAccess(UNKNOWN)
+advapi32.dll|BOOL ChangeServiceConfig2A(SC_HANDLE hService,DWORD dwInfoLevel,LPVOID lpInfo)
+advapi32.dll|BOOL ChangeServiceConfig2W(SC_HANDLE hService,DWORD dwInfoLevel,LPVOID lpInfo)
+advapi32.dll|BOOL ChangeServiceConfigA(SC_HANDLE hService,DWORD dwServiceType,DWORD dwStartType,DWORD dwErrorControl,LPCSTR lpBinaryPathName,LPCSTR lpLoadOrderGroup,LPDWORD lpdwTagId,LPCSTR lpDependencies,LPCSTR lpServiceStartName,LPCSTR lpPassword,LPCSTR lpDisplayName)|Out|FailureIfNullRet
+advapi32.dll|BOOL ChangeServiceConfigW(SC_HANDLE hService,DWORD dwServiceType,DWORD dwStartType,DWORD dwErrorControl,LPCWSTR lpBinaryPathName,LPCWSTR lpLoadOrderGroup,LPDWORD lpdwTagId,LPCWSTR lpDependencies,LPCWSTR lpServiceStartName,LPCWSTR lpPassword,LPCWSTR lpDisplayName)|Out|FailureIfNullRet
+advapi32.dll|DWORD CheckForHiberboot(PBOOLEAN pHiberboot,BOOLEAN bClearFlag)|Out
+advapi32.dll|BOOL CheckTokenMembership(HANDLE TokenHandle,PSID SidToCheck,PBOOL IsMember)|Out|FailureIfNullRet
+advapi32.dll|BOOL ClearEventLogA(HANDLE hEventLog,LPCSTR lpBackupFileName)|FailureIfNullRet
+advapi32.dll|BOOL ClearEventLogW(HANDLE hEventLog,LPCWSTR lpBackupFileName)|FailureIfNullRet
+advapi32.dll|CloseCodeAuthzLevel(UNKNOWN)
+advapi32.dll|VOID CloseEncryptedFileRaw(PVOID pvContext)
+advapi32.dll|BOOL CloseEventLog(HANDLE hEventLog)|FailureIfNullRet
+advapi32.dll|BOOL CloseServiceHandle(SC_HANDLE hSCObject)|FailureIfNullRet
+advapi32.dll|VOID CloseThreadWaitChainSession(HWCT WctHandle)
+advapi32.dll|ULONG CloseTrace(TRACEHANDLE TraceHandle)
+advapi32.dll|DWORD CommandLineFromMsiDescriptor(LPWSTR Descriptor,LPWSTR CommandLine,DWORD* CommandLineLength)|Out
+advapi32.dll|ComputeAccessTokenFromCodeAuthzLevel(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL ControlService(SC_HANDLE hService,DWORD dwControl,LPSERVICE_STATUS lpServiceStatus)|Out|FailureIfNullRet
+advapi32.dll|BOOL ControlServiceExA(SC_HANDLE hService,DWORD dwControl,DWORD dwInfoLevel,PVOID pControlParams)|Out|FailureIfNullRet
+advapi32.dll|BOOL ControlServiceExW(SC_HANDLE hService,DWORD dwControl,DWORD dwInfoLevel,PVOID pControlParams)|Out|FailureIfNullRet
+advapi32.dll|ULONG ControlTraceA(TRACEHANDLE TraceHandle,LPCSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties,ULONG ControlCode)|Out
+advapi32.dll|ULONG ControlTraceW(TRACEHANDLE TraceHandle,LPCWSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties,ULONG ControlCode)|Out
+advapi32.dll|ConvertAccessToSecurityDescriptorA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ConvertAccessToSecurityDescriptorW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ConvertSDToStringSDDomainW()
+advapi32.dll|ConvertSDToStringSDRootDomainA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ConvertSDToStringSDRootDomainW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ConvertSecurityDescriptorToAccessA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+;ConvertSecurityDescriptorToAccessNamedA() in advapi32.dll has the same entry point as ConvertSecurityDescriptorToAccessA
+!advapi32.dll|ConvertSecurityDescriptorToAccessNamedA()
+advapi32.dll|ConvertSecurityDescriptorToAccessNamedW()
+;ConvertSecurityDescriptorToAccessW() in advapi32.dll has the same entry point as ConvertSecurityDescriptorToAccessNamedW
+!advapi32.dll|ConvertSecurityDescriptorToAccessW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL ConvertSecurityDescriptorToStringSecurityDescriptorA(PSECURITY_DESCRIPTOR SecurityDescriptor,DWORD RequestedStringSDRevision,SECURITY_INFORMATION SecurityInformation,LPSTR* StringSecurityDescriptor,PULONG StringSecurityDescriptorLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertSecurityDescriptorToStringSecurityDescriptorW(PSECURITY_DESCRIPTOR SecurityDescriptor,DWORD RequestedStringSDRevision,SECURITY_INFORMATION SecurityInformation,LPWSTR* StringSecurityDescriptor,PULONG StringSecurityDescriptorLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertSidToStringSidA(PSID Sid,LPSTR* StringSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertSidToStringSidW(PSID Sid,LPWSTR* StringSid)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertStringSDToSDDomainA(PSID DomainSid,PSID RootDomainSid,LPCSTR StringSecurityDescriptor,DWORD StringSDRevision,PSECURITY_DESCRIPTOR* SecurityDescriptor,PULONG SecurityDescriptorSize)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertStringSDToSDDomainW(PSID DomainSid,PSID RootDomainSid,LPCWSTR StringSecurityDescriptor,DWORD StringSDRevision,PSECURITY_DESCRIPTOR* SecurityDescriptor,PULONG SecurityDescriptorSize)|Out|FailureIfNullRet
+advapi32.dll|ConvertStringSDToSDRootDomainA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ConvertStringSDToSDRootDomainW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL ConvertStringSecurityDescriptorToSecurityDescriptorA(LPCSTR StringSecurityDescriptor,DWORD StringSDRevision,PSECURITY_DESCRIPTOR* SecurityDescriptor,PULONG SecurityDescriptorSize)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertStringSecurityDescriptorToSecurityDescriptorW(LPCWSTR StringSecurityDescriptor,DWORD StringSDRevision,PSECURITY_DESCRIPTOR* SecurityDescriptor,PULONG SecurityDescriptorSize)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertStringSidToSidA(LPCSTR StringSid,PSID* Sid)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertStringSidToSidW(LPCWSTR StringSid,PSID* Sid)|Out|FailureIfNullRet
+advapi32.dll|BOOL ConvertToAutoInheritPrivateObjectSecurity(PSECURITY_DESCRIPTOR ParentDescriptor,PSECURITY_DESCRIPTOR CurrentSecurityDescriptor,PSECURITY_DESCRIPTOR* NewSecurityDescriptor,GUID* ObjectType,BOOLEAN IsDirectoryObject,PGENERIC_MAPPING GenericMapping)|Out|FailureIfNullRet
+advapi32.dll|BOOL CopySid(DWORD nDestinationSidLength,PSID pDestinationSid,PSID pSourceSid)|Out|FailureIfNullRet
+advapi32.dll|CreateCodeAuthzLevel(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL CreatePrivateObjectSecurity(PSECURITY_DESCRIPTOR ParentDescriptor,PSECURITY_DESCRIPTOR CreatorDescriptor,PSECURITY_DESCRIPTOR* NewDescriptor,BOOL IsDirectoryObject,HANDLE Token,PGENERIC_MAPPING GenericMapping)|Out|FailureIfNullRet
+advapi32.dll|BOOL CreatePrivateObjectSecurityEx(PSECURITY_DESCRIPTOR ParentDescriptor,PSECURITY_DESCRIPTOR CreatorDescriptor,PSECURITY_DESCRIPTOR* NewDescriptor,GUID* ObjectType,BOOL IsContainerObject,ULONG AutoInheritFlags,HANDLE Token,PGENERIC_MAPPING GenericMapping)|Out|FailureIfNullRet
+advapi32.dll|BOOL CreatePrivateObjectSecurityWithMultipleInheritance(PSECURITY_DESCRIPTOR ParentDescriptor,PSECURITY_DESCRIPTOR CreatorDescriptor,PSECURITY_DESCRIPTOR* NewDescriptor,GUID** ObjectTypes,ULONG GuidCount,BOOL IsContainerObject,ULONG AutoInheritFlags,HANDLE Token,PGENERIC_MAPPING GenericMapping)|Out|FailureIfNullRet
+advapi32.dll|BOOL CreateProcessAsUserA(HANDLE hToken,LPCSTR lpApplicationName,LPSTR lpCommandLine,LPSECURITY_ATTRIBUTES lpProcessAttributes,LPSECURITY_ATTRIBUTES lpThreadAttributes,BOOL bInheritHandles,DWORD dwCreationFlags:Define=kernel32.dll/CreateProcess_CreationFlag.txt,LPVOID lpEnvironment,LPCSTR lpCurrentDirectory,LPSTARTUPINFOA lpStartupInfo,LPPROCESS_INFORMATION lpProcessInformation)|Out|FailureIfNullRet
+advapi32.dll|BOOL CreateProcessAsUserW(HANDLE hToken,LPCWSTR lpApplicationName,LPWSTR lpCommandLine,LPSECURITY_ATTRIBUTES lpProcessAttributes,LPSECURITY_ATTRIBUTES lpThreadAttributes,BOOL bInheritHandles,DWORD dwCreationFlags:Define=kernel32.dll/CreateProcess_CreationFlag.txt,LPVOID lpEnvironment,LPCWSTR lpCurrentDirectory,LPSTARTUPINFOW lpStartupInfo,LPPROCESS_INFORMATION lpProcessInformation)|Out|FailureIfNullRet
+advapi32.dll|BOOL CreateProcessWithLogonW(LPCWSTR lpUsername,LPCWSTR lpDomain,LPCWSTR lpPassword,DWORD dwLogonFlags:Define=kernel32.dll/CreateProcessWithLogon_LogonFlags.txt,LPCWSTR lpApplicationName,LPWSTR lpCommandLine,DWORD dwCreationFlags:Define=kernel32.dll/CreateProcess_CreationFlag.txt,LPVOID lpEnvironment,LPCWSTR lpCurrentDirectory,STARTUPINFOW* lpStartupInfo,PROCESS_INFORMATION* lpProcessInformation)|Out|FailureIfNullRet
+advapi32.dll|BOOL CreateProcessWithTokenW(HANDLE hToken,DWORD dwLogonFlags,LPCWSTR lpApplicationName,LPWSTR lpCommandLine,DWORD dwCreationFlags:Define=kernel32.dll/CreateProcess_CreationFlag.txt,LPVOID lpEnvironment,LPCWSTR lpCurrentDirectory,LPSTARTUPINFOW lpStartupInfo,LPPROCESS_INFORMATION lpProcessInformation)|Out
+advapi32.dll|BOOL CreateRestrictedToken(HANDLE ExistingTokenHandle,DWORD Flags,DWORD DisableSidCount,PSID_AND_ATTRIBUTES SidsToDisable,DWORD DeletePrivilegeCount,PLUID_AND_ATTRIBUTES PrivilegesToDelete,DWORD RestrictedSidCount,PSID_AND_ATTRIBUTES SidsToRestrict,PHANDLE NewTokenHandle)|Out|FailureIfNullRet
+advapi32.dll|SC_HANDLE CreateServiceA(SC_HANDLE hSCManager,LPCSTR lpServiceName,LPCSTR lpDisplayName,DWORD dwDesiredAccess,DWORD dwServiceType,DWORD dwStartType,DWORD dwErrorControl,LPCSTR lpBinaryPathName,LPCSTR lpLoadOrderGroup,LPDWORD lpdwTagId,LPCSTR lpDependencies,LPCSTR lpServiceStartName,LPCSTR lpPassword)|Out
+advapi32.dll|CreateServiceEx(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SC_HANDLE CreateServiceW(SC_HANDLE hSCManager,LPCWSTR lpServiceName,LPCWSTR lpDisplayName,DWORD dwDesiredAccess,DWORD dwServiceType,DWORD dwStartType,DWORD dwErrorControl,LPCWSTR lpBinaryPathName,LPCWSTR lpLoadOrderGroup,LPDWORD lpdwTagId,LPCWSTR lpDependencies,LPCWSTR lpServiceStartName,LPCWSTR lpPassword)|Out
+advapi32.dll|ULONG CreateTraceInstanceId(HANDLE RegHandle,PEVENT_INSTANCE_INFO pInstInfo)|Out
+advapi32.dll|BOOL CreateWellKnownSid(WELL_KNOWN_SID_TYPE WellKnownSidType,PSID DomainSid,PSID pSid,DWORD* cbSid)|Out|FailureIfNullRet
+advapi32.dll|CredBackupCredentials(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL CredDeleteA(LPCSTR TargetName,DWORD Type,DWORD Flags)|FailureIfNullRet
+advapi32.dll|BOOL CredDeleteW(LPCWSTR TargetName,DWORD Type,DWORD Flags)|FailureIfNullRet
+advapi32.dll|CredEncryptAndMarshalBinaryBlob(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL CredEnumerateA(LPCSTR Filter,DWORD Flags,DWORD* Count,PCREDENTIAL** Credentials)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredEnumerateW(LPCWSTR Filter,DWORD Flags,DWORD* Count,PCREDENTIAL** Credentials)|Out|FailureIfNullRet
+advapi32.dll|CredFindBestCredentialA(LPCSTR TargetName,DWORD Type,DWORD Flags,PCREDENTIALA *Credential)
+advapi32.dll|CredFindBestCredentialW(LPCWSTR TargetName,DWORD Type,DWORD Flags,PCREDENTIALW *Credential)
+advapi32.dll|VOID CredFree(PVOID Buffer)|Out
+advapi32.dll|BOOL CredGetSessionTypes(DWORD MaximumPersistCount,LPDWORD MaximumPersist)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredGetTargetInfoA(LPCSTR TargetName,DWORD Flags,PCREDENTIAL_TARGET_INFORMATION* TargetInfo)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredGetTargetInfoW(LPCWSTR TargetName,DWORD Flags,PCREDENTIAL_TARGET_INFORMATION* TargetInfo)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredIsMarshaledCredentialA(LPCSTR MarshaledCredential)|FailureIfNullRet
+advapi32.dll|BOOL CredIsMarshaledCredentialW(LPCWSTR MarshaledCredential)|FailureIfNullRet
+advapi32.dll|BOOL CredMarshalCredentialA(CRED_MARSHAL_TYPE CredType,PVOID Credential,LPTSTR* MarshaledCredential)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredMarshalCredentialW(CRED_MARSHAL_TYPE CredType,PVOID Credential,LPTSTR* MarshaledCredential)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredIsProtectedA(LPSTR pszProtectedCredentials,CRED_PROTECTION_TYPE* pProtectionType)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredIsProtectedW(LPWSTR pszProtectedCredentials,CRED_PROTECTION_TYPE* pProtectionType)|Out|FailureIfNullRet
+advapi32.dll|CredProfileLoaded(UNKNOWN)
+; CredProfileLoadedEx Unknown number of parameters
+;advapi32.dll|CredProfileLoadedEx()
+advapi32.dll|CredProfileUnloaded(UNKNOWN)
+advapi32.dll|BOOL CredProtectA(BOOL fAsSelf,LPSTR pszCredentials,DWORD cchCredentials,LPSTR pszProtectedCredentials,DWORD* pcchMaxChars,CRED_PROTECTION_TYPE* ProtectionType)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredProtectW(BOOL fAsSelf,LPWSTR pszCredentials,DWORD cchCredentials,LPWSTR pszProtectedCredentials,DWORD* pcchMaxChars,CRED_PROTECTION_TYPE* ProtectionType)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredReadA(LPCSTR TargetName,DWORD Type,DWORD Flags,PCREDENTIAL* Credential)|Out|FailureIfNullRet
+advapi32.dll|CredReadByTokenHandle(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL CredReadDomainCredentialsA(PCREDENTIAL_TARGET_INFORMATION TargetInfo,DWORD Flags,DWORD* Count,PCREDENTIAL** Credentials)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredReadDomainCredentialsW(PCREDENTIAL_TARGET_INFORMATION TargetInfo,DWORD Flags,DWORD* Count,PCREDENTIAL** Credentials)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredReadW(LPCWSTR TargetName,DWORD Type,DWORD Flags,PCREDENTIAL* Credential)|Out|FailureIfNullRet
+;CredRename is no longer supported. Starting with Windows Vista,calls to CredRename always return ERROR_NOT_SUPPORTED
+;CredRenameW() in advapi32.dll has the same entry point as CredRenameA
+!advapi32.dll|BOOL CredRenameA(LPCSTR OldTargetName,LPCSTR NewTargetName,DWORD Type,DWORD Flags)|FailureIfNullRet
+!advapi32.dll|BOOL CredRenameW(LPCWSTR OldTargetName,LPCWSTR NewTargetName,DWORD Type,DWORD Flags)|FailureIfNullRet
+advapi32.dll|CredRestoreCredentials(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL CredUnmarshalCredentialA(LPCSTR MarshaledCredential,PCRED_MARSHAL_TYPE CredType,PVOID* Credential)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredUnmarshalCredentialW(LPCWSTR MarshaledCredential,PCRED_MARSHAL_TYPE CredType,PVOID* Credential)|Out|FailureIfNullRet
+advapi32.dll|BOOL CredWriteA(PCREDENTIAL Credential,DWORD Flags)|FailureIfNullRet
+advapi32.dll|BOOL CredWriteDomainCredentialsA(PCREDENTIAL_TARGET_INFORMATION TargetInfo,PCREDENTIAL Credential,DWORD Flags)|FailureIfNullRet
+advapi32.dll|BOOL CredWriteDomainCredentialsW(PCREDENTIAL_TARGET_INFORMATION TargetInfo,PCREDENTIAL Credential,DWORD Flags)|FailureIfNullRet
+advapi32.dll|BOOL CredWriteW(PCREDENTIAL Credential,DWORD Flags)|FailureIfNullRet
+advapi32.dll|CredpConvertCredential(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|CredpConvertOneCredentialSize(UNKNOWN,UNKNOWN)
+advapi32.dll|CredpConvertTargetInfo(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|CredpDecodeCredential(UNKNOWN)
+advapi32.dll|CredpEncodeCredential(UNKNOWN)
+advapi32.dll|CredpEncodeSecret(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL CryptAcquireContextA(HCRYPTPROV* phProv,LPCSTR pszContainer,LPCSTR pszProvider,DWORD dwProvType,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptAcquireContextW(HCRYPTPROV* phProv,LPCWSTR pszContainer,LPCWSTR pszProvider,DWORD dwProvType,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptContextAddRef(HCRYPTPROV hProv,DWORD* pdwReserved,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptCreateHash(HCRYPTPROV hProv,ALG_ID Algid,HCRYPTKEY hKey,DWORD dwFlags,HCRYPTHASH* phHash)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptDecrypt(HCRYPTKEY hKey,HCRYPTHASH hHash,BOOL Final,DWORD dwFlags,BYTE* pbData,DWORD* pdwDataLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptDeriveKey(HCRYPTPROV hProv,ALG_ID Algid,HCRYPTHASH hBaseData,DWORD dwFlags,HCRYPTKEY* phKey)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptDestroyHash(HCRYPTHASH hHash)|FailureIfNullRet
+advapi32.dll|BOOL CryptDestroyKey(HCRYPTKEY hKey)|FailureIfNullRet
+advapi32.dll|BOOL CryptDuplicateHash(HCRYPTHASH hHash,DWORD* pdwReserved,DWORD dwFlags,HCRYPTHASH* phHash)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptDuplicateKey(HCRYPTKEY hKey,DWORD* pdwReserved,DWORD dwFlags,HCRYPTKEY* phKey)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptEncrypt(HCRYPTKEY hKey,HCRYPTHASH hHash,BOOL Final,DWORD dwFlags,BYTE* pbData,DWORD* pdwDataLen,DWORD dwBufLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptEnumProviderTypesA(DWORD dwIndex,DWORD* pdwReserved,DWORD dwFlags,DWORD* pdwProvType,LPSTR pszTypeName,DWORD* pcbTypeName)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptEnumProviderTypesW(DWORD dwIndex,DWORD* pdwReserved,DWORD dwFlags,DWORD* pdwProvType,LPWSTR pszTypeName,DWORD* pcbTypeName)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptEnumProvidersA(DWORD dwIndex,DWORD* pdwReserved,DWORD dwFlags,DWORD* pdwProvType,LPSTR pszProvName,DWORD* pcbProvName)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptEnumProvidersW(DWORD dwIndex,DWORD* pdwReserved,DWORD dwFlags,DWORD* pdwProvType,LPWSTR pszProvName,DWORD* pcbProvName)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptExportKey(HCRYPTKEY hKey,HCRYPTKEY hExpKey,DWORD dwBlobType,DWORD dwFlags,BYTE* pbData,DWORD* pdwDataLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGenKey(HCRYPTPROV hProv,ALG_ID Algid,DWORD dwFlags,HCRYPTKEY* phKey)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGenRandom(HCRYPTPROV hProv,DWORD dwLen,BYTE* pbBuffer)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGetDefaultProviderA(DWORD dwProvType,DWORD* pdwReserved,DWORD dwFlags,LPSTR pszProvName,DWORD* pcbProvName)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGetDefaultProviderW(DWORD dwProvType,DWORD* pdwReserved,DWORD dwFlags,LPWSTR pszProvName,DWORD* pcbProvName)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGetHashParam(HCRYPTHASH hHash,DWORD dwParam,BYTE* pbData,DWORD* pdwDataLen,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGetKeyParam(HCRYPTKEY hKey,DWORD dwParam,BYTE* pbData,DWORD* pdwDataLen,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGetProvParam(HCRYPTPROV hProv,DWORD dwParam,BYTE* pbData,DWORD* pdwDataLen,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptGetUserKey(HCRYPTPROV hProv,DWORD dwKeySpec,HCRYPTKEY* phUserKey)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptHashData(HCRYPTHASH hHash,BYTE* pbData,DWORD dwDataLen,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptHashSessionKey(HCRYPTHASH hHash,HCRYPTKEY hKey,DWORD dwFlags)|FailureIfNullRet
+advapi32.dll|BOOL CryptImportKey(HCRYPTPROV hProv,BYTE* pbData,DWORD dwDataLen,HCRYPTKEY hPubKey,DWORD dwFlags,HCRYPTKEY* phKey)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptReleaseContext(HCRYPTPROV hProv,DWORD dwFlags)|FailureIfNullRet
+advapi32.dll|BOOL CryptSetHashParam(HCRYPTHASH hHash,DWORD dwParam,BYTE* pbData,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptSetKeyParam(HCRYPTKEY hKey,DWORD dwParam,BYTE* pbData,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptSetProvParam(HCRYPTPROV hProv,DWORD dwParam,BYTE* pbData,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptSetProviderA(LPCSTR pszProvName,DWORD dwProvType)|FailureIfNullRet
+advapi32.dll|BOOL CryptSetProviderExA(LPCSTR pszProvName,DWORD dwProvType,DWORD* pdwReserved,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptSetProviderExW(LPCWSTR pszProvName,DWORD dwProvType,DWORD* pdwReserved,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptSetProviderW(LPCWSTR pszProvName,DWORD dwProvType)|FailureIfNullRet
+advapi32.dll|BOOL CryptSignHashA(HCRYPTHASH hHash,DWORD dwKeySpec,LPCSTR sDescription,DWORD dwFlags,BYTE* pbSignature,DWORD* pdwSigLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptSignHashW(HCRYPTHASH hHash,DWORD dwKeySpec,LPCWSTR sDescription,DWORD dwFlags,BYTE* pbSignature,DWORD* pdwSigLen)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptVerifySignatureA(HCRYPTHASH hHash,BYTE* pbSignature,DWORD dwSigLen,HCRYPTKEY hPubKey,LPCSTR sDescription,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|BOOL CryptVerifySignatureW(HCRYPTHASH hHash,BYTE* pbSignature,DWORD dwSigLen,HCRYPTKEY hPubKey,LPCWSTR sDescription,DWORD dwFlags)|Out|FailureIfNullRet
+advapi32.dll|LONG CveEventWrite(PCWSTR CveId,PCWSTR AdditionalDetails)
+advapi32.dll|BOOL DecryptFileA(LPCSTR lpFileName,DWORD dwReserved)|FailureIfNullRet
+advapi32.dll|BOOL DecryptFileW(LPCWSTR lpFileName,DWORD dwReserved)|FailureIfNullRet
+advapi32.dll|BOOL DeleteAce(PACL pAcl,DWORD dwAceIndex)|Out|FailureIfNullRet
+advapi32.dll|BOOL DeleteService(SC_HANDLE hService)|FailureIfNullRet
+advapi32.dll|BOOL DeregisterEventSource(HANDLE hEventLog)|FailureIfNullRet
+advapi32.dll|BOOL DestroyPrivateObjectSecurity(PSECURITY_DESCRIPTOR* ObjectDescriptor)|Out|FailureIfNullRet
+advapi32.dll|DWORD DuplicateEncryptionInfoFile(LPCWSTR SrcFileName,LPCWSTR DstFileName,DWORD dwCreationDistribution,DWORD dwAttributes,LPSECURITY_ATTRIBUTES lpSecurityAttributes)|Out
+advapi32.dll|BOOL DuplicateToken(HANDLE ExistingTokenHandle,SECURITY_IMPERSONATION_LEVEL ImpersonationLevel,PHANDLE DuplicateTokenHandle)|Out
+advapi32.dll|BOOL DuplicateTokenEx(HANDLE hExistingToken,DWORD dwDesiredAccess,LPSECURITY_ATTRIBUTES lpTokenAttributes,SECURITY_IMPERSONATION_LEVEL ImpersonationLevel,TOKEN_TYPE TokenType,PHANDLE phNewToken)|Out
+advapi32.dll|ElfBackupEventLogFileA(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfBackupEventLogFileW(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfChangeNotify(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfClearEventLogFileA(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfClearEventLogFileW(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfCloseEventLog(UNKNOWN)
+advapi32.dll|ElfDeregisterEventSource(UNKNOWN)
+advapi32.dll|ElfFlushEventLog()
+advapi32.dll|ElfNumberOfRecords(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfOldestRecord(UNKNOWN,UNKNOWN)
+advapi32.dll|ElfOpenBackupEventLogA(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfOpenBackupEventLogW(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfOpenEventLogA(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfOpenEventLogW(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfReadEventLogA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfReadEventLogW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfRegisterEventSourceA(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfRegisterEventSourceW(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfReportEventA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ElfReportEventAndSourceW()
+advapi32.dll|ElfReportEventW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG EnableTrace(ULONG Enable,ULONG EnableFlag,ULONG EnableLevel,LPCGUID ControlGuid,TRACEHANDLE TraceHandle)
+advapi32.dll|ULONG EnableTraceEx(LPCGUID ProviderId,LPCGUID SourceId,TRACEHANDLE TraceHandle,ULONG IsEnabled,UCHAR Level,ULONGLONG MatchAnyKeyword,ULONGLONG MatchAllKeyword,ULONG EnableProperty,PEVENT_FILTER_DESCRIPTOR EnableFilterDesc)
+advapi32.dll|ULONG EnableTraceEx2(TRACEHANDLE TraceHandle,LPCGUID ProviderId,ULONG ControlCode,UCHAR Level,ULONGLONG MatchAnyKeyword,ULONGLONG MatchAllKeyword,ULONG Timeout,PENABLE_TRACE_PARAMETERS EnableParameters)
+advapi32.dll|BOOL EncryptFileA(LPCSTR lpFileName)|FailureIfNullRet
+advapi32.dll|BOOL EncryptFileW(LPCWSTR lpFileName)|FailureIfNullRet
+advapi32.dll|EncryptedFileKeyInfo(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL EncryptionDisable(LPCWSTR DirPath,BOOL Disable)|FailureIfNullRet
+advapi32.dll|BOOL EnumDependentServicesA(SC_HANDLE hService,DWORD dwServiceState,LPENUM_SERVICE_STATUSA lpServices,DWORD cbBufSize,LPDWORD pcbBytesNeeded,LPDWORD lpServicesReturned)|Out|FailureIfNullRet
+advapi32.dll|BOOL EnumDependentServicesW(SC_HANDLE hService,DWORD dwServiceState,LPENUM_SERVICE_STATUSW lpServices,DWORD cbBufSize,LPDWORD pcbBytesNeeded,LPDWORD lpServicesReturned)|Out|FailureIfNullRet
+advapi32.dll|DWORD EnumDynamicTimeZoneInformation(DWORD dwIndex,PDYNAMIC_TIME_ZONE_INFORMATION lpTimeZoneInformation)|Out
+advapi32.dll|EnumServiceGroupW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNullRet
+advapi32.dll|BOOL EnumServicesStatusA(SC_HANDLE hSCManager,DWORD dwServiceType,DWORD dwServiceState,LPENUM_SERVICE_STATUS lpServices,DWORD cbBufSize,LPDWORD pcbBytesNeeded,LPDWORD lpServicesReturned,LPDWORD lpResumeHandle)|Out|FailureIfNullRet
+advapi32.dll|BOOL EnumServicesStatusExA(SC_HANDLE hSCManager,SC_ENUM_TYPE InfoLevel,DWORD dwServiceType,DWORD dwServiceState,LPBYTE lpServices,DWORD cbBufSize,LPDWORD pcbBytesNeeded,LPDWORD lpServicesReturned,LPDWORD lpResumeHandle,LPCSTR pszGroupName)|Out|FailureIfNullRet
+advapi32.dll|BOOL EnumServicesStatusExW(SC_HANDLE hSCManager,SC_ENUM_TYPE InfoLevel,DWORD dwServiceType,DWORD dwServiceState,LPBYTE lpServices,DWORD cbBufSize,LPDWORD pcbBytesNeeded,LPDWORD lpServicesReturned,LPDWORD lpResumeHandle,LPCWSTR pszGroupName)|Out|FailureIfNullRet
+advapi32.dll|BOOL EnumServicesStatusW(SC_HANDLE hSCManager,DWORD dwServiceType,DWORD dwServiceState,LPENUM_SERVICE_STATUS lpServices,DWORD cbBufSize,LPDWORD pcbBytesNeeded,LPDWORD lpServicesReturned,LPDWORD lpResumeHandle)|Out|FailureIfNullRet
+advapi32.dll|ULONG EnumerateTraceGuids(PTRACE_GUID_PROPERTIES* GuidPropertiesArray,ULONG PropertyArrayCount,PULONG GuidCount)|Out
+advapi32.dll|ULONG EnumerateTraceGuidsEx(TRACE_QUERY_INFO_CLASS TraceQueryInfoClass,PVOID InBuffer,ULONG InBufferSize,PVOID OutBuffer,ULONG OutBufferSize,PULONG ReturnLength)|Out
+advapi32.dll|BOOL EqualDomainSid(PSID pSid1,PSID pSid2,BOOL* pfEqual)|Out|FailureIfNullRet
+advapi32.dll|BOOL EqualPrefixSid(PSID pSid1,PSID pSid2)|FailureIfNullRet
+advapi32.dll|BOOL EqualSid(PSID pSid1,PSID pSid2)|FailureIfNullRet
+advapi32.dll|ULONG EventAccessControl(LPGUID Guid,ULONG Operation,PSID Sid,ULONG Rights,BOOLEAN AllowOrDeny)
+advapi32.dll|ULONG EventAccessQuery(LPGUID Guid,PSECURITY_DESCRIPTOR Buffer,PULONG BufferSize)|Out
+advapi32.dll|ULONG EventAccessRemove(LPGUID Guid)
+advapi32.dll|ULONG EventActivityIdControl(ULONG ControlCode,LPGUID ActivityId)|Out
+advapi32.dll|BOOLEAN EventEnabled(REGHANDLE RegHandle,PCEVENT_DESCRIPTOR EventDescriptor)
+advapi32.dll|BOOLEAN EventProviderEnabled(REGHANDLE RegHandle,UCHAR Level,ULONGLONG Keyword)
+advapi32.dll|ULONG EventRegister(LPCGUID ProviderId,PENABLECALLBACK EnableCallback,PVOID CallbackContext,PREGHANDLE RegHandle)|Out
+advapi32.dll|ULONG EventSetInformation(REGHANDLE RegHandle,EVENT_INFO_CLASS InformationClass,PVOID EventInformation,ULONG InformationLength)
+advapi32.dll|ULONG EventUnregister(REGHANDLE RegHandle)
+advapi32.dll|ULONG EventWrite(REGHANDLE RegHandle,PCEVENT_DESCRIPTOR EventDescriptor,ULONG UserDataCount,PEVENT_DATA_DESCRIPTOR UserData)
+advapi32.dll|EventWriteEndScenario(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG EventWriteEx(REGHANDLE RegHandle,PCEVENT_DESCRIPTOR EventDescriptor,ULONG64 Filter,ULONG Flags,LPCGUID ActivityId,LPCGUID RelatedActivityId,ULONG UserDataCount,PEVENT_DATA_DESCRIPTOR UserData)
+advapi32.dll|EventWriteStartScenario(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG EventWriteString(REGHANDLE RegHandle,UCHAR Level,ULONGLONG Keyword,PCWSTR String)
+advapi32.dll|ULONG EventWriteTransfer(REGHANDLE RegHandle,PCEVENT_DESCRIPTOR EventDescriptor,LPCGUID ActivityId,LPCGUID RelatedActivityId,ULONG UserDataCount,PEVENT_DATA_DESCRIPTOR UserData)
+advapi32.dll|BOOL FileEncryptionStatusA(LPCSTR lpFileName,LPDWORD lpStatus)|Out|FailureIfNullRet
+advapi32.dll|BOOL FileEncryptionStatusW(LPCWSTR lpFileName,LPDWORD lpStatus)|Out|FailureIfNullRet
+advapi32.dll|BOOL FindFirstFreeAce(PACL pAcl,LPVOID* pAce)|Out|FailureIfNullRet
+advapi32.dll|FlushEfsCache(UNKNOWN)
+advapi32.dll|ULONG FlushTraceA(TRACEHANDLE TraceHandle,LPCSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG FlushTraceW(TRACEHANDLE TraceHandle,LPCWSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|FreeEncryptedFileKeyInfo(UNKNOWN)
+advapi32.dll|VOID FreeEncryptedFileMetadata(PBYTE pbMetadata)
+advapi32.dll|VOID FreeEncryptionCertificateHashList(PENCRYPTION_CERTIFICATE_HASH_LIST pHashes)|Out
+advapi32.dll|DWORD FreeInheritedFromArray(PINHERITED_FROMW pInheritArray,USHORT AceCnt,PFN_OBJECT_MGR_FUNCTS pfnArray)|Out
+advapi32.dll|PVOID FreeSid(PSID pSid)|Out
+advapi32.dll|GetAccessPermissionsForObjectA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|GetAccessPermissionsForObjectW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL GetAce(PACL pAcl,DWORD dwAceIndex,LPVOID* pAce)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetAclInformation(PACL pAcl,LPVOID pAclInformation,DWORD nAclInformationLength,ACL_INFORMATION_CLASS dwAclInformationClass)|Out|FailureIfNullRet
+advapi32.dll|DWORD GetAuditedPermissionsFromAclA(PACL pacl,PTRUSTEE_A pTrustee,PACCESS_MASK pSuccessfulAuditedRights,PACCESS_MASK pFailedAuditRights)|Out
+advapi32.dll|DWORD GetAuditedPermissionsFromAclW(PACL pacl,PTRUSTEE_W pTrustee,PACCESS_MASK pSuccessfulAuditedRights,PACCESS_MASK pFailedAuditRights)|Out
+advapi32.dll|BOOL GetCurrentHwProfileA(LPHW_PROFILE_INFOA lpHwProfileInfo)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetCurrentHwProfileW(LPHW_PROFILE_INFOW lpHwProfileInfo)|Out|FailureIfNullRet
+advapi32.dll|DWORD GetDynamicTimeZoneInformationEffectiveYears(PDYNAMIC_TIME_ZONE_INFORMATION lpTimeZoneInformation,LPDWORD FirstYear,LPDWORD LastYear)|Out
+advapi32.dll|DWORD GetEffectiveRightsFromAclA(PACL pacl,PTRUSTEE_A pTrustee,PACCESS_MASK pAccessRights)|Out
+advapi32.dll|DWORD GetEffectiveRightsFromAclW(PACL pacl,PTRUSTEE_W pTrustee,PACCESS_MASK pAccessRights)|Out
+;GetEncryptedFileMetadata() in advapi32.dll has the same entry point as I_ScGetCurrentGroupStateW
+!advapi32.dll|DWORD GetEncryptedFileMetadata(LPCWSTR lpFileName,PDWORD pcbMetadata,PBYTE* ppbMetadata)|Out
+advapi32.dll|BOOL GetEventLogInformation(HANDLE hEventLog,DWORD dwInfoLevel,LPVOID lpBuffer,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+;GetExplicitEntriesFromAclW() in advapi32.dll has the same entry point as GetExplicitEntriesFromAclA
+;advapi32.dll|DWORD GetExplicitEntriesFromAclA(PACL pacl,PULONG pcCountOfExplicitEntries,PEXPLICIT_ACCESS_A* pListOfExplicitEntries)|Out
+advapi32.dll|DWORD GetExplicitEntriesFromAclW(PACL pacl,PULONG pcCountOfExplicitEntries,PEXPLICIT_ACCESS_W* pListOfExplicitEntries)|Out
+advapi32.dll|BOOL GetFileSecurityA(LPCSTR lpFileName,SECURITY_INFORMATION RequestedInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor,DWORD nLength,LPDWORD lpnLengthNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetFileSecurityW(LPCWSTR lpFileName,SECURITY_INFORMATION RequestedInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor,DWORD nLength,LPDWORD lpnLengthNeeded)|Out|FailureIfNullRet
+advapi32.dll|GetInformationCodeAuthzLevelW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|GetInformationCodeAuthzPolicyW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD GetInheritanceSourceA(LPSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,BOOL Container,GUID** pObjectClassGuids:PointerReference:PointedElementsCount=Arg6,DWORD GuidCount,PACL pAcl,PFN_OBJECT_MGR_FUNCTS pfnArray,PGENERIC_MAPPING pGenericMapping,PINHERITED_FROMA pInheritArray)|Out
+advapi32.dll|DWORD GetInheritanceSourceW(LPWSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,BOOL Container,GUID** pObjectClassGuids:PointerReference:PointedElementsCount=Arg6,DWORD GuidCount,PACL pAcl,PFN_OBJECT_MGR_FUNCTS pfnArray,PGENERIC_MAPPING pGenericMapping,PINHERITED_FROMW pInheritArray)|Out
+advapi32.dll|BOOL GetKernelObjectSecurity(HANDLE Handle,SECURITY_INFORMATION RequestedInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor:PointedDataSize=Arg4,DWORD nLength,LPDWORD lpnLengthNeeded)|Out
+advapi32.dll|DWORD GetLengthSid(PSID pSid)|Out
+advapi32.dll|void GetLocalManagedApplicationData(LPWSTR ProductCode,LPWSTR* DisplayName,LPWSTR* SupportUrl)|Out
+advapi32.dll|DWORD GetLocalManagedApplications(BOOL bUserApps,LPDWORD pdwApps,PLOCALMANAGEDAPPLICATION* prgLocalApps)|Out
+advapi32.dll|DWORD GetManagedApplicationCategories(DWORD dwReserved,APPCATEGORYINFOLIST* pAppCategory)|Out
+advapi32.dll|DWORD GetManagedApplications(GUID* pCategory,DWORD dwQueryFlags,DWORD dwInfoLevel,LPDWORD pdwApps,PMANAGEDAPPLICATION* prgManagedApps)|Out
+advapi32.dll|PTRUSTEE_A GetMultipleTrusteeA(PTRUSTEE_A pTrustee)
+advapi32.dll|MULTIPLE_TRUSTEE_OPERATION GetMultipleTrusteeOperationA(PTRUSTEE_A pTrustee)
+;GetMultipleTrusteeOperationW() in advapi32.dll has the same entry point as GetMultipleTrusteeOperationA
+!advapi32.dll|MULTIPLE_TRUSTEE_OPERATION GetMultipleTrusteeOperationW(PTRUSTEE_W pTrustee)
+;GetMultipleTrusteeW() in advapi32.dll has the same entry point as GetMultipleTrusteeA
+!advapi32.dll|PTRUSTEE_W GetMultipleTrusteeW(PTRUSTEE_W pTrustee)
+advapi32.dll|DWORD GetNamedSecurityInfoA(LPCSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID* ppsidOwner,PSID* ppsidGroup,PACL* ppDacl,PACL* ppSacl,PSECURITY_DESCRIPTOR* ppSecurityDescriptor)|Out
+advapi32.dll|GetNamedSecurityInfoExA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|GetNamedSecurityInfoExW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD GetNamedSecurityInfoW(LPCWSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID* ppsidOwner,PSID* ppsidGroup,PACL* ppDacl,PACL* ppSacl,PSECURITY_DESCRIPTOR* ppSecurityDescriptor)|Out
+advapi32.dll|BOOL GetNumberOfEventLogRecords(HANDLE hEventLog,PDWORD NumberOfRecords)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetOldestEventLogRecord(HANDLE hEventLog,PDWORD OldestRecord)|Out|FailureIfNullRet
+advapi32.dll|GetOverlappedAccessResults(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL GetPrivateObjectSecurity(PSECURITY_DESCRIPTOR ObjectDescriptor,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR ResultantDescriptor,DWORD DescriptorLength,PDWORD ReturnLength)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetSecurityDescriptorControl(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSECURITY_DESCRIPTOR_CONTROL pControl,LPDWORD lpdwRevision)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetSecurityDescriptorDacl(PSECURITY_DESCRIPTOR pSecurityDescriptor,LPBOOL lpbDaclPresent,PACL* pDacl,LPBOOL lpbDaclDefaulted)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetSecurityDescriptorGroup(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID* pGroup,LPBOOL lpbGroupDefaulted)|Out|FailureIfNullRet
+advapi32.dll|DWORD GetSecurityDescriptorLength(PSECURITY_DESCRIPTOR pSecurityDescriptor)|Out
+advapi32.dll|BOOL GetSecurityDescriptorOwner(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID* pOwner,LPBOOL lpbOwnerDefaulted)|Out|FailureIfNullRet
+advapi32.dll|DWORD GetSecurityDescriptorRMControl(PSECURITY_DESCRIPTOR SecurityDescriptor,PUCHAR RMControl)|Out
+advapi32.dll|BOOL GetSecurityDescriptorSacl(PSECURITY_DESCRIPTOR pSecurityDescriptor,LPBOOL lpbSaclPresent,PACL* pSacl,LPBOOL lpbSaclDefaulted)|Out|FailureIfNullRet
+advapi32.dll|DWORD GetSecurityInfo(HANDLE handle,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID* ppsidOwner,PSID* ppsidGroup,PACL* ppDacl,PACL* ppSacl,PSECURITY_DESCRIPTOR* ppSecurityDescriptor)|Out
+advapi32.dll|GetSecurityInfoExA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll| GetSecurityInfoExW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL GetServiceDisplayNameA(SC_HANDLE hSCManager,LPCSTR lpServiceName,LPSTR lpDisplayName,LPDWORD lpcchBuffer)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetServiceDisplayNameW(SC_HANDLE hSCManager,LPCWSTR lpServiceName,LPWSTR lpDisplayName,LPDWORD lpcchBuffer)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetServiceKeyNameA(SC_HANDLE hSCManager,LPCSTR lpDisplayName,LPSTR lpServiceName,LPDWORD lpcchBuffer)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetServiceKeyNameW(SC_HANDLE hSCManager,LPCWSTR lpDisplayName,LPWSTR lpServiceName,LPDWORD lpcchBuffer)|Out|FailureIfNullRet
+advapi32.dll|PSID_IDENTIFIER_AUTHORITY GetSidIdentifierAuthority(PSID pSid)
+advapi32.dll|DWORD GetSidLengthRequired(UCHAR nSubAuthorityCount)
+advapi32.dll|PDWORD GetSidSubAuthority(PSID pSid,DWORD nSubAuthority)
+advapi32.dll|PUCHAR GetSidSubAuthorityCount(PSID pSid)
+advapi32.dll|GetStringConditionFromBinary(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL GetThreadWaitChain(HWCT WctHandle,DWORD_PTR Context,DWORD Flags,DWORD ThreadId,LPDWORD NodeCount,PWAITCHAIN_NODE_INFO NodeInfoArray,LPBOOL IsCycle)|Out
+advapi32.dll|BOOL GetTokenInformation(HANDLE TokenHandle,TOKEN_INFORMATION_CLASS TokenInformationClass,LPVOID TokenInformation,DWORD TokenInformationLength,PDWORD ReturnLength)|Out|FailureIfNullRet
+advapi32.dll|ULONG GetTraceEnableFlags(TRACEHANDLE TraceHandle)
+advapi32.dll|UCHAR GetTraceEnableLevel(TRACEHANDLE TraceHandle)
+advapi32.dll|TRACEHANDLE GetTraceLoggerHandle(PVOID Buffer)
+advapi32.dll|TRUSTEE_FORM GetTrusteeFormA(PTRUSTEE_A pTrustee)
+;GetTrusteeFormW() in advapi32.dll has the same entry point as GetTrusteeFormA
+!advapi32.dll|TRUSTEE_FORM GetTrusteeFormW(PTRUSTEE_W pTrustee)
+advapi32.dll|LPSTR GetTrusteeNameA(PTRUSTEE_A pTrustee)
+;GetTrusteeNameW() in advapi32.dll has the same entry point as GetTrusteeNameA
+!advapi32.dll|LPWSTR GetTrusteeNameW(PTRUSTEE_W pTrustee)
+advapi32.dll|TRUSTEE_TYPE GetTrusteeTypeA(PTRUSTEE_A pTrustee)
+;GetTrusteeTypeW() in advapi32.dll has the same entry point as GetTrusteeTypeA
+!advapi32.dll|TRUSTEE_TYPE GetTrusteeTypeW(PTRUSTEE_W pTrustee)
+advapi32.dll|BOOL GetUserNameA(LPSTR lpBuffer,LPDWORD lpnSize)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetUserNameW(LPWSTR lpBuffer,LPDWORD lpnSize)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetWindowsAccountDomainSid(PSID pSid,PSID pDomainSid,DWORD* cbDomainSid)|Out|FailureIfNullRet
+advapi32.dll|I_QueryTagInformation(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|I_ScIsSecurityProcess()
+advapi32.dll|I_ScPnPGetServiceName()
+advapi32.dll|I_ScQueryServiceConfig(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|I_ScRegisterPreshutdownRestart(UNKNOWN,UNKNOWN)
+advapi32.dll|I_ScReparseServiceDatabase(UNKNOWN,UNKNOWN)
+advapi32.dll|I_ScSendPnPMessage(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|I_ScSendTSMessage(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|I_ScSetServiceBitsA(UNKNOWN)
+advapi32.dll|I_ScSetServiceBitsW(UNKNOWN)
+advapi32.dll|I_ScValidatePnPService(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|IdentifyCodeAuthzLevelW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL ImpersonateAnonymousToken(HANDLE ThreadHandle)|FailureIfNullRet
+advapi32.dll|BOOL ImpersonateLoggedOnUser(HANDLE hToken)|FailureIfNullRet
+advapi32.dll|BOOL ImpersonateNamedPipeClient(HANDLE hNamedPipe)|FailureIfNullRet
+advapi32.dll|BOOL ImpersonateSelf(SECURITY_IMPERSONATION_LEVEL ImpersonationLevel)|FailureIfNullRet
+advapi32.dll|BOOL InitializeAcl(PACL pAcl,DWORD nAclLength,DWORD dwAclRevision)|Out|FailureIfNullRet
+advapi32.dll|BOOL InitializeSecurityDescriptor(PSECURITY_DESCRIPTOR pSecurityDescriptor,DWORD dwRevision)|Out|FailureIfNullRet
+advapi32.dll|BOOL InitializeSid(PSID Sid,PSID_IDENTIFIER_AUTHORITY pIdentifierAuthority,BYTE nSubAuthorityCount)|Out|FailureIfNullRet
+advapi32.dll|DWORD InitiateShutdownA(LPSTR lpMachineName,LPSTR lpMessage,DWORD dwGracePeriod,DWORD dwShutdownFlags,DWORD dwReason)
+advapi32.dll|DWORD InitiateShutdownW(LPWSTR lpMachineName,LPWSTR lpMessage,DWORD dwGracePeriod,DWORD dwShutdownFlags,DWORD dwReason)
+advapi32.dll|BOOL InitiateSystemShutdownA(LPSTR lpMachineName,LPSTR lpMessage,DWORD dwTimeout,BOOL bForceAppsClosed,BOOL bRebootAfterShutdown)|Out|FailureIfNullRet
+advapi32.dll|BOOL InitiateSystemShutdownExA(LPSTR lpMachineName,LPSTR lpMessage,DWORD dwTimeout,BOOL bForceAppsClosed,BOOL bRebootAfterShutdown,DWORD dwReason)|Out|FailureIfNullRet
+advapi32.dll|BOOL InitiateSystemShutdownExW(LPWSTR lpMachineName,LPWSTR lpMessage,DWORD dwTimeout,BOOL bForceAppsClosed,BOOL bRebootAfterShutdown,DWORD dwReason)|Out|FailureIfNullRet
+advapi32.dll|BOOL InitiateSystemShutdownW(LPWSTR lpMachineName,LPWSTR lpMessage,DWORD dwTimeout,BOOL bForceAppsClosed,BOOL bRebootAfterShutdown)|Out|FailureIfNullRet
+advapi32.dll|DWORD InstallApplication(PINSTALLDATA pInstallInfo)
+advapi32.dll|BOOL IsTextUnicode(VOID* lpv,int iSize,LPINT lpiResult)|Out
+advapi32.dll|BOOL IsTokenRestricted(HANDLE TokenHandle)
+advapi32.dll|BOOL IsTokenUntrusted(HANDLE TokenHandle)
+advapi32.dll|BOOL IsValidAcl(PACL pAcl)|FailureIfNullRet
+advapi32.dll|BOOL IsValidRelativeSecurityDescriptor(PSECURITY_DESCRIPTOR SecurityDescriptorInput,ULONG SecurityDescriptorLength,SECURITY_INFORMATION RequiredInformation)|FailureIfNullRet
+advapi32.dll|BOOL IsValidSecurityDescriptor(PSECURITY_DESCRIPTOR pSecurityDescriptor)|FailureIfNullRet
+advapi32.dll|BOOL IsValidSid(PSID pSid)|FailureIfNullRet
+advapi32.dll|BOOL IsWellKnownSid(PSID pSid,WELL_KNOWN_SID_TYPE WellKnownSidType)
+advapi32.dll|SC_LOCK LockServiceDatabase(SC_HANDLE hSCManager)|FailureIfNullRet
+advapi32.dll|BOOL LogonUserA(LPSTR lpszUsername,LPSTR lpszDomain,LPSTR lpszPassword,DWORD dwLogonType,DWORD dwLogonProvider,PHANDLE phToken)|Out|FailureIfNullRet
+advapi32.dll|BOOL LogonUserExA(LPSTR lpszUsername,LPSTR lpszDomain,LPSTR lpszPassword,DWORD dwLogonType,DWORD dwLogonProvider,PHANDLE phToken,PSID* ppLogonSid,PVOID* ppProfileBuffer,LPDWORD pdwProfileLength,PQUOTA_LIMITS pQuotaLimits)|Out|FailureIfNullRet
+advapi32.dll|BOOL LogonUserExExW(LPCWSTR lpszUsername,LPCWSTR lpszDomain,LPCWSTR lpszPassword,DWORD dwLogonType,DWORD dwLogonProvider,PTOKEN_GROUPS pTokenGroups,PHANDLE phToken,PSID* ppLogonSid,PVOID* ppProfileBuffer,LPDWORD pdwProfileLength,PQUOTA_LIMITS pQuotaLimits)|Out|FailureIfNullRet
+advapi32.dll|BOOL LogonUserExW(LPCWSTR lpszUsername,LPCWSTR lpszDomain,LPCWSTR lpszPassword,DWORD dwLogonType,DWORD dwLogonProvider,PHANDLE phToken,PSID* ppLogonSid,PVOID* ppProfileBuffer,LPDWORD pdwProfileLength,PQUOTA_LIMITS pQuotaLimits)|Out|FailureIfNullRet
+advapi32.dll|BOOL LogonUserW(LPCWSTR lpszUsername,LPCWSTR lpszDomain,LPCWSTR lpszPassword,DWORD dwLogonType,DWORD dwLogonProvider,PHANDLE phToken)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupAccountNameA(LPCSTR lpSystemName,LPCSTR lpAccountName,PSID Sid,LPDWORD cbSid,LPSTR ReferencedDomainName,LPDWORD cchReferencedDomainName,PSID_NAME_USE peUse)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupAccountNameW(LPCWSTR lpSystemName,LPCWSTR lpAccountName,PSID Sid,LPDWORD cbSid,LPWSTR ReferencedDomainName,LPDWORD cchReferencedDomainName,PSID_NAME_USE peUse)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupAccountSidA(LPCSTR lpSystemName,PSID lpSid,LPSTR lpName,LPDWORD cchName,LPSTR lpReferencedDomainName,LPDWORD cchReferencedDomainName,PSID_NAME_USE peUse)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupAccountSidW(LPCWSTR lpSystemName,PSID lpSid,LPWSTR lpName,LPDWORD cchName,LPWSTR lpReferencedDomainName,LPDWORD cchReferencedDomainName,PSID_NAME_USE peUse)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupPrivilegeDisplayNameA(LPCSTR lpSystemName,LPCSTR lpName,LPSTR lpDisplayName,LPDWORD cchDisplayName,LPDWORD lpLanguageId)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupPrivilegeDisplayNameW(LPCWSTR lpSystemName,LPCWSTR lpName,LPWSTR lpDisplayName,LPDWORD cchDisplayName,LPDWORD lpLanguageId)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupPrivilegeNameA(LPCSTR lpSystemName,PLUID lpLuid,LPSTR lpName,LPDWORD cchName)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupPrivilegeNameW(LPCWSTR lpSystemName,PLUID lpLuid,LPWSTR lpName,LPDWORD cchName)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupPrivilegeValueA(LPCSTR lpSystemName,LPCSTR lpName,PLUID lpLuid)|Out|FailureIfNullRet
+advapi32.dll|BOOL LookupPrivilegeValueW(LPCWSTR lpSystemName,LPCWSTR lpName,PLUID lpLuid)|Out|FailureIfNullRet
+advapi32.dll|DWORD LookupSecurityDescriptorPartsA(PTRUSTEE_A* ppOwner,PTRUSTEE_A* ppGroup,PULONG pcCountOfAccessEntries,PEXPLICIT_ACCESS_A* ppListOfAccessEntries,PULONG pcCountOfAuditEntries,PEXPLICIT_ACCESS_A* ppListOfAuditEntries,PSECURITY_DESCRIPTOR pSD)|Out|FailureIfNotNullRet
+advapi32.dll|DWORD LookupSecurityDescriptorPartsW(PTRUSTEE_W* ppOwner,PTRUSTEE_W* ppGroup,PULONG pcCountOfAccessEntries,PEXPLICIT_ACCESS_W* ppListOfAccessEntries,PULONG pcCountOfAuditEntries,PEXPLICIT_ACCESS_W* ppListOfAuditEntries,PSECURITY_DESCRIPTOR pSD)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaAddAccountRights(LSA_HANDLE PolicyHandle,PSID AccountSid,PLSA_UNICODE_STRING UserRights,ULONG CountOfRights)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaAddPrivilegesToAccount(LSA_HANDLE AccountHandle,PPRIVILEGE_SET Privileges)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaClearAuditLog(LSA_HANDLE PolicyHandle)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaClose(LSA_HANDLE ObjectHandle)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaCreateAccount(LSA_HANDLE PolicyHandle,PSID AccountSid,ACCESS_MASK DesiredAccess,PLSA_HANDLE AccountHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaCreateSecret(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING SecretName,ACCESS_MASK DesiredAccess,PLSA_HANDLE SecretHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaCreateTrustedDomain(LSA_HANDLE PolicyHandle,PLSA_TRUST_INFORMATION TrustedDomainInformation,ACCESS_MASK DesiredAccess,PLSA_HANDLE TrustedDomainHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaCreateTrustedDomainEx(LSA_HANDLE PolicyHandle,PTRUSTED_DOMAIN_INFORMATION_EX TrustedDomainInformation,PTRUSTED_DOMAIN_AUTH_INFORMATION AuthenticationInformation,ACCESS_MASK DesiredAccess,PLSA_HANDLE TrustedDomainHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaDelete(LSA_HANDLE ObjectHandle)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaDeleteTrustedDomain(LSA_HANDLE PolicyHandle,PSID TrustedDomainSid)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumerateAccountRights(LSA_HANDLE PolicyHandle,PSID AccountSid,PLSA_UNICODE_STRING* UserRights,PULONG CountOfRights)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumerateAccounts(LSA_HANDLE PolicyHandle,PLSA_ENUMERATION_HANDLE EnumerationContext,PVOID* Buffer,ULONG PreferedMaximumLength,PULONG CountReturned)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumerateAccountsWithUserRight(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING UserRight,PVOID* Buffer,PULONG CountReturned)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumeratePrivileges(LSA_HANDLE PolicyHandle,PLSA_ENUMERATION_HANDLE EnumerationContext,PVOID* Buffer,ULONG PreferedMaximumLength,PULONG CountReturned)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumeratePrivilegesOfAccount(LSA_HANDLE AccountHandle,PPRIVILEGE_SET* Privileges)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumerateTrustedDomains(LSA_HANDLE PolicyHandle,PLSA_ENUMERATION_HANDLE EnumerationContext,PVOID* Buffer,ULONG PreferedMaximumLength,PULONG CountReturned)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaEnumerateTrustedDomainsEx(LSA_HANDLE PolicyHandle,PLSA_ENUMERATION_HANDLE EnumerationContext,PVOID* Buffer,ULONG PreferedMaximumLength,PULONG CountReturned)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaFreeMemory(PVOID Buffer)
+advapi32.dll|NTSTATUS LsaGetAppliedCAPIDs(PLSA_UNICODE_STRING SystemName,PSID* *CAPIDs,PULONG CAPIDCount)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaGetQuotasForAccount(LSA_HANDLE AccountHandle,PQUOTA_LIMITS QuotaLimits)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaGetRemoteUserName(PLSA_UNICODE_STRING SystemName,PLSA_UNICODE_STRING* UserName,PLSA_UNICODE_STRING* DomainName)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaGetSystemAccessAccount(LSA_HANDLE AccountHandle,PULONG SystemAccess)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaGetUserName(PLSA_UNICODE_STRING* UserName,PLSA_UNICODE_STRING* DomainName)|Out|FailureIfNotNullRet
+advapi32.dll|LsaICLookupNames(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNotNullRet
+advapi32.dll|LsaICLookupNamesWithCreds(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNotNullRet
+advapi32.dll|LsaICLookupSids(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNotNullRet
+advapi32.dll|LsaICLookupSidsWithCreds(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNotNullRet
+advapi32.dll|LsaInvokeTrustScanner(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|NTSTATUS LsaLookupNames(LSA_HANDLE PolicyHandle,ULONG Count,PLSA_UNICODE_STRING Names,PLSA_REFERENCED_DOMAIN_LIST* ReferencedDomains,PLSA_TRANSLATED_SID* Sids)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaLookupNames2(LSA_HANDLE PolicyHandle,ULONG Flags,ULONG Count,PLSA_UNICODE_STRING Names,PLSA_REFERENCED_DOMAIN_LIST* ReferencedDomains,PLSA_TRANSLATED_SID2* Sids)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaLookupPrivilegeDisplayName(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING Name,PLSA_UNICODE_STRING* DisplayName,PSHORT LanguageReturned)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaLookupPrivilegeName(LSA_HANDLE PolicyHandle,PLUID Value,PLSA_UNICODE_STRING* Name)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaLookupPrivilegeValue(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING Name,PLUID Value)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaLookupSids(LSA_HANDLE PolicyHandle,ULONG Count,PSID* Sids,PLSA_REFERENCED_DOMAIN_LIST* ReferencedDomains,PLSA_TRANSLATED_NAME* Names)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaLookupSids2(LSA_HANDLE PolicyHandle,ULONG LookupOptions,ULONG Count,PSID* Sids,PLSA_REFERENCED_DOMAIN_LIST* ReferencedDomains,PLSA_TRANSLATED_NAME* Names)|Out|FailureIfNotNullRet
+advapi32.dll|LsaManageSidNameMapping(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG LsaNtStatusToWinError(NTSTATUS Status)
+advapi32.dll|NTSTATUS LsaOpenAccount(LSA_HANDLE PolicyHandle,PSID AccountSid,ACCESS_MASK DesiredAccess,PLSA_HANDLE AccountHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaOpenPolicy(PLSA_UNICODE_STRING SystemName,PLSA_OBJECT_ATTRIBUTES ObjectAttributes,ACCESS_MASK DesiredAccess,PLSA_HANDLE PolicyHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaOpenPolicySce(PLSA_UNICODE_STRING SystemName,PLSA_OBJECT_ATTRIBUTES ObjectAttributes,ACCESS_MASK DesiredAccess,PLSA_HANDLE PolicyHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaOpenSecret(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING SecretName,ACCESS_MASK DesiredAccess,PLSA_HANDLE SecretHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaOpenTrustedDomain(LSA_HANDLE PolicyHandle,PSID TrustedDomainSid,ACCESS_MASK DesiredAccess,PLSA_HANDLE TrustedDomainHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaOpenTrustedDomainByName(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING TrustedDomainName,ACCESS_MASK DesiredAccess,PLSA_HANDLE TrustedDomainHandle)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryCAPs(PSID* CAPIDs,ULONG CAPIDCount,PCENTRAL_ACCESS_POLICY* CAPs,PULONG CAPCount)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryDomainInformationPolicy(LSA_HANDLE PolicyHandle,POLICY_DOMAIN_INFORMATION_CLASS InformationClass,PVOID* Buffer)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryForestTrustInformation(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING TrustedDomainName,PLSA_FOREST_TRUST_INFORMATION* ForestTrustInfo)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryForestTrustInformation2(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryInfoTrustedDomain(LSA_HANDLE TrustedDomainHandle,TRUSTED_INFORMATION_CLASS InformationClass,PVOID* Buffer)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryInformationPolicy(LSA_HANDLE PolicyHandle,POLICY_INFORMATION_CLASS InformationClass,PVOID* Buffer)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQuerySecret(LSA_HANDLE SecretHandle,PLSA_UNICODE_STRING* CurrentValue,PLARGE_INTEGER CurrentValueSetTime,PLSA_UNICODE_STRING* OldValue,PLARGE_INTEGER OldValueSetTime)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQuerySecurityObject(LSA_HANDLE ObjectHandle,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR* SecurityDescriptor)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryTrustedDomainInfo(LSA_HANDLE PolicyHandle,PSID TrustedDomainSid,TRUSTED_INFORMATION_CLASS InformationClass,PVOID* Buffer)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaQueryTrustedDomainInfoByName(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING TrustedDomainName,TRUSTED_INFORMATION_CLASS InformationClass,PVOID* Buffer)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaRemoveAccountRights(LSA_HANDLE PolicyHandle,PSID AccountSid,BOOLEAN AllRights,PLSA_UNICODE_STRING UserRights,ULONG CountOfRights)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaRemovePrivilegesFromAccount(LSA_HANDLE AccountHandle,BOOLEAN AllPrivileges,PPRIVILEGE_SET Privileges)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaRetrievePrivateData(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING KeyName,PLSA_UNICODE_STRING* PrivateData)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetCAPs(PLSA_UNICODE_STRING CAPDNs,ULONG CAPDNCount,ULONG Flags)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetDomainInformationPolicy(LSA_HANDLE PolicyHandle,POLICY_DOMAIN_INFORMATION_CLASS InformationClass,PVOID Buffer)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetForestTrustInformation(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING TrustedDomainName,PLSA_FOREST_TRUST_INFORMATION ForestTrustInfo,BOOLEAN CheckOnly,PLSA_FOREST_TRUST_COLLISION_INFORMATION* CollisionInfo)|Out|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetForestTrustInformation2(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetInformationPolicy(LSA_HANDLE PolicyHandle,POLICY_INFORMATION_CLASS InformationClass,PVOID Buffer)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetInformationTrustedDomain(LSA_HANDLE TrustedDomainHandle,TRUSTED_INFORMATION_CLASS InformationClass,PVOID Buffer)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetQuotasForAccount(LSA_HANDLE AccountHandle,PQUOTA_LIMITS QuotaLimits)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetSecret(LSA_HANDLE SecretHandle,PLSA_UNICODE_STRING CurrentValue,PLSA_UNICODE_STRING OldValue)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetSecurityObject(LSA_HANDLE ObjectHandle,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR SecurityDescriptor)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetSystemAccessAccount(LSA_HANDLE AccountHandle,ULONG SystemAccess)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetTrustedDomainInfoByName(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING TrustedDomainName,TRUSTED_INFORMATION_CLASS InformationClass,PVOID Buffer)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaSetTrustedDomainInformation(LSA_HANDLE PolicyHandle,PSID TrustedDomainSid,TRUSTED_INFORMATION_CLASS InformationClass,PVOID Buffer)|FailureIfNotNullRet
+advapi32.dll|NTSTATUS LsaStorePrivateData(LSA_HANDLE PolicyHandle,PLSA_UNICODE_STRING KeyName,PLSA_UNICODE_STRING PrivateData)|FailureIfNotNullRet
+advapi32.dll|MD4Final(UNKNOWN)
+advapi32.dll|MD4Init(UNKNOWN)
+advapi32.dll|MD4Update(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|void MD5Final(MD5_CTX* context)|Out
+advapi32.dll|void MD5Init(MD5_CTX* context)|Out
+advapi32.dll|void MD5Update(MD5_CTX* context,const unsigned char* input,unsigned int inlen)|Out
+advapi32.dll|MIDL_user_free_Ext(PBYTE pMemToFree)
+advapi32.dll|DWORD MSChapSrvChangePassword(PWSTR ServerName,PWSTR UserName,BOOLEAN LmOldPresent,PLM_OWF_PASSWORD LmOldOwfPassword,PLM_OWF_PASSWORD LmNewOwfPassword,PNT_OWF_PASSWORD NtOldOwfPassword,PNT_OWF_PASSWORD NtNewOwfPassword)|Out
+advapi32.dll|DWORD MSChapSrvChangePassword2(PWSTR ServerName,PWSTR UserName,PSAMPR_ENCRYPTED_USER_PASSWORD NewPasswordEncryptedWithOldNt,PENCRYPTED_NT_OWF_PASSWORD OldNtOwfPasswordEncryptedWithNewNt,BOOLEAN LmPresent,PSAMPR_ENCRYPTED_USER_PASSWORD NewPasswordEncryptedWithOldLm,PENCRYPTED_LM_OWF_PASSWORD OldLmOwfPasswordEncryptedWithNewLmOrNt)|Out
+advapi32.dll|BOOL MakeAbsoluteSD(PSECURITY_DESCRIPTOR pSelfRelativeSecurityDescriptor,PSECURITY_DESCRIPTOR pAbsoluteSecurityDescriptor,LPDWORD lpdwAbsoluteSecurityDescriptorSize,PACL pDacl,LPDWORD lpdwDaclSize,PACL pSacl,LPDWORD lpdwSaclSize,PSID pOwner,LPDWORD lpdwOwnerSize,PSID pPrimaryGroup,LPDWORD lpdwPrimaryGroupSize)|Out|FailureIfNullRet
+advapi32.dll|MakeAbsoluteSD2(UNKNOWN,UNKNOWN)|FailureIfNullRet
+advapi32.dll|BOOL MakeSelfRelativeSD(PSECURITY_DESCRIPTOR pAbsoluteSecurityDescriptor,PSECURITY_DESCRIPTOR pSelfRelativeSecurityDescriptor,LPDWORD lpdwBufferLength)|Out|FailureIfNullRet
+advapi32.dll|VOID MapGenericMask(PDWORD AccessMask,PGENERIC_MAPPING GenericMapping)|Out
+advapi32.dll|BOOL NotifyBootConfigStatus(BOOL BootAcceptable)|FailureIfNullRet
+advapi32.dll|BOOL NotifyChangeEventLog(HANDLE hEventLog,HANDLE hEvent)|FailureIfNullRet
+advapi32.dll|DWORD NotifyServiceStatusChange(SC_HANDLE hService,DWORD dwNotifyMask,PSERVICE_NOTIFYA pNotifyBuffer)|Out
+advapi32.dll|DWORD NotifyServiceStatusChangeA(SC_HANDLE hService,DWORD dwNotifyMask,PSERVICE_NOTIFYA pNotifyBuffer)
+advapi32.dll|DWORD NotifyServiceStatusChangeW(SC_HANDLE hService,DWORD dwNotifyMask,PSERVICE_NOTIFYW pNotifyBuffer)
+advapi32.dll|NpGetUserName(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL ObjectCloseAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,BOOL GenerateOnClose)|FailureIfNullRet
+advapi32.dll|BOOL ObjectCloseAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,BOOL GenerateOnClose)|FailureIfNullRet
+advapi32.dll|BOOL ObjectDeleteAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,BOOL GenerateOnClose)|FailureIfNullRet
+advapi32.dll|BOOL ObjectDeleteAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,BOOL GenerateOnClose)|FailureIfNullRet
+advapi32.dll|BOOL ObjectOpenAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,LPSTR ObjectTypeName,LPSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,HANDLE ClientToken,DWORD DesiredAccess,DWORD GrantedAccess,PPRIVILEGE_SET Privileges,BOOL ObjectCreation,BOOL AccessGranted,LPBOOL GenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL ObjectOpenAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,LPWSTR ObjectTypeName,LPWSTR ObjectName,PSECURITY_DESCRIPTOR pSecurityDescriptor,HANDLE ClientToken,DWORD DesiredAccess,DWORD GrantedAccess,PPRIVILEGE_SET Privileges,BOOL ObjectCreation,BOOL AccessGranted,LPBOOL GenerateOnClose)|Out|FailureIfNullRet
+advapi32.dll|BOOL ObjectPrivilegeAuditAlarmA(LPCSTR SubsystemName,LPVOID HandleId,HANDLE ClientToken,DWORD DesiredAccess,PPRIVILEGE_SET Privileges,BOOL AccessGranted)|FailureIfNullRet
+advapi32.dll|BOOL ObjectPrivilegeAuditAlarmW(LPCWSTR SubsystemName,LPVOID HandleId,HANDLE ClientToken,DWORD DesiredAccess,PPRIVILEGE_SET Privileges,BOOL AccessGranted)|FailureIfNullRet
+advapi32.dll|HANDLE OpenBackupEventLogA(LPCSTR lpUNCServerName,LPCSTR lpFileName)|FailureIfNullRet
+advapi32.dll|HANDLE OpenBackupEventLogW(LPCWSTR lpUNCServerName,LPCWSTR lpFileName)|FailureIfNullRet
+advapi32.dll|DWORD OpenEncryptedFileRawA(LPCSTR lpFileName,ULONG ulFlags,PVOID* pvContext)|Out
+advapi32.dll|DWORD OpenEncryptedFileRawW(LPCWSTR lpFileName,ULONG ulFlags,PVOID* pvContext)|Out
+advapi32.dll|HANDLE OpenEventLogA(LPCSTR lpUNCServerName,LPCSTR lpSourceName)|FailureIfNullRet
+advapi32.dll|HANDLE OpenEventLogW(LPCWSTR lpUNCServerName,LPCWSTR lpSourceName)|FailureIfNullRet
+advapi32.dll|BOOL OpenProcessToken(HANDLE ProcessHandle,DWORD DesiredAccess,PHANDLE TokenHandle)|Out|FailureIfNullRet
+advapi32.dll|SC_HANDLE OpenSCManagerA(LPCSTR lpMachineName,LPCSTR lpDatabaseName,DWORD dwDesiredAccess)|FailureIfNullRet
+advapi32.dll|SC_HANDLE OpenSCManagerW(LPCWSTR lpMachineName,LPCWSTR lpDatabaseName,DWORD dwDesiredAccess)|FailureIfNullRet
+advapi32.dll|SC_HANDLE OpenServiceA(SC_HANDLE hSCManager,LPCSTR lpServiceName,DWORD dwDesiredAccess)|FailureIfNullRet
+advapi32.dll|SC_HANDLE OpenServiceW(SC_HANDLE hSCManager,LPCWSTR lpServiceName,DWORD dwDesiredAccess)|FailureIfNullRet
+advapi32.dll|BOOL OpenThreadToken(HANDLE ThreadHandle,DWORD DesiredAccess,BOOL OpenAsSelf,PHANDLE TokenHandle)|Out|FailureIfNullRet
+advapi32.dll|HWCT OpenThreadWaitChainSession(DWORD Flags,PWAITCHAINCALLBACK callback)
+advapi32.dll|TRACEHANDLE OpenTraceA(PEVENT_TRACE_LOGFILEA Logfile)|Out|FailureIfRetValue=-1
+advapi32.dll|TRACEHANDLE OpenTraceW(PEVENT_TRACE_LOGFILEW Logfile)|Out|FailureIfRetValue=-1
+advapi32.dll|BOOL OperationEnd(OPERATION_END_PARAMETERS* OperationEndParams)|FailureIfNullRet
+advapi32.dll|BOOL OperationStart(OPERATION_START_PARAMETERS* OperationStartParams)|FailureIfNullRet
+advapi32.dll|ULONG PerfAddCounters(HANDLE hQuery,PPERF_COUNTER_IDENTIFIER pCounters,DWORD cbCounters)|Out
+advapi32.dll|ULONG PerfCloseQueryHandle(HANDLE hQuery)
+advapi32.dll|PPERF_COUNTERSET_INSTANCE PerfCreateInstance(HANDLE ProviderHandle,LPCGUID CounterSetGuid,PCWSTR Name,ULONG Id)
+advapi32.dll|ULONG PerfDecrementULongCounterValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,ULONG Value)|Out
+advapi32.dll|ULONG PerfDecrementULongLongCounterValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,ULONGLONG Value)|Out
+advapi32.dll|ULONG PerfDeleteCounters(HANDLE hQuery,PPERF_COUNTER_IDENTIFIER pCounters,DWORD cbCounters)|Out
+advapi32.dll|ULONG PerfDeleteInstance(HANDLE Provider,PPERF_COUNTERSET_INSTANCE InstanceBlock)
+advapi32.dll|ULONG PerfEnumerateCounterSet(LPCWSTR szMachine,LPGUID pCounterSetIds,DWORD cCounterSetIds,LPDWORD pcCounterSetIdsActual)|Out
+advapi32.dll|ULONG PerfEnumerateCounterSetInstances(LPCWSTR szMachine,LPCGUID pCounterSetId,PPERF_INSTANCE_HEADER pInstances,DWORD cbInstances,LPDWORD pcbInstancesActual)|Out
+advapi32.dll|ULONG PerfIncrementULongCounterValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,ULONG Value)|Out
+advapi32.dll|ULONG PerfIncrementULongLongCounterValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,ULONGLONG Value)|Out
+advapi32.dll|ULONG PerfOpenQueryHandle(LPCWSTR szMachine,HANDLE* phQuery)|Out
+advapi32.dll|ULONG PerfQueryCounterData(HANDLE hQuery,PPERF_DATA_HEADER pCounterBlock,DWORD cbCounterBlock,LPDWORD pcbCounterBlockActual)|Out
+advapi32.dll|ULONG PerfQueryCounterInfo(HANDLE hQuery,PPERF_COUNTER_IDENTIFIER pCounters,DWORD cbCounters,LPDWORD pcbCountersActual)|Out
+advapi32.dll|ULONG PerfQueryCounterSetRegistrationInfo(LPCWSTR szMachine,LPCGUID pCounterSetId,PerfRegInfoType requestCode,DWORD requestLangId,LPBYTE pbRegInfo,DWORD cbRegInfo,LPDWORD pcbRegInfoActual)|Out
+advapi32.dll|PPERF_COUNTERSET_INSTANCE PerfQueryInstance(HANDLE ProviderHandle,LPCGUID CounterSetGuid,PCWSTR Name,ULONG Id)
+advapi32.dll|PerfRegCloseKey(UNKNOWN)
+advapi32.dll|PerfRegEnumKey(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|PerfRegEnumValue(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|PerfRegQueryInfoKey(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|PerfRegQueryValue(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|PerfRegSetValue(UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG PerfSetCounterRefValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,PVOID Address)|Out
+advapi32.dll|ULONG PerfSetCounterSetInfo(HANDLE ProviderHandle,PPERF_COUNTERSET_INFO Template,ULONG TemplateSize)|Out
+advapi32.dll|ULONG PerfSetULongCounterValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,ULONG Value)|Out
+advapi32.dll|ULONG PerfSetULongLongCounterValue(HANDLE Provider,PPERF_COUNTERSET_INSTANCE Instance,ULONG CounterId,ULONGLONG Value)|Out
+advapi32.dll|PerfStartProvider(LPGUID ProviderGuid,PERFLIBREQUEST ControlCallback,HANDLE* phProvider)|Out
+advapi32.dll|ULONG PerfStartProviderEx(LPGUID ProviderGuid,PPERF_PROVIDER_CONTEXT ProviderContext,PHANDLE Provider)|Out
+advapi32.dll|ULONG PerfStopProvider(HANDLE ProviderHandle)
+advapi32.dll|BOOL PrivilegeCheck(HANDLE ClientToken,PPRIVILEGE_SET RequiredPrivileges,LPBOOL pfResult)|Out|FailureIfNullRet
+advapi32.dll|BOOL PrivilegedServiceAuditAlarmA(LPCSTR SubsystemName,LPCSTR ServiceName,HANDLE ClientToken,PPRIVILEGE_SET Privileges,BOOL AccessGranted)|FailureIfNullRet
+advapi32.dll|BOOL PrivilegedServiceAuditAlarmW(LPCWSTR SubsystemName,LPCWSTR ServiceName,HANDLE ClientToken,PPRIVILEGE_SET Privileges,BOOL AccessGranted)|FailureIfNullRet
+advapi32.dll|ProcessIdleTasks()
+advapi32.dll|ProcessIdleTasksW()
+advapi32.dll|ULONG ProcessTrace(PTRACEHANDLE HandleArray,ULONG HandleCount,LPFILETIME StartTime,LPFILETIME EndTime)
+advapi32.dll|ULONG QueryAllTracesA(PEVENT_TRACE_PROPERTIES* PropertyArray,ULONG PropertyArrayCount,PULONG LoggerCount)|Out
+advapi32.dll|ULONG QueryAllTracesW(PEVENT_TRACE_PROPERTIES* PropertyArray,ULONG PropertyArrayCount,PULONG LoggerCount)|Out
+advapi32.dll|QueryLocalUserServiceName(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD QueryRecoveryAgentsOnEncryptedFile(LPCWSTR lpFileName,PENCRYPTION_CERTIFICATE_HASH_LIST* pRecoveryAgents)|Out
+advapi32.dll|VOID QuerySecurityAccessMask(SECURITY_INFORMATION SecurityInformation,LPDWORD DesiredAccess)|Out
+advapi32.dll|BOOL QueryServiceConfig2A(SC_HANDLE hService,DWORD dwInfoLevel,LPBYTE lpBuffer,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceConfig2W(SC_HANDLE hService,DWORD dwInfoLevel,LPBYTE lpBuffer,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceConfigA(SC_HANDLE hService,LPQUERY_SERVICE_CONFIGA lpServiceConfig,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceConfigW(SC_HANDLE hService,LPQUERY_SERVICE_CONFIGW lpServiceConfig,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceDynamicInformation(SERVICE_STATUS_HANDLE hServiceStatus,DWORD dwInfoLevel,PVOID* ppDynamicInfo)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceLockStatusA(SC_HANDLE hSCManager,LPQUERY_SERVICE_LOCK_STATUSA lpLockStatus,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceLockStatusW(SC_HANDLE hSCManager,LPQUERY_SERVICE_LOCK_STATUSW lpLockStatus,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceObjectSecurity(SC_HANDLE hService,SECURITY_INFORMATION dwSecurityInformation,PSECURITY_DESCRIPTOR lpSecurityDescriptor,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceStatus(SC_HANDLE hService,LPSERVICE_STATUS lpServiceStatus)|Out|FailureIfNullRet
+advapi32.dll|BOOL QueryServiceStatusEx(SC_HANDLE hService,SC_STATUS_TYPE InfoLevel,LPBYTE lpBuffer,DWORD cbBufSize,LPDWORD pcbBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|ULONG QueryTraceA(TRACEHANDLE TraceHandle,LPCSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG QueryTraceProcessingHandle(TRACEHANDLE ProcessingHandle,ETW_PROCESS_HANDLE_INFO_TYPE InformationClass,PVOID InBuffer,ULONG InBufferSize,PVOID OutBuffer,ULONG OutBufferSize,PULONG ReturnLength)|Out
+advapi32.dll|ULONG QueryTraceW(TRACEHANDLE TraceHandle,LPCWSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|QueryUserServiceName(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|QueryUserServiceNameForContext(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD QueryUsersOnEncryptedFile(LPCWSTR lpFileName,PENCRYPTION_CERTIFICATE_HASH_LIST* pUsers)|Out
+advapi32.dll|DWORD ReadEncryptedFileRaw(PFE_EXPORT_FUNC pfExportCallback,PVOID pvCallbackContext,PVOID pvContext)
+advapi32.dll|BOOL ReadEventLogA(HANDLE hEventLog,DWORD dwReadFlags,DWORD dwRecordOffset,LPVOID lpBuffer,DWORD nNumberOfBytesToRead,DWORD* pnBytesRead,DWORD* pnMinNumberOfBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|BOOL ReadEventLogW(HANDLE hEventLog,DWORD dwReadFlags,DWORD dwRecordOffset,LPVOID lpBuffer,DWORD nNumberOfBytesToRead,DWORD* pnBytesRead,DWORD* pnMinNumberOfBytesNeeded)|Out|FailureIfNullRet
+advapi32.dll|LSTATUS RegCloseKey(HKEY hKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegConnectRegistryA(LPCSTR lpMachineName,HKEY hKey,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegConnectRegistryExA(LPCSTR lpMachineName,HKEY hKey,ULONG Flags,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegConnectRegistryExW(LPCWSTR lpMachineName,HKEY hKey,ULONG Flags,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegConnectRegistryW(LPCWSTR lpMachineName,HKEY hKey,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCopyTreeA(HKEY hKeySrc,LPCSTR lpSubKey,HKEY hKeyDest)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCopyTreeW(HKEY hKeySrc,LPCWSTR lpSubKey,HKEY hKeyDest)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCreateKeyA(HKEY hKey,LPCSTR lpSubKey,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCreateKeyExA(HKEY hKey,LPCSTR lpSubKey,DWORD Reserved,LPSTR lpClass,DWORD dwOptions,REGSAM samDesired,LPSECURITY_ATTRIBUTES lpSecurityAttributes,PHKEY phkResult,LPDWORD lpdwDisposition)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCreateKeyExW(HKEY hKey,LPCWSTR lpSubKey,DWORD Reserved,LPWSTR lpClass,DWORD dwOptions,REGSAM samDesired,LPSECURITY_ATTRIBUTES lpSecurityAttributes,PHKEY phkResult,LPDWORD lpdwDisposition)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCreateKeyTransactedA(HKEY hKey,LPCSTR lpSubKey,DWORD Reserved,LPSTR lpClass,DWORD dwOptions,REGSAM samDesired,LPSECURITY_ATTRIBUTES lpSecurityAttributes,PHKEY phkResult,LPDWORD lpdwDisposition,HANDLE hTransaction,PVOID pExtendedParemeter)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCreateKeyTransactedW(HKEY hKey,LPCWSTR lpSubKey,DWORD Reserved,LPWSTR lpClass,DWORD dwOptions,REGSAM samDesired,LPSECURITY_ATTRIBUTES lpSecurityAttributes,PHKEY phkResult,LPDWORD lpdwDisposition,HANDLE hTransaction,PVOID pExtendedParemeter)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegCreateKeyW(HKEY hKey,LPCWSTR lpSubKey,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyA(HKEY hKey,LPCSTR lpSubKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyExA(HKEY hKey,LPCSTR lpSubKey,REGSAM samDesired,DWORD Reserved)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyExW(HKEY hKey,LPCWSTR lpSubKey,REGSAM samDesired,DWORD Reserved)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyTransactedA(HKEY hKey,LPCSTR lpSubKey,REGSAM samDesired,DWORD Reserved,HANDLE hTransaction,PVOID pExtendedParameter)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyTransactedW(HKEY hKey,LPCWSTR lpSubKey,REGSAM samDesired,DWORD Reserved,HANDLE hTransaction,PVOID pExtendedParameter)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyValueA(HKEY hKey,LPCSTR lpSubKey,LPCSTR lpValueName)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyValueW(HKEY hKey,LPCWSTR lpSubKey,LPCWSTR lpValueName)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteKeyW(HKEY hKey,LPCWSTR lpSubKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteTreeA(HKEY hKey,LPCSTR lpSubKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteTreeW(HKEY hKey,LPCWSTR lpSubKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteValueA(HKEY hKey,LPCSTR lpValueName)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDeleteValueW(HKEY hKey,LPCWSTR lpValueName)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDisablePredefinedCache()|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegDisablePredefinedCacheEx()|FailureIfNotNullRet
+advapi32.dll|LONG RegDisableReflectionKey(HKEY hBase)|FailureIfNotNullRet
+;RegEnableReflectionKey() in advapi32.dll has the same entry point as RegDisableReflectionKey
+!advapi32.dll|LONG RegEnableReflectionKey(HKEY hBase)
+advapi32.dll|LSTATUS RegEnumKeyA(HKEY hKey,DWORD dwIndex,LPSTR lpName,DWORD cchName)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegEnumKeyExA(HKEY hKey,DWORD dwIndex,LPSTR lpName,LPDWORD lpcchName,LPDWORD lpReserved,LPSTR lpClass,LPDWORD lpcchClass,PFILETIME lpftLastWriteTime)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegEnumKeyExW(HKEY hKey,DWORD dwIndex,LPWSTR lpName,LPDWORD lpcchName,LPDWORD lpReserved,LPWSTR lpClass,LPDWORD lpcchClass,PFILETIME lpftLastWriteTime)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegEnumKeyW(HKEY hKey,DWORD dwIndex,LPWSTR lpName,DWORD cchName)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegEnumValueA(HKEY hKey,DWORD dwIndex,LPSTR lpValueName,LPDWORD lpcchValueName,LPDWORD lpReserved,LPDWORD lpType,LPBYTE lpData,LPDWORD lpcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegEnumValueW(HKEY hKey,DWORD dwIndex,LPWSTR lpValueName,LPDWORD lpcchValueName,LPDWORD lpReserved,LPDWORD lpType,LPBYTE lpData,LPDWORD lpcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegFlushKey(HKEY hKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegGetKeySecurity(HKEY hKey,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor,LPDWORD lpcbSecurityDescriptor)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegGetValueA(HKEY hkey,LPCSTR lpSubKey,LPCSTR lpValue,DWORD dwFlags,LPDWORD pdwType,PVOID pvData,LPDWORD pcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegGetValueW(HKEY hkey,LPCWSTR lpSubKey,LPCWSTR lpValue,DWORD dwFlags,LPDWORD pdwType,PVOID pvData,LPDWORD pcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegLoadAppKeyA(LPCSTR lpFile,PHKEY phkResult,REGSAM samDesired,DWORD dwOptions,DWORD Reserved)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegLoadAppKeyW(LPCWSTR lpFile,PHKEY phkResult,REGSAM samDesired,DWORD dwOptions,DWORD Reserved)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegLoadKeyA(HKEY hKey,LPCSTR lpSubKey,LPCSTR lpFile)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegLoadKeyW(HKEY hKey,LPCWSTR lpSubKey,LPCWSTR lpFile)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegLoadMUIStringA(HKEY hKey,LPCSTR pszValue,LPSTR pszOutBuf,DWORD cbOutBuf,LPDWORD pcbData,DWORD Flags,LPCSTR pszDirectory)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegLoadMUIStringW(HKEY hKey,LPCWSTR pszValue,LPWSTR pszOutBuf,DWORD cbOutBuf,LPDWORD pcbData,DWORD Flags,LPCWSTR pszDirectory)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegNotifyChangeKeyValue(HKEY hKey,BOOL bWatchSubtree,DWORD dwNotifyFilter,HANDLE hEvent,BOOL fAsynchronous)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenCurrentUser(REGSAM samDesired,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenKeyA(HKEY hKey,LPCSTR lpSubKey,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenKeyExA(HKEY hKey,LPCSTR lpSubKey,DWORD ulOptions,REGSAM samDesired,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenKeyExW(HKEY hKey,LPCWSTR lpSubKey,DWORD ulOptions,REGSAM samDesired,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenKeyTransactedA(HKEY hKey,LPCSTR lpSubKey,DWORD ulOptions,REGSAM samDesired,PHKEY phkResult,HANDLE hTransaction,PVOID pExtendedParemeter)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenKeyTransactedW(HKEY hKey,LPCWSTR lpSubKey,DWORD ulOptions,REGSAM samDesired,PHKEY phkResult,HANDLE hTransaction,PVOID pExtendedParemeter)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenKeyW(HKEY hKey,LPCWSTR lpSubKey,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOpenUserClassesRoot(HANDLE hToken,DWORD dwOptions,REGSAM samDesired,PHKEY phkResult)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegOverridePredefKey(HKEY hKey,HKEY hNewHKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryInfoKeyA(HKEY hKey,LPSTR lpClass,LPDWORD lpcchClass,LPDWORD lpReserved,LPDWORD lpcSubKeys,LPDWORD lpcbMaxSubKeyLen,LPDWORD lpcbMaxClassLen,LPDWORD lpcValues,LPDWORD lpcbMaxValueNameLen,LPDWORD lpcbMaxValueLen,LPDWORD lpcbSecurityDescriptor,PFILETIME lpftLastWriteTime)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryInfoKeyW(HKEY hKey,LPWSTR lpClass,LPDWORD lpcchClass,LPDWORD lpReserved,LPDWORD lpcSubKeys,LPDWORD lpcbMaxSubKeyLen,LPDWORD lpcbMaxClassLen,LPDWORD lpcValues,LPDWORD lpcbMaxValueNameLen,LPDWORD lpcbMaxValueLen,LPDWORD lpcbSecurityDescriptor,PFILETIME lpftLastWriteTime)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryMultipleValuesA(HKEY hKey,PVALENTA val_list,DWORD num_vals,LPSTR lpValueBuf,LPDWORD ldwTotsize)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryMultipleValuesW(HKEY hKey,PVALENTW val_list,DWORD num_vals,LPWSTR lpValueBuf,LPDWORD ldwTotsize)|Out|FailureIfNotNullRet
+advapi32.dll|LONG RegQueryReflectionKey(HKEY hBase,BOOL* bIsReflectionDisabled)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryValueA(HKEY hKey,LPCSTR lpSubKey,LPSTR lpData,PLONG lpcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryValueExA(HKEY hKey,LPCSTR lpValueName,LPDWORD lpReserved,LPDWORD lpType,LPBYTE lpData,LPDWORD lpcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryValueExW(HKEY hKey,LPCWSTR lpValueName,LPDWORD lpReserved,LPDWORD lpType,LPBYTE lpData,LPDWORD lpcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegQueryValueW(HKEY hKey,LPCWSTR lpSubKey,LPWSTR lpData,PLONG lpcbData)|Out|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegRenameKey(HKEY hKey,LPCWSTR lpSubKeyName,LPCWSTR lpNewKeyName)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegReplaceKeyA(HKEY hKey,LPCSTR lpSubKey,LPCSTR lpNewFile,LPCSTR lpOldFile)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegReplaceKeyW(HKEY hKey,LPCWSTR lpSubKey,LPCWSTR lpNewFile,LPCWSTR lpOldFile)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegRestoreKeyA(HKEY hKey,LPCSTR lpFile,DWORD dwFlags)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegRestoreKeyW(HKEY hKey,LPCWSTR lpFile,DWORD dwFlags)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSaveKeyA(HKEY hKey,LPCSTR lpFile,LPSECURITY_ATTRIBUTES lpSecurityAttributes)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSaveKeyExA(HKEY hKey,LPCSTR lpFile,LPSECURITY_ATTRIBUTES lpSecurityAttributes,DWORD Flags)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSaveKeyExW(HKEY hKey,LPCWSTR lpFile,LPSECURITY_ATTRIBUTES lpSecurityAttributes,DWORD Flags)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSaveKeyW(HKEY hKey,LPCWSTR lpFile,LPSECURITY_ATTRIBUTES lpSecurityAttributes)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetKeySecurity(HKEY hKey,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetKeyValueA(HKEY hKey,LPCSTR lpSubKey,LPCSTR lpValueName,DWORD dwType,LPCVOID lpData,DWORD cbData)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetKeyValueW(HKEY hKey,LPCWSTR lpSubKey,LPCWSTR lpValueName,DWORD dwType,LPCVOID lpData,DWORD cbData)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetValueA(HKEY hKey,LPCSTR lpSubKey,DWORD dwType,LPCSTR lpData,DWORD cbData)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetValueExA(HKEY hKey,LPCSTR lpValueName,DWORD Reserved,DWORD dwType,BYTE* lpData,DWORD cbData)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetValueExW(HKEY hKey,LPCWSTR lpValueName,DWORD Reserved,DWORD dwType,BYTE* lpData,DWORD cbData)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegSetValueW(HKEY hKey,LPCWSTR lpSubKey,DWORD dwType,LPCWSTR lpData,DWORD cbData)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegUnLoadKeyA(HKEY hKey,LPCSTR lpSubKey)|FailureIfNotNullRet
+advapi32.dll|LSTATUS RegUnLoadKeyW(HKEY hKey,LPCWSTR lpSubKey)|FailureIfNotNullRet
+advapi32.dll|HANDLE RegisterEventSourceA(LPCSTR lpUNCServerName,LPCSTR lpSourceName)|FailureIfNullRet
+advapi32.dll|HANDLE RegisterEventSourceW(LPCWSTR lpUNCServerName,LPCWSTR lpSourceName)|FailureIfNullRet
+advapi32.dll|RegisterIdleTask(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SERVICE_STATUS_HANDLE RegisterServiceCtrlHandlerA(LPCSTR lpServiceName,LPHANDLER_FUNCTION lpHandlerProc)|Out|FailureIfNullRet
+advapi32.dll|SERVICE_STATUS_HANDLE RegisterServiceCtrlHandlerExA(LPCSTR lpServiceName,LPHANDLER_FUNCTION_EX lpHandlerProc,LPVOID lpContext)|Out|FailureIfNullRet
+advapi32.dll|SERVICE_STATUS_HANDLE RegisterServiceCtrlHandlerExW(LPCWSTR lpServiceName,LPHANDLER_FUNCTION_EX lpHandlerProc,LPVOID lpContext)|Out|FailureIfNullRet
+advapi32.dll|SERVICE_STATUS_HANDLE RegisterServiceCtrlHandlerW(LPCWSTR lpServiceName,LPHANDLER_FUNCTION lpHandlerProc)|Out|FailureIfNullRet
+advapi32.dll|ULONG RegisterTraceGuidsA(WMIDPREQUEST RequestAddress,PVOID RequestContext,LPCGUID ControlGuid,ULONG GuidCount,PTRACE_GUID_REGISTRATION TraceGuidReg,LPCSTR MofImagePath,LPCSTR MofResourceName,PTRACEHANDLE RegistrationHandle)|Out
+advapi32.dll|ULONG RegisterTraceGuidsW(WMIDPREQUEST RequestAddress,PVOID RequestContext,LPCGUID ControlGuid,ULONG GuidCount,PTRACE_GUID_REGISTRATION TraceGuidReg,LPCWSTR MofImagePath,LPCWSTR MofResourceName,PTRACEHANDLE RegistrationHandle)|Out
+advapi32.dll|VOID RegisterWaitChainCOMCallback(PCOGETCALLSTATE CallStateCallback,PCOGETACTIVATIONSTATE ActivationStateCallback)
+advapi32.dll|RemoteRegEnumKeyWrapper(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|RemoteRegEnumValueWrapper(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|RemoteRegQueryInfoKeyWrapper(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|RemoteRegQueryMultipleValues2Wrapper(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|RemoteRegQueryMultipleValuesWrapper(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|RemoteRegQueryValueWrapper(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG RemoveTraceCallback(LPCGUID pGuid)
+advapi32.dll|DWORD RemoveUsersFromEncryptedFile(LPCWSTR lpFileName,PENCRYPTION_CERTIFICATE_HASH_LIST pHashes)|Out
+advapi32.dll|BOOL ReportEventA(HANDLE hEventLog,WORD wType,WORD wCategory,DWORD dwEventID,PSID lpUserSid,WORD wNumStrings,DWORD dwDataSize,LPCSTR* lpStrings,LPVOID lpRawData)|Out|FailureIfNullRet
+advapi32.dll|BOOL ReportEventW(HANDLE hEventLog,WORD wType,WORD wCategory,DWORD dwEventID,PSID lpUserSid,WORD wNumStrings,DWORD dwDataSize,LPCWSTR* lpStrings,LPVOID lpRawData)|Out|FailureIfNullRet
+advapi32.dll|BOOL RevertToSelf()|FailureIfNullRet
+advapi32.dll|SafeBaseRegGetKeySecurity(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+;SaferCloseLevel() in advapi32.dll has the same entry point as CloseCodeAuthzLevel
+!advapi32.dll|BOOL SaferCloseLevel(SAFER_LEVEL_HANDLE hLevelHandle)|FailureIfNullRet
+;SaferComputeTokenFromLevel() in advapi32.dll has the same entry point as ComputeAccessTokenFromCodeAuthzLevel
+!advapi32.dll|BOOL SaferComputeTokenFromLevel(SAFER_LEVEL_HANDLE LevelHandle,HANDLE InAccessToken,PHANDLE OutAccessToken,DWORD dwFlags,LPVOID lpReserved)|Out|FailureIfNullRet
+;SaferCreateLevel() in advapi32.dll has the same entry point as CreateCodeAuthzLevel
+!advapi32.dll|BOOL SaferCreateLevel(DWORD dwScopeId,DWORD dwLevelId,DWORD OpenFlags,SAFER_LEVEL_HANDLE* pLevelHandle,LPVOID lpReserved)|Out|FailureIfNullRet
+;SaferGetLevelInformation() in advapi32.dll has the same entry point as GetInformationCodeAuthzLevelW
+!advapi32.dll|BOOL SaferGetLevelInformation(SAFER_LEVEL_HANDLE LevelHandle,SAFER_OBJECT_INFO_CLASS dwInfoType,LPVOID lpQueryBuffer,DWORD dwInBufferSize,LPDWORD lpdwOutBufferSize)|Out|FailureIfNullRet
+;SaferGetPolicyInformation() in advapi32.dll has the same entry point as GetInformationCodeAuthzPolicyW
+!advapi32.dll|BOOL SaferGetPolicyInformation(DWORD dwScopeId,SAFER_POLICY_INFO_CLASS SaferPolicyInfoClass,DWORD InfoBufferSize,PVOID InfoBuffer,PDWORD InfoBufferRetSize,LPVOID lpReserved)|Out|FailureIfNullRet
+;SaferIdentifyLevel() in advapi32.dll has the same entry point as IdentifyCodeAuthzLevelW
+!advapi32.dll|BOOL SaferIdentifyLevel(DWORD dwNumProperties,PSAFER_CODE_PROPERTIES pCodeProperties,SAFER_LEVEL_HANDLE* pLevelHandle,LPVOID lpReserved)|Out|FailureIfNullRet
+advapi32.dll|BOOL SaferRecordEventLogEntry(SAFER_LEVEL_HANDLE hLevel,LPCWSTR szTargetPath,LPVOID lpReserved)|Out|FailureIfNullRet
+advapi32.dll|BOOL SaferSetLevelInformation(SAFER_LEVEL_HANDLE LevelHandle,SAFER_OBJECT_INFO_CLASS dwInfoType,LPVOID lpQueryBuffer,DWORD dwInBufferSize)|Out|FailureIfNullRet
+advapi32.dll|BOOL SaferSetPolicyInformation(DWORD dwScopeId,SAFER_POLICY_INFO_CLASS SaferPolicyInfoClass,DWORD InfoBufferSize,PVOID InfoBuffer,LPVOID lpReserved)|Out|FailureIfNullRet
+advapi32.dll|SaferiChangeRegistryScope(UNKNOWN,UNKNOWN)
+advapi32.dll|SaferiCompareTokenLevels(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SaferiIsDllAllowed(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL SaferiIsExecutableFileType(LPCWSTR szFullPathname,BOOLEAN bFromShellExecute)|FailureIfNullRet
+advapi32.dll|SaferiPopulateDefaultsInRegistry(UNKNOWN,UNKNOWN)
+;SaferiRecordEventLogEntry() in advapi32.dll has the same entry point as SaferRecordEventLogEntry
+;advapi32.dll|SaferiRecordEventLogEntry()
+advapi32.dll|SaferiSearchMatchingHashRules(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL SetAclInformation(PACL pAcl,LPVOID pAclInformation,DWORD nAclInformationLength,ACL_INFORMATION_CLASS dwAclInformationClass)|Out|FailureIfNullRet
+;SetEncryptedFileMetadata() in advapi32.dll has the same entry point as I_ScGetCurrentGroupStateW
+!advapi32.dll|DWORD SetEncryptedFileMetadata(LPCWSTR lpFileName,PBYTE pbOldMetadata,PBYTE pbNewMetadata,PENCRYPTION_CERTIFICATE_HASH pOwnerHash,DWORD dwOperation,PENCRYPTION_CERTIFICATE_HASH_LIST pCertificatesAdded)
+advapi32.dll|SetEntriesInAccessListA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SetEntriesInAccessListW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD SetEntriesInAclA(ULONG cCountOfExplicitEntries,PEXPLICIT_ACCESS_A pListOfExplicitEntries,PACL OldAcl,PACL* NewAcl)|Out
+advapi32.dll|DWORD SetEntriesInAclW(ULONG cCountOfExplicitEntries,PEXPLICIT_ACCESS_W pListOfExplicitEntries,PACL OldAcl,PACL* NewAcl)|Out
+advapi32.dll|SetEntriesInAuditListA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SetEntriesInAuditListW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL SetFileSecurityA(LPCSTR lpFileName,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor)|Out|FailureIfNullRet
+advapi32.dll|BOOL SetFileSecurityW(LPCWSTR lpFileName,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR pSecurityDescriptor)|Out|FailureIfNullRet
+;SetInformationCodeAuthzLevelW() in advapi32.dll has the same entry point as SaferSetLevelInformation
+;advapi32.dll|SetInformationCodeAuthzLevelW()
+;SetInformationCodeAuthzPolicyW() in advapi32.dll has the same entry point as SaferSetPolicyInformation
+;advapi32.dll|SetInformationCodeAuthzPolicyW()
+advapi32.dll|BOOL SetKernelObjectSecurity(HANDLE Handle,SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR SecurityDescriptor)|Out|FailureIfNullRet
+advapi32.dll|DWORD SetNamedSecurityInfoA(LPSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID psidOwner,PSID psidGroup,PACL pDacl,PACL pSacl)|Out
+advapi32.dll|SetNamedSecurityInfoExA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SetNamedSecurityInfoExW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD SetNamedSecurityInfoW(LPWSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID psidOwner,PSID psidGroup,PACL pDacl,PACL pSacl)|Out
+advapi32.dll|BOOL SetPrivateObjectSecurity(SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR ModificationDescriptor,PSECURITY_DESCRIPTOR* ObjectsSecurityDescriptor,PGENERIC_MAPPING GenericMapping,HANDLE Token)|Out|FailureIfNullRet
+advapi32.dll|BOOL SetPrivateObjectSecurityEx(SECURITY_INFORMATION SecurityInformation,PSECURITY_DESCRIPTOR ModificationDescriptor,PSECURITY_DESCRIPTOR* ObjectsSecurityDescriptor,ULONG AutoInheritFlags,PGENERIC_MAPPING GenericMapping,HANDLE Token)|Out|FailureIfNullRet
+advapi32.dll|VOID SetSecurityAccessMask(SECURITY_INFORMATION SecurityInformation,LPDWORD DesiredAccess)|Out
+advapi32.dll|BOOL SetSecurityDescriptorControl(PSECURITY_DESCRIPTOR pSecurityDescriptor,SECURITY_DESCRIPTOR_CONTROL ControlBitsOfInterest,SECURITY_DESCRIPTOR_CONTROL ControlBitsToSet)|FailureIfNullRet
+advapi32.dll|BOOL SetSecurityDescriptorDacl(PSECURITY_DESCRIPTOR pSecurityDescriptor,BOOL bDaclPresent,PACL pDacl,BOOL bDaclDefaulted)|Out|FailureIfNullRet
+advapi32.dll|BOOL SetSecurityDescriptorGroup(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID pGroup,BOOL bGroupDefaulted)|Out|FailureIfNullRet
+advapi32.dll|BOOL SetSecurityDescriptorOwner(PSECURITY_DESCRIPTOR pSecurityDescriptor,PSID pOwner,BOOL bOwnerDefaulted)|Out|FailureIfNullRet
+advapi32.dll|DWORD SetSecurityDescriptorRMControl(PSECURITY_DESCRIPTOR SecurityDescriptor,PUCHAR RMControl)|Out
+advapi32.dll|BOOL SetSecurityDescriptorSacl(PSECURITY_DESCRIPTOR pSecurityDescriptor,BOOL bSaclPresent,PACL pSacl,BOOL bSaclDefaulted)|Out
+advapi32.dll|DWORD SetSecurityInfo(HANDLE handle,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID psidOwner,PSID psidGroup,PACL pDacl,PACL pSacl)
+advapi32.dll|SetSecurityInfoExA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|SetSecurityInfoExW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|BOOL SetServiceBits(SERVICE_STATUS_HANDLE hServiceStatus,DWORD dwServiceBits,BOOL bSetBitsOn,BOOL bUpdateImmediately)|FailureIfNullRet
+advapi32.dll|BOOL SetServiceObjectSecurity(SC_HANDLE hService,SECURITY_INFORMATION dwSecurityInformation,PSECURITY_DESCRIPTOR lpSecurityDescriptor)|FailureIfNullRet
+advapi32.dll|BOOL SetServiceStatus(SERVICE_STATUS_HANDLE hServiceStatus,LPSERVICE_STATUS lpServiceStatus)|FailureIfNullRet
+advapi32.dll|BOOL SetThreadToken(PHANDLE Thread,HANDLE Token)|FailureIfNullRet
+advapi32.dll|BOOL SetTokenInformation(HANDLE TokenHandle,TOKEN_INFORMATION_CLASS TokenInformationClass,LPVOID TokenInformation,DWORD TokenInformationLength)|FailureIfNullRet
+advapi32.dll|ULONG SetTraceCallback(LPCGUID pGuid,PEVENT_CALLBACK EventCallback)
+advapi32.dll|DWORD SetUserFileEncryptionKey(PENCRYPTION_CERTIFICATE pEncryptionCertificate)
+advapi32.dll|DWORD SetUserFileEncryptionKeyEx(PENCRYPTION_CERTIFICATE pEncryptionCertificate,DWORD dwCapabilities,DWORD dwFlags,LPVOID pvReserved)
+advapi32.dll|BOOL StartServiceA(SC_HANDLE hService,DWORD dwNumServiceArgs,LPCSTR* lpServiceArgVectors)|FailureIfNullRet
+advapi32.dll|BOOL StartServiceCtrlDispatcherA(SERVICE_TABLE_ENTRYA* lpServiceStartTable)|FailureIfNullRet
+advapi32.dll|BOOL StartServiceCtrlDispatcherW(SERVICE_TABLE_ENTRYW* lpServiceStartTable)|FailureIfNullRet
+advapi32.dll|BOOL StartServiceW(SC_HANDLE hService,DWORD dwNumServiceArgs,LPCWSTR* lpServiceArgVectors)|FailureIfNullRet
+advapi32.dll|ULONG StartTraceA(PTRACEHANDLE TraceHandle,LPCSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG StartTraceW(PTRACEHANDLE TraceHandle,LPCWSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG StopTraceA(TRACEHANDLE TraceHandle,LPCSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG StopTraceW(TRACEHANDLE TraceHandle,LPCWSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG TraceEvent(TRACEHANDLE TraceHandle,PEVENT_TRACE_HEADER EventTrace)|FailureIfNotNullRet
+advapi32.dll|ULONG TraceEventInstance(TRACEHANDLE TraceHandle,PEVENT_INSTANCE_HEADER EventTrace,PEVENT_INSTANCE_INFO InstInfo,PEVENT_INSTANCE_INFO ParentInstInfo)|FailureIfNotNullRet
+advapi32.dll|ULONG TraceMessage(TRACEHANDLE LoggerHandle,ULONG MessageFlags,LPCGUID MessageGuid,USHORT MessageNumber)|FailureIfNotNullRet
+advapi32.dll|ULONG TraceMessageVa(TRACEHANDLE LoggerHandle,ULONG MessageFlags,LPCGUID MessageGuid,USHORT MessageNumber,va_list MessageArgList)|FailureIfNotNullRet
+advapi32.dll|ULONG TraceQueryInformation(TRACEHANDLE SessionHandle,TRACE_INFO_CLASS InformationClass,PVOID TraceInformation,ULONG InformationLength,PULONG ReturnLength)|Out
+advapi32.dll|ULONG TraceSetInformation(TRACEHANDLE SessionHandle,TRACE_INFO_CLASS InformationClass,PVOID TraceInformation,ULONG InformationLength)
+;TreeResetNamedSecurityInfoA() in advapi32.dll has the same entry point as GetInheritanceSourceA
+!advapi32.dll|DWORD TreeResetNamedSecurityInfoA(LPSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID pOwner,PSID pGroup,PACL pDacl,PACL pSacl,BOOL KeepExplicit,FN_PROGRESS fnProgress,PROG_INVOKE_SETTING ProgressInvokeSetting,PVOID Args)
+advapi32.dll|DWORD TreeResetNamedSecurityInfoW(LPWSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID pOwner,PSID pGroup,PACL pDacl,PACL pSacl,BOOL KeepExplicit,FN_PROGRESS fnProgress,PROG_INVOKE_SETTING ProgressInvokeSetting,PVOID Args)
+;TreeSetNamedSecurityInfoA() in advapi32.dll has the same entry point as GetInheritanceSourceA
+!advapi32.dll|DWORD TreeSetNamedSecurityInfoA(LPSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID pOwner,PSID pGroup,PACL pDacl,PACL pSacl,DWORD dwAction,FN_PROGRESS fnProgress,PROG_INVOKE_SETTING ProgressInvokeSetting,PVOID Args)
+advapi32.dll|DWORD TreeSetNamedSecurityInfoW(LPWSTR pObjectName,SE_OBJECT_TYPE ObjectType,SECURITY_INFORMATION SecurityInfo,PSID pOwner,PSID pGroup,PACL pDacl,PACL pSacl,DWORD dwAction,FN_PROGRESS fnProgress,PROG_INVOKE_SETTING ProgressInvokeSetting,PVOID Args)
+advapi32.dll|TrusteeAccessToObjectA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|TrusteeAccessToObjectW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD UninstallApplication(LPWSTR ProductCode,DWORD dwStatus)
+advapi32.dll|BOOL UnlockServiceDatabase(SC_LOCK ScLock)|FailureIfNullRet
+advapi32.dll|UnregisterIdleTask(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|ULONG UnregisterTraceGuids(TRACEHANDLE RegistrationHandle)
+advapi32.dll|ULONG UpdateTraceA(TRACEHANDLE TraceHandle,LPCSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|ULONG UpdateTraceW(TRACEHANDLE TraceHandle,LPCWSTR InstanceName,PEVENT_TRACE_PROPERTIES Properties)|Out
+advapi32.dll|UsePinForEncryptedFilesA(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|UsePinForEncryptedFilesW(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD WaitServiceState(SC_HANDLE hService,DWORD dwNotify,DWORD dwTimeout,HANDLE hCancelEvent)
+advapi32.dll|WmiCloseBlock(UNKNOWN)
+advapi32.dll|WmiDevInstToInstanceNameA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiDevInstToInstanceNameW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiEnumerateGuids(UNKNOWN,UNKNOWN)
+advapi32.dll|WmiExecuteMethodA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiExecuteMethodW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiFileHandleToInstanceNameA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiFileHandleToInstanceNameW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiFreeBuffer(UNKNOWN)
+advapi32.dll|WmiMofEnumerateResourcesA(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiMofEnumerateResourcesW(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiNotificationRegistrationA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiNotificationRegistrationW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiOpenBlock(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQueryAllDataA(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQueryAllDataMultipleA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQueryAllDataMultipleW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQueryAllDataW(UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQueryGuidInformation(UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQuerySingleInstanceA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQuerySingleInstanceMultipleA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQuerySingleInstanceMultipleW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiQuerySingleInstanceW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiReceiveNotificationsA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiReceiveNotificationsW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiSetSingleInstanceA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiSetSingleInstanceW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiSetSingleItemA(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|WmiSetSingleItemW(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
+advapi32.dll|DWORD WriteEncryptedFileRaw(PFE_IMPORT_FUNC pfImportCallback,PVOID pvCallbackContext,PVOID pvContext)

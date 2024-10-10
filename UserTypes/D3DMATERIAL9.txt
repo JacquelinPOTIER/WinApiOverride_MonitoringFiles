@@ -1,0 +1,7 @@
+typedef struct D3DMATERIAL9 {
+  D3DCOLORVALUE Diffuse;
+  D3DCOLORVALUE Ambient;
+  D3DCOLORVALUE Specular;
+  D3DCOLORVALUE Emissive;
+  float         Power;
+} D3DMATERIAL9, *LPD3DMATERIAL9;

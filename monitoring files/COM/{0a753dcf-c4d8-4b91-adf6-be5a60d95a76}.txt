@@ -1,0 +1,8 @@
+;@InterfaceName=ID3D12Fence
+
+; include ID3D12Pageable
+BaseIID={63ee58fb-1268-4835-86da-f008ce62f0d6}
+    
+VTBLIndex=8 |UINT64 ID3D12Fence::GetCompletedValue(IUnknown* pObject)
+VTBLIndex=9 |HRESULT ID3D12Fence::SetEventOnCompletion(IUnknown* pObject,UINT64 Value,HANDLE hEvent)|FailureIfNegativeRet
+VTBLIndex=10|HRESULT ID3D12Fence::Signal(IUnknown* pObject,UINT64 Value)|FailureIfNegativeRet

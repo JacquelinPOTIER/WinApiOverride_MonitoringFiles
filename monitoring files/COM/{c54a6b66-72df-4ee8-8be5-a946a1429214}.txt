@@ -1,0 +1,4 @@
+;@InterfaceName=ID3D12RootSignature
+
+; include ID3D12DeviceChild
+BaseIID={905db94b-a00c-4140-9df5-2b64ca9ea357}  

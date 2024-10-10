@@ -1,0 +1,9 @@
+;@InterfaceName=ID3D12Object
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3| HRESULT ID3D12Object::GetPrivateData(IUnknown* pObject,REFGUID refguid,DWORD* pSizeOfData,void* pData);|FailureIfNegativeRet|Out
+VTBLIndex=4| HRESULT ID3D12Object::SetPrivateData(IUnknown* pObject,REFGUID refguid,DWORD SizeOfData,CONST void* pData);|FailureIfNegativeRet
+VTBLIndex=5| HRESULT ID3D12Object::SetPrivateDataInterface(IUnknown* pObject,REFGUID refguid,IUnknown* pData);|FailureIfNegativeRet
+VTBLIndex=6| HRESULT ID3D12Object::SetName(IUnknown* pObject,LPCWSTR Name);|FailureIfNegativeRet

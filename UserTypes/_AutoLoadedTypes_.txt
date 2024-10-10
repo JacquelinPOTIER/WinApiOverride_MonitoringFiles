@@ -1,0 +1,6 @@
+// include types defining multiple types in a single files
+#include "VARIANT.txt"
+#include "ANSI_STRING.txt"
+#include "UNICODE_STRING.txt"
+
+// Add your auto loaded types here (#include or direct struct definition)

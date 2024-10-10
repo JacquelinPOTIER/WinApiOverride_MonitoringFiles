@@ -1,0 +1,10 @@
+typedef struct _DICONFIGUREDEVICESPARAMS {
+    DWORD            dwSize;
+    DWORD            dwcUsers;
+    LPSTR            lptszUserNames;
+    DWORD            dwcFormats;
+    DIACTIONFORMAT*  lprgFormats;
+    HWND             hwnd;
+    DICOLORSET       dics;
+    IUnknown*        lpUnkDDSTarget;
+} DICONFIGUREDEVICESPARAMS, *LPDICONFIGUREDEVICESPARAMS;

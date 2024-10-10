@@ -1,0 +1,9 @@
+;@InterfaceName=ID3D10DeviceChild
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3| void ID3D10DeviceChild::GetDevice(IUnknown* pObject,ID3D10Device** ppDevice);|Out
+VTBLIndex=4| HRESULT ID3D10DeviceChild::GetPrivateData(IUnknown* pObject,REFGUID guid,UINT *pDataSize,void* pData);|InOut|FailureIfNegativeRet|Out
+VTBLIndex=5| HRESULT ID3D10DeviceChild::SetPrivateData(IUnknown* pObject,REFGUID guid,UINT DataSize,void* pData);|FailureIfNegativeRet
+VTBLIndex=6| HRESULT ID3D10DeviceChild::SetPrivateDataInterface(IUnknown* pObject,REFGUID guid,IUnknown* pData);|FailureIfNegativeRet

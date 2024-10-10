@@ -1,0 +1,29 @@
+typedef 
+enum D3D11_FILL_MODE
+    {
+        D3D11_FILL_WIREFRAME	= 2,
+        D3D11_FILL_SOLID	= 3
+    } 	D3D11_FILL_MODE;
+
+typedef 
+enum D3D11_CULL_MODE
+    {
+        D3D11_CULL_NONE	= 1,
+        D3D11_CULL_FRONT	= 2,
+        D3D11_CULL_BACK	= 3
+    } 	D3D11_CULL_MODE;
+
+
+typedef struct D3D11_RASTERIZER_DESC
+    {
+    D3D11_FILL_MODE FillMode;
+    D3D11_CULL_MODE CullMode;
+    BOOL FrontCounterClockwise;
+    INT DepthBias;
+    FLOAT DepthBiasClamp;
+    FLOAT SlopeScaledDepthBias;
+    BOOL DepthClipEnable;
+    BOOL ScissorEnable;
+    BOOL MultisampleEnable;
+    BOOL AntialiasedLineEnable;
+    } 	D3D11_RASTERIZER_DESC;

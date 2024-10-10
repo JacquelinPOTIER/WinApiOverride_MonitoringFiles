@@ -1,0 +1,6 @@
+;@InterfaceName=ID3D12PipelineState
+
+; include ID3D12Pageable
+BaseIID={63ee58fb-1268-4835-86da-f008ce62f0d6}
+
+VTBLIndex=8 |HRESULT ID3D12PipelineState::GetCachedBlob(IUnknown* pObject,ID3DBlob **ppBlob)|Out

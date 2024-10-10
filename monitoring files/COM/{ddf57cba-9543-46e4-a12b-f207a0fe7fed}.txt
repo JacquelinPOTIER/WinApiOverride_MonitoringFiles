@@ -1,0 +1,7 @@
+;@InterfaceName=ID3D11ClassLinkage
+
+; include ID3D11DeviceChild
+BaseIID={1841e5c8-16b0-489b-bcc8-44cfb0d5deae}
+
+VTBLIndex=7|HRESULT STDMETHODCALLTYPE ID3D11ClassLinkage::GetClassInstance(IUnknown* pObject,LPCSTR pClassInstanceName,UINT InstanceIndex,ID3D11ClassInstance **ppInstance)|Out|FailureIfNegativeRet|ObjectCreation(CLSIDValue=CurrentObjectCLSID|IIDValue={a6cd7faa-b0b7-4a2f-9436-8662a65797cb}|ObjectStackIndex=12|x64ObjectStackIndex=R9)
+VTBLIndex=8|HRESULT STDMETHODCALLTYPE ID3D11ClassLinkage::CreateClassInstance(IUnknown* pObject,LPCSTR pClassTypeName,UINT ConstantBufferOffset,UINT ConstantVectorOffset,UINT TextureOffset,UINT SamplerOffset,ID3D11ClassInstance **ppInstance)|Out|FailureIfNegativeRet|ObjectCreation(CLSIDValue=CurrentObjectCLSID|IIDValue={a6cd7faa-b0b7-4a2f-9436-8662a65797cb}|ObjectStackIndex=24|x64ObjectStackIndex=16)

@@ -1,0 +1,12 @@
+;@InterfaceName=IDirect3DSwapChain9
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3|HRESULT IDirect3DSwapChain9::Present(IUnknown* pObject,CONST RECT* pSourceRect,CONST RECT* pDestRect,HWND hDestWindowOverride,CONST RGNDATA* pDirtyRegion);|FailureIfNegativeRet
+VTBLIndex=4|HRESULT IDirect3DSwapChain9::GetFrontBufferData(IUnknown* pObject,IDirect3DSurface9* pDestSurface)|FailureIfNegativeRet
+VTBLIndex=5|HRESULT IDirect3DSwapChain9::GetBackBuffer(IUnknown* pObject,UINT BackBuffer,D3DBACKBUFFER_TYPE Type,IDirect3DSurface9** ppBackBuffer);|FailureIfNegativeRet
+VTBLIndex=6|HRESULT IDirect3DSwapChain9::GetRasterStatus(IUnknown* pObject,D3DRASTER_STATUS* pRasterStatus);|FailureIfNegativeRet
+VTBLIndex=7|HRESULT IDirect3DSwapChain9::GetDisplayMode(IUnknown* pObject,D3DDISPLAYMODE* pMode);|FailureIfNegativeRet
+VTBLIndex=8|HRESULT IDirect3DSwapChain9::GetDevice(IUnknown* pObject,IDirect3DDevice9** ppDevice);|FailureIfNegativeRet
+VTBLIndex=9|HRESULT IDirect3DSwapChain9::GetPresentParameters(IUnknown* pObject,D3DPRESENT_PARAMETERS* pPresentationParameters);|FailureIfNegativeRet

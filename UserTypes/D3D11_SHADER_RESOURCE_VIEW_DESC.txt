@@ -1,0 +1,105 @@
+typedef struct D3D11_BUFFER_SRV
+    {
+    union 
+        {
+        UINT FirstElement;
+        UINT ElementOffset;
+        } 	;
+    union 
+        {
+        UINT NumElements;
+        UINT ElementWidth;
+        } 	;
+    } 	D3D11_BUFFER_SRV;
+
+typedef 
+enum D3D11_BUFFEREX_SRV_FLAG
+    {
+        D3D11_BUFFEREX_SRV_FLAG_RAW	= 0x1
+    } 	D3D11_BUFFEREX_SRV_FLAG;
+
+typedef struct D3D11_BUFFEREX_SRV
+    {
+    UINT FirstElement;
+    UINT NumElements;
+    UINT Flags;
+    } 	D3D11_BUFFEREX_SRV;
+
+typedef struct D3D11_TEX1D_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    } 	D3D11_TEX1D_SRV;
+
+typedef struct D3D11_TEX1D_ARRAY_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX1D_ARRAY_SRV;
+
+typedef struct D3D11_TEX2D_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    } 	D3D11_TEX2D_SRV;
+
+typedef struct D3D11_TEX2D_ARRAY_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX2D_ARRAY_SRV;
+
+typedef struct D3D11_TEX3D_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    } 	D3D11_TEX3D_SRV;
+
+typedef struct D3D11_TEXCUBE_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    } 	D3D11_TEXCUBE_SRV;
+
+typedef struct D3D11_TEXCUBE_ARRAY_SRV
+    {
+    UINT MostDetailedMip;
+    UINT MipLevels;
+    UINT First2DArrayFace;
+    UINT NumCubes;
+    } 	D3D11_TEXCUBE_ARRAY_SRV;
+
+typedef struct D3D11_TEX2DMS_SRV
+    {
+    UINT UnusedField_NothingToDefine;
+    } 	D3D11_TEX2DMS_SRV;
+
+typedef struct D3D11_TEX2DMS_ARRAY_SRV
+    {
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX2DMS_ARRAY_SRV;
+
+typedef struct D3D11_SHADER_RESOURCE_VIEW_DESC
+    {
+    DXGI_FORMAT Format;
+    D3D_SRV_DIMENSION ViewDimension;
+    union 
+        {
+        D3D11_BUFFER_SRV Buffer;
+        D3D11_TEX1D_SRV Texture1D;
+        D3D11_TEX1D_ARRAY_SRV Texture1DArray;
+        D3D11_TEX2D_SRV Texture2D;
+        D3D11_TEX2D_ARRAY_SRV Texture2DArray;
+        D3D11_TEX2DMS_SRV Texture2DMS;
+        D3D11_TEX2DMS_ARRAY_SRV Texture2DMSArray;
+        D3D11_TEX3D_SRV Texture3D;
+        D3D11_TEXCUBE_SRV TextureCube;
+        D3D11_TEXCUBE_ARRAY_SRV TextureCubeArray;
+        D3D11_BUFFEREX_SRV BufferEx;
+        } 	;
+    } 	D3D11_SHADER_RESOURCE_VIEW_DESC;

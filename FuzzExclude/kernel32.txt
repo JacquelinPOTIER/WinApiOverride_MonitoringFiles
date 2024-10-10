@@ -1,0 +1,32 @@
+BaseThreadInitThunk
+ExitProcess
+ExitThread
+FatalExit
+AddVectoredContinueHandler
+AddVectoredExceptionHandler
+CreateThread
+CtrlRoutine
+; EnumPageFilesA 0 as pointer for callback routine is disliked
+EnumPageFilesA
+; EnumPageFilesW 0 as pointer for callback routine is disliked
+EnumPageFilesW
+; K32EnumPageFilesA 0 as pointer for callback routine is disliked
+K32EnumPageFilesA
+; K32EnumPageFilesW 0 as pointer for callback routine is disliked
+K32EnumPageFilesW
+EnumResourceTypesA
+EnumResourceTypesW
+; EnumResourceTypesExA 0 as pointer for callback routine is disliked
+EnumResourceTypesExA
+; EnumResourceTypesExW 0 as pointer for callback routine is disliked
+EnumResourceTypesExW
+FatalAppExitA
+FatalAppExitW
+FreeLibraryAndExitThread
+SetDllDirectoryA
+SetDllDirectoryW
+ShowConsoleCursor
+RaiseFailFastException
+ReleaseSRWLockShared
+WerpInitiateRemoteRecovery
+

@@ -1,0 +1,15 @@
+typedef struct D3DLIGHT9 {
+  D3DLIGHTTYPE  Type;
+  D3DCOLORVALUE Diffuse;
+  D3DCOLORVALUE Specular;
+  D3DCOLORVALUE Ambient;
+  D3DVECTOR     Position;
+  D3DVECTOR     Direction;
+  float         Range;
+  float         Falloff;
+  float         Attenuation0;
+  float         Attenuation1;
+  float         Attenuation2;
+  float         Theta;
+  float         Phi;
+} D3DLIGHT9, *LPD3DLIGHT;

@@ -1,0 +1,10 @@
+;@InterfaceName=IDXGIObject
+
+; include IUnknown
+BaseIID={00000000-0000-0000-C000-000000000046}
+
+VTBLIndex=3 |HRESULT STDMETHODCALLTYPE IDXGIObject::SetPrivateData(IUnknown* pObject,REFGUID Name,UINT DataSize,PBYTE pData:PointedDataSize=Arg3);|FailureIfNegativeRet
+VTBLIndex=4 |HRESULT STDMETHODCALLTYPE IDXGIObject::SetPrivateDataInterface(IUnknown* pObject,REFGUID Name,IUnknown *pUnknown);|FailureIfNegativeRet
+VTBLIndex=5 |HRESULT STDMETHODCALLTYPE IDXGIObject::GetPrivateData(IUnknown* pObject,REFGUID Name,UINT* pDataSize,PBYTE pData:PointedDataSize=Arg3);|Out|FailureIfNegativeRet
+VTBLIndex=6 |HRESULT STDMETHODCALLTYPE IDXGIObject::GetParent(IUnknown* pObject, REFIID riid,void **ppParent);|Out|FailureIfNegativeRet
+

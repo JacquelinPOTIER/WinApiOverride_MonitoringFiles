@@ -1,0 +1,70 @@
+typedef struct D3D12_TEX1D_DSV
+    {
+    UINT MipSlice;
+    } 	D3D12_TEX1D_DSV;
+
+typedef struct D3D12_TEX1D_ARRAY_DSV
+    {
+    UINT MipSlice;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D12_TEX1D_ARRAY_DSV;
+
+typedef struct D3D12_TEX2D_DSV
+    {
+    UINT MipSlice;
+    } 	D3D12_TEX2D_DSV;
+
+typedef struct D3D12_TEX2D_ARRAY_DSV
+    {
+    UINT MipSlice;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D12_TEX2D_ARRAY_DSV;
+
+typedef struct D3D12_TEX2DMS_DSV
+    {
+    UINT UnusedField_NothingToDefine;
+    } 	D3D12_TEX2DMS_DSV;
+
+typedef struct D3D12_TEX2DMS_ARRAY_DSV
+    {
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D12_TEX2DMS_ARRAY_DSV;
+
+typedef 
+enum D3D12_DSV_FLAGS
+    {
+        D3D12_DSV_FLAG_NONE	= 0,
+        D3D12_DSV_FLAG_READ_ONLY_DEPTH	= 0x1,
+        D3D12_DSV_FLAG_READ_ONLY_STENCIL	= 0x2
+    } 	D3D12_DSV_FLAGS;
+
+typedef 
+enum D3D12_DSV_DIMENSION
+    {
+        D3D12_DSV_DIMENSION_UNKNOWN	= 0,
+        D3D12_DSV_DIMENSION_TEXTURE1D	= 1,
+        D3D12_DSV_DIMENSION_TEXTURE1DARRAY	= 2,
+        D3D12_DSV_DIMENSION_TEXTURE2D	= 3,
+        D3D12_DSV_DIMENSION_TEXTURE2DARRAY	= 4,
+        D3D12_DSV_DIMENSION_TEXTURE2DMS	= 5,
+        D3D12_DSV_DIMENSION_TEXTURE2DMSARRAY	= 6
+    } 	D3D12_DSV_DIMENSION;
+
+typedef struct D3D12_DEPTH_STENCIL_VIEW_DESC
+    {
+    DXGI_FORMAT Format;
+    D3D12_DSV_DIMENSION ViewDimension;
+    D3D12_DSV_FLAGS Flags;
+    union 
+        {
+        D3D12_TEX1D_DSV Texture1D;
+        D3D12_TEX1D_ARRAY_DSV Texture1DArray;
+        D3D12_TEX2D_DSV Texture2D;
+        D3D12_TEX2D_ARRAY_DSV Texture2DArray;
+        D3D12_TEX2DMS_DSV Texture2DMS;
+        D3D12_TEX2DMS_ARRAY_DSV Texture2DMSArray;
+        } 	;
+    } 	D3D12_DEPTH_STENCIL_VIEW_DESC;

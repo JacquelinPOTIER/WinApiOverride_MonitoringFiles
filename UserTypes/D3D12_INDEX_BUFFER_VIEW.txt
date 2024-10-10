@@ -1,0 +1,6 @@
+typedef struct D3D12_INDEX_BUFFER_VIEW
+    {
+    D3D12_GPU_VIRTUAL_ADDRESS BufferLocation;
+    UINT SizeInBytes;
+    DXGI_FORMAT Format;
+    }D3D12_INDEX_BUFFER_VIEW;

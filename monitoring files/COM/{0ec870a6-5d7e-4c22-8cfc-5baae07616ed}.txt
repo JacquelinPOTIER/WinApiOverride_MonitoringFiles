@@ -1,0 +1,16 @@
+;@InterfaceName=ID3D12CommandQueue
+
+; include ID3D12Pageable
+BaseIID={63ee58fb-1268-4835-86da-f008ce62f0d6}
+    
+VTBLIndex=8 |void ID3D12CommandQueue::UpdateTileMappings(IUnknown* pObject,ID3D12Resource* pResource,UINT NumResourceRegions,D3D12_TILED_RESOURCE_COORDINATE* pResourceRegionStartCoordinates:PointedElementsCount=Arg3,D3D12_TILE_REGION_SIZE* pResourceRegionSizes:PointedElementsCount=Arg3,ID3D12Heap* pHeap,UINT NumRanges,D3D12_TILE_RANGE_FLAGS* pRangeFlags:PointedElementsCount=Arg7,UINT* pHeapRangeStartOffsets:PointedElementsCount=Arg7,UINT* pRangeTileCounts:PointedElementsCount=Arg7,D3D12_TILE_MAPPING_FLAGS Flags)|Out
+VTBLIndex=9 |void ID3D12CommandQueue::CopyTileMappings(IUnknown* pObject,ID3D12Resource* pDstResource,D3D12_TILED_RESOURCE_COORDINATE* pDstRegionStartCoordinate,ID3D12Resource* pSrcResource,D3D12_TILED_RESOURCE_COORDINATE* pSrcRegionStartCoordinate,D3D12_TILE_REGION_SIZE* pRegionSize,D3D12_TILE_MAPPING_FLAGS Flags)|Out
+VTBLIndex=10|void ID3D12CommandQueue::ExecuteCommandLists(IUnknown* pObject,UINT NumCommandLists,ID3D12CommandList** ppCommandLists:PointedElementsCount=Arg2)
+VTBLIndex=11|void ID3D12CommandQueue::SetMarker(IUnknown* pObject,UINT Metadata,PBYTE pData:PointedElementsCount=Arg4,UINT Size)
+VTBLIndex=12|void ID3D12CommandQueue::BeginEvent(IUnknown* pObject,UINT Metadata,PBYTE pData:PointedElementsCount=Arg4,UINT Size)
+VTBLIndex=13|void ID3D12CommandQueue::EndEvent(IUnknown* pObject)
+VTBLIndex=14|HRESULT ID3D12CommandQueue::Signal(IUnknown* pObject,ID3D12Fence* pFence,UINT64 Value)|FailureIfNegativeRet
+VTBLIndex=15|HRESULT ID3D12CommandQueue::Wait(IUnknown* pObject,ID3D12Fence* pFence,UINT64 Value)|FailureIfNegativeRet
+VTBLIndex=16|HRESULT ID3D12CommandQueue::GetTimestampFrequency(IUnknown* pObject,UINT64* pFrequency)|Out|FailureIfNegativeRet
+VTBLIndex=17|HRESULT ID3D12CommandQueue::GetClockCalibration(IUnknown* pObject,UINT64* pGpuTimestamp,UINT64* pCpuTimestamp)|Out|FailureIfNegativeRet
+VTBLIndex=18|D3D12_COMMAND_QUEUE_DESC ID3D12CommandQueue::GetDesc(IUnknown* pObject)

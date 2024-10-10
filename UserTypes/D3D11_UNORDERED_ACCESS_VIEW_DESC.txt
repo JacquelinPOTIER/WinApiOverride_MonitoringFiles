@@ -1,0 +1,60 @@
+typedef 
+enum D3D11_BUFFER_UAV_FLAG
+    {
+        D3D11_BUFFER_UAV_FLAG_RAW	= 0x1,
+        D3D11_BUFFER_UAV_FLAG_APPEND	= 0x2,
+        D3D11_BUFFER_UAV_FLAG_COUNTER	= 0x4
+    } 	D3D11_BUFFER_UAV_FLAG;
+
+typedef struct D3D11_BUFFER_UAV
+    {
+    UINT FirstElement;
+    UINT NumElements;
+    UINT Flags;
+    } 	D3D11_BUFFER_UAV;
+
+typedef struct D3D11_TEX1D_UAV
+    {
+    UINT MipSlice;
+    } 	D3D11_TEX1D_UAV;
+
+typedef struct D3D11_TEX1D_ARRAY_UAV
+    {
+    UINT MipSlice;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX1D_ARRAY_UAV;
+
+typedef struct D3D11_TEX2D_UAV
+    {
+    UINT MipSlice;
+    } 	D3D11_TEX2D_UAV;
+
+typedef struct D3D11_TEX2D_ARRAY_UAV
+    {
+    UINT MipSlice;
+    UINT FirstArraySlice;
+    UINT ArraySize;
+    } 	D3D11_TEX2D_ARRAY_UAV;
+
+typedef struct D3D11_TEX3D_UAV
+    {
+    UINT MipSlice;
+    UINT FirstWSlice;
+    UINT WSize;
+    } 	D3D11_TEX3D_UAV;
+
+typedef struct D3D11_UNORDERED_ACCESS_VIEW_DESC
+    {
+    DXGI_FORMAT Format;
+    D3D11_UAV_DIMENSION ViewDimension;
+    union 
+        {
+        D3D11_BUFFER_UAV Buffer;
+        D3D11_TEX1D_UAV Texture1D;
+        D3D11_TEX1D_ARRAY_UAV Texture1DArray;
+        D3D11_TEX2D_UAV Texture2D;
+        D3D11_TEX2D_ARRAY_UAV Texture2DArray;
+        D3D11_TEX3D_UAV Texture3D;
+        } 	;
+    } 	D3D11_UNORDERED_ACCESS_VIEW_DESC;

@@ -1,0 +1,4 @@
+RestartDialog
+SHFind_InitMenuPopup
+;ShellExecuteA
+RestartDialogEx

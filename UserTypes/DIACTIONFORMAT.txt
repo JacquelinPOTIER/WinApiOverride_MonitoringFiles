@@ -1,0 +1,16 @@
+typedef struct {
+    DWORD              dwSize;
+    DWORD              dwActionSize;
+    DWORD              dwDataSize;
+    DWORD              dwNumActions;
+    LPDIACTION         rgoAction;
+    GUID               guidActionMap;
+    DWORD              dwGenre;
+    DWORD              dwBufferSize;
+    LONG      lAxisMin;
+    LONG      lAxisMax;
+    HINSTANCE hInstString;
+    FILETIME           ftTimeStamp;
+    DWORD              dwCRC;
+    CHAR               tszActionMap[260];
+} DIACTIONFORMAT;

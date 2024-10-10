@@ -1,0 +1,8 @@
+;@InterfaceName=ID3D11Resource
+
+; include ID3D11DeviceChild
+BaseIID={1841e5c8-16b0-489b-bcc8-44cfb0d5deae}
+
+VTBLIndex=7|void STDMETHODCALLTYPE ID3D11Resource::GetType(IUnknown* pObject,D3D11_RESOURCE_DIMENSION *pResourceDimension)|Out
+VTBLIndex=8|void STDMETHODCALLTYPE ID3D11Resource::SetEvictionPriority(IUnknown* pObject,UINT EvictionPriority)
+VTBLIndex=9|UINT STDMETHODCALLTYPE ID3D11Resource::GetEvictionPriority(IUnknown* pObject)|Out
