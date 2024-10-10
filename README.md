@@ -1,9 +1,9 @@
-#WinApiOverride Monitoring Files Community Edition
+# WinApiOverride Monitoring Files Community Edition
 
 WinApiOverride Monitoring Files are a set of text files used by [WinApiOverride](http://jacquelin.potier.free.fr/winapioverride32/) for monitoring or fuzzing.
 They contain API definitions, structures definitions, and define definitions,
 
-##Folders content:
+## Folders content:
 * "monitoring files": WinApiOverride monitoring files that are used for monitoring API calls
 * "UserTypes": definition of structures used inside monitoring files
 * "UserDefines": defined values used to decode API parameters (allow to display a friendly name instead of raw value)
@@ -11,10 +11,10 @@ They contain API definitions, structures definitions, and define definitions,
 * "FuzzExclude": API that must not be called when fuzzing dlls (like kernel32|ExitProcess)
 
 
-##Notes to users
+## Notes to users
 * Content of "monitoring files" folder (without "default" folder) should be duplicated inside "monitoring files/default" to allow to reset monitoring files to there default values inside the "Monitoring File Library" dialog
 
-##Notes to contributors
+## Notes to contributors
 *Monitoring file syntax description can be found [here](http://jacquelin.potier.free.fr/winapioverride32/doc/monitoringfiles.htm)*
 * Provide only monitoring file for well known dlls (avoid 3rd party dlls) or for well known COM Interfaces
 * "UserTypes" and "UserDefines" folders: if content is specific to a module, please put definitions in a subfolder named exactly like the module name
