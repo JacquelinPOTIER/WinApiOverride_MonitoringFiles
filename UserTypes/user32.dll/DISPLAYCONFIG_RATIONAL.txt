@@ -1,0 +1,4 @@
+typedef struct DISPLAYCONFIG_RATIONAL {
+  UINT32 Numerator;
+  UINT32 Denominator;
+} DISPLAYCONFIG_RATIONAL;
