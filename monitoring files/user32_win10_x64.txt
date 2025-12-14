@@ -724,7 +724,7 @@ user32.dll|UINT PrivateExtractIconsW(LPCWSTR szFileName,int nIconIndex,int cxIco
 user32.dll|PrivateRegisterICSProc(UNKNOWN ICSProc)
 user32.dll|BOOL PtInRect(RECT* lprc,POINT pt)
 user32.dll|QueryBSDRWindow(UNKNOWN)
-user32.dll|QueryDisplayConfig(UINT32 flags,UINT32* numPathArrayElements,DISPLAYCONFIG_PATH_INFO* pathArray:PointedElementsCount=Arg2,UINT32* numModeInfoArrayElements,DISPLAYCONFIG_MODE_INFO* modeInfoArray:PointedElementsCount=Arg4,DISPLAYCONFIG_TOPOLOGY_ID* currentTopologyId)|Out
+user32.dll|QueryDisplayConfig(UINT32 flags,UINT32* numPathArrayElements,DISPLAYCONFIG_PATH_INFO* pathArray,UINT32* numModeInfoArrayElements,DISPLAYCONFIG_MODE_INFO* modeInfoArray,DISPLAYCONFIG_TOPOLOGY_ID* currentTopologyId)|Out
 user32.dll|BOOL QuerySendMessage(MSG* pMsg)
 user32.dll|RIMAddInputObserver(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
 user32.dll|RIMAreSiblingDevices(UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN)
@@ -847,7 +847,7 @@ user32.dll|SetDesktopColorTransform(UNKNOWN)
 user32.dll|BOOL SetDialogControlDpiChangeBehavior(HWND hWnd,DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS mask,DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS values)
 user32.dll|BOOL SetDialogDpiChangeBehavior(HWND hDlg,DIALOG_DPI_CHANGE_BEHAVIORS mask,DIALOG_DPI_CHANGE_BEHAVIORS values)
 user32.dll|BOOL SetDisplayAutoRotationPreferences(ORIENTATION_PREFERENCE orientation)
-user32.dll|LONG SetDisplayConfig(UINT32 numPathArrayElements,DISPLAYCONFIG_PATH_INFO* pathArray:PointedElementsCount=Arg1,UINT32 numModeInfoArrayElements,DISPLAYCONFIG_MODE_INFO* modeInfoArray:PointedElementsCount=Arg3,UINT32 flags)
+user32.dll|LONG SetDisplayConfig(UINT32 numPathArrayElements,DISPLAYCONFIG_PATH_INFO* pathArray,UINT32 numModeInfoArrayElements,DISPLAYCONFIG_MODE_INFO* modeInfoArray,UINT32 flags)
 user32.dll|BOOL SetDlgItemInt(HWND hDlg,int nIDDlgItem,UINT uValue,BOOL bSigned)
 user32.dll|BOOL SetDlgItemTextA(HWND hDlg,int nIDDlgItem,LPCSTR lpString)
 user32.dll|BOOL SetDlgItemTextW(HWND hDlg,int nIDDlgItem,LPCWSTR lpString)

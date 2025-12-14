@@ -416,9 +416,9 @@ shell32.dll|void SHGetSettings(LPSHELLFLAGSTATE lpsfs,DWORD dwMask)|Out
 shell32.dll|HRESULT SHGetSpecialFolderLocation(HWND hwnd,int csidl,PIDLIST_ABSOLUTE* ppidl)|Out|FailureIfNotNullRet
 shell32.dll|BOOL SHGetSpecialFolderPathA(HWND hwnd,LPSTR pszPath,int csidl,BOOL fCreate)|Out|FailureIfNullRet
 shell32.dll|BOOL SHGetSpecialFolderPathW(HWND hwnd,LPWSTR pszPath,int csidl,BOOL fCreate)|Out|FailureIfNullRet
-shell32.dll|HRESULT SHGetStockIconInfo(SHSTOCKICONID siid,UINT uFlags,_Inout_ SHSTOCKICONINFO* psii)|Out|FailureIfotNullRet
-shell32.dll|HRESULT SHGetTemporaryPropertyForItem(IShellItem* psi,REFPROPERTYKEY propkey,PROPVARIANT* ppropvar)|Out|FailureIfotNullRet
-shell32.dll|HRESULT SHGetUnreadMailCountW(HKEY hKeyUser,LPCWSTR pszMailAddress,DWORD* pdwCount,FILETIME* pFileTime,LPCWSTR pszShellExecuteCommand,int cchShellExecuteCommand)|Out|FailureIfotNullRet
+shell32.dll|HRESULT SHGetStockIconInfo(SHSTOCKICONID siid,UINT uFlags,_Inout_ SHSTOCKICONINFO* psii)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetTemporaryPropertyForItem(IShellItem* psi,REFPROPERTYKEY propkey,PROPVARIANT* ppropvar)|Out|FailureIfNotNullRet
+shell32.dll|HRESULT SHGetUnreadMailCountW(HKEY hKeyUser,LPCWSTR pszMailAddress,DWORD* pdwCount,FILETIME* pFileTime,LPCWSTR pszShellExecuteCommand,int cchShellExecuteCommand)|Out|FailureIfNotNullRet
 shell32.dll|BOOL SHInvokePrinterCommandA(HWND hwnd,UINT uAction,LPCSTR lpBuf1,LPCSTR lpBuf2,BOOL fModal)|FailureIfNullRet
 shell32.dll|BOOL SHInvokePrinterCommandW(HWND hwnd,UINT uAction,LPCWSTR lpBuf1,LPCWSTR lpBuf2,BOOL fModal)|FailureIfNullRet
 shell32.dll|HRESULT SHIsFileAvailableOffline(PCWSTR pwszPath,DWORD* pdwStatus)|Out|FailureIfNotNullRet

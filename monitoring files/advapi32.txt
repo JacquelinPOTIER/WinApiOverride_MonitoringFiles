@@ -302,7 +302,7 @@ advapi32.dll|PSID_IDENTIFIER_AUTHORITY GetSidIdentifierAuthority(PSID pSid)
 advapi32.dll|DWORD GetSidLengthRequired(UCHAR nSubAuthorityCount)
 advapi32.dll|PDWORD GetSidSubAuthority(PSID pSid,DWORD nSubAuthority)
 advapi32.dll|PUCHAR GetSidSubAuthorityCount(PSID pSid)
-advapi32.dll|BOOL GetTokenInformation(HANDLE TokenHandle,TOKEN_INFORMATION_CLASS TokenInformationClass,LPVOID TokenInformation,DWORD TokenInformationLength,PDWORD ReturnLength)|Out|FailureIfNullRet
+advapi32.dll|BOOL GetTokenInformation(HANDLE TokenHandle,TOKEN_INFORMATION_CLASS TokenInformationClass,PBYTE pTokenInformation:PointedDataSize=Arg4,DWORD TokenInformationLength,PDWORD ReturnLength)|Out|FailureIfNullRet
 advapi32.dll|ULONG GetTraceEnableFlags(TRACEHANDLE TraceHandle)
 advapi32.dll|UCHAR GetTraceEnableLevel(TRACEHANDLE TraceHandle)
 advapi32.dll|TRACEHANDLE GetTraceLoggerHandle(PVOID Buffer)
